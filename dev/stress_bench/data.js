@@ -1,40 +1,8 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1738752028415,
+  "lastUpdate": 1739190939011,
   "repoUrl": "https://github.com/Ultimaker/CuraEngine",
   "entries": {
     "Stress Benchmark": [
-      {
-        "commit": {
-          "author": {
-            "name": "Ultimaker",
-            "username": "Ultimaker"
-          },
-          "committer": {
-            "name": "Ultimaker",
-            "username": "Ultimaker"
-          },
-          "id": "db39086e14f23db7951b836333841f12129c20d9",
-          "message": "CURA-11873 Prime blob not printed for 2nd extruder when raft is enabled",
-          "timestamp": "2024-05-11T08:13:45Z",
-          "url": "https://github.com/Ultimaker/CuraEngine/pull/2079/commits/db39086e14f23db7951b836333841f12129c20d9"
-        },
-        "date": 1715605250624,
-        "tool": "customSmallerIsBetter",
-        "benches": [
-          {
-            "name": "Number of test cases",
-            "value": 61,
-            "unit": "-",
-            "extra": ""
-          },
-          {
-            "name": "General Stress Level",
-            "value": 0,
-            "unit": "%",
-            "extra": "Crashes in: "
-          }
-        ]
-      },
       {
         "commit": {
           "author": {
@@ -8167,6 +8135,38 @@ window.BENCHMARK_DATA = {
           "url": "https://github.com/Ultimaker/CuraEngine/pull/2204/commits/c83319437f5804c6017200ef63cc123199181af5"
         },
         "date": 1738752024731,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "Number of test cases",
+            "value": 61,
+            "unit": "-",
+            "extra": ""
+          },
+          {
+            "name": "General Stress Level",
+            "value": 0,
+            "unit": "%",
+            "extra": "Crashes in: "
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "Ultimaker",
+            "username": "Ultimaker"
+          },
+          "committer": {
+            "name": "Ultimaker",
+            "username": "Ultimaker"
+          },
+          "id": "b157550f73aa9f2355f9af51b1ba47b251aa340a",
+          "message": "CURA-11978 Retract and unretract in a travel",
+          "timestamp": "2025-02-10T03:32:06Z",
+          "url": "https://github.com/Ultimaker/CuraEngine/pull/2204/commits/b157550f73aa9f2355f9af51b1ba47b251aa340a"
+        },
+        "date": 1739190934984,
         "tool": "customSmallerIsBetter",
         "benches": [
           {
