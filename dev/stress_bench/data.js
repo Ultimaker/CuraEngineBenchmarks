@@ -1,40 +1,8 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1739190939011,
+  "lastUpdate": 1739191175585,
   "repoUrl": "https://github.com/Ultimaker/CuraEngine",
   "entries": {
     "Stress Benchmark": [
-      {
-        "commit": {
-          "author": {
-            "name": "Ultimaker",
-            "username": "Ultimaker"
-          },
-          "committer": {
-            "name": "Ultimaker",
-            "username": "Ultimaker"
-          },
-          "id": "a0f0636c1a416e24ebbaafd50a2149b12f951549",
-          "message": "CURA-11869 Fix pre-heating logic when working with a raft",
-          "timestamp": "2024-05-11T08:13:45Z",
-          "url": "https://github.com/Ultimaker/CuraEngine/pull/2080/commits/a0f0636c1a416e24ebbaafd50a2149b12f951549"
-        },
-        "date": 1715606519096,
-        "tool": "customSmallerIsBetter",
-        "benches": [
-          {
-            "name": "Number of test cases",
-            "value": 61,
-            "unit": "-",
-            "extra": ""
-          },
-          {
-            "name": "General Stress Level",
-            "value": 0,
-            "unit": "%",
-            "extra": "Crashes in: "
-          }
-        ]
-      },
       {
         "commit": {
           "author": {
@@ -8167,6 +8135,38 @@ window.BENCHMARK_DATA = {
           "url": "https://github.com/Ultimaker/CuraEngine/pull/2204/commits/b157550f73aa9f2355f9af51b1ba47b251aa340a"
         },
         "date": 1739190934984,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "Number of test cases",
+            "value": 61,
+            "unit": "-",
+            "extra": ""
+          },
+          {
+            "name": "General Stress Level",
+            "value": 0,
+            "unit": "%",
+            "extra": "Crashes in: "
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "Ultimaker",
+            "username": "Ultimaker"
+          },
+          "committer": {
+            "name": "Ultimaker",
+            "username": "Ultimaker"
+          },
+          "id": "9143ec5177846eaf1f9d56491951b1a5af705889",
+          "message": "CURA-11978 Retract and unretract in a travel",
+          "timestamp": "2025-02-10T03:32:06Z",
+          "url": "https://github.com/Ultimaker/CuraEngine/pull/2204/commits/9143ec5177846eaf1f9d56491951b1a5af705889"
+        },
+        "date": 1739191167382,
         "tool": "customSmallerIsBetter",
         "benches": [
           {
