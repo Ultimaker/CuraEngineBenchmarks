@@ -1,40 +1,8 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1739374117222,
+  "lastUpdate": 1739525851181,
   "repoUrl": "https://github.com/Ultimaker/CuraEngine",
   "entries": {
     "Stress Benchmark": [
-      {
-        "commit": {
-          "author": {
-            "name": "Ultimaker",
-            "username": "Ultimaker"
-          },
-          "committer": {
-            "name": "Ultimaker",
-            "username": "Ultimaker"
-          },
-          "id": "52728ae0b0af57acab24b2ba58fe865e27e05206",
-          "message": "CURA-11873 interleaved prime tower bad raft",
-          "timestamp": "2024-05-14T07:52:47Z",
-          "url": "https://github.com/Ultimaker/CuraEngine/pull/2078/commits/52728ae0b0af57acab24b2ba58fe865e27e05206"
-        },
-        "date": 1715767845437,
-        "tool": "customSmallerIsBetter",
-        "benches": [
-          {
-            "name": "Number of test cases",
-            "value": 61,
-            "unit": "-",
-            "extra": ""
-          },
-          {
-            "name": "General Stress Level",
-            "value": 0,
-            "unit": "%",
-            "extra": "Crashes in: "
-          }
-        ]
-      },
       {
         "commit": {
           "author": {
@@ -8163,6 +8131,38 @@ window.BENCHMARK_DATA = {
           "url": "https://github.com/Ultimaker/CuraEngine/pull/2204/commits/c1eba8b26c914e9a3ad3b167ada5a827ce482002"
         },
         "date": 1739374113190,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "Number of test cases",
+            "value": 61,
+            "unit": "-",
+            "extra": ""
+          },
+          {
+            "name": "General Stress Level",
+            "value": 0,
+            "unit": "%",
+            "extra": "Crashes in: "
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "Ultimaker",
+            "username": "Ultimaker"
+          },
+          "committer": {
+            "name": "Ultimaker",
+            "username": "Ultimaker"
+          },
+          "id": "69846705196439184504c3a95c721faa009721a8",
+          "message": "CURA-12335 Handle flooring settings on the same basis as roofing",
+          "timestamp": "2025-02-13T09:32:05Z",
+          "url": "https://github.com/Ultimaker/CuraEngine/pull/2202/commits/69846705196439184504c3a95c721faa009721a8"
+        },
+        "date": 1739525847110,
         "tool": "customSmallerIsBetter",
         "benches": [
           {
