@@ -1,40 +1,8 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1739541941634,
+  "lastUpdate": 1739956971057,
   "repoUrl": "https://github.com/Ultimaker/CuraEngine",
   "entries": {
     "Stress Benchmark": [
-      {
-        "commit": {
-          "author": {
-            "name": "Ultimaker",
-            "username": "Ultimaker"
-          },
-          "committer": {
-            "name": "Ultimaker",
-            "username": "Ultimaker"
-          },
-          "id": "564b07db1f3c19f70322f166e6cfd0f9bbe82cda",
-          "message": "CURA-11873 interleaved prime tower bad raft",
-          "timestamp": "2024-05-14T07:52:47Z",
-          "url": "https://github.com/Ultimaker/CuraEngine/pull/2078/commits/564b07db1f3c19f70322f166e6cfd0f9bbe82cda"
-        },
-        "date": 1715782863707,
-        "tool": "customSmallerIsBetter",
-        "benches": [
-          {
-            "name": "Number of test cases",
-            "value": 61,
-            "unit": "-",
-            "extra": ""
-          },
-          {
-            "name": "General Stress Level",
-            "value": 0,
-            "unit": "%",
-            "extra": "Crashes in: "
-          }
-        ]
-      },
       {
         "commit": {
           "author": {
@@ -8167,6 +8135,38 @@ window.BENCHMARK_DATA = {
           "url": "https://github.com/Ultimaker/CuraEngine/commit/eb0d2d72130f7a0889776b003e238a569dcea0ad"
         },
         "date": 1739541937984,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "Number of test cases",
+            "value": 61,
+            "unit": "-",
+            "extra": ""
+          },
+          {
+            "name": "General Stress Level",
+            "value": 0,
+            "unit": "%",
+            "extra": "Crashes in: "
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "Ultimaker",
+            "username": "Ultimaker"
+          },
+          "committer": {
+            "name": "Ultimaker",
+            "username": "Ultimaker"
+          },
+          "id": "cfdf96b21f2618f4126f8ede09d3a41d425f1922",
+          "message": "CURA-11978 Retract and unretract in a travel",
+          "timestamp": "2025-02-14T13:39:56Z",
+          "url": "https://github.com/Ultimaker/CuraEngine/pull/2204/commits/cfdf96b21f2618f4126f8ede09d3a41d425f1922"
+        },
+        "date": 1739956967476,
         "tool": "customSmallerIsBetter",
         "benches": [
           {
