@@ -1,40 +1,8 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1741011518155,
+  "lastUpdate": 1741011770387,
   "repoUrl": "https://github.com/Ultimaker/CuraEngine",
   "entries": {
     "Stress Benchmark": [
-      {
-        "commit": {
-          "author": {
-            "name": "Ultimaker",
-            "username": "Ultimaker"
-          },
-          "committer": {
-            "name": "Ultimaker",
-            "username": "Ultimaker"
-          },
-          "id": "407ff5d3dc439c52d223b133c67a0fd4272a4d2a",
-          "message": "CURA-11873 interleaved prime tower bad raft",
-          "timestamp": "2024-05-17T14:42:50Z",
-          "url": "https://github.com/Ultimaker/CuraEngine/pull/2078/commits/407ff5d3dc439c52d223b133c67a0fd4272a4d2a"
-        },
-        "date": 1715957855188,
-        "tool": "customSmallerIsBetter",
-        "benches": [
-          {
-            "name": "Number of test cases",
-            "value": 61,
-            "unit": "-",
-            "extra": ""
-          },
-          {
-            "name": "General Stress Level",
-            "value": 0,
-            "unit": "%",
-            "extra": "Crashes in: "
-          }
-        ]
-      },
       {
         "commit": {
           "author": {
@@ -8163,6 +8131,38 @@ window.BENCHMARK_DATA = {
           "url": "https://github.com/Ultimaker/CuraEngine/pull/2206/commits/4f40fe43e63bc2637ef8d5c86eb54e86cb5e436f"
         },
         "date": 1741011514350,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "Number of test cases",
+            "value": 61,
+            "unit": "-",
+            "extra": ""
+          },
+          {
+            "name": "General Stress Level",
+            "value": 0,
+            "unit": "%",
+            "extra": "Crashes in: "
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "Ultimaker",
+            "username": "Ultimaker"
+          },
+          "committer": {
+            "name": "Ultimaker",
+            "username": "Ultimaker"
+          },
+          "id": "2d2e5f51b75e17958797f3576cc177275f2f836e",
+          "message": "CURA-12369 extra wipe move with spiralize",
+          "timestamp": "2025-03-02T16:36:42Z",
+          "url": "https://github.com/Ultimaker/CuraEngine/pull/2206/commits/2d2e5f51b75e17958797f3576cc177275f2f836e"
+        },
+        "date": 1741011766765,
         "tool": "customSmallerIsBetter",
         "benches": [
           {
