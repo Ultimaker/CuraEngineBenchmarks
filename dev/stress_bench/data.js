@@ -1,44 +1,8 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1740050362321,
+  "lastUpdate": 1741011518155,
   "repoUrl": "https://github.com/Ultimaker/CuraEngine",
   "entries": {
     "Stress Benchmark": [
-      {
-        "commit": {
-          "author": {
-            "email": "alireza.doustdar@gmail.com",
-            "name": "HellAholic",
-            "username": "HellAholic"
-          },
-          "committer": {
-            "email": "noreply@github.com",
-            "name": "GitHub",
-            "username": "web-flow"
-          },
-          "distinct": true,
-          "id": "09dfa734dbf50b27b481382f6238cd7a7d85d086",
-          "message": "CURA-9830 consolidate polygon classes (#2065)",
-          "timestamp": "2024-05-17T10:43:18+02:00",
-          "tree_id": "50e68673aa5b668a91516d0e314ce6592de86a87",
-          "url": "https://github.com/Ultimaker/CuraEngine/commit/09dfa734dbf50b27b481382f6238cd7a7d85d086"
-        },
-        "date": 1715936013841,
-        "tool": "customSmallerIsBetter",
-        "benches": [
-          {
-            "name": "Number of test cases",
-            "value": 61,
-            "unit": "-",
-            "extra": ""
-          },
-          {
-            "name": "General Stress Level",
-            "value": 0,
-            "unit": "%",
-            "extra": "Crashes in: "
-          }
-        ]
-      },
       {
         "commit": {
           "author": {
@@ -8167,6 +8131,38 @@ window.BENCHMARK_DATA = {
           "url": "https://github.com/Ultimaker/CuraEngine/pull/2204/commits/576209a463f5f02e483b4b472b5d558ba8d44f2c"
         },
         "date": 1740050358760,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "Number of test cases",
+            "value": 61,
+            "unit": "-",
+            "extra": ""
+          },
+          {
+            "name": "General Stress Level",
+            "value": 0,
+            "unit": "%",
+            "extra": "Crashes in: "
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "Ultimaker",
+            "username": "Ultimaker"
+          },
+          "committer": {
+            "name": "Ultimaker",
+            "username": "Ultimaker"
+          },
+          "id": "4f40fe43e63bc2637ef8d5c86eb54e86cb5e436f",
+          "message": "CURA-12369 extra wipe move with spiralize",
+          "timestamp": "2025-03-02T16:36:42Z",
+          "url": "https://github.com/Ultimaker/CuraEngine/pull/2206/commits/4f40fe43e63bc2637ef8d5c86eb54e86cb5e436f"
+        },
+        "date": 1741011514350,
         "tool": "customSmallerIsBetter",
         "benches": [
           {
