@@ -1,40 +1,8 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1741011770387,
+  "lastUpdate": 1741080786079,
   "repoUrl": "https://github.com/Ultimaker/CuraEngine",
   "entries": {
     "Stress Benchmark": [
-      {
-        "commit": {
-          "author": {
-            "name": "Ultimaker",
-            "username": "Ultimaker"
-          },
-          "committer": {
-            "name": "Ultimaker",
-            "username": "Ultimaker"
-          },
-          "id": "1f66d0ee584321118957825b065dc863822a920f",
-          "message": "Add option to command line settings to read in resolved values",
-          "timestamp": "2024-05-18T17:34:23Z",
-          "url": "https://github.com/Ultimaker/CuraEngine/pull/2082/commits/1f66d0ee584321118957825b065dc863822a920f"
-        },
-        "date": 1716473404999,
-        "tool": "customSmallerIsBetter",
-        "benches": [
-          {
-            "name": "Number of test cases",
-            "value": 61,
-            "unit": "-",
-            "extra": ""
-          },
-          {
-            "name": "General Stress Level",
-            "value": 0,
-            "unit": "%",
-            "extra": "Crashes in: "
-          }
-        ]
-      },
       {
         "commit": {
           "author": {
@@ -8163,6 +8131,38 @@ window.BENCHMARK_DATA = {
           "url": "https://github.com/Ultimaker/CuraEngine/pull/2206/commits/2d2e5f51b75e17958797f3576cc177275f2f836e"
         },
         "date": 1741011766765,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "Number of test cases",
+            "value": 61,
+            "unit": "-",
+            "extra": ""
+          },
+          {
+            "name": "General Stress Level",
+            "value": 0,
+            "unit": "%",
+            "extra": "Crashes in: "
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "Ultimaker",
+            "username": "Ultimaker"
+          },
+          "committer": {
+            "name": "Ultimaker",
+            "username": "Ultimaker"
+          },
+          "id": "8f186ca7c0abe18126828202253b775cc11298a7",
+          "message": "CURA-12438 Add early-out for when no support is required",
+          "timestamp": "2025-03-02T16:36:42Z",
+          "url": "https://github.com/Ultimaker/CuraEngine/pull/2207/commits/8f186ca7c0abe18126828202253b775cc11298a7"
+        },
+        "date": 1741080782494,
         "tool": "customSmallerIsBetter",
         "benches": [
           {
