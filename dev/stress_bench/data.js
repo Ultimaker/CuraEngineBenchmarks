@@ -1,40 +1,8 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1741857014499,
+  "lastUpdate": 1742213735275,
   "repoUrl": "https://github.com/Ultimaker/CuraEngine",
   "entries": {
     "Stress Benchmark": [
-      {
-        "commit": {
-          "author": {
-            "name": "Ultimaker",
-            "username": "Ultimaker"
-          },
-          "committer": {
-            "name": "Ultimaker",
-            "username": "Ultimaker"
-          },
-          "id": "1d215c33e4ebb7cc9196da1bf32733b0d346576e",
-          "message": "Add extra travel move to outer wall start position",
-          "timestamp": "2024-05-18T17:34:23Z",
-          "url": "https://github.com/Ultimaker/CuraEngine/pull/2075/commits/1d215c33e4ebb7cc9196da1bf32733b0d346576e"
-        },
-        "date": 1716539504151,
-        "tool": "customSmallerIsBetter",
-        "benches": [
-          {
-            "name": "Number of test cases",
-            "value": 61,
-            "unit": "-",
-            "extra": ""
-          },
-          {
-            "name": "General Stress Level",
-            "value": 0,
-            "unit": "%",
-            "extra": "Crashes in: "
-          }
-        ]
-      },
       {
         "commit": {
           "author": {
@@ -8163,6 +8131,38 @@ window.BENCHMARK_DATA = {
           "url": "https://github.com/Ultimaker/CuraEngine/pull/2206/commits/45c91f10e0d23e613dfb58a5ce36542428989494"
         },
         "date": 1741857010611,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "Number of test cases",
+            "value": 61,
+            "unit": "-",
+            "extra": ""
+          },
+          {
+            "name": "General Stress Level",
+            "value": 0,
+            "unit": "%",
+            "extra": "Crashes in: "
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "Ultimaker",
+            "username": "Ultimaker"
+          },
+          "committer": {
+            "name": "Ultimaker",
+            "username": "Ultimaker"
+          },
+          "id": "c5eeccc5768e2b0a191203424e0ba1d5d92c8ab7",
+          "message": "Fix wrong returned index",
+          "timestamp": "2025-03-17T03:52:26Z",
+          "url": "https://github.com/Ultimaker/CuraEngine/pull/2211/commits/c5eeccc5768e2b0a191203424e0ba1d5d92c8ab7"
+        },
+        "date": 1742213731609,
         "tool": "customSmallerIsBetter",
         "benches": [
           {
