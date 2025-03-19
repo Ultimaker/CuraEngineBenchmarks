@@ -1,40 +1,8 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1742369372195,
+  "lastUpdate": 1742370625315,
   "repoUrl": "https://github.com/Ultimaker/CuraEngine",
   "entries": {
     "Stress Benchmark": [
-      {
-        "commit": {
-          "author": {
-            "name": "Ultimaker",
-            "username": "Ultimaker"
-          },
-          "committer": {
-            "name": "Ultimaker",
-            "username": "Ultimaker"
-          },
-          "id": "f5d4bcf0d2cd03569b1575f2ddf10b3701edb312",
-          "message": "NP 202 conan wasm package",
-          "timestamp": "2024-05-18T17:34:23Z",
-          "url": "https://github.com/Ultimaker/CuraEngine/pull/2084/commits/f5d4bcf0d2cd03569b1575f2ddf10b3701edb312"
-        },
-        "date": 1716878044724,
-        "tool": "customSmallerIsBetter",
-        "benches": [
-          {
-            "name": "Number of test cases",
-            "value": 61,
-            "unit": "-",
-            "extra": ""
-          },
-          {
-            "name": "General Stress Level",
-            "value": 0,
-            "unit": "%",
-            "extra": "Crashes in: "
-          }
-        ]
-      },
       {
         "commit": {
           "author": {
@@ -8163,6 +8131,38 @@ window.BENCHMARK_DATA = {
           "url": "https://github.com/Ultimaker/CuraEngine/pull/2214/commits/2c3d4e7d3e68214455e8e508bac470756d0d02ce"
         },
         "date": 1742369368567,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "Number of test cases",
+            "value": 61,
+            "unit": "-",
+            "extra": ""
+          },
+          {
+            "name": "General Stress Level",
+            "value": 0,
+            "unit": "%",
+            "extra": "Crashes in: "
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "Ultimaker",
+            "username": "Ultimaker"
+          },
+          "committer": {
+            "name": "Ultimaker",
+            "username": "Ultimaker"
+          },
+          "id": "2c3d4e7d3e68214455e8e508bac470756d0d02ce",
+          "message": "(Alternate branch) Maybe fix spdlog for npm package.",
+          "timestamp": "2025-03-17T03:52:26Z",
+          "url": "https://github.com/Ultimaker/CuraEngine/pull/2215/commits/2c3d4e7d3e68214455e8e508bac470756d0d02ce"
+        },
+        "date": 1742370621383,
         "tool": "customSmallerIsBetter",
         "benches": [
           {
