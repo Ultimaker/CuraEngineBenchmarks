@@ -1,40 +1,8 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1742377143111,
+  "lastUpdate": 1742377216214,
   "repoUrl": "https://github.com/Ultimaker/CuraEngine",
   "entries": {
     "Stress Benchmark": [
-      {
-        "commit": {
-          "author": {
-            "name": "Ultimaker",
-            "username": "Ultimaker"
-          },
-          "committer": {
-            "name": "Ultimaker",
-            "username": "Ultimaker"
-          },
-          "id": "03c11064e78f050096325a7091e75e5857374464",
-          "message": "Add angry new variable",
-          "timestamp": "2024-05-28T09:19:13Z",
-          "url": "https://github.com/Ultimaker/CuraEngine/pull/2086/commits/03c11064e78f050096325a7091e75e5857374464"
-        },
-        "date": 1716888953754,
-        "tool": "customSmallerIsBetter",
-        "benches": [
-          {
-            "name": "Number of test cases",
-            "value": 61,
-            "unit": "-",
-            "extra": ""
-          },
-          {
-            "name": "General Stress Level",
-            "value": 0,
-            "unit": "%",
-            "extra": "Crashes in: "
-          }
-        ]
-      },
       {
         "commit": {
           "author": {
@@ -8159,6 +8127,42 @@ window.BENCHMARK_DATA = {
           "url": "https://github.com/Ultimaker/CuraEngine/pull/2215/commits/c77d22e67ec576d13a6e2fe58d1738d644aa7e64"
         },
         "date": 1742377139406,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "Number of test cases",
+            "value": 61,
+            "unit": "-",
+            "extra": ""
+          },
+          {
+            "name": "General Stress Level",
+            "value": 0,
+            "unit": "%",
+            "extra": "Crashes in: "
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "erwan.mathieu@ultimaker.com",
+            "name": "Erwan MATHIEU",
+            "username": "wawanbreton"
+          },
+          "committer": {
+            "email": "erwan.mathieu@ultimaker.com",
+            "name": "Erwan MATHIEU",
+            "username": "wawanbreton"
+          },
+          "distinct": true,
+          "id": "61567388af3a805b8e79d9c960981f081d072ce7",
+          "message": "Merge remote-tracking branch 'origin/5.10'",
+          "timestamp": "2025-03-19T10:15:51+01:00",
+          "tree_id": "811b5c223a940fc2270441c973e62e09cc4055c5",
+          "url": "https://github.com/Ultimaker/CuraEngine/commit/61567388af3a805b8e79d9c960981f081d072ce7"
+        },
+        "date": 1742377212692,
         "tool": "customSmallerIsBetter",
         "benches": [
           {
