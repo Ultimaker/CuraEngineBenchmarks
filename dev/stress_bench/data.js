@@ -1,40 +1,8 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1742377216214,
+  "lastUpdate": 1742377384459,
   "repoUrl": "https://github.com/Ultimaker/CuraEngine",
   "entries": {
     "Stress Benchmark": [
-      {
-        "commit": {
-          "author": {
-            "name": "Ultimaker",
-            "username": "Ultimaker"
-          },
-          "committer": {
-            "name": "Ultimaker",
-            "username": "Ultimaker"
-          },
-          "id": "58aaaf0c669beadb836a7b8e1bd2269759d75e82",
-          "message": "NP 202 conan wasm package",
-          "timestamp": "2024-05-29T05:50:08Z",
-          "url": "https://github.com/Ultimaker/CuraEngine/pull/2084/commits/58aaaf0c669beadb836a7b8e1bd2269759d75e82"
-        },
-        "date": 1716966708882,
-        "tool": "customSmallerIsBetter",
-        "benches": [
-          {
-            "name": "Number of test cases",
-            "value": 61,
-            "unit": "-",
-            "extra": ""
-          },
-          {
-            "name": "General Stress Level",
-            "value": 0,
-            "unit": "%",
-            "extra": "Crashes in: "
-          }
-        ]
-      },
       {
         "commit": {
           "author": {
@@ -8163,6 +8131,38 @@ window.BENCHMARK_DATA = {
           "url": "https://github.com/Ultimaker/CuraEngine/commit/61567388af3a805b8e79d9c960981f081d072ce7"
         },
         "date": 1742377212692,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "Number of test cases",
+            "value": 61,
+            "unit": "-",
+            "extra": ""
+          },
+          {
+            "name": "General Stress Level",
+            "value": 0,
+            "unit": "%",
+            "extra": "Crashes in: "
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "Ultimaker",
+            "username": "Ultimaker"
+          },
+          "committer": {
+            "name": "Ultimaker",
+            "username": "Ultimaker"
+          },
+          "id": "9d06c928b7e2a25ad05d3918bc3482cdd4a3f24c",
+          "message": "CURA-12474 set fixed 0 gap for brim support",
+          "timestamp": "2025-03-19T09:16:05Z",
+          "url": "https://github.com/Ultimaker/CuraEngine/pull/2213/commits/9d06c928b7e2a25ad05d3918bc3482cdd4a3f24c"
+        },
+        "date": 1742377380520,
         "tool": "customSmallerIsBetter",
         "benches": [
           {
