@@ -1,44 +1,8 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1742372875197,
+  "lastUpdate": 1742377143111,
   "repoUrl": "https://github.com/Ultimaker/CuraEngine",
   "entries": {
     "Stress Benchmark": [
-      {
-        "commit": {
-          "author": {
-            "email": "alireza.doustdar@gmail.com",
-            "name": "HellAholic",
-            "username": "HellAholic"
-          },
-          "committer": {
-            "email": "noreply@github.com",
-            "name": "GitHub",
-            "username": "web-flow"
-          },
-          "distinct": true,
-          "id": "3fb48b6ef4ff23e343c8a2a85187775772c3ba30",
-          "message": "Add option to command line settings to read in resolved values (#2082)",
-          "timestamp": "2024-05-28T10:50:07+02:00",
-          "tree_id": "16249e4743df028b683dbfd307baf071ef1fc2d3",
-          "url": "https://github.com/Ultimaker/CuraEngine/commit/3fb48b6ef4ff23e343c8a2a85187775772c3ba30"
-        },
-        "date": 1716886996586,
-        "tool": "customSmallerIsBetter",
-        "benches": [
-          {
-            "name": "Number of test cases",
-            "value": 61,
-            "unit": "-",
-            "extra": ""
-          },
-          {
-            "name": "General Stress Level",
-            "value": 0,
-            "unit": "%",
-            "extra": "Crashes in: "
-          }
-        ]
-      },
       {
         "commit": {
           "author": {
@@ -8163,6 +8127,38 @@ window.BENCHMARK_DATA = {
           "url": "https://github.com/Ultimaker/CuraEngine/pull/2215/commits/c77d22e67ec576d13a6e2fe58d1738d644aa7e64"
         },
         "date": 1742372871513,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "Number of test cases",
+            "value": 61,
+            "unit": "-",
+            "extra": ""
+          },
+          {
+            "name": "General Stress Level",
+            "value": 0,
+            "unit": "%",
+            "extra": "Crashes in: "
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "Ultimaker",
+            "username": "Ultimaker"
+          },
+          "committer": {
+            "name": "Ultimaker",
+            "username": "Ultimaker"
+          },
+          "id": "c77d22e67ec576d13a6e2fe58d1738d644aa7e64",
+          "message": "(Alternate branch) Maybe fix spdlog for npm package.",
+          "timestamp": "2025-03-17T03:52:26Z",
+          "url": "https://github.com/Ultimaker/CuraEngine/pull/2215/commits/c77d22e67ec576d13a6e2fe58d1738d644aa7e64"
+        },
+        "date": 1742377139406,
         "tool": "customSmallerIsBetter",
         "benches": [
           {
