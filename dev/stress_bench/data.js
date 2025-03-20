@@ -1,40 +1,8 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1742377384459,
+  "lastUpdate": 1742487265897,
   "repoUrl": "https://github.com/Ultimaker/CuraEngine",
   "entries": {
     "Stress Benchmark": [
-      {
-        "commit": {
-          "author": {
-            "name": "Ultimaker",
-            "username": "Ultimaker"
-          },
-          "committer": {
-            "name": "Ultimaker",
-            "username": "Ultimaker"
-          },
-          "id": "935b266a8d8a14b9ca25fc783b59ec054b19f868",
-          "message": "CURA-11930 set start temperature but dont wait",
-          "timestamp": "2024-05-29T05:50:08Z",
-          "url": "https://github.com/Ultimaker/CuraEngine/pull/2083/commits/935b266a8d8a14b9ca25fc783b59ec054b19f868"
-        },
-        "date": 1716976784247,
-        "tool": "customSmallerIsBetter",
-        "benches": [
-          {
-            "name": "Number of test cases",
-            "value": 61,
-            "unit": "-",
-            "extra": ""
-          },
-          {
-            "name": "General Stress Level",
-            "value": 0,
-            "unit": "%",
-            "extra": "Crashes in: "
-          }
-        ]
-      },
       {
         "commit": {
           "author": {
@@ -8163,6 +8131,38 @@ window.BENCHMARK_DATA = {
           "url": "https://github.com/Ultimaker/CuraEngine/pull/2213/commits/9d06c928b7e2a25ad05d3918bc3482cdd4a3f24c"
         },
         "date": 1742377380520,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "Number of test cases",
+            "value": 61,
+            "unit": "-",
+            "extra": ""
+          },
+          {
+            "name": "General Stress Level",
+            "value": 0,
+            "unit": "%",
+            "extra": "Crashes in: "
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "Ultimaker",
+            "username": "Ultimaker"
+          },
+          "committer": {
+            "name": "Ultimaker",
+            "username": "Ultimaker"
+          },
+          "id": "39482a910eb9d67fadfc681012cf2c603801e976",
+          "message": "Use bridging settings for walls over flooring",
+          "timestamp": "2025-03-19T13:00:19Z",
+          "url": "https://github.com/Ultimaker/CuraEngine/pull/2217/commits/39482a910eb9d67fadfc681012cf2c603801e976"
+        },
+        "date": 1742487262178,
         "tool": "customSmallerIsBetter",
         "benches": [
           {
