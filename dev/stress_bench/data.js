@@ -1,40 +1,8 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1742487265897,
+  "lastUpdate": 1742898492988,
   "repoUrl": "https://github.com/Ultimaker/CuraEngine",
   "entries": {
     "Stress Benchmark": [
-      {
-        "commit": {
-          "author": {
-            "name": "Ultimaker",
-            "username": "Ultimaker"
-          },
-          "committer": {
-            "name": "Ultimaker",
-            "username": "Ultimaker"
-          },
-          "id": "f409c0f0cbbfe2954dbf943665c1134974b192d6",
-          "message": "NP 202 conan wasm package",
-          "timestamp": "2024-05-29T05:50:08Z",
-          "url": "https://github.com/Ultimaker/CuraEngine/pull/2084/commits/f409c0f0cbbfe2954dbf943665c1134974b192d6"
-        },
-        "date": 1716980106402,
-        "tool": "customSmallerIsBetter",
-        "benches": [
-          {
-            "name": "Number of test cases",
-            "value": 61,
-            "unit": "-",
-            "extra": ""
-          },
-          {
-            "name": "General Stress Level",
-            "value": 0,
-            "unit": "%",
-            "extra": "Crashes in: "
-          }
-        ]
-      },
       {
         "commit": {
           "author": {
@@ -8163,6 +8131,42 @@ window.BENCHMARK_DATA = {
           "url": "https://github.com/Ultimaker/CuraEngine/pull/2217/commits/39482a910eb9d67fadfc681012cf2c603801e976"
         },
         "date": 1742487262178,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "Number of test cases",
+            "value": 61,
+            "unit": "-",
+            "extra": ""
+          },
+          {
+            "name": "General Stress Level",
+            "value": 0,
+            "unit": "%",
+            "extra": "Crashes in: "
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "alireza.doustdar@gmail.com",
+            "name": "HellAholic",
+            "username": "HellAholic"
+          },
+          "committer": {
+            "email": "alireza.doustdar@gmail.com",
+            "name": "HellAholic",
+            "username": "HellAholic"
+          },
+          "distinct": true,
+          "id": "3835427a31180bafcfae95b45cf14ea4f25520d1",
+          "message": "Merge remote-tracking branch 'origin/5.10'",
+          "timestamp": "2025-03-25T11:03:47+01:00",
+          "tree_id": "e07474216bf0f7c241785cce0063f1b8a59d4616",
+          "url": "https://github.com/Ultimaker/CuraEngine/commit/3835427a31180bafcfae95b45cf14ea4f25520d1"
+        },
+        "date": 1742898489063,
         "tool": "customSmallerIsBetter",
         "benches": [
           {
