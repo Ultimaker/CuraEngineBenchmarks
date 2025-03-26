@@ -1,40 +1,8 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1742986296869,
+  "lastUpdate": 1743004763204,
   "repoUrl": "https://github.com/Ultimaker/CuraEngine",
   "entries": {
     "Stress Benchmark": [
-      {
-        "commit": {
-          "author": {
-            "name": "Ultimaker",
-            "username": "Ultimaker"
-          },
-          "committer": {
-            "name": "Ultimaker",
-            "username": "Ultimaker"
-          },
-          "id": "88076047e2eadd3b551e5e934b840292fdc6f013",
-          "message": "[CURA-9474] (Some) Seams Not On Vertices",
-          "timestamp": "2024-06-04T12:04:38Z",
-          "url": "https://github.com/Ultimaker/CuraEngine/pull/2087/commits/88076047e2eadd3b551e5e934b840292fdc6f013"
-        },
-        "date": 1717514658075,
-        "tool": "customSmallerIsBetter",
-        "benches": [
-          {
-            "name": "Number of test cases",
-            "value": 61,
-            "unit": "-",
-            "extra": ""
-          },
-          {
-            "name": "General Stress Level",
-            "value": 0,
-            "unit": "%",
-            "extra": "Crashes in: "
-          }
-        ]
-      },
       {
         "commit": {
           "author": {
@@ -8167,6 +8135,42 @@ window.BENCHMARK_DATA = {
           "url": "https://github.com/Ultimaker/CuraEngine/pull/2221/commits/45bd4a7cae7a3b70191832abbeddb2d6797172d5"
         },
         "date": 1742986292467,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "Number of test cases",
+            "value": 61,
+            "unit": "-",
+            "extra": ""
+          },
+          {
+            "name": "General Stress Level",
+            "value": 0,
+            "unit": "%",
+            "extra": "Crashes in: "
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "r.burema@ultimaker.com",
+            "name": "Remco Burema",
+            "username": "rburema"
+          },
+          "committer": {
+            "email": "r.burema@ultimaker.com",
+            "name": "Remco Burema",
+            "username": "rburema"
+          },
+          "distinct": true,
+          "id": "867781b8a170138a2b92164dcae4709bbfb787eb",
+          "message": "Retraction combing avoid distance on 0 would crash.\n\nThis isn't something you want, and thankfully doesn't happen in practice, since machines always have a 'machine_nozzle_size' in practice, but our tests take the 'default' in certain cases instead of the 'value' (which can actually be a formula).\n\nStill better to fix the edge-case, or at least work around it a bit more gracefully, regardless of what the tests end up being.",
+          "timestamp": "2025-03-26T16:33:33+01:00",
+          "tree_id": "5bac7a7e4c768f2fce29aeed834c7afcb5c654a7",
+          "url": "https://github.com/Ultimaker/CuraEngine/commit/867781b8a170138a2b92164dcae4709bbfb787eb"
+        },
+        "date": 1743004758794,
         "tool": "customSmallerIsBetter",
         "benches": [
           {
