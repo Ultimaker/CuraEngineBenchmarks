@@ -1,40 +1,8 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1742976503610,
+  "lastUpdate": 1742986296869,
   "repoUrl": "https://github.com/Ultimaker/CuraEngine",
   "entries": {
     "Stress Benchmark": [
-      {
-        "commit": {
-          "author": {
-            "name": "Ultimaker",
-            "username": "Ultimaker"
-          },
-          "committer": {
-            "name": "Ultimaker",
-            "username": "Ultimaker"
-          },
-          "id": "d22d3dea7c3708a190e698892a0e273e7cabeeb9",
-          "message": "[CURA-9474] (Some) Seams Not On Vertices",
-          "timestamp": "2024-06-04T12:04:38Z",
-          "url": "https://github.com/Ultimaker/CuraEngine/pull/2087/commits/d22d3dea7c3708a190e698892a0e273e7cabeeb9"
-        },
-        "date": 1717509755275,
-        "tool": "customSmallerIsBetter",
-        "benches": [
-          {
-            "name": "Number of test cases",
-            "value": 61,
-            "unit": "-",
-            "extra": ""
-          },
-          {
-            "name": "General Stress Level",
-            "value": 0,
-            "unit": "%",
-            "extra": "Crashes in: "
-          }
-        ]
-      },
       {
         "commit": {
           "author": {
@@ -8167,6 +8135,38 @@ window.BENCHMARK_DATA = {
           "url": "https://github.com/Ultimaker/CuraEngine/pull/2220/commits/a9fd3b6bd7f7537f68e217940fda69e7566b4794"
         },
         "date": 1742976500055,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "Number of test cases",
+            "value": 61,
+            "unit": "-",
+            "extra": ""
+          },
+          {
+            "name": "General Stress Level",
+            "value": 0,
+            "unit": "%",
+            "extra": "Crashes in: "
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "Ultimaker",
+            "username": "Ultimaker"
+          },
+          "committer": {
+            "name": "Ultimaker",
+            "username": "Ultimaker"
+          },
+          "id": "45bd4a7cae7a3b70191832abbeddb2d6797172d5",
+          "message": "[DONT MERGE] Revert \"Apply distance to walls for inside combing\"",
+          "timestamp": "2025-03-25T18:32:10Z",
+          "url": "https://github.com/Ultimaker/CuraEngine/pull/2221/commits/45bd4a7cae7a3b70191832abbeddb2d6797172d5"
+        },
+        "date": 1742986292467,
         "tool": "customSmallerIsBetter",
         "benches": [
           {
