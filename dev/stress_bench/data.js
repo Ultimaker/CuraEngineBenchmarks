@@ -1,40 +1,8 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1743004763204,
+  "lastUpdate": 1743599653582,
   "repoUrl": "https://github.com/Ultimaker/CuraEngine",
   "entries": {
     "Stress Benchmark": [
-      {
-        "commit": {
-          "author": {
-            "name": "Ultimaker",
-            "username": "Ultimaker"
-          },
-          "committer": {
-            "name": "Ultimaker",
-            "username": "Ultimaker"
-          },
-          "id": "8554db490bba9657ca1ddcc341e828452d18d661",
-          "message": "[CURA-9474] (Some) Seams Not On Vertices",
-          "timestamp": "2024-06-05T02:58:10Z",
-          "url": "https://github.com/Ultimaker/CuraEngine/pull/2087/commits/8554db490bba9657ca1ddcc341e828452d18d661"
-        },
-        "date": 1717593122026,
-        "tool": "customSmallerIsBetter",
-        "benches": [
-          {
-            "name": "Number of test cases",
-            "value": 61,
-            "unit": "-",
-            "extra": ""
-          },
-          {
-            "name": "General Stress Level",
-            "value": 0,
-            "unit": "%",
-            "extra": "Crashes in: "
-          }
-        ]
-      },
       {
         "commit": {
           "author": {
@@ -8171,6 +8139,38 @@ window.BENCHMARK_DATA = {
           "url": "https://github.com/Ultimaker/CuraEngine/commit/867781b8a170138a2b92164dcae4709bbfb787eb"
         },
         "date": 1743004758794,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "Number of test cases",
+            "value": 61,
+            "unit": "-",
+            "extra": ""
+          },
+          {
+            "name": "General Stress Level",
+            "value": 0,
+            "unit": "%",
+            "extra": "Crashes in: "
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "Ultimaker",
+            "username": "Ultimaker"
+          },
+          "committer": {
+            "name": "Ultimaker",
+            "username": "Ultimaker"
+          },
+          "id": "0bfd7462566bffb2a87d99357334fde31bd287fa",
+          "message": "CURA-12474 set fixed 0 gap for brim support",
+          "timestamp": "2025-03-31T11:23:05Z",
+          "url": "https://github.com/Ultimaker/CuraEngine/pull/2213/commits/0bfd7462566bffb2a87d99357334fde31bd287fa"
+        },
+        "date": 1743599649814,
         "tool": "customSmallerIsBetter",
         "benches": [
           {
