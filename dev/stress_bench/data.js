@@ -1,40 +1,8 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1743599653582,
+  "lastUpdate": 1745420921374,
   "repoUrl": "https://github.com/Ultimaker/CuraEngine",
   "entries": {
     "Stress Benchmark": [
-      {
-        "commit": {
-          "author": {
-            "name": "Ultimaker",
-            "username": "Ultimaker"
-          },
-          "committer": {
-            "name": "Ultimaker",
-            "username": "Ultimaker"
-          },
-          "id": "793e742451911113764ad443e1311d46f05798d7",
-          "message": "NP 207 conan wasm package",
-          "timestamp": "2024-06-05T02:58:10Z",
-          "url": "https://github.com/Ultimaker/CuraEngine/pull/2084/commits/793e742451911113764ad443e1311d46f05798d7"
-        },
-        "date": 1717603330338,
-        "tool": "customSmallerIsBetter",
-        "benches": [
-          {
-            "name": "Number of test cases",
-            "value": 61,
-            "unit": "-",
-            "extra": ""
-          },
-          {
-            "name": "General Stress Level",
-            "value": 0,
-            "unit": "%",
-            "extra": "Crashes in: "
-          }
-        ]
-      },
       {
         "commit": {
           "author": {
@@ -8171,6 +8139,42 @@ window.BENCHMARK_DATA = {
           "url": "https://github.com/Ultimaker/CuraEngine/pull/2213/commits/0bfd7462566bffb2a87d99357334fde31bd287fa"
         },
         "date": 1743599649814,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "Number of test cases",
+            "value": 61,
+            "unit": "-",
+            "extra": ""
+          },
+          {
+            "name": "General Stress Level",
+            "value": 0,
+            "unit": "%",
+            "extra": "Crashes in: "
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "r.burema@ultimaker.com",
+            "name": "Remco Burema",
+            "username": "rburema"
+          },
+          "committer": {
+            "email": "r.burema@ultimaker.com",
+            "name": "Remco Burema",
+            "username": "rburema"
+          },
+          "distinct": true,
+          "id": "73a0374bcdc3be76c1f5ee61bf4fd2e50f455763",
+          "message": "Fix benchmarks.\n\nHopefully just this header -- otherwise we might've to do the ::join op by hand.",
+          "timestamp": "2025-04-23T16:42:33+02:00",
+          "tree_id": "3ec782af74f07c6116ead2e2aae695fccd7512b4",
+          "url": "https://github.com/Ultimaker/CuraEngine/commit/73a0374bcdc3be76c1f5ee61bf4fd2e50f455763"
+        },
+        "date": 1745420916871,
         "tool": "customSmallerIsBetter",
         "benches": [
           {
