@@ -1,40 +1,8 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1745478452168,
+  "lastUpdate": 1745497954327,
   "repoUrl": "https://github.com/Ultimaker/CuraEngine",
   "entries": {
     "Stress Benchmark": [
-      {
-        "commit": {
-          "author": {
-            "name": "Ultimaker",
-            "username": "Ultimaker"
-          },
-          "committer": {
-            "name": "Ultimaker",
-            "username": "Ultimaker"
-          },
-          "id": "8712159ce80ac64b152c57000d30f1d541eb4ac7",
-          "message": "Put note in gcode if min layer time has been applied.",
-          "timestamp": "2024-06-05T19:03:32Z",
-          "url": "https://github.com/Ultimaker/CuraEngine/pull/1943/commits/8712159ce80ac64b152c57000d30f1d541eb4ac7"
-        },
-        "date": 1717665773328,
-        "tool": "customSmallerIsBetter",
-        "benches": [
-          {
-            "name": "Number of test cases",
-            "value": 61,
-            "unit": "-",
-            "extra": ""
-          },
-          {
-            "name": "General Stress Level",
-            "value": 0,
-            "unit": "%",
-            "extra": "Crashes in: "
-          }
-        ]
-      },
       {
         "commit": {
           "author": {
@@ -8171,6 +8139,38 @@ window.BENCHMARK_DATA = {
           "url": "https://github.com/Ultimaker/CuraEngine/pull/2213/commits/d6cf775429dd9a8e3b26620bf40d7fb4d56e4e5b"
         },
         "date": 1745478447858,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "Number of test cases",
+            "value": 61,
+            "unit": "-",
+            "extra": ""
+          },
+          {
+            "name": "General Stress Level",
+            "value": 0,
+            "unit": "%",
+            "extra": "Crashes in: "
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "Ultimaker",
+            "username": "Ultimaker"
+          },
+          "committer": {
+            "name": "Ultimaker",
+            "username": "Ultimaker"
+          },
+          "id": "ce3c37f3c09774430d4c70d5e820823c57d4311b",
+          "message": "Also run NPM package on PR against main or release branch.",
+          "timestamp": "2025-04-23T14:42:43Z",
+          "url": "https://github.com/Ultimaker/CuraEngine/pull/2222/commits/ce3c37f3c09774430d4c70d5e820823c57d4311b"
+        },
+        "date": 1745497949910,
         "tool": "customSmallerIsBetter",
         "benches": [
           {
