@@ -1,44 +1,8 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1745420921374,
+  "lastUpdate": 1745478452168,
   "repoUrl": "https://github.com/Ultimaker/CuraEngine",
   "entries": {
     "Stress Benchmark": [
-      {
-        "commit": {
-          "author": {
-            "email": "j.spijker@ultimaker.com",
-            "name": "Jelle Spijker",
-            "username": "jellespijker"
-          },
-          "committer": {
-            "email": "noreply@github.com",
-            "name": "GitHub",
-            "username": "web-flow"
-          },
-          "distinct": true,
-          "id": "b93f69b71c375faf513306920c49c7b27d159c77",
-          "message": "NP 207 conan wasm package (#2084)",
-          "timestamp": "2024-06-05T17:50:10+02:00",
-          "tree_id": "cc2adb6610529faa95f2a66b667c55be88c632db",
-          "url": "https://github.com/Ultimaker/CuraEngine/commit/b93f69b71c375faf513306920c49c7b27d159c77"
-        },
-        "date": 1717603389340,
-        "tool": "customSmallerIsBetter",
-        "benches": [
-          {
-            "name": "Number of test cases",
-            "value": 61,
-            "unit": "-",
-            "extra": ""
-          },
-          {
-            "name": "General Stress Level",
-            "value": 0,
-            "unit": "%",
-            "extra": "Crashes in: "
-          }
-        ]
-      },
       {
         "commit": {
           "author": {
@@ -8175,6 +8139,38 @@ window.BENCHMARK_DATA = {
           "url": "https://github.com/Ultimaker/CuraEngine/commit/73a0374bcdc3be76c1f5ee61bf4fd2e50f455763"
         },
         "date": 1745420916871,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "Number of test cases",
+            "value": 61,
+            "unit": "-",
+            "extra": ""
+          },
+          {
+            "name": "General Stress Level",
+            "value": 0,
+            "unit": "%",
+            "extra": "Crashes in: "
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "Ultimaker",
+            "username": "Ultimaker"
+          },
+          "committer": {
+            "name": "Ultimaker",
+            "username": "Ultimaker"
+          },
+          "id": "d6cf775429dd9a8e3b26620bf40d7fb4d56e4e5b",
+          "message": "CURA-12474 set fixed 0 gap for brim support",
+          "timestamp": "2025-04-23T14:42:43Z",
+          "url": "https://github.com/Ultimaker/CuraEngine/pull/2213/commits/d6cf775429dd9a8e3b26620bf40d7fb4d56e4e5b"
+        },
+        "date": 1745478447858,
         "tool": "customSmallerIsBetter",
         "benches": [
           {
