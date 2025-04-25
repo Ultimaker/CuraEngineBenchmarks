@@ -1,44 +1,8 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1745497954327,
+  "lastUpdate": 1745567718521,
   "repoUrl": "https://github.com/Ultimaker/CuraEngine",
   "entries": {
     "Stress Benchmark": [
-      {
-        "commit": {
-          "author": {
-            "email": "alireza.doustdar@gmail.com",
-            "name": "HellAholic",
-            "username": "HellAholic"
-          },
-          "committer": {
-            "email": "noreply@github.com",
-            "name": "GitHub",
-            "username": "web-flow"
-          },
-          "distinct": true,
-          "id": "f4ddf768ecbda51ef6291c1c6d145545aaa0fcf9",
-          "message": "Put note in gcode if min layer time has been applied. (#1943)",
-          "timestamp": "2024-06-07T11:17:18+02:00",
-          "tree_id": "a115afbda09bb72ea9472eb91c28deca0b6ed86e",
-          "url": "https://github.com/Ultimaker/CuraEngine/commit/f4ddf768ecbda51ef6291c1c6d145545aaa0fcf9"
-        },
-        "date": 1717752321657,
-        "tool": "customSmallerIsBetter",
-        "benches": [
-          {
-            "name": "Number of test cases",
-            "value": 61,
-            "unit": "-",
-            "extra": ""
-          },
-          {
-            "name": "General Stress Level",
-            "value": 0,
-            "unit": "%",
-            "extra": "Crashes in: "
-          }
-        ]
-      },
       {
         "commit": {
           "author": {
@@ -8171,6 +8135,42 @@ window.BENCHMARK_DATA = {
           "url": "https://github.com/Ultimaker/CuraEngine/pull/2222/commits/ce3c37f3c09774430d4c70d5e820823c57d4311b"
         },
         "date": 1745497949910,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "Number of test cases",
+            "value": 61,
+            "unit": "-",
+            "extra": ""
+          },
+          {
+            "name": "General Stress Level",
+            "value": 0,
+            "unit": "%",
+            "extra": "Crashes in: "
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "alireza.doustdar@gmail.com",
+            "name": "HellAholic",
+            "username": "HellAholic"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "8edc14cfe0c0354869f69f3362e5104e3addeae8",
+          "message": "Also run NPM package on PR against main or release branch. (#2222)",
+          "timestamp": "2025-04-25T09:31:04+02:00",
+          "tree_id": "5f55529049d97ec949de99accdd82a57d4ae88fc",
+          "url": "https://github.com/Ultimaker/CuraEngine/commit/8edc14cfe0c0354869f69f3362e5104e3addeae8"
+        },
+        "date": 1745567714254,
         "tool": "customSmallerIsBetter",
         "benches": [
           {
