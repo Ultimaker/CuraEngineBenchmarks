@@ -1,40 +1,8 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1745567718521,
+  "lastUpdate": 1745567748457,
   "repoUrl": "https://github.com/Ultimaker/CuraEngine",
   "entries": {
     "Stress Benchmark": [
-      {
-        "commit": {
-          "author": {
-            "name": "Ultimaker",
-            "username": "Ultimaker"
-          },
-          "committer": {
-            "name": "Ultimaker",
-            "username": "Ultimaker"
-          },
-          "id": "f9daec4478f9a954ae25ee0dafc69bda48e2f8e2",
-          "message": "[CURA-9474] (Some) Seams Not On Vertices",
-          "timestamp": "2024-06-07T11:56:13Z",
-          "url": "https://github.com/Ultimaker/CuraEngine/pull/2087/commits/f9daec4478f9a954ae25ee0dafc69bda48e2f8e2"
-        },
-        "date": 1718091740075,
-        "tool": "customSmallerIsBetter",
-        "benches": [
-          {
-            "name": "Number of test cases",
-            "value": 61,
-            "unit": "-",
-            "extra": ""
-          },
-          {
-            "name": "General Stress Level",
-            "value": 0,
-            "unit": "%",
-            "extra": "Crashes in: "
-          }
-        ]
-      },
       {
         "commit": {
           "author": {
@@ -8171,6 +8139,38 @@ window.BENCHMARK_DATA = {
           "url": "https://github.com/Ultimaker/CuraEngine/commit/8edc14cfe0c0354869f69f3362e5104e3addeae8"
         },
         "date": 1745567714254,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "Number of test cases",
+            "value": 61,
+            "unit": "-",
+            "extra": ""
+          },
+          {
+            "name": "General Stress Level",
+            "value": 0,
+            "unit": "%",
+            "extra": "Crashes in: "
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "Ultimaker",
+            "username": "Ultimaker"
+          },
+          "committer": {
+            "name": "Ultimaker",
+            "username": "Ultimaker"
+          },
+          "id": "f489e74da5eece7b6190bb5717ef96731857e41f",
+          "message": "[CURA-12525] Print only done on any extruders > 0 should still set extruder,",
+          "timestamp": "2025-04-25T07:31:10Z",
+          "url": "https://github.com/Ultimaker/CuraEngine/pull/2224/commits/f489e74da5eece7b6190bb5717ef96731857e41f"
+        },
+        "date": 1745567744279,
         "tool": "customSmallerIsBetter",
         "benches": [
           {
