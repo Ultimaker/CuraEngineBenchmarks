@@ -1,40 +1,8 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1745570989332,
+  "lastUpdate": 1745838208728,
   "repoUrl": "https://github.com/Ultimaker/CuraEngine",
   "entries": {
     "Stress Benchmark": [
-      {
-        "commit": {
-          "author": {
-            "name": "Ultimaker",
-            "username": "Ultimaker"
-          },
-          "committer": {
-            "name": "Ultimaker",
-            "username": "Ultimaker"
-          },
-          "id": "9db7c7409eb914db063368ae00b999dbc569a55b",
-          "message": "[CURA-8076] Split off Seam Overhang Angle from Wall Overhang Angle,",
-          "timestamp": "2024-06-07T11:56:13Z",
-          "url": "https://github.com/Ultimaker/CuraEngine/pull/2091/commits/9db7c7409eb914db063368ae00b999dbc569a55b"
-        },
-        "date": 1718114491804,
-        "tool": "customSmallerIsBetter",
-        "benches": [
-          {
-            "name": "Number of test cases",
-            "value": 61,
-            "unit": "-",
-            "extra": ""
-          },
-          {
-            "name": "General Stress Level",
-            "value": 0,
-            "unit": "%",
-            "extra": "Crashes in: "
-          }
-        ]
-      },
       {
         "commit": {
           "author": {
@@ -8171,6 +8139,42 @@ window.BENCHMARK_DATA = {
           "url": "https://github.com/Ultimaker/CuraEngine/pull/2224/commits/5ab72988badcf24cd526a3ab90d79e7275d60473"
         },
         "date": 1745570984776,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "Number of test cases",
+            "value": 61,
+            "unit": "-",
+            "extra": ""
+          },
+          {
+            "name": "General Stress Level",
+            "value": 0,
+            "unit": "%",
+            "extra": "Crashes in: "
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "alireza.doustdar@gmail.com",
+            "name": "HellAholic",
+            "username": "HellAholic"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "a460338bf72a24dc65cab3d947f0861309b7aea3",
+          "message": "[CURA-12525] Print only done on any extruders > 0 should still set extruder, (#2224)",
+          "timestamp": "2025-04-28T12:39:33+02:00",
+          "tree_id": "8bf30e2765b6c69ad8e5f566f5c049850c21f9fb",
+          "url": "https://github.com/Ultimaker/CuraEngine/commit/a460338bf72a24dc65cab3d947f0861309b7aea3"
+        },
+        "date": 1745838203960,
         "tool": "customSmallerIsBetter",
         "benches": [
           {
