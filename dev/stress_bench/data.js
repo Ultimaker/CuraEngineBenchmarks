@@ -1,40 +1,8 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1745838208728,
+  "lastUpdate": 1745929649830,
   "repoUrl": "https://github.com/Ultimaker/CuraEngine",
   "entries": {
     "Stress Benchmark": [
-      {
-        "commit": {
-          "author": {
-            "name": "Ultimaker",
-            "username": "Ultimaker"
-          },
-          "committer": {
-            "name": "Ultimaker",
-            "username": "Ultimaker"
-          },
-          "id": "a15471fb88ff6868e0230d9e9e6259b0e7126fdb",
-          "message": "[CURA-9399] Fix 'Innacurate Tops Of Sharp Objects'",
-          "timestamp": "2024-06-07T11:56:13Z",
-          "url": "https://github.com/Ultimaker/CuraEngine/pull/2092/commits/a15471fb88ff6868e0230d9e9e6259b0e7126fdb"
-        },
-        "date": 1718186659287,
-        "tool": "customSmallerIsBetter",
-        "benches": [
-          {
-            "name": "Number of test cases",
-            "value": 61,
-            "unit": "-",
-            "extra": ""
-          },
-          {
-            "name": "General Stress Level",
-            "value": 0,
-            "unit": "%",
-            "extra": "Crashes in: "
-          }
-        ]
-      },
       {
         "commit": {
           "author": {
@@ -8175,6 +8143,38 @@ window.BENCHMARK_DATA = {
           "url": "https://github.com/Ultimaker/CuraEngine/commit/a460338bf72a24dc65cab3d947f0861309b7aea3"
         },
         "date": 1745838203960,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "Number of test cases",
+            "value": 61,
+            "unit": "-",
+            "extra": ""
+          },
+          {
+            "name": "General Stress Level",
+            "value": 0,
+            "unit": "%",
+            "extra": "Crashes in: "
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "Ultimaker",
+            "username": "Ultimaker"
+          },
+          "committer": {
+            "name": "Ultimaker",
+            "username": "Ultimaker"
+          },
+          "id": "14939f4a3eea799535a25d88afd5eb4bf4583082",
+          "message": "[CURA-12512] Add speed settings for auxilary ('build volume') fan.",
+          "timestamp": "2025-04-28T10:39:39Z",
+          "url": "https://github.com/Ultimaker/CuraEngine/pull/2226/commits/14939f4a3eea799535a25d88afd5eb4bf4583082"
+        },
+        "date": 1745929645607,
         "tool": "customSmallerIsBetter",
         "benches": [
           {
