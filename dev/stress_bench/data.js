@@ -1,40 +1,8 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1746175181272,
+  "lastUpdate": 1746180134185,
   "repoUrl": "https://github.com/Ultimaker/CuraEngine",
   "entries": {
     "Stress Benchmark": [
-      {
-        "commit": {
-          "author": {
-            "name": "Ultimaker",
-            "username": "Ultimaker"
-          },
-          "committer": {
-            "name": "Ultimaker",
-            "username": "Ultimaker"
-          },
-          "id": "89db265b276ee25e97660d5c1c55bcac7ff16673",
-          "message": "[CURA-8076] Split off Seam Overhang Angle from Wall Overhang Angle,",
-          "timestamp": "2024-06-12T12:10:50Z",
-          "url": "https://github.com/Ultimaker/CuraEngine/pull/2091/commits/89db265b276ee25e97660d5c1c55bcac7ff16673"
-        },
-        "date": 1718203911999,
-        "tool": "customSmallerIsBetter",
-        "benches": [
-          {
-            "name": "Number of test cases",
-            "value": 61,
-            "unit": "-",
-            "extra": ""
-          },
-          {
-            "name": "General Stress Level",
-            "value": 0,
-            "unit": "%",
-            "extra": "Crashes in: "
-          }
-        ]
-      },
       {
         "commit": {
           "author": {
@@ -8171,6 +8139,42 @@ window.BENCHMARK_DATA = {
           "url": "https://github.com/Ultimaker/CuraEngine/pull/2213/commits/8fe8e7696ba62cd6952e785c3afb4e5991d2de24"
         },
         "date": 1746175176571,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "Number of test cases",
+            "value": 61,
+            "unit": "-",
+            "extra": ""
+          },
+          {
+            "name": "General Stress Level",
+            "value": 0,
+            "unit": "%",
+            "extra": "Crashes in: "
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "alireza.doustdar@gmail.com",
+            "name": "HellAholic",
+            "username": "HellAholic"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "04c60bb9627df5e8e4b150ee7c374ec3cccdd789",
+          "message": "CURA-12474 set fixed 0 gap for brim support (#2213)",
+          "timestamp": "2025-05-02T11:38:06+02:00",
+          "tree_id": "f6cce3889aba1702865b7406a8e52cbd147d9ff8",
+          "url": "https://github.com/Ultimaker/CuraEngine/commit/04c60bb9627df5e8e4b150ee7c374ec3cccdd789"
+        },
+        "date": 1746180129860,
         "tool": "customSmallerIsBetter",
         "benches": [
           {
