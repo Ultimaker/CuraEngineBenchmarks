@@ -1,40 +1,8 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1746180134185,
+  "lastUpdate": 1746180251440,
   "repoUrl": "https://github.com/Ultimaker/CuraEngine",
   "entries": {
     "Stress Benchmark": [
-      {
-        "commit": {
-          "author": {
-            "name": "Ultimaker",
-            "username": "Ultimaker"
-          },
-          "committer": {
-            "name": "Ultimaker",
-            "username": "Ultimaker"
-          },
-          "id": "d999c08754a94d0acbb7d5f6a3e404c0c7cca138",
-          "message": "[CURA-8076] Split off Seam Overhang Angle from Wall Overhang Angle,",
-          "timestamp": "2024-06-12T12:10:50Z",
-          "url": "https://github.com/Ultimaker/CuraEngine/pull/2091/commits/d999c08754a94d0acbb7d5f6a3e404c0c7cca138"
-        },
-        "date": 1718271590436,
-        "tool": "customSmallerIsBetter",
-        "benches": [
-          {
-            "name": "Number of test cases",
-            "value": 61,
-            "unit": "-",
-            "extra": ""
-          },
-          {
-            "name": "General Stress Level",
-            "value": 0,
-            "unit": "%",
-            "extra": "Crashes in: "
-          }
-        ]
-      },
       {
         "commit": {
           "author": {
@@ -8175,6 +8143,38 @@ window.BENCHMARK_DATA = {
           "url": "https://github.com/Ultimaker/CuraEngine/commit/04c60bb9627df5e8e4b150ee7c374ec3cccdd789"
         },
         "date": 1746180129860,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "Number of test cases",
+            "value": 61,
+            "unit": "-",
+            "extra": ""
+          },
+          {
+            "name": "General Stress Level",
+            "value": 0,
+            "unit": "%",
+            "extra": "Crashes in: "
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "Ultimaker",
+            "username": "Ultimaker"
+          },
+          "committer": {
+            "name": "Ultimaker",
+            "username": "Ultimaker"
+          },
+          "id": "623791a483c341868c7e4616ff2b517102c7be9c",
+          "message": "[CURA-12512] Add speed settings for auxilary ('build volume') fan.",
+          "timestamp": "2025-05-02T09:38:12Z",
+          "url": "https://github.com/Ultimaker/CuraEngine/pull/2226/commits/623791a483c341868c7e4616ff2b517102c7be9c"
+        },
+        "date": 1746180247078,
         "tool": "customSmallerIsBetter",
         "benches": [
           {
