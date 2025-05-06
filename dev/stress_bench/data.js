@@ -1,40 +1,8 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1746524153627,
+  "lastUpdate": 1746526527509,
   "repoUrl": "https://github.com/Ultimaker/CuraEngine",
   "entries": {
     "Stress Benchmark": [
-      {
-        "commit": {
-          "author": {
-            "name": "Ultimaker",
-            "username": "Ultimaker"
-          },
-          "committer": {
-            "name": "Ultimaker",
-            "username": "Ultimaker"
-          },
-          "id": "c4433781804ed27a7a6d1a79ebefe3f359d6142a",
-          "message": "[CURA-9399] Fix 'Innacurate Tops Of Sharp Objects'",
-          "timestamp": "2024-06-13T10:07:10Z",
-          "url": "https://github.com/Ultimaker/CuraEngine/pull/2092/commits/c4433781804ed27a7a6d1a79ebefe3f359d6142a"
-        },
-        "date": 1718283961355,
-        "tool": "customSmallerIsBetter",
-        "benches": [
-          {
-            "name": "Number of test cases",
-            "value": 61,
-            "unit": "-",
-            "extra": ""
-          },
-          {
-            "name": "General Stress Level",
-            "value": 0,
-            "unit": "%",
-            "extra": "Crashes in: "
-          }
-        ]
-      },
       {
         "commit": {
           "author": {
@@ -8175,6 +8143,38 @@ window.BENCHMARK_DATA = {
           "url": "https://github.com/Ultimaker/CuraEngine/pull/2227/commits/b21f96c74fa7ca804554e0a071772b83ab222682"
         },
         "date": 1746524149469,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "Number of test cases",
+            "value": 61,
+            "unit": "-",
+            "extra": ""
+          },
+          {
+            "name": "General Stress Level",
+            "value": 0,
+            "unit": "%",
+            "extra": "Crashes in: "
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "Ultimaker",
+            "username": "Ultimaker"
+          },
+          "committer": {
+            "name": "Ultimaker",
+            "username": "Ultimaker"
+          },
+          "id": "0229ab2fc43717097cf444e04e86b0ef8c63db03",
+          "message": "[CURA-12446] Added settings for a different number of walls in top-/bottom-most skin.",
+          "timestamp": "2025-05-02T11:04:19Z",
+          "url": "https://github.com/Ultimaker/CuraEngine/pull/2227/commits/0229ab2fc43717097cf444e04e86b0ef8c63db03"
+        },
+        "date": 1746526523369,
         "tool": "customSmallerIsBetter",
         "benches": [
           {
