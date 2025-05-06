@@ -1,40 +1,8 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1746185246276,
+  "lastUpdate": 1746524153627,
   "repoUrl": "https://github.com/Ultimaker/CuraEngine",
   "entries": {
     "Stress Benchmark": [
-      {
-        "commit": {
-          "author": {
-            "name": "Ultimaker",
-            "username": "Ultimaker"
-          },
-          "committer": {
-            "name": "Ultimaker",
-            "username": "Ultimaker"
-          },
-          "id": "e6bb061bd4c7b962c1fcd9a3d7419676acce574e",
-          "message": "CURA-11947 improve multimaterial raft",
-          "timestamp": "2024-06-13T10:07:10Z",
-          "url": "https://github.com/Ultimaker/CuraEngine/pull/2095/commits/e6bb061bd4c7b962c1fcd9a3d7419676acce574e"
-        },
-        "date": 1718279398905,
-        "tool": "customSmallerIsBetter",
-        "benches": [
-          {
-            "name": "Number of test cases",
-            "value": 61,
-            "unit": "-",
-            "extra": ""
-          },
-          {
-            "name": "General Stress Level",
-            "value": 0,
-            "unit": "%",
-            "extra": "Crashes in: "
-          }
-        ]
-      },
       {
         "commit": {
           "author": {
@@ -8175,6 +8143,38 @@ window.BENCHMARK_DATA = {
           "url": "https://github.com/Ultimaker/CuraEngine/commit/45a71e41dd1b4824935c1179fe2874833e7b02a3"
         },
         "date": 1746185242090,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "Number of test cases",
+            "value": 61,
+            "unit": "-",
+            "extra": ""
+          },
+          {
+            "name": "General Stress Level",
+            "value": 0,
+            "unit": "%",
+            "extra": "Crashes in: "
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "Ultimaker",
+            "username": "Ultimaker"
+          },
+          "committer": {
+            "name": "Ultimaker",
+            "username": "Ultimaker"
+          },
+          "id": "b21f96c74fa7ca804554e0a071772b83ab222682",
+          "message": "[CURA-12446] Added settings for a different number of walls in top-/bottom-most skin.",
+          "timestamp": "2025-05-02T11:04:19Z",
+          "url": "https://github.com/Ultimaker/CuraEngine/pull/2227/commits/b21f96c74fa7ca804554e0a071772b83ab222682"
+        },
+        "date": 1746524149469,
         "tool": "customSmallerIsBetter",
         "benches": [
           {
