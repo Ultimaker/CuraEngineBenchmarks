@@ -1,40 +1,8 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1746526527509,
+  "lastUpdate": 1746611331977,
   "repoUrl": "https://github.com/Ultimaker/CuraEngine",
   "entries": {
     "Stress Benchmark": [
-      {
-        "commit": {
-          "author": {
-            "name": "Ultimaker",
-            "username": "Ultimaker"
-          },
-          "committer": {
-            "name": "Ultimaker",
-            "username": "Ultimaker"
-          },
-          "id": "251a977bb843b5ed8600e23fd8e69ae2b0cffc8b",
-          "message": "[CURA-9399] Fix 'Innacurate Tops Of Sharp Objects'",
-          "timestamp": "2024-06-17T09:40:15Z",
-          "url": "https://github.com/Ultimaker/CuraEngine/pull/2092/commits/251a977bb843b5ed8600e23fd8e69ae2b0cffc8b"
-        },
-        "date": 1718705155458,
-        "tool": "customSmallerIsBetter",
-        "benches": [
-          {
-            "name": "Number of test cases",
-            "value": 61,
-            "unit": "-",
-            "extra": ""
-          },
-          {
-            "name": "General Stress Level",
-            "value": 0,
-            "unit": "%",
-            "extra": "Crashes in: "
-          }
-        ]
-      },
       {
         "commit": {
           "author": {
@@ -8175,6 +8143,38 @@ window.BENCHMARK_DATA = {
           "url": "https://github.com/Ultimaker/CuraEngine/pull/2227/commits/0229ab2fc43717097cf444e04e86b0ef8c63db03"
         },
         "date": 1746526523369,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "Number of test cases",
+            "value": 61,
+            "unit": "-",
+            "extra": ""
+          },
+          {
+            "name": "General Stress Level",
+            "value": 0,
+            "unit": "%",
+            "extra": "Crashes in: "
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "Ultimaker",
+            "username": "Ultimaker"
+          },
+          "committer": {
+            "name": "Ultimaker",
+            "username": "Ultimaker"
+          },
+          "id": "d6adb8e684b24464df54bf170e09b8045350c88f",
+          "message": "[CURA-12503] Remove now unused 'skip agressive merge hint' variable.",
+          "timestamp": "2025-05-07T05:43:53Z",
+          "url": "https://github.com/Ultimaker/CuraEngine/pull/2220/commits/d6adb8e684b24464df54bf170e09b8045350c88f"
+        },
+        "date": 1746611327841,
         "tool": "customSmallerIsBetter",
         "benches": [
           {
