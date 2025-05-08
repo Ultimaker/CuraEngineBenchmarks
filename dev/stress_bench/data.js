@@ -1,40 +1,8 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1746619269619,
+  "lastUpdate": 1746686459798,
   "repoUrl": "https://github.com/Ultimaker/CuraEngine",
   "entries": {
     "Stress Benchmark": [
-      {
-        "commit": {
-          "author": {
-            "name": "Ultimaker",
-            "username": "Ultimaker"
-          },
-          "committer": {
-            "name": "Ultimaker",
-            "username": "Ultimaker"
-          },
-          "id": "d6f171fa4a48be55cd1a865bb31303c959b90ff1",
-          "message": "[CURA-9474] (Some) Seams Not On Vertices",
-          "timestamp": "2024-06-17T09:40:15Z",
-          "url": "https://github.com/Ultimaker/CuraEngine/pull/2087/commits/d6f171fa4a48be55cd1a865bb31303c959b90ff1"
-        },
-        "date": 1718714289604,
-        "tool": "customSmallerIsBetter",
-        "benches": [
-          {
-            "name": "Number of test cases",
-            "value": 61,
-            "unit": "-",
-            "extra": ""
-          },
-          {
-            "name": "General Stress Level",
-            "value": 0,
-            "unit": "%",
-            "extra": "Crashes in: "
-          }
-        ]
-      },
       {
         "commit": {
           "author": {
@@ -8175,6 +8143,42 @@ window.BENCHMARK_DATA = {
           "url": "https://github.com/Ultimaker/CuraEngine/pull/2227/commits/0d0c936167aaf36b9b4dfd9298c13b376d3cf7f0"
         },
         "date": 1746619265401,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "Number of test cases",
+            "value": 61,
+            "unit": "-",
+            "extra": ""
+          },
+          {
+            "name": "General Stress Level",
+            "value": 0,
+            "unit": "%",
+            "extra": "Crashes in: "
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "41987080+rburema@users.noreply.github.com",
+            "name": "Remco Burema",
+            "username": "rburema"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "7465edd936a1c1644bc6387417175351948dca05",
+          "message": "[CURA-12503] Remove now unused 'skip agressive merge hint' variable. (#2220)",
+          "timestamp": "2025-05-08T08:15:45+02:00",
+          "tree_id": "97e6c46c2d078341704191996300913c11a6110a",
+          "url": "https://github.com/Ultimaker/CuraEngine/commit/7465edd936a1c1644bc6387417175351948dca05"
+        },
+        "date": 1746686455276,
         "tool": "customSmallerIsBetter",
         "benches": [
           {
