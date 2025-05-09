@@ -1,40 +1,8 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1746698815538,
+  "lastUpdate": 1746784882779,
   "repoUrl": "https://github.com/Ultimaker/CuraEngine",
   "entries": {
     "Stress Benchmark": [
-      {
-        "commit": {
-          "author": {
-            "name": "Ultimaker",
-            "username": "Ultimaker"
-          },
-          "committer": {
-            "name": "Ultimaker",
-            "username": "Ultimaker"
-          },
-          "id": "dacd36ff37bcd55a7d90d749430bdfa5bc8d75e2",
-          "message": "Remove the debug defines when building with RelWithDebInfo",
-          "timestamp": "2024-06-19T06:32:02Z",
-          "url": "https://github.com/Ultimaker/CuraEngine/pull/2096/commits/dacd36ff37bcd55a7d90d749430bdfa5bc8d75e2"
-        },
-        "date": 1718780492813,
-        "tool": "customSmallerIsBetter",
-        "benches": [
-          {
-            "name": "Number of test cases",
-            "value": 61,
-            "unit": "-",
-            "extra": ""
-          },
-          {
-            "name": "General Stress Level",
-            "value": 0,
-            "unit": "%",
-            "extra": "Crashes in: "
-          }
-        ]
-      },
       {
         "commit": {
           "author": {
@@ -8179,6 +8147,42 @@ window.BENCHMARK_DATA = {
           "url": "https://github.com/Ultimaker/CuraEngine/pull/2206/commits/6ad3c80475f16a1e9bbb1ada8cb401ba95281c4c"
         },
         "date": 1746698811341,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "Number of test cases",
+            "value": 61,
+            "unit": "-",
+            "extra": ""
+          },
+          {
+            "name": "General Stress Level",
+            "value": 0,
+            "unit": "%",
+            "extra": "Crashes in: "
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "alireza.doustdar@gmail.com",
+            "name": "HellAholic",
+            "username": "HellAholic"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "ae38e6010d34f65493d3e2cc3c91a4c6f023145c",
+          "message": "CURA-12369 extra wipe move with spiralize (#2206)",
+          "timestamp": "2025-05-09T11:36:53+02:00",
+          "tree_id": "b51f9256f02f66595a6ac9bb494761f5cabb948b",
+          "url": "https://github.com/Ultimaker/CuraEngine/commit/ae38e6010d34f65493d3e2cc3c91a4c6f023145c"
+        },
+        "date": 1746784878458,
         "tool": "customSmallerIsBetter",
         "benches": [
           {
