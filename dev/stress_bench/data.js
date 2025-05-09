@@ -1,40 +1,8 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1746784882779,
+  "lastUpdate": 1746785211032,
   "repoUrl": "https://github.com/Ultimaker/CuraEngine",
   "entries": {
     "Stress Benchmark": [
-      {
-        "commit": {
-          "author": {
-            "name": "Ultimaker",
-            "username": "Ultimaker"
-          },
-          "committer": {
-            "name": "Ultimaker",
-            "username": "Ultimaker"
-          },
-          "id": "72bcdb05577839262b7f0f448b23f6c6ab70862e",
-          "message": "Remove the debug defines when building with RelWithDebInfo",
-          "timestamp": "2024-06-19T06:32:02Z",
-          "url": "https://github.com/Ultimaker/CuraEngine/pull/2096/commits/72bcdb05577839262b7f0f448b23f6c6ab70862e"
-        },
-        "date": 1718780509695,
-        "tool": "customSmallerIsBetter",
-        "benches": [
-          {
-            "name": "Number of test cases",
-            "value": 61,
-            "unit": "-",
-            "extra": ""
-          },
-          {
-            "name": "General Stress Level",
-            "value": 0,
-            "unit": "%",
-            "extra": "Crashes in: "
-          }
-        ]
-      },
       {
         "commit": {
           "author": {
@@ -8183,6 +8151,38 @@ window.BENCHMARK_DATA = {
           "url": "https://github.com/Ultimaker/CuraEngine/commit/ae38e6010d34f65493d3e2cc3c91a4c6f023145c"
         },
         "date": 1746784878458,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "Number of test cases",
+            "value": 61,
+            "unit": "-",
+            "extra": ""
+          },
+          {
+            "name": "General Stress Level",
+            "value": 0,
+            "unit": "%",
+            "extra": "Crashes in: "
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "Ultimaker",
+            "username": "Ultimaker"
+          },
+          "committer": {
+            "name": "Ultimaker",
+            "username": "Ultimaker"
+          },
+          "id": "8d5e5aa00b16af86262b23ce5ffb1aaba203d7cf",
+          "message": "[CURA-12446] Added settings for a different number of walls in top-/bottom-most skin.",
+          "timestamp": "2025-05-09T09:36:59Z",
+          "url": "https://github.com/Ultimaker/CuraEngine/pull/2227/commits/8d5e5aa00b16af86262b23ce5ffb1aaba203d7cf"
+        },
+        "date": 1746785206439,
         "tool": "customSmallerIsBetter",
         "benches": [
           {
