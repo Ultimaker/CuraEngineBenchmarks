@@ -1,44 +1,8 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1746785211032,
+  "lastUpdate": 1747732039063,
   "repoUrl": "https://github.com/Ultimaker/CuraEngine",
   "entries": {
     "Stress Benchmark": [
-      {
-        "commit": {
-          "author": {
-            "email": "alireza.doustdar@gmail.com",
-            "name": "HellAholic",
-            "username": "HellAholic"
-          },
-          "committer": {
-            "email": "noreply@github.com",
-            "name": "GitHub",
-            "username": "web-flow"
-          },
-          "distinct": true,
-          "id": "3dc1b9911e782147db97fe0e0e55d8f7a4390a98",
-          "message": "[CURA-9474] (Some) Seams Not On Vertices (#2087)",
-          "timestamp": "2024-06-19T11:50:34+02:00",
-          "tree_id": "e5d2365c6c2fef1d7a5a36e5d2ccc7de1a293fa7",
-          "url": "https://github.com/Ultimaker/CuraEngine/commit/3dc1b9911e782147db97fe0e0e55d8f7a4390a98"
-        },
-        "date": 1718791680736,
-        "tool": "customSmallerIsBetter",
-        "benches": [
-          {
-            "name": "Number of test cases",
-            "value": 61,
-            "unit": "-",
-            "extra": ""
-          },
-          {
-            "name": "General Stress Level",
-            "value": 0,
-            "unit": "%",
-            "extra": "Crashes in: "
-          }
-        ]
-      },
       {
         "commit": {
           "author": {
@@ -8183,6 +8147,38 @@ window.BENCHMARK_DATA = {
           "url": "https://github.com/Ultimaker/CuraEngine/pull/2227/commits/8d5e5aa00b16af86262b23ce5ffb1aaba203d7cf"
         },
         "date": 1746785206439,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "Number of test cases",
+            "value": 61,
+            "unit": "-",
+            "extra": ""
+          },
+          {
+            "name": "General Stress Level",
+            "value": 0,
+            "unit": "%",
+            "extra": "Crashes in: "
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "Ultimaker",
+            "username": "Ultimaker"
+          },
+          "committer": {
+            "name": "Ultimaker",
+            "username": "Ultimaker"
+          },
+          "id": "ca754db6fe48375b3806e2a97cb8cfb3e79b842b",
+          "message": "[CURA-12555] Forced brim 0 on support-brim, but now for 5.10.x",
+          "timestamp": "2025-05-19T01:45:35Z",
+          "url": "https://github.com/Ultimaker/CuraEngine/pull/2230/commits/ca754db6fe48375b3806e2a97cb8cfb3e79b842b"
+        },
+        "date": 1747732033976,
         "tool": "customSmallerIsBetter",
         "benches": [
           {
