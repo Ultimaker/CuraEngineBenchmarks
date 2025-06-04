@@ -1,40 +1,8 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1748330009227,
+  "lastUpdate": 1749028150271,
   "repoUrl": "https://github.com/Ultimaker/CuraEngine",
   "entries": {
     "Stress Benchmark": [
-      {
-        "commit": {
-          "author": {
-            "name": "Ultimaker",
-            "username": "Ultimaker"
-          },
-          "committer": {
-            "name": "Ultimaker",
-            "username": "Ultimaker"
-          },
-          "id": "00785da2a0b3ecedb367a7dd51218d0c227ecc4a",
-          "message": "[CURA-11974] better non vertex seams",
-          "timestamp": "2024-06-19T09:50:40Z",
-          "url": "https://github.com/Ultimaker/CuraEngine/pull/2100/commits/00785da2a0b3ecedb367a7dd51218d0c227ecc4a"
-        },
-        "date": 1718805616048,
-        "tool": "customSmallerIsBetter",
-        "benches": [
-          {
-            "name": "Number of test cases",
-            "value": 61,
-            "unit": "-",
-            "extra": ""
-          },
-          {
-            "name": "General Stress Level",
-            "value": 0,
-            "unit": "%",
-            "extra": "Crashes in: "
-          }
-        ]
-      },
       {
         "commit": {
           "author": {
@@ -8179,6 +8147,42 @@ window.BENCHMARK_DATA = {
           "url": "https://github.com/Ultimaker/CuraEngine/pull/2204/commits/7d215ddbc31c4ce6f9ed8be5945685d2d6ec8934"
         },
         "date": 1748330004579,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "Number of test cases",
+            "value": 61,
+            "unit": "-",
+            "extra": ""
+          },
+          {
+            "name": "General Stress Level",
+            "value": 0,
+            "unit": "%",
+            "extra": "Crashes in: "
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "alireza.doustdar@gmail.com",
+            "name": "HellAholic",
+            "username": "HellAholic"
+          },
+          "committer": {
+            "email": "alireza.doustdar@gmail.com",
+            "name": "HellAholic",
+            "username": "HellAholic"
+          },
+          "distinct": true,
+          "id": "d65343d51d93b4a40f2e39e9b412830fade97a19",
+          "message": "Merge remote-tracking branch 'origin/5.10'",
+          "timestamp": "2025-06-04T10:43:18+02:00",
+          "tree_id": "43deb32b2a495a3aa40eafad982cd42f874ebbba",
+          "url": "https://github.com/Ultimaker/CuraEngine/commit/d65343d51d93b4a40f2e39e9b412830fade97a19"
+        },
+        "date": 1749028145376,
         "tool": "customSmallerIsBetter",
         "benches": [
           {
