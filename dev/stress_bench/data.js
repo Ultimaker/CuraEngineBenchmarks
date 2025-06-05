@@ -1,40 +1,8 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1749028150271,
+  "lastUpdate": 1749129296330,
   "repoUrl": "https://github.com/Ultimaker/CuraEngine",
   "entries": {
     "Stress Benchmark": [
-      {
-        "commit": {
-          "author": {
-            "name": "Ultimaker",
-            "username": "Ultimaker"
-          },
-          "committer": {
-            "name": "Ultimaker",
-            "username": "Ultimaker"
-          },
-          "id": "4fc7a4428a75809730d38c4f13ccd00c3016364c",
-          "message": "[CURA-11974] better non vertex seams",
-          "timestamp": "2024-06-19T14:22:09Z",
-          "url": "https://github.com/Ultimaker/CuraEngine/pull/2100/commits/4fc7a4428a75809730d38c4f13ccd00c3016364c"
-        },
-        "date": 1718808172361,
-        "tool": "customSmallerIsBetter",
-        "benches": [
-          {
-            "name": "Number of test cases",
-            "value": 61,
-            "unit": "-",
-            "extra": ""
-          },
-          {
-            "name": "General Stress Level",
-            "value": 0,
-            "unit": "%",
-            "extra": "Crashes in: "
-          }
-        ]
-      },
       {
         "commit": {
           "author": {
@@ -8183,6 +8151,38 @@ window.BENCHMARK_DATA = {
           "url": "https://github.com/Ultimaker/CuraEngine/commit/d65343d51d93b4a40f2e39e9b412830fade97a19"
         },
         "date": 1749028145376,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "Number of test cases",
+            "value": 61,
+            "unit": "-",
+            "extra": ""
+          },
+          {
+            "name": "General Stress Level",
+            "value": 0,
+            "unit": "%",
+            "extra": "Crashes in: "
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "Ultimaker",
+            "username": "Ultimaker"
+          },
+          "committer": {
+            "name": "Ultimaker",
+            "username": "Ultimaker"
+          },
+          "id": "86e8778840cccc00296e9cc24f3bb137ad97efa7",
+          "message": "[CURA-12446] Added settings for a different number of walls in top-/bottom-most skin.",
+          "timestamp": "2025-06-04T08:43:34Z",
+          "url": "https://github.com/Ultimaker/CuraEngine/pull/2227/commits/86e8778840cccc00296e9cc24f3bb137ad97efa7"
+        },
+        "date": 1749129291658,
         "tool": "customSmallerIsBetter",
         "benches": [
           {
