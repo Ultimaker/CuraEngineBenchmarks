@@ -1,44 +1,8 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1749201075787,
+  "lastUpdate": 1749545398479,
   "repoUrl": "https://github.com/Ultimaker/CuraEngine",
   "entries": {
     "Stress Benchmark": [
-      {
-        "commit": {
-          "author": {
-            "email": "alireza.doustdar@gmail.com",
-            "name": "HellAholic",
-            "username": "HellAholic"
-          },
-          "committer": {
-            "email": "noreply@github.com",
-            "name": "GitHub",
-            "username": "web-flow"
-          },
-          "distinct": true,
-          "id": "2f395b07284f125eacd09e67cd61dcc669dcd26f",
-          "message": "Remove the debug defines when building with RelWithDebInfo (#2096)",
-          "timestamp": "2024-06-20T10:53:05+02:00",
-          "tree_id": "299d46da37a70c41a2b1e88d6f3d94059789abce",
-          "url": "https://github.com/Ultimaker/CuraEngine/commit/2f395b07284f125eacd09e67cd61dcc669dcd26f"
-        },
-        "date": 1718874289136,
-        "tool": "customSmallerIsBetter",
-        "benches": [
-          {
-            "name": "Number of test cases",
-            "value": 61,
-            "unit": "-",
-            "extra": ""
-          },
-          {
-            "name": "General Stress Level",
-            "value": 0,
-            "unit": "%",
-            "extra": "Crashes in: "
-          }
-        ]
-      },
       {
         "commit": {
           "author": {
@@ -8183,6 +8147,38 @@ window.BENCHMARK_DATA = {
           "url": "https://github.com/Ultimaker/CuraEngine/pull/2235/commits/9407398301a48d7bfba3ee3357574f4ea82f3a1d"
         },
         "date": 1749201071588,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "Number of test cases",
+            "value": 61,
+            "unit": "-",
+            "extra": ""
+          },
+          {
+            "name": "General Stress Level",
+            "value": 0,
+            "unit": "%",
+            "extra": "Crashes in: "
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "Ultimaker",
+            "username": "Ultimaker"
+          },
+          "committer": {
+            "name": "Ultimaker",
+            "username": "Ultimaker"
+          },
+          "id": "ba9a4136b2f4a4374eaf06c98b895524fc24ce6a",
+          "message": "CURA-11978 Retract and unretract in a travel",
+          "timestamp": "2025-06-04T08:43:34Z",
+          "url": "https://github.com/Ultimaker/CuraEngine/pull/2204/commits/ba9a4136b2f4a4374eaf06c98b895524fc24ce6a"
+        },
+        "date": 1749545393540,
         "tool": "customSmallerIsBetter",
         "benches": [
           {
