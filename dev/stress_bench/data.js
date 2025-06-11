@@ -1,40 +1,8 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1749545398479,
+  "lastUpdate": 1749654007726,
   "repoUrl": "https://github.com/Ultimaker/CuraEngine",
   "entries": {
     "Stress Benchmark": [
-      {
-        "commit": {
-          "author": {
-            "name": "Ultimaker",
-            "username": "Ultimaker"
-          },
-          "committer": {
-            "name": "Ultimaker",
-            "username": "Ultimaker"
-          },
-          "id": "98c040735b45a8613e917fb2cf7071b83a230b53",
-          "message": "[CURA-11974] better non vertex seams",
-          "timestamp": "2024-06-20T08:53:10Z",
-          "url": "https://github.com/Ultimaker/CuraEngine/pull/2100/commits/98c040735b45a8613e917fb2cf7071b83a230b53"
-        },
-        "date": 1718949751207,
-        "tool": "customSmallerIsBetter",
-        "benches": [
-          {
-            "name": "Number of test cases",
-            "value": 61,
-            "unit": "-",
-            "extra": ""
-          },
-          {
-            "name": "General Stress Level",
-            "value": 0,
-            "unit": "%",
-            "extra": "Crashes in: "
-          }
-        ]
-      },
       {
         "commit": {
           "author": {
@@ -8179,6 +8147,38 @@ window.BENCHMARK_DATA = {
           "url": "https://github.com/Ultimaker/CuraEngine/pull/2204/commits/ba9a4136b2f4a4374eaf06c98b895524fc24ce6a"
         },
         "date": 1749545393540,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "Number of test cases",
+            "value": 61,
+            "unit": "-",
+            "extra": ""
+          },
+          {
+            "name": "General Stress Level",
+            "value": 0,
+            "unit": "%",
+            "extra": "Crashes in: "
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "Ultimaker",
+            "username": "Ultimaker"
+          },
+          "committer": {
+            "name": "Ultimaker",
+            "username": "Ultimaker"
+          },
+          "id": "fd309cf85f9a5a4a9046649d8186da991accfbed",
+          "message": "CURA-11978 Retract and unretract in a travel",
+          "timestamp": "2025-06-04T08:43:34Z",
+          "url": "https://github.com/Ultimaker/CuraEngine/pull/2204/commits/fd309cf85f9a5a4a9046649d8186da991accfbed"
+        },
+        "date": 1749654003024,
         "tool": "customSmallerIsBetter",
         "benches": [
           {
