@@ -1,40 +1,8 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1749654007726,
+  "lastUpdate": 1749709192546,
   "repoUrl": "https://github.com/Ultimaker/CuraEngine",
   "entries": {
     "Stress Benchmark": [
-      {
-        "commit": {
-          "author": {
-            "name": "Ultimaker",
-            "username": "Ultimaker"
-          },
-          "committer": {
-            "name": "Ultimaker",
-            "username": "Ultimaker"
-          },
-          "id": "8ca2838b55ba2e42eef1996876cd0c8f9917d12e",
-          "message": "CURA-11947 Improve multimaterial raft",
-          "timestamp": "2024-06-20T08:53:10Z",
-          "url": "https://github.com/Ultimaker/CuraEngine/pull/2095/commits/8ca2838b55ba2e42eef1996876cd0c8f9917d12e"
-        },
-        "date": 1718955414232,
-        "tool": "customSmallerIsBetter",
-        "benches": [
-          {
-            "name": "Number of test cases",
-            "value": 61,
-            "unit": "-",
-            "extra": ""
-          },
-          {
-            "name": "General Stress Level",
-            "value": 0,
-            "unit": "%",
-            "extra": "Crashes in: "
-          }
-        ]
-      },
       {
         "commit": {
           "author": {
@@ -8179,6 +8147,38 @@ window.BENCHMARK_DATA = {
           "url": "https://github.com/Ultimaker/CuraEngine/pull/2204/commits/fd309cf85f9a5a4a9046649d8186da991accfbed"
         },
         "date": 1749654003024,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "Number of test cases",
+            "value": 61,
+            "unit": "-",
+            "extra": ""
+          },
+          {
+            "name": "General Stress Level",
+            "value": 0,
+            "unit": "%",
+            "extra": "Crashes in: "
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "Ultimaker",
+            "username": "Ultimaker"
+          },
+          "committer": {
+            "name": "Ultimaker",
+            "username": "Ultimaker"
+          },
+          "id": "a1159f4dcf1374016000a05442c9d11dbcafcafd",
+          "message": "CURA-11978 Retract and unretract in a travel",
+          "timestamp": "2025-06-12T03:54:50Z",
+          "url": "https://github.com/Ultimaker/CuraEngine/pull/2204/commits/a1159f4dcf1374016000a05442c9d11dbcafcafd"
+        },
+        "date": 1749709188106,
         "tool": "customSmallerIsBetter",
         "benches": [
           {
