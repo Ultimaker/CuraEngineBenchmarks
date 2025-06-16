@@ -1,40 +1,8 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1749740797226,
+  "lastUpdate": 1750071549302,
   "repoUrl": "https://github.com/Ultimaker/CuraEngine",
   "entries": {
     "Stress Benchmark": [
-      {
-        "commit": {
-          "author": {
-            "name": "Ultimaker",
-            "username": "Ultimaker"
-          },
-          "committer": {
-            "name": "Ultimaker",
-            "username": "Ultimaker"
-          },
-          "id": "3f65f4444ac02ed5ce79ed22f52f9f69faab385c",
-          "message": "CURA-11947 Improve multimaterial raft",
-          "timestamp": "2024-06-21T08:20:04Z",
-          "url": "https://github.com/Ultimaker/CuraEngine/pull/2095/commits/3f65f4444ac02ed5ce79ed22f52f9f69faab385c"
-        },
-        "date": 1718959871091,
-        "tool": "customSmallerIsBetter",
-        "benches": [
-          {
-            "name": "Number of test cases",
-            "value": 61,
-            "unit": "-",
-            "extra": ""
-          },
-          {
-            "name": "General Stress Level",
-            "value": 0,
-            "unit": "%",
-            "extra": "Crashes in: "
-          }
-        ]
-      },
       {
         "commit": {
           "author": {
@@ -8171,6 +8139,38 @@ window.BENCHMARK_DATA = {
           "url": "https://github.com/Ultimaker/CuraEngine/pull/2204/commits/4537b6de9ca48865aef7846e5745ee4f5bdfd43a"
         },
         "date": 1749740793035,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "Number of test cases",
+            "value": 61,
+            "unit": "-",
+            "extra": ""
+          },
+          {
+            "name": "General Stress Level",
+            "value": 0,
+            "unit": "%",
+            "extra": "Crashes in: "
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "Ultimaker",
+            "username": "Ultimaker"
+          },
+          "committer": {
+            "name": "Ultimaker",
+            "username": "Ultimaker"
+          },
+          "id": "945c507eac606e99e212a5bce049d3a8918106e3",
+          "message": "CURA-12515 Print bridge walls without overhanging speed",
+          "timestamp": "2025-06-13T16:53:55Z",
+          "url": "https://github.com/Ultimaker/CuraEngine/pull/2238/commits/945c507eac606e99e212a5bce049d3a8918106e3"
+        },
+        "date": 1750071544970,
         "tool": "customSmallerIsBetter",
         "benches": [
           {
