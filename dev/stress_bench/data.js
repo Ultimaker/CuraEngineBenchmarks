@@ -1,40 +1,8 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1750331335269,
+  "lastUpdate": 1750331777671,
   "repoUrl": "https://github.com/Ultimaker/CuraEngine",
   "entries": {
     "Stress Benchmark": [
-      {
-        "commit": {
-          "author": {
-            "name": "Ultimaker",
-            "username": "Ultimaker"
-          },
-          "committer": {
-            "name": "Ultimaker",
-            "username": "Ultimaker"
-          },
-          "id": "de5cbc5550fabe63d1d7052f7f367e66cf1581b8",
-          "message": "Prevent negative (= raft) layers from messing up z-seam calculation.",
-          "timestamp": "2024-06-25T09:54:19Z",
-          "url": "https://github.com/Ultimaker/CuraEngine/pull/2106/commits/de5cbc5550fabe63d1d7052f7f367e66cf1581b8"
-        },
-        "date": 1719322020309,
-        "tool": "customSmallerIsBetter",
-        "benches": [
-          {
-            "name": "Number of test cases",
-            "value": 61,
-            "unit": "-",
-            "extra": ""
-          },
-          {
-            "name": "General Stress Level",
-            "value": 0,
-            "unit": "%",
-            "extra": "Crashes in: "
-          }
-        ]
-      },
       {
         "commit": {
           "author": {
@@ -8175,6 +8143,38 @@ window.BENCHMARK_DATA = {
           "url": "https://github.com/Ultimaker/CuraEngine/commit/422e9036c53ac3197d2155f2ab8d1dd50bc655bc"
         },
         "date": 1750331330572,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "Number of test cases",
+            "value": 61,
+            "unit": "-",
+            "extra": ""
+          },
+          {
+            "name": "General Stress Level",
+            "value": 0,
+            "unit": "%",
+            "extra": "Crashes in: "
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "Ultimaker",
+            "username": "Ultimaker"
+          },
+          "committer": {
+            "name": "Ultimaker",
+            "username": "Ultimaker"
+          },
+          "id": "c5d40756ccd8a2853f9c06e09335fd78a1bb8b9d",
+          "message": "CURA-9909 investigate replacing sort with stable sort",
+          "timestamp": "2025-06-19T10:44:05Z",
+          "url": "https://github.com/Ultimaker/CuraEngine/pull/2235/commits/c5d40756ccd8a2853f9c06e09335fd78a1bb8b9d"
+        },
+        "date": 1750331773369,
         "tool": "customSmallerIsBetter",
         "benches": [
           {
