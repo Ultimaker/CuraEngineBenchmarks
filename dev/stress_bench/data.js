@@ -1,40 +1,8 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1752581639828,
+  "lastUpdate": 1752582190357,
   "repoUrl": "https://github.com/Ultimaker/CuraEngine",
   "entries": {
     "Stress Benchmark": [
-      {
-        "commit": {
-          "author": {
-            "name": "Ultimaker",
-            "username": "Ultimaker"
-          },
-          "committer": {
-            "name": "Ultimaker",
-            "username": "Ultimaker"
-          },
-          "id": "757c02a73ea1b7579c93089b389bccda931e2622",
-          "message": "CURA-11947 Improve multimaterial raft",
-          "timestamp": "2024-06-26T10:18:30Z",
-          "url": "https://github.com/Ultimaker/CuraEngine/pull/2095/commits/757c02a73ea1b7579c93089b389bccda931e2622"
-        },
-        "date": 1719481257716,
-        "tool": "customSmallerIsBetter",
-        "benches": [
-          {
-            "name": "Number of test cases",
-            "value": 61,
-            "unit": "-",
-            "extra": ""
-          },
-          {
-            "name": "General Stress Level",
-            "value": 0,
-            "unit": "%",
-            "extra": "Crashes in: "
-          }
-        ]
-      },
       {
         "commit": {
           "author": {
@@ -8175,6 +8143,38 @@ window.BENCHMARK_DATA = {
           "url": "https://github.com/Ultimaker/CuraEngine/pull/2239/commits/604d0899e747f720c7dad4a351807ae110b181a9"
         },
         "date": 1752581635476,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "Number of test cases",
+            "value": 61,
+            "unit": "-",
+            "extra": ""
+          },
+          {
+            "name": "General Stress Level",
+            "value": 0,
+            "unit": "%",
+            "extra": "Crashes in: "
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "Ultimaker",
+            "username": "Ultimaker"
+          },
+          "committer": {
+            "name": "Ultimaker",
+            "username": "Ultimaker"
+          },
+          "id": "8d3944daa8215508e9eb3f4f2787a805bfb7d174",
+          "message": "Cura 12543 painting ux",
+          "timestamp": "2025-07-14T22:43:11Z",
+          "url": "https://github.com/Ultimaker/CuraEngine/pull/2239/commits/8d3944daa8215508e9eb3f4f2787a805bfb7d174"
+        },
+        "date": 1752582185979,
         "tool": "customSmallerIsBetter",
         "benches": [
           {
