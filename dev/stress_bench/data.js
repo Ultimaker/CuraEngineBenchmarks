@@ -1,40 +1,8 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1752660279961,
+  "lastUpdate": 1752748346852,
   "repoUrl": "https://github.com/Ultimaker/CuraEngine",
   "entries": {
     "Stress Benchmark": [
-      {
-        "commit": {
-          "author": {
-            "name": "Ultimaker",
-            "username": "Ultimaker"
-          },
-          "committer": {
-            "name": "Ultimaker",
-            "username": "Ultimaker"
-          },
-          "id": "91e2078a1a4955f320a8b56d23afe46204e12e53",
-          "message": "CURA-11795 Activate fans during switch",
-          "timestamp": "2024-06-27T09:35:29Z",
-          "url": "https://github.com/Ultimaker/CuraEngine/pull/2107/commits/91e2078a1a4955f320a8b56d23afe46204e12e53"
-        },
-        "date": 1719482067739,
-        "tool": "customSmallerIsBetter",
-        "benches": [
-          {
-            "name": "Number of test cases",
-            "value": 61,
-            "unit": "-",
-            "extra": ""
-          },
-          {
-            "name": "General Stress Level",
-            "value": 0,
-            "unit": "%",
-            "extra": "Crashes in: "
-          }
-        ]
-      },
       {
         "commit": {
           "author": {
@@ -8171,6 +8139,42 @@ window.BENCHMARK_DATA = {
           "url": "https://github.com/Ultimaker/CuraEngine/pull/2240/commits/aff96bb67816139b0021cc4e708476f4a311dc49"
         },
         "date": 1752660275032,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "Number of test cases",
+            "value": 61,
+            "unit": "-",
+            "extra": ""
+          },
+          {
+            "name": "General Stress Level",
+            "value": 0,
+            "unit": "%",
+            "extra": "Crashes in: "
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "alireza.doustdar@gmail.com",
+            "name": "HellAholic",
+            "username": "HellAholic"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "47dad14a41431b1c2bcb35c2b19daeae1a0770eb",
+          "message": "Cura 12543 painting ux (#2239)",
+          "timestamp": "2025-07-17T12:07:04+02:00",
+          "tree_id": "d39498829a109b17f7657a2db7f48288a25de982",
+          "url": "https://github.com/Ultimaker/CuraEngine/commit/47dad14a41431b1c2bcb35c2b19daeae1a0770eb"
+        },
+        "date": 1752748342693,
         "tool": "customSmallerIsBetter",
         "benches": [
           {
