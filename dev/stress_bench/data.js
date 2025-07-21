@@ -1,44 +1,8 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1753100623023,
+  "lastUpdate": 1753140133265,
   "repoUrl": "https://github.com/Ultimaker/CuraEngine",
   "entries": {
     "Stress Benchmark": [
-      {
-        "commit": {
-          "author": {
-            "email": "alireza.doustdar@gmail.com",
-            "name": "HellAholic",
-            "username": "HellAholic"
-          },
-          "committer": {
-            "email": "noreply@github.com",
-            "name": "GitHub",
-            "username": "web-flow"
-          },
-          "distinct": true,
-          "id": "1c9db2eefe01d4df6a80122f6f2dcce8442908be",
-          "message": "CURA-11796 Combine the long and short unretracts at nozzle switch (#2103)",
-          "timestamp": "2024-06-27T14:27:52+02:00",
-          "tree_id": "caaebe15196519734291c7c8ad9b7f6705f427ab",
-          "url": "https://github.com/Ultimaker/CuraEngine/commit/1c9db2eefe01d4df6a80122f6f2dcce8442908be"
-        },
-        "date": 1719492162585,
-        "tool": "customSmallerIsBetter",
-        "benches": [
-          {
-            "name": "Number of test cases",
-            "value": 61,
-            "unit": "-",
-            "extra": ""
-          },
-          {
-            "name": "General Stress Level",
-            "value": 0,
-            "unit": "%",
-            "extra": "Crashes in: "
-          }
-        ]
-      },
       {
         "commit": {
           "author": {
@@ -8175,6 +8139,38 @@ window.BENCHMARK_DATA = {
           "url": "https://github.com/Ultimaker/CuraEngine/pull/2240/commits/74a2a578bb16754d42ab87d54c063bbbc54b21ee"
         },
         "date": 1753100618476,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "Number of test cases",
+            "value": 61,
+            "unit": "-",
+            "extra": ""
+          },
+          {
+            "name": "General Stress Level",
+            "value": 0,
+            "unit": "%",
+            "extra": "Crashes in: "
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "Ultimaker",
+            "username": "Ultimaker"
+          },
+          "committer": {
+            "name": "Ultimaker",
+            "username": "Ultimaker"
+          },
+          "id": "05b7f9995dd90291533021f1c1135b765abfcbfc",
+          "message": "UltiMaker Hackathon '25: Slice-ID/Print-ID project",
+          "timestamp": "2025-07-20T12:55:43Z",
+          "url": "https://github.com/Ultimaker/CuraEngine/pull/2241/commits/05b7f9995dd90291533021f1c1135b765abfcbfc"
+        },
+        "date": 1753140128986,
         "tool": "customSmallerIsBetter",
         "benches": [
           {
