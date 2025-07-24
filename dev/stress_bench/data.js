@@ -1,40 +1,8 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1753140133265,
+  "lastUpdate": 1753361855909,
   "repoUrl": "https://github.com/Ultimaker/CuraEngine",
   "entries": {
     "Stress Benchmark": [
-      {
-        "commit": {
-          "author": {
-            "name": "Ultimaker",
-            "username": "Ultimaker"
-          },
-          "committer": {
-            "name": "Ultimaker",
-            "username": "Ultimaker"
-          },
-          "id": "fd0cfd728c2f61650af130c20b76094894c5caca",
-          "message": "CURA-11795 Activate fans during switch",
-          "timestamp": "2024-06-27T15:52:28Z",
-          "url": "https://github.com/Ultimaker/CuraEngine/pull/2107/commits/fd0cfd728c2f61650af130c20b76094894c5caca"
-        },
-        "date": 1719553579617,
-        "tool": "customSmallerIsBetter",
-        "benches": [
-          {
-            "name": "Number of test cases",
-            "value": 61,
-            "unit": "-",
-            "extra": ""
-          },
-          {
-            "name": "General Stress Level",
-            "value": 0,
-            "unit": "%",
-            "extra": "Crashes in: "
-          }
-        ]
-      },
       {
         "commit": {
           "author": {
@@ -8171,6 +8139,42 @@ window.BENCHMARK_DATA = {
           "url": "https://github.com/Ultimaker/CuraEngine/pull/2241/commits/05b7f9995dd90291533021f1c1135b765abfcbfc"
         },
         "date": 1753140128986,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "Number of test cases",
+            "value": 61,
+            "unit": "-",
+            "extra": ""
+          },
+          {
+            "name": "General Stress Level",
+            "value": 0,
+            "unit": "%",
+            "extra": "Crashes in: "
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "alireza.doustdar@gmail.com",
+            "name": "HellAholic",
+            "username": "HellAholic"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "3edc57adf487b16ca99bec300da84d1a652add32",
+          "message": "[CURA-12622] warn on actual unused extruder(s) (#2240)",
+          "timestamp": "2025-07-24T14:31:47+02:00",
+          "tree_id": "dc0cdf32628ba41823d25b1a6113fe4ccaaf1b3d",
+          "url": "https://github.com/Ultimaker/CuraEngine/commit/3edc57adf487b16ca99bec300da84d1a652add32"
+        },
+        "date": 1753361846250,
         "tool": "customSmallerIsBetter",
         "benches": [
           {
