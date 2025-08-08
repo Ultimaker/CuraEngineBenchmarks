@@ -1,40 +1,8 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1753361855909,
+  "lastUpdate": 1754662507588,
   "repoUrl": "https://github.com/Ultimaker/CuraEngine",
   "entries": {
     "Stress Benchmark": [
-      {
-        "commit": {
-          "author": {
-            "name": "Ultimaker",
-            "username": "Ultimaker"
-          },
-          "committer": {
-            "name": "Ultimaker",
-            "username": "Ultimaker"
-          },
-          "id": "c272eb928e078d14bdda10325bb71beab8c2e531",
-          "message": "CURA-11795 Activate fans during switch",
-          "timestamp": "2024-07-01T10:18:52Z",
-          "url": "https://github.com/Ultimaker/CuraEngine/pull/2107/commits/c272eb928e078d14bdda10325bb71beab8c2e531"
-        },
-        "date": 1719833013715,
-        "tool": "customSmallerIsBetter",
-        "benches": [
-          {
-            "name": "Number of test cases",
-            "value": 61,
-            "unit": "-",
-            "extra": ""
-          },
-          {
-            "name": "General Stress Level",
-            "value": 0,
-            "unit": "%",
-            "extra": "Crashes in: "
-          }
-        ]
-      },
       {
         "commit": {
           "author": {
@@ -8175,6 +8143,38 @@ window.BENCHMARK_DATA = {
           "url": "https://github.com/Ultimaker/CuraEngine/commit/3edc57adf487b16ca99bec300da84d1a652add32"
         },
         "date": 1753361846250,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "Number of test cases",
+            "value": 61,
+            "unit": "-",
+            "extra": ""
+          },
+          {
+            "name": "General Stress Level",
+            "value": 0,
+            "unit": "%",
+            "extra": "Crashes in: "
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "Ultimaker",
+            "username": "Ultimaker"
+          },
+          "committer": {
+            "name": "Ultimaker",
+            "username": "Ultimaker"
+          },
+          "id": "1e6ef5db120adef2e0ca3df336a7940ff8dd9033",
+          "message": "CURA-12449 handling painted models map",
+          "timestamp": "2025-08-07T10:12:59Z",
+          "url": "https://github.com/Ultimaker/CuraEngine/pull/2243/commits/1e6ef5db120adef2e0ca3df336a7940ff8dd9033"
+        },
+        "date": 1754662503395,
         "tool": "customSmallerIsBetter",
         "benches": [
           {
