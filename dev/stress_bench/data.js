@@ -1,44 +1,8 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1754664477308,
+  "lastUpdate": 1756739715926,
   "repoUrl": "https://github.com/Ultimaker/CuraEngine",
   "entries": {
     "Stress Benchmark": [
-      {
-        "commit": {
-          "author": {
-            "email": "alireza.doustdar@gmail.com",
-            "name": "HellAholic",
-            "username": "HellAholic"
-          },
-          "committer": {
-            "email": "noreply@github.com",
-            "name": "GitHub",
-            "username": "web-flow"
-          },
-          "distinct": true,
-          "id": "493383fdce8856a2b4d31a2b02e1f7ca4784823c",
-          "message": "Reduce the interleaved prime tower wasted filament (#2094)",
-          "timestamp": "2024-07-02T14:15:02+02:00",
-          "tree_id": "b916ec1cf482610f9972d429569851efbfa3da47",
-          "url": "https://github.com/Ultimaker/CuraEngine/commit/493383fdce8856a2b4d31a2b02e1f7ca4784823c"
-        },
-        "date": 1719923396079,
-        "tool": "customSmallerIsBetter",
-        "benches": [
-          {
-            "name": "Number of test cases",
-            "value": 61,
-            "unit": "-",
-            "extra": ""
-          },
-          {
-            "name": "General Stress Level",
-            "value": 0,
-            "unit": "%",
-            "extra": "Crashes in: "
-          }
-        ]
-      },
       {
         "commit": {
           "author": {
@@ -8175,6 +8139,38 @@ window.BENCHMARK_DATA = {
           "url": "https://github.com/Ultimaker/CuraEngine/pull/2243/commits/36bb64443a1535564ae3165a01d214ac11d58f1e"
         },
         "date": 1754664473095,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "Number of test cases",
+            "value": 61,
+            "unit": "-",
+            "extra": ""
+          },
+          {
+            "name": "General Stress Level",
+            "value": 0,
+            "unit": "%",
+            "extra": "Crashes in: "
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "Ultimaker",
+            "username": "Ultimaker"
+          },
+          "committer": {
+            "name": "Ultimaker",
+            "username": "Ultimaker"
+          },
+          "id": "85fb90fdbd8c3506687205f3fc9afbf60b2e70c5",
+          "message": "CURA-12449 handling painted models map",
+          "timestamp": "2025-08-23T23:25:52Z",
+          "url": "https://github.com/Ultimaker/CuraEngine/pull/2243/commits/85fb90fdbd8c3506687205f3fc9afbf60b2e70c5"
+        },
+        "date": 1756739711500,
         "tool": "customSmallerIsBetter",
         "benches": [
           {
