@@ -1,40 +1,8 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1757407879821,
+  "lastUpdate": 1757408955886,
   "repoUrl": "https://github.com/Ultimaker/CuraEngine",
   "entries": {
     "Stress Benchmark": [
-      {
-        "commit": {
-          "author": {
-            "name": "Ultimaker",
-            "username": "Ultimaker"
-          },
-          "committer": {
-            "name": "Ultimaker",
-            "username": "Ultimaker"
-          },
-          "id": "d0ade560b8c257a5fff0fb90ba85b3eb3451ff17",
-          "message": "Fix crash when using tangent on angles with PI/2 value",
-          "timestamp": "2024-07-02T13:24:45Z",
-          "url": "https://github.com/Ultimaker/CuraEngine/pull/2110/commits/d0ade560b8c257a5fff0fb90ba85b3eb3451ff17"
-        },
-        "date": 1719927878244,
-        "tool": "customSmallerIsBetter",
-        "benches": [
-          {
-            "name": "Number of test cases",
-            "value": 61,
-            "unit": "-",
-            "extra": ""
-          },
-          {
-            "name": "General Stress Level",
-            "value": 0,
-            "unit": "%",
-            "extra": "Crashes in: "
-          }
-        ]
-      },
       {
         "commit": {
           "author": {
@@ -8167,6 +8135,38 @@ window.BENCHMARK_DATA = {
           "url": "https://github.com/Ultimaker/CuraEngine/pull/2243/commits/f8e5809fec5dfdd24bdb66f305b9a87ea9b49c17"
         },
         "date": 1757407875601,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "Number of test cases",
+            "value": 61,
+            "unit": "-",
+            "extra": ""
+          },
+          {
+            "name": "General Stress Level",
+            "value": 0,
+            "unit": "%",
+            "extra": "Crashes in: "
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "Ultimaker",
+            "username": "Ultimaker"
+          },
+          "committer": {
+            "name": "Ultimaker",
+            "username": "Ultimaker"
+          },
+          "id": "654b806cfb17e7b1be320444ac4febe611216461",
+          "message": "CURA-12449 handling painted models",
+          "timestamp": "2025-09-07T18:22:55Z",
+          "url": "https://github.com/Ultimaker/CuraEngine/pull/2243/commits/654b806cfb17e7b1be320444ac4febe611216461"
+        },
+        "date": 1757408951164,
         "tool": "customSmallerIsBetter",
         "benches": [
           {
