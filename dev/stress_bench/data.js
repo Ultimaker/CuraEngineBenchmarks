@@ -1,44 +1,8 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1756739715926,
+  "lastUpdate": 1757407879821,
   "repoUrl": "https://github.com/Ultimaker/CuraEngine",
   "entries": {
     "Stress Benchmark": [
-      {
-        "commit": {
-          "author": {
-            "email": "r.burema@ultimaker.com",
-            "name": "Remco Burema",
-            "username": "rburema"
-          },
-          "committer": {
-            "email": "r.burema@ultimaker.com",
-            "name": "Remco Burema",
-            "username": "rburema"
-          },
-          "distinct": true,
-          "id": "653e9fe5dadf07d6309a461a1c2a9721e353259d",
-          "message": "Fix it on other compilers.",
-          "timestamp": "2024-07-02T14:56:54+02:00",
-          "tree_id": "1e4ee7600151e0472a906f2282784cc01cfaa405",
-          "url": "https://github.com/Ultimaker/CuraEngine/commit/653e9fe5dadf07d6309a461a1c2a9721e353259d"
-        },
-        "date": 1719925890308,
-        "tool": "customSmallerIsBetter",
-        "benches": [
-          {
-            "name": "Number of test cases",
-            "value": 61,
-            "unit": "-",
-            "extra": ""
-          },
-          {
-            "name": "General Stress Level",
-            "value": 0,
-            "unit": "%",
-            "extra": "Crashes in: "
-          }
-        ]
-      },
       {
         "commit": {
           "author": {
@@ -8171,6 +8135,38 @@ window.BENCHMARK_DATA = {
           "url": "https://github.com/Ultimaker/CuraEngine/pull/2243/commits/85fb90fdbd8c3506687205f3fc9afbf60b2e70c5"
         },
         "date": 1756739711500,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "Number of test cases",
+            "value": 61,
+            "unit": "-",
+            "extra": ""
+          },
+          {
+            "name": "General Stress Level",
+            "value": 0,
+            "unit": "%",
+            "extra": "Crashes in: "
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "Ultimaker",
+            "username": "Ultimaker"
+          },
+          "committer": {
+            "name": "Ultimaker",
+            "username": "Ultimaker"
+          },
+          "id": "f8e5809fec5dfdd24bdb66f305b9a87ea9b49c17",
+          "message": "CURA-12449 handling painted models",
+          "timestamp": "2025-09-07T18:22:55Z",
+          "url": "https://github.com/Ultimaker/CuraEngine/pull/2243/commits/f8e5809fec5dfdd24bdb66f305b9a87ea9b49c17"
+        },
+        "date": 1757407875601,
         "tool": "customSmallerIsBetter",
         "benches": [
           {
