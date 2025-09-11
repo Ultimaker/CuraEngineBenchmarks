@@ -1,44 +1,8 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1757576346313,
+  "lastUpdate": 1757594352305,
   "repoUrl": "https://github.com/Ultimaker/CuraEngine",
   "entries": {
     "Stress Benchmark": [
-      {
-        "commit": {
-          "author": {
-            "email": "41987080+rburema@users.noreply.github.com",
-            "name": "Remco Burema",
-            "username": "rburema"
-          },
-          "committer": {
-            "email": "noreply@github.com",
-            "name": "GitHub",
-            "username": "web-flow"
-          },
-          "distinct": true,
-          "id": "663753ba04cd666fce79e56f998f2230b41cdc82",
-          "message": "Mac fixes prime tower (#2112)",
-          "timestamp": "2024-07-03T09:12:58+02:00",
-          "tree_id": "e1b60aad1d483c67f898a6104ee2bcad91380149",
-          "url": "https://github.com/Ultimaker/CuraEngine/commit/663753ba04cd666fce79e56f998f2230b41cdc82"
-        },
-        "date": 1719991176989,
-        "tool": "customSmallerIsBetter",
-        "benches": [
-          {
-            "name": "Number of test cases",
-            "value": 61,
-            "unit": "-",
-            "extra": ""
-          },
-          {
-            "name": "General Stress Level",
-            "value": 0,
-            "unit": "%",
-            "extra": "Crashes in: "
-          }
-        ]
-      },
       {
         "commit": {
           "author": {
@@ -8167,6 +8131,38 @@ window.BENCHMARK_DATA = {
           "url": "https://github.com/Ultimaker/CuraEngine/pull/2243/commits/f24f3c4fa31b95bfcd16d10add81c814ea77f530"
         },
         "date": 1757576341966,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "Number of test cases",
+            "value": 61,
+            "unit": "-",
+            "extra": ""
+          },
+          {
+            "name": "General Stress Level",
+            "value": 0,
+            "unit": "%",
+            "extra": "Crashes in: "
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "Ultimaker",
+            "username": "Ultimaker"
+          },
+          "committer": {
+            "name": "Ultimaker",
+            "username": "Ultimaker"
+          },
+          "id": "46040ad6bead0d8211f562ca76c616c57a06fce0",
+          "message": "CURA-12449 handling painted models",
+          "timestamp": "2025-09-11T00:43:13Z",
+          "url": "https://github.com/Ultimaker/CuraEngine/pull/2243/commits/46040ad6bead0d8211f562ca76c616c57a06fce0"
+        },
+        "date": 1757594347839,
         "tool": "customSmallerIsBetter",
         "benches": [
           {
