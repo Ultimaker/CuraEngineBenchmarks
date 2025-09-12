@@ -1,40 +1,8 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1757608154693,
+  "lastUpdate": 1757686759317,
   "repoUrl": "https://github.com/Ultimaker/CuraEngine",
   "entries": {
     "Stress Benchmark": [
-      {
-        "commit": {
-          "author": {
-            "name": "Ultimaker",
-            "username": "Ultimaker"
-          },
-          "committer": {
-            "name": "Ultimaker",
-            "username": "Ultimaker"
-          },
-          "id": "c08f517a9a1c491135b61e62117033ec76c3f01a",
-          "message": "Fix crash when using tangent on angles with PI/2 value",
-          "timestamp": "2024-07-03T10:37:26Z",
-          "url": "https://github.com/Ultimaker/CuraEngine/pull/2110/commits/c08f517a9a1c491135b61e62117033ec76c3f01a"
-        },
-        "date": 1720003879157,
-        "tool": "customSmallerIsBetter",
-        "benches": [
-          {
-            "name": "Number of test cases",
-            "value": 61,
-            "unit": "-",
-            "extra": ""
-          },
-          {
-            "name": "General Stress Level",
-            "value": 0,
-            "unit": "%",
-            "extra": "Crashes in: "
-          }
-        ]
-      },
       {
         "commit": {
           "author": {
@@ -8159,6 +8127,38 @@ window.BENCHMARK_DATA = {
           "url": "https://github.com/Ultimaker/CuraEngine/pull/2244/commits/5156bdcc4d3e95770c406a88f0a58b19f640e92b"
         },
         "date": 1757608149914,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "Number of test cases",
+            "value": 61,
+            "unit": "-",
+            "extra": ""
+          },
+          {
+            "name": "General Stress Level",
+            "value": 0,
+            "unit": "%",
+            "extra": "Crashes in: "
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "Ultimaker",
+            "username": "Ultimaker"
+          },
+          "committer": {
+            "name": "Ultimaker",
+            "username": "Ultimaker"
+          },
+          "id": "834c5cc88cb4b774cc96ae9472fd06f5898377f5",
+          "message": "CURA-12249 Remove \"None\" seam corner preference",
+          "timestamp": "2025-09-11T00:43:13Z",
+          "url": "https://github.com/Ultimaker/CuraEngine/pull/2244/commits/834c5cc88cb4b774cc96ae9472fd06f5898377f5"
+        },
+        "date": 1757686754288,
         "tool": "customSmallerIsBetter",
         "benches": [
           {
