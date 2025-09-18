@@ -1,40 +1,8 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1758110805991,
+  "lastUpdate": 1758186451593,
   "repoUrl": "https://github.com/Ultimaker/CuraEngine",
   "entries": {
     "Stress Benchmark": [
-      {
-        "commit": {
-          "author": {
-            "name": "Ultimaker",
-            "username": "Ultimaker"
-          },
-          "committer": {
-            "name": "Ultimaker",
-            "username": "Ultimaker"
-          },
-          "id": "1e48764ecdcb191a08998d3f00241a7b8bcc17ab",
-          "message": "[CURA-11887] Fuzzy Skin Outside Only: Make definition of 'inside' user-settable",
-          "timestamp": "2024-07-03T12:28:01Z",
-          "url": "https://github.com/Ultimaker/CuraEngine/pull/2113/commits/1e48764ecdcb191a08998d3f00241a7b8bcc17ab"
-        },
-        "date": 1720079319122,
-        "tool": "customSmallerIsBetter",
-        "benches": [
-          {
-            "name": "Number of test cases",
-            "value": 61,
-            "unit": "-",
-            "extra": ""
-          },
-          {
-            "name": "General Stress Level",
-            "value": 0,
-            "unit": "%",
-            "extra": "Crashes in: "
-          }
-        ]
-      },
       {
         "commit": {
           "author": {
@@ -8159,6 +8127,38 @@ window.BENCHMARK_DATA = {
           "url": "https://github.com/Ultimaker/CuraEngine/commit/53d1ae7b42ca4a4f64984639af2e1fba4122b4a9"
         },
         "date": 1758110801222,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "Number of test cases",
+            "value": 61,
+            "unit": "-",
+            "extra": ""
+          },
+          {
+            "name": "General Stress Level",
+            "value": 0,
+            "unit": "%",
+            "extra": "Crashes in: "
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "Ultimaker",
+            "username": "Ultimaker"
+          },
+          "committer": {
+            "name": "Ultimaker",
+            "username": "Ultimaker"
+          },
+          "id": "e1886e8fc21ca0e0ab4eacd32c8343b7d9fee15d",
+          "message": "CURA-12449 handling painted models",
+          "timestamp": "2025-09-17T11:40:27Z",
+          "url": "https://github.com/Ultimaker/CuraEngine/pull/2243/commits/e1886e8fc21ca0e0ab4eacd32c8343b7d9fee15d"
+        },
+        "date": 1758186447204,
         "tool": "customSmallerIsBetter",
         "benches": [
           {
