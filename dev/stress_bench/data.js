@@ -1,40 +1,8 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1758186451593,
+  "lastUpdate": 1758283181468,
   "repoUrl": "https://github.com/Ultimaker/CuraEngine",
   "entries": {
     "Stress Benchmark": [
-      {
-        "commit": {
-          "author": {
-            "name": "Ultimaker",
-            "username": "Ultimaker"
-          },
-          "committer": {
-            "name": "Ultimaker",
-            "username": "Ultimaker"
-          },
-          "id": "a3262e9dde198e14f4aa1c4c03b1f8c8d58e1961",
-          "message": "CURA-6410 buggy fan speed interpolation",
-          "timestamp": "2024-07-03T12:28:01Z",
-          "url": "https://github.com/Ultimaker/CuraEngine/pull/2111/commits/a3262e9dde198e14f4aa1c4c03b1f8c8d58e1961"
-        },
-        "date": 1720090072895,
-        "tool": "customSmallerIsBetter",
-        "benches": [
-          {
-            "name": "Number of test cases",
-            "value": 61,
-            "unit": "-",
-            "extra": ""
-          },
-          {
-            "name": "General Stress Level",
-            "value": 0,
-            "unit": "%",
-            "extra": "Crashes in: "
-          }
-        ]
-      },
       {
         "commit": {
           "author": {
@@ -8159,6 +8127,42 @@ window.BENCHMARK_DATA = {
           "url": "https://github.com/Ultimaker/CuraEngine/pull/2243/commits/e1886e8fc21ca0e0ab4eacd32c8343b7d9fee15d"
         },
         "date": 1758186447204,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "Number of test cases",
+            "value": 61,
+            "unit": "-",
+            "extra": ""
+          },
+          {
+            "name": "General Stress Level",
+            "value": 0,
+            "unit": "%",
+            "extra": "Crashes in: "
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "erwan.mathieu@ultimaker.com",
+            "name": "Erwan MATHIEU",
+            "username": "wawanbreton"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "4cd494dfd2cec1c3079bc180617d37420b0ba5d7",
+          "message": "CURA-12449 handling painted models (#2243)",
+          "timestamp": "2025-09-19T13:34:07+02:00",
+          "tree_id": "f5dc2c5283f98a995596c95a172ead1a54e56b5e",
+          "url": "https://github.com/Ultimaker/CuraEngine/commit/4cd494dfd2cec1c3079bc180617d37420b0ba5d7"
+        },
+        "date": 1758283176916,
         "tool": "customSmallerIsBetter",
         "benches": [
           {
