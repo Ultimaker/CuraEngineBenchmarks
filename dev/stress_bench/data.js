@@ -1,40 +1,8 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1758640556303,
+  "lastUpdate": 1758641503600,
   "repoUrl": "https://github.com/Ultimaker/CuraEngine",
   "entries": {
     "Stress Benchmark": [
-      {
-        "commit": {
-          "author": {
-            "name": "Ultimaker",
-            "username": "Ultimaker"
-          },
-          "committer": {
-            "name": "Ultimaker",
-            "username": "Ultimaker"
-          },
-          "id": "f216154cdf930ba21c1e35d34295d252d796a7f4",
-          "message": "CURA-12023 Fix ghost prime tower",
-          "timestamp": "2024-07-08T18:00:31Z",
-          "url": "https://github.com/Ultimaker/CuraEngine/pull/2115/commits/f216154cdf930ba21c1e35d34295d252d796a7f4"
-        },
-        "date": 1720514024448,
-        "tool": "customSmallerIsBetter",
-        "benches": [
-          {
-            "name": "Number of test cases",
-            "value": 61,
-            "unit": "-",
-            "extra": ""
-          },
-          {
-            "name": "General Stress Level",
-            "value": 0,
-            "unit": "%",
-            "extra": "Crashes in: "
-          }
-        ]
-      },
       {
         "commit": {
           "author": {
@@ -8159,6 +8127,38 @@ window.BENCHMARK_DATA = {
           "url": "https://github.com/Ultimaker/CuraEngine/pull/2246/commits/b06fcd43907df2aeb8467ded7fb7bba60afa55a8"
         },
         "date": 1758640551858,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "Number of test cases",
+            "value": 61,
+            "unit": "-",
+            "extra": ""
+          },
+          {
+            "name": "General Stress Level",
+            "value": 0,
+            "unit": "%",
+            "extra": "Crashes in: "
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "Ultimaker",
+            "username": "Ultimaker"
+          },
+          "committer": {
+            "name": "Ultimaker",
+            "username": "Ultimaker"
+          },
+          "id": "77920828906d1177e10dff1093a473266afdd8b9",
+          "message": "Exclude OneTBB dependency and related code for Emscripten builds.",
+          "timestamp": "2025-09-19T11:34:21Z",
+          "url": "https://github.com/Ultimaker/CuraEngine/pull/2246/commits/77920828906d1177e10dff1093a473266afdd8b9"
+        },
+        "date": 1758641499163,
         "tool": "customSmallerIsBetter",
         "benches": [
           {
