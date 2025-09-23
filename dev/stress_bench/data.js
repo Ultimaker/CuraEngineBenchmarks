@@ -1,40 +1,8 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1758283181468,
+  "lastUpdate": 1758640011986,
   "repoUrl": "https://github.com/Ultimaker/CuraEngine",
   "entries": {
     "Stress Benchmark": [
-      {
-        "commit": {
-          "author": {
-            "name": "Ultimaker",
-            "username": "Ultimaker"
-          },
-          "committer": {
-            "name": "Ultimaker",
-            "username": "Ultimaker"
-          },
-          "id": "c750ec6755ba0347806f33ada167a389cb24f34e",
-          "message": "CURA-6410 buggy fan speed interpolation",
-          "timestamp": "2024-07-03T12:28:01Z",
-          "url": "https://github.com/Ultimaker/CuraEngine/pull/2111/commits/c750ec6755ba0347806f33ada167a389cb24f34e"
-        },
-        "date": 1720109140236,
-        "tool": "customSmallerIsBetter",
-        "benches": [
-          {
-            "name": "Number of test cases",
-            "value": 61,
-            "unit": "-",
-            "extra": ""
-          },
-          {
-            "name": "General Stress Level",
-            "value": 0,
-            "unit": "%",
-            "extra": "Crashes in: "
-          }
-        ]
-      },
       {
         "commit": {
           "author": {
@@ -8163,6 +8131,38 @@ window.BENCHMARK_DATA = {
           "url": "https://github.com/Ultimaker/CuraEngine/commit/4cd494dfd2cec1c3079bc180617d37420b0ba5d7"
         },
         "date": 1758283176916,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "Number of test cases",
+            "value": 61,
+            "unit": "-",
+            "extra": ""
+          },
+          {
+            "name": "General Stress Level",
+            "value": 0,
+            "unit": "%",
+            "extra": "Crashes in: "
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "Ultimaker",
+            "username": "Ultimaker"
+          },
+          "committer": {
+            "name": "Ultimaker",
+            "username": "Ultimaker"
+          },
+          "id": "828e7a8e8d7119586cbed28939bbb0c64f840d07",
+          "message": "Exclude OneTBB dependency and related code for Emscripten builds.",
+          "timestamp": "2025-09-19T11:34:21Z",
+          "url": "https://github.com/Ultimaker/CuraEngine/pull/2246/commits/828e7a8e8d7119586cbed28939bbb0c64f840d07"
+        },
+        "date": 1758640002934,
         "tool": "customSmallerIsBetter",
         "benches": [
           {
