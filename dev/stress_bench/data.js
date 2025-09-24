@@ -1,40 +1,8 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1758723065402,
+  "lastUpdate": 1758725792294,
   "repoUrl": "https://github.com/Ultimaker/CuraEngine",
   "entries": {
     "Stress Benchmark": [
-      {
-        "commit": {
-          "author": {
-            "name": "Ultimaker",
-            "username": "Ultimaker"
-          },
-          "committer": {
-            "name": "Ultimaker",
-            "username": "Ultimaker"
-          },
-          "id": "9b610fe951366b35c4908cd0f8d42fa39fd436a4",
-          "message": "[CURA-12017] Fix fan-speed got set to (-)NaN",
-          "timestamp": "2024-07-08T18:00:31Z",
-          "url": "https://github.com/Ultimaker/CuraEngine/pull/2117/commits/9b610fe951366b35c4908cd0f8d42fa39fd436a4"
-        },
-        "date": 1720595864006,
-        "tool": "customSmallerIsBetter",
-        "benches": [
-          {
-            "name": "Number of test cases",
-            "value": 61,
-            "unit": "-",
-            "extra": ""
-          },
-          {
-            "name": "General Stress Level",
-            "value": 0,
-            "unit": "%",
-            "extra": "Crashes in: "
-          }
-        ]
-      },
       {
         "commit": {
           "author": {
@@ -8159,6 +8127,38 @@ window.BENCHMARK_DATA = {
           "url": "https://github.com/Ultimaker/CuraEngine/pull/2247/commits/2964d7058b535c06d881067e2c81a172b99db052"
         },
         "date": 1758723061015,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "Number of test cases",
+            "value": 61,
+            "unit": "-",
+            "extra": ""
+          },
+          {
+            "name": "General Stress Level",
+            "value": 0,
+            "unit": "%",
+            "extra": "Crashes in: "
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "Ultimaker",
+            "username": "Ultimaker"
+          },
+          "committer": {
+            "name": "Ultimaker",
+            "username": "Ultimaker"
+          },
+          "id": "122891f22029bf76877c56e607c8d1c3d8efd4bb",
+          "message": "CURA-12730 Use mesh extruder if painted extruder is missing or disabled",
+          "timestamp": "2025-09-19T11:34:21Z",
+          "url": "https://github.com/Ultimaker/CuraEngine/pull/2248/commits/122891f22029bf76877c56e607c8d1c3d8efd4bb"
+        },
+        "date": 1758725787794,
         "tool": "customSmallerIsBetter",
         "benches": [
           {
