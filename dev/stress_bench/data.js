@@ -1,40 +1,8 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1759130717519,
+  "lastUpdate": 1759140011804,
   "repoUrl": "https://github.com/Ultimaker/CuraEngine",
   "entries": {
     "Stress Benchmark": [
-      {
-        "commit": {
-          "author": {
-            "name": "Ultimaker",
-            "username": "Ultimaker"
-          },
-          "committer": {
-            "name": "Ultimaker",
-            "username": "Ultimaker"
-          },
-          "id": "a9574d62e7aaa97cc59f116da9a021d42e3b6258",
-          "message": "CURA-12038 Coasting affected by z seam not on vertex",
-          "timestamp": "2024-07-08T18:00:31Z",
-          "url": "https://github.com/Ultimaker/CuraEngine/pull/2119/commits/a9574d62e7aaa97cc59f116da9a021d42e3b6258"
-        },
-        "date": 1720704988436,
-        "tool": "customSmallerIsBetter",
-        "benches": [
-          {
-            "name": "Number of test cases",
-            "value": 61,
-            "unit": "-",
-            "extra": ""
-          },
-          {
-            "name": "General Stress Level",
-            "value": 0,
-            "unit": "%",
-            "extra": "Crashes in: "
-          }
-        ]
-      },
       {
         "commit": {
           "author": {
@@ -8159,6 +8127,38 @@ window.BENCHMARK_DATA = {
           "url": "https://github.com/Ultimaker/CuraEngine/pull/2246/commits/84691ff92ae8f5de13064fc29d41872828a4a102"
         },
         "date": 1759130713072,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "Number of test cases",
+            "value": 61,
+            "unit": "-",
+            "extra": ""
+          },
+          {
+            "name": "General Stress Level",
+            "value": 0,
+            "unit": "%",
+            "extra": "Crashes in: "
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "Ultimaker",
+            "username": "Ultimaker"
+          },
+          "committer": {
+            "name": "Ultimaker",
+            "username": "Ultimaker"
+          },
+          "id": "a444a2526d9d1762aa00febb4ba23f5f1a7554ca",
+          "message": "CURA-12740 properly handle material painting when object is set to extruder != 1",
+          "timestamp": "2025-09-19T11:34:21Z",
+          "url": "https://github.com/Ultimaker/CuraEngine/pull/2249/commits/a444a2526d9d1762aa00febb4ba23f5f1a7554ca"
+        },
+        "date": 1759140007273,
         "tool": "customSmallerIsBetter",
         "benches": [
           {
