@@ -1,40 +1,8 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1759159586242,
+  "lastUpdate": 1759227458644,
   "repoUrl": "https://github.com/Ultimaker/CuraEngine",
   "entries": {
     "Stress Benchmark": [
-      {
-        "commit": {
-          "author": {
-            "name": "Ultimaker",
-            "username": "Ultimaker"
-          },
-          "committer": {
-            "name": "Ultimaker",
-            "username": "Ultimaker"
-          },
-          "id": "5327c0286f1421e1f44aba57e58736acc3c77239",
-          "message": "[CURA-10914] Add ability to register multiple modify plugins",
-          "timestamp": "2024-07-22T09:57:48Z",
-          "url": "https://github.com/Ultimaker/CuraEngine/pull/2123/commits/5327c0286f1421e1f44aba57e58736acc3c77239"
-        },
-        "date": 1721807394744,
-        "tool": "customSmallerIsBetter",
-        "benches": [
-          {
-            "name": "Number of test cases",
-            "value": 61,
-            "unit": "-",
-            "extra": ""
-          },
-          {
-            "name": "General Stress Level",
-            "value": 0,
-            "unit": "%",
-            "extra": "Crashes in: "
-          }
-        ]
-      },
       {
         "commit": {
           "author": {
@@ -8159,6 +8127,38 @@ window.BENCHMARK_DATA = {
           "url": "https://github.com/Ultimaker/CuraEngine/pull/2250/commits/91d6fff639d2826c28ee59e254f67d153841366d"
         },
         "date": 1759159580368,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "Number of test cases",
+            "value": 61,
+            "unit": "-",
+            "extra": ""
+          },
+          {
+            "name": "General Stress Level",
+            "value": 0,
+            "unit": "%",
+            "extra": "Crashes in: "
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "Ultimaker",
+            "username": "Ultimaker"
+          },
+          "committer": {
+            "name": "Ultimaker",
+            "username": "Ultimaker"
+          },
+          "id": "07fb38a183422d9257bb2d0c7c32c166b29def61",
+          "message": "Fix typecasting issue when compiled to web assembly",
+          "timestamp": "2025-09-19T11:34:21Z",
+          "url": "https://github.com/Ultimaker/CuraEngine/pull/2251/commits/07fb38a183422d9257bb2d0c7c32c166b29def61"
+        },
+        "date": 1759227453874,
         "tool": "customSmallerIsBetter",
         "benches": [
           {
