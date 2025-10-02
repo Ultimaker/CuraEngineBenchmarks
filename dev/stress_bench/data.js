@@ -1,44 +1,8 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1759227458644,
+  "lastUpdate": 1759388137462,
   "repoUrl": "https://github.com/Ultimaker/CuraEngine",
   "entries": {
     "Stress Benchmark": [
-      {
-        "commit": {
-          "author": {
-            "email": "alireza.doustdar@gmail.com",
-            "name": "HellAholic",
-            "username": "HellAholic"
-          },
-          "committer": {
-            "email": "noreply@github.com",
-            "name": "GitHub",
-            "username": "web-flow"
-          },
-          "distinct": true,
-          "id": "149226c14dda977d53ddb8b840f34b46cb3ce514",
-          "message": "[CURA-10914] Add ability to register multiple modify plugins (#2123)",
-          "timestamp": "2024-07-24T11:23:15+02:00",
-          "tree_id": "7d2f92d927ae777cc048a53d83d22f8a0c0e0dce",
-          "url": "https://github.com/Ultimaker/CuraEngine/commit/149226c14dda977d53ddb8b840f34b46cb3ce514"
-        },
-        "date": 1721813970307,
-        "tool": "customSmallerIsBetter",
-        "benches": [
-          {
-            "name": "Number of test cases",
-            "value": 61,
-            "unit": "-",
-            "extra": ""
-          },
-          {
-            "name": "General Stress Level",
-            "value": 0,
-            "unit": "%",
-            "extra": "Crashes in: "
-          }
-        ]
-      },
       {
         "commit": {
           "author": {
@@ -8159,6 +8123,38 @@ window.BENCHMARK_DATA = {
           "url": "https://github.com/Ultimaker/CuraEngine/pull/2251/commits/07fb38a183422d9257bb2d0c7c32c166b29def61"
         },
         "date": 1759227453874,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "Number of test cases",
+            "value": 61,
+            "unit": "-",
+            "extra": ""
+          },
+          {
+            "name": "General Stress Level",
+            "value": 0,
+            "unit": "%",
+            "extra": "Crashes in: "
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "Ultimaker",
+            "username": "Ultimaker"
+          },
+          "committer": {
+            "name": "Ultimaker",
+            "username": "Ultimaker"
+          },
+          "id": "48d79e7826e8acaff802474a59da478104d26506",
+          "message": "CURA-12736 Make sure extruder mesh modifiers are treated as regular meshes",
+          "timestamp": "2025-09-19T11:34:21Z",
+          "url": "https://github.com/Ultimaker/CuraEngine/pull/2250/commits/48d79e7826e8acaff802474a59da478104d26506"
+        },
+        "date": 1759388132383,
         "tool": "customSmallerIsBetter",
         "benches": [
           {
