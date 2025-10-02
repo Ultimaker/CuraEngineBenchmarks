@@ -1,40 +1,8 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1759388137462,
+  "lastUpdate": 1759410142728,
   "repoUrl": "https://github.com/Ultimaker/CuraEngine",
   "entries": {
     "Stress Benchmark": [
-      {
-        "commit": {
-          "author": {
-            "name": "Ultimaker",
-            "username": "Ultimaker"
-          },
-          "committer": {
-            "name": "Ultimaker",
-            "username": "Ultimaker"
-          },
-          "id": "e41ddda34dc8b1ef598d38f97116a9b19241f0c9",
-          "message": "[CURA-12061] Remove early-out: Restore 'side-effects' of unioning with empty.",
-          "timestamp": "2024-07-29T13:18:08Z",
-          "url": "https://github.com/Ultimaker/CuraEngine/pull/2124/commits/e41ddda34dc8b1ef598d38f97116a9b19241f0c9"
-        },
-        "date": 1722418044777,
-        "tool": "customSmallerIsBetter",
-        "benches": [
-          {
-            "name": "Number of test cases",
-            "value": 61,
-            "unit": "-",
-            "extra": ""
-          },
-          {
-            "name": "General Stress Level",
-            "value": 0,
-            "unit": "%",
-            "extra": "Crashes in: "
-          }
-        ]
-      },
       {
         "commit": {
           "author": {
@@ -8155,6 +8123,38 @@ window.BENCHMARK_DATA = {
           "url": "https://github.com/Ultimaker/CuraEngine/pull/2250/commits/48d79e7826e8acaff802474a59da478104d26506"
         },
         "date": 1759388132383,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "Number of test cases",
+            "value": 61,
+            "unit": "-",
+            "extra": ""
+          },
+          {
+            "name": "General Stress Level",
+            "value": 0,
+            "unit": "%",
+            "extra": "Crashes in: "
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "Ultimaker",
+            "username": "Ultimaker"
+          },
+          "committer": {
+            "name": "Ultimaker",
+            "username": "Ultimaker"
+          },
+          "id": "9e65bdea518a3e505a152b8ab0e4f1494d204a35",
+          "message": "CURA-12740 properly handle material painting when object is set to extruder != 1",
+          "timestamp": "2025-09-19T11:34:21Z",
+          "url": "https://github.com/Ultimaker/CuraEngine/pull/2249/commits/9e65bdea518a3e505a152b8ab0e4f1494d204a35"
+        },
+        "date": 1759410137857,
         "tool": "customSmallerIsBetter",
         "benches": [
           {
