@@ -1,40 +1,8 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1759410142728,
+  "lastUpdate": 1759766275502,
   "repoUrl": "https://github.com/Ultimaker/CuraEngine",
   "entries": {
     "Stress Benchmark": [
-      {
-        "commit": {
-          "author": {
-            "name": "Ultimaker",
-            "username": "Ultimaker"
-          },
-          "committer": {
-            "name": "Ultimaker",
-            "username": "Ultimaker"
-          },
-          "id": "078c20a04b71d220fb9dc22f54c6a70230e43263",
-          "message": "[CURA-12061] Remove early-out: Restore 'side-effects' of unioning with empty.",
-          "timestamp": "2024-07-29T13:18:08Z",
-          "url": "https://github.com/Ultimaker/CuraEngine/pull/2124/commits/078c20a04b71d220fb9dc22f54c6a70230e43263"
-        },
-        "date": 1722418632854,
-        "tool": "customSmallerIsBetter",
-        "benches": [
-          {
-            "name": "Number of test cases",
-            "value": 61,
-            "unit": "-",
-            "extra": ""
-          },
-          {
-            "name": "General Stress Level",
-            "value": 0,
-            "unit": "%",
-            "extra": "Crashes in: "
-          }
-        ]
-      },
       {
         "commit": {
           "author": {
@@ -8155,6 +8123,38 @@ window.BENCHMARK_DATA = {
           "url": "https://github.com/Ultimaker/CuraEngine/pull/2249/commits/9e65bdea518a3e505a152b8ab0e4f1494d204a35"
         },
         "date": 1759410137857,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "Number of test cases",
+            "value": 61,
+            "unit": "-",
+            "extra": ""
+          },
+          {
+            "name": "General Stress Level",
+            "value": 0,
+            "unit": "%",
+            "extra": "Crashes in: "
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "Ultimaker",
+            "username": "Ultimaker"
+          },
+          "committer": {
+            "name": "Ultimaker",
+            "username": "Ultimaker"
+          },
+          "id": "015eeb75540e6073bc489e0660e577ac69b023bc",
+          "message": "CURA-12770 Fix closed shaped being completely filled",
+          "timestamp": "2025-09-19T11:34:21Z",
+          "url": "https://github.com/Ultimaker/CuraEngine/pull/2252/commits/015eeb75540e6073bc489e0660e577ac69b023bc"
+        },
+        "date": 1759766270434,
         "tool": "customSmallerIsBetter",
         "benches": [
           {
