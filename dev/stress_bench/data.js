@@ -1,44 +1,8 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1759766275502,
+  "lastUpdate": 1759931453514,
   "repoUrl": "https://github.com/Ultimaker/CuraEngine",
   "entries": {
     "Stress Benchmark": [
-      {
-        "commit": {
-          "author": {
-            "email": "r.burema@ultimaker.com",
-            "name": "Remco Burema",
-            "username": "rburema"
-          },
-          "committer": {
-            "email": "r.burema@ultimaker.com",
-            "name": "Remco Burema",
-            "username": "rburema"
-          },
-          "distinct": true,
-          "id": "01b3e09ca186f2a6dc4f8f24772c86c5b7b19316",
-          "message": "Merge branch '5.8'",
-          "timestamp": "2024-07-31T14:56:24+02:00",
-          "tree_id": "16d398b0c2d39a6f93da03d478578d3ea2ea238b",
-          "url": "https://github.com/Ultimaker/CuraEngine/commit/01b3e09ca186f2a6dc4f8f24772c86c5b7b19316"
-        },
-        "date": 1722431651515,
-        "tool": "customSmallerIsBetter",
-        "benches": [
-          {
-            "name": "Number of test cases",
-            "value": 61,
-            "unit": "-",
-            "extra": ""
-          },
-          {
-            "name": "General Stress Level",
-            "value": 0,
-            "unit": "%",
-            "extra": "Crashes in: "
-          }
-        ]
-      },
       {
         "commit": {
           "author": {
@@ -8155,6 +8119,38 @@ window.BENCHMARK_DATA = {
           "url": "https://github.com/Ultimaker/CuraEngine/pull/2252/commits/015eeb75540e6073bc489e0660e577ac69b023bc"
         },
         "date": 1759766270434,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "Number of test cases",
+            "value": 61,
+            "unit": "-",
+            "extra": ""
+          },
+          {
+            "name": "General Stress Level",
+            "value": 0,
+            "unit": "%",
+            "extra": "Crashes in: "
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "Ultimaker",
+            "username": "Ultimaker"
+          },
+          "committer": {
+            "name": "Ultimaker",
+            "username": "Ultimaker"
+          },
+          "id": "83a402e42ec2b984dabab1a55ceb85eaa5618160",
+          "message": "Fix blobs between painted areas",
+          "timestamp": "2025-10-06T23:26:35Z",
+          "url": "https://github.com/Ultimaker/CuraEngine/pull/2253/commits/83a402e42ec2b984dabab1a55ceb85eaa5618160"
+        },
+        "date": 1759931448735,
         "tool": "customSmallerIsBetter",
         "benches": [
           {
