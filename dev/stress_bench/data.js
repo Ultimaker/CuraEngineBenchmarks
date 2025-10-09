@@ -1,40 +1,8 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1759931453514,
+  "lastUpdate": 1760005128559,
   "repoUrl": "https://github.com/Ultimaker/CuraEngine",
   "entries": {
     "Stress Benchmark": [
-      {
-        "commit": {
-          "author": {
-            "name": "Ultimaker",
-            "username": "Ultimaker"
-          },
-          "committer": {
-            "name": "Ultimaker",
-            "username": "Ultimaker"
-          },
-          "id": "b1adb5571b3b9b0831f726fe80968708620347fa",
-          "message": "[CURA-12043] When the mesh is known, use its center-point, instead of that of the scene.",
-          "timestamp": "2024-07-31T12:58:44Z",
-          "url": "https://github.com/Ultimaker/CuraEngine/pull/2126/commits/b1adb5571b3b9b0831f726fe80968708620347fa"
-        },
-        "date": 1722434956378,
-        "tool": "customSmallerIsBetter",
-        "benches": [
-          {
-            "name": "Number of test cases",
-            "value": 61,
-            "unit": "-",
-            "extra": ""
-          },
-          {
-            "name": "General Stress Level",
-            "value": 0,
-            "unit": "%",
-            "extra": "Crashes in: "
-          }
-        ]
-      },
       {
         "commit": {
           "author": {
@@ -8151,6 +8119,38 @@ window.BENCHMARK_DATA = {
           "url": "https://github.com/Ultimaker/CuraEngine/pull/2253/commits/83a402e42ec2b984dabab1a55ceb85eaa5618160"
         },
         "date": 1759931448735,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "Number of test cases",
+            "value": 61,
+            "unit": "-",
+            "extra": ""
+          },
+          {
+            "name": "General Stress Level",
+            "value": 0,
+            "unit": "%",
+            "extra": "Crashes in: "
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "Ultimaker",
+            "username": "Ultimaker"
+          },
+          "committer": {
+            "name": "Ultimaker",
+            "username": "Ultimaker"
+          },
+          "id": "a3d57e1dbd5788b701b2748e793f368655321ce0",
+          "message": "CURA-11989 difference in slice time on linux vs windows",
+          "timestamp": "2025-10-06T23:26:35Z",
+          "url": "https://github.com/Ultimaker/CuraEngine/pull/2254/commits/a3d57e1dbd5788b701b2748e793f368655321ce0"
+        },
+        "date": 1760005123884,
         "tool": "customSmallerIsBetter",
         "benches": [
           {
