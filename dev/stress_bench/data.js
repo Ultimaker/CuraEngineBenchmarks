@@ -1,44 +1,8 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1760005128559,
+  "lastUpdate": 1760081496561,
   "repoUrl": "https://github.com/Ultimaker/CuraEngine",
   "entries": {
     "Stress Benchmark": [
-      {
-        "commit": {
-          "author": {
-            "email": "nallath@gmail.com",
-            "name": "Jaime van Kessel",
-            "username": "nallath"
-          },
-          "committer": {
-            "email": "nallath@gmail.com",
-            "name": "Jaime van Kessel",
-            "username": "nallath"
-          },
-          "distinct": true,
-          "id": "bb637bb87666a0737628655773136c3d1d72eb10",
-          "message": "Merge branch '5.8' of github.com:Ultimaker/CuraEngine",
-          "timestamp": "2024-08-01T09:15:03+02:00",
-          "tree_id": "fa83b6fbcacb3ecce6e2d2a410a06ed9c8552e5a",
-          "url": "https://github.com/Ultimaker/CuraEngine/commit/bb637bb87666a0737628655773136c3d1d72eb10"
-        },
-        "date": 1722496934555,
-        "tool": "customSmallerIsBetter",
-        "benches": [
-          {
-            "name": "Number of test cases",
-            "value": 61,
-            "unit": "-",
-            "extra": ""
-          },
-          {
-            "name": "General Stress Level",
-            "value": 0,
-            "unit": "%",
-            "extra": "Crashes in: "
-          }
-        ]
-      },
       {
         "commit": {
           "author": {
@@ -8151,6 +8115,38 @@ window.BENCHMARK_DATA = {
           "url": "https://github.com/Ultimaker/CuraEngine/pull/2254/commits/a3d57e1dbd5788b701b2748e793f368655321ce0"
         },
         "date": 1760005123884,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "Number of test cases",
+            "value": 61,
+            "unit": "-",
+            "extra": ""
+          },
+          {
+            "name": "General Stress Level",
+            "value": 0,
+            "unit": "%",
+            "extra": "Crashes in: "
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "Ultimaker",
+            "username": "Ultimaker"
+          },
+          "committer": {
+            "name": "Ultimaker",
+            "username": "Ultimaker"
+          },
+          "id": "35be5d97e5ab2345ca5f4c754d3204f8a8d5e74a",
+          "message": "[CURA-12774] Don't chop up lines straddling roofing/normal areas too much",
+          "timestamp": "2025-10-06T23:26:35Z",
+          "url": "https://github.com/Ultimaker/CuraEngine/pull/2255/commits/35be5d97e5ab2345ca5f4c754d3204f8a8d5e74a"
+        },
+        "date": 1760081491913,
         "tool": "customSmallerIsBetter",
         "benches": [
           {
