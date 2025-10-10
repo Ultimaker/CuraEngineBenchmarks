@@ -1,44 +1,8 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1760112823636,
+  "lastUpdate": 1760114274313,
   "repoUrl": "https://github.com/Ultimaker/CuraEngine",
   "entries": {
     "Stress Benchmark": [
-      {
-        "commit": {
-          "author": {
-            "email": "alireza.doustdar@gmail.com",
-            "name": "HellAholic",
-            "username": "HellAholic"
-          },
-          "committer": {
-            "email": "noreply@github.com",
-            "name": "GitHub",
-            "username": "web-flow"
-          },
-          "distinct": true,
-          "id": "b04b241489d0e01005b6de8b3872d0fe81155a9c",
-          "message": "Add simple full on functionality for aux fan (#2129)",
-          "timestamp": "2024-08-05T16:13:09+02:00",
-          "tree_id": "cbddbb69d76dbd944e6e16341846e97152ff7191",
-          "url": "https://github.com/Ultimaker/CuraEngine/commit/b04b241489d0e01005b6de8b3872d0fe81155a9c"
-        },
-        "date": 1722868244001,
-        "tool": "customSmallerIsBetter",
-        "benches": [
-          {
-            "name": "Number of test cases",
-            "value": 61,
-            "unit": "-",
-            "extra": ""
-          },
-          {
-            "name": "General Stress Level",
-            "value": 0,
-            "unit": "%",
-            "extra": "Crashes in: "
-          }
-        ]
-      },
       {
         "commit": {
           "author": {
@@ -8143,6 +8107,38 @@ window.BENCHMARK_DATA = {
           "url": "https://github.com/Ultimaker/CuraEngine/pull/2227/commits/a461db3b72cb8f96fe1d9e06ac93f0b62c9e514c"
         },
         "date": 1760112818799,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "Number of test cases",
+            "value": 61,
+            "unit": "-",
+            "extra": ""
+          },
+          {
+            "name": "General Stress Level",
+            "value": 0,
+            "unit": "%",
+            "extra": "Crashes in: "
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "Ultimaker",
+            "username": "Ultimaker"
+          },
+          "committer": {
+            "name": "Ultimaker",
+            "username": "Ultimaker"
+          },
+          "id": "97d783ffbf2e8b4e03a898115924619814a046c7",
+          "message": "[CURA-12446] Added settings for a different number of walls in top-/bottom-most skin.",
+          "timestamp": "2025-10-10T13:09:56Z",
+          "url": "https://github.com/Ultimaker/CuraEngine/pull/2227/commits/97d783ffbf2e8b4e03a898115924619814a046c7"
+        },
+        "date": 1760114269677,
         "tool": "customSmallerIsBetter",
         "benches": [
           {
