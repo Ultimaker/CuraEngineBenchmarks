@@ -1,44 +1,8 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1760102025397,
+  "lastUpdate": 1760112823636,
   "repoUrl": "https://github.com/Ultimaker/CuraEngine",
   "entries": {
     "Stress Benchmark": [
-      {
-        "commit": {
-          "author": {
-            "email": "nallath@gmail.com",
-            "name": "Jaime van Kessel",
-            "username": "nallath"
-          },
-          "committer": {
-            "email": "nallath@gmail.com",
-            "name": "Jaime van Kessel",
-            "username": "nallath"
-          },
-          "distinct": true,
-          "id": "fac38a2b276725eae3de57f6f03a8b7b15e263b9",
-          "message": "Merge branch 'fix_initial_layer_diameter' of https://github.com/ThomasRahm/CuraEngine",
-          "timestamp": "2024-08-05T13:39:58+02:00",
-          "tree_id": "725b4117dc40c4815c26d3770daad083935cd70c",
-          "url": "https://github.com/Ultimaker/CuraEngine/commit/fac38a2b276725eae3de57f6f03a8b7b15e263b9"
-        },
-        "date": 1722859052775,
-        "tool": "customSmallerIsBetter",
-        "benches": [
-          {
-            "name": "Number of test cases",
-            "value": 61,
-            "unit": "-",
-            "extra": ""
-          },
-          {
-            "name": "General Stress Level",
-            "value": 0,
-            "unit": "%",
-            "extra": "Crashes in: "
-          }
-        ]
-      },
       {
         "commit": {
           "author": {
@@ -8147,6 +8111,38 @@ window.BENCHMARK_DATA = {
           "url": "https://github.com/Ultimaker/CuraEngine/pull/2227/commits/d93c09ce924eaacad5091b57304a971a7c15e6e5"
         },
         "date": 1760102020820,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "Number of test cases",
+            "value": 61,
+            "unit": "-",
+            "extra": ""
+          },
+          {
+            "name": "General Stress Level",
+            "value": 0,
+            "unit": "%",
+            "extra": "Crashes in: "
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "Ultimaker",
+            "username": "Ultimaker"
+          },
+          "committer": {
+            "name": "Ultimaker",
+            "username": "Ultimaker"
+          },
+          "id": "a461db3b72cb8f96fe1d9e06ac93f0b62c9e514c",
+          "message": "[CURA-12446] Added settings for a different number of walls in top-/bottom-most skin.",
+          "timestamp": "2025-10-10T13:09:56Z",
+          "url": "https://github.com/Ultimaker/CuraEngine/pull/2227/commits/a461db3b72cb8f96fe1d9e06ac93f0b62c9e514c"
+        },
+        "date": 1760112818799,
         "tool": "customSmallerIsBetter",
         "benches": [
           {
