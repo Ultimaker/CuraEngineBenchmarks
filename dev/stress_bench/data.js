@@ -1,40 +1,8 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1760088043533,
+  "lastUpdate": 1760102025397,
   "repoUrl": "https://github.com/Ultimaker/CuraEngine",
   "entries": {
     "Stress Benchmark": [
-      {
-        "commit": {
-          "author": {
-            "name": "Ultimaker",
-            "username": "Ultimaker"
-          },
-          "committer": {
-            "name": "Ultimaker",
-            "username": "Ultimaker"
-          },
-          "id": "cc034ed460da514cf78a0a862d06bca9a4bf4bbc",
-          "message": "Add simple full on functionality for aux fan",
-          "timestamp": "2024-08-03T22:09:03Z",
-          "url": "https://github.com/Ultimaker/CuraEngine/pull/2129/commits/cc034ed460da514cf78a0a862d06bca9a4bf4bbc"
-        },
-        "date": 1722856047861,
-        "tool": "customSmallerIsBetter",
-        "benches": [
-          {
-            "name": "Number of test cases",
-            "value": 61,
-            "unit": "-",
-            "extra": ""
-          },
-          {
-            "name": "General Stress Level",
-            "value": 0,
-            "unit": "%",
-            "extra": "Crashes in: "
-          }
-        ]
-      },
       {
         "commit": {
           "author": {
@@ -8147,6 +8115,38 @@ window.BENCHMARK_DATA = {
           "url": "https://github.com/Ultimaker/CuraEngine/pull/2227/commits/5b3d98966db442347557b2b6b2ae1e4099142cad"
         },
         "date": 1760088038928,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "Number of test cases",
+            "value": 61,
+            "unit": "-",
+            "extra": ""
+          },
+          {
+            "name": "General Stress Level",
+            "value": 0,
+            "unit": "%",
+            "extra": "Crashes in: "
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "Ultimaker",
+            "username": "Ultimaker"
+          },
+          "committer": {
+            "name": "Ultimaker",
+            "username": "Ultimaker"
+          },
+          "id": "d93c09ce924eaacad5091b57304a971a7c15e6e5",
+          "message": "[CURA-12446] Added settings for a different number of walls in top-/bottom-most skin.",
+          "timestamp": "2025-10-06T23:26:35Z",
+          "url": "https://github.com/Ultimaker/CuraEngine/pull/2227/commits/d93c09ce924eaacad5091b57304a971a7c15e6e5"
+        },
+        "date": 1760102020820,
         "tool": "customSmallerIsBetter",
         "benches": [
           {
