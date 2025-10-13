@@ -1,40 +1,8 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1760370583234,
+  "lastUpdate": 1760370696116,
   "repoUrl": "https://github.com/Ultimaker/CuraEngine",
   "entries": {
     "Stress Benchmark": [
-      {
-        "commit": {
-          "author": {
-            "name": "Ultimaker",
-            "username": "Ultimaker"
-          },
-          "committer": {
-            "name": "Ultimaker",
-            "username": "Ultimaker"
-          },
-          "id": "35ffb22842d04dce7fd5363664eeecd4cd72a1a9",
-          "message": "NP- 327 emscripten communication",
-          "timestamp": "2024-08-06T14:28:59Z",
-          "url": "https://github.com/Ultimaker/CuraEngine/pull/2131/commits/35ffb22842d04dce7fd5363664eeecd4cd72a1a9"
-        },
-        "date": 1723018641786,
-        "tool": "customSmallerIsBetter",
-        "benches": [
-          {
-            "name": "Number of test cases",
-            "value": 61,
-            "unit": "-",
-            "extra": ""
-          },
-          {
-            "name": "General Stress Level",
-            "value": 0,
-            "unit": "%",
-            "extra": "Crashes in: "
-          }
-        ]
-      },
       {
         "commit": {
           "author": {
@@ -8135,6 +8103,38 @@ window.BENCHMARK_DATA = {
           "url": "https://github.com/Ultimaker/CuraEngine/pull/2227/commits/c04a9241d10affe322f3aa20040c689fd828302b"
         },
         "date": 1760370578301,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "Number of test cases",
+            "value": 61,
+            "unit": "-",
+            "extra": ""
+          },
+          {
+            "name": "General Stress Level",
+            "value": 0,
+            "unit": "%",
+            "extra": "Crashes in: "
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "Ultimaker",
+            "username": "Ultimaker"
+          },
+          "committer": {
+            "name": "Ultimaker",
+            "username": "Ultimaker"
+          },
+          "id": "2c66ce49497ab0fc3eb462af9a791d20599746f1",
+          "message": "[CURA-12446] Added settings for a different number of walls in top-/bottom-most skin.",
+          "timestamp": "2025-10-11T07:34:29Z",
+          "url": "https://github.com/Ultimaker/CuraEngine/pull/2227/commits/2c66ce49497ab0fc3eb462af9a791d20599746f1"
+        },
+        "date": 1760370691165,
         "tool": "customSmallerIsBetter",
         "benches": [
           {
