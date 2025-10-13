@@ -1,44 +1,8 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1760354307936,
+  "lastUpdate": 1760356642373,
   "repoUrl": "https://github.com/Ultimaker/CuraEngine",
   "entries": {
     "Stress Benchmark": [
-      {
-        "commit": {
-          "author": {
-            "email": "41987080+rburema@users.noreply.github.com",
-            "name": "Remco Burema",
-            "username": "rburema"
-          },
-          "committer": {
-            "email": "noreply@github.com",
-            "name": "GitHub",
-            "username": "web-flow"
-          },
-          "distinct": true,
-          "id": "1411c5b122ab7fb916770ed1615e9e729cc300a1",
-          "message": "Np 208 various fixes (#2127)",
-          "timestamp": "2024-08-06T16:28:54+02:00",
-          "tree_id": "52547a1b01cf1fc777b388fd8f7abb568f02e3f6",
-          "url": "https://github.com/Ultimaker/CuraEngine/commit/1411c5b122ab7fb916770ed1615e9e729cc300a1"
-        },
-        "date": 1722955416561,
-        "tool": "customSmallerIsBetter",
-        "benches": [
-          {
-            "name": "Number of test cases",
-            "value": 61,
-            "unit": "-",
-            "extra": ""
-          },
-          {
-            "name": "General Stress Level",
-            "value": 0,
-            "unit": "%",
-            "extra": "Crashes in: "
-          }
-        ]
-      },
       {
         "commit": {
           "author": {
@@ -8139,6 +8103,38 @@ window.BENCHMARK_DATA = {
           "url": "https://github.com/Ultimaker/CuraEngine/pull/2252/commits/e8b5fe12e3fbd1e52e0d434e9c0c80b687ccb8e1"
         },
         "date": 1760354302229,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "Number of test cases",
+            "value": 61,
+            "unit": "-",
+            "extra": ""
+          },
+          {
+            "name": "General Stress Level",
+            "value": 0,
+            "unit": "%",
+            "extra": "Crashes in: "
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "Ultimaker",
+            "username": "Ultimaker"
+          },
+          "committer": {
+            "name": "Ultimaker",
+            "username": "Ultimaker"
+          },
+          "id": "d0a9dfbc2bf2834b4b72f2549dfc787741184bf7",
+          "message": "CURA-11989 difference in slice time on linux vs windows",
+          "timestamp": "2025-10-11T07:34:29Z",
+          "url": "https://github.com/Ultimaker/CuraEngine/pull/2254/commits/d0a9dfbc2bf2834b4b72f2549dfc787741184bf7"
+        },
+        "date": 1760356637823,
         "tool": "customSmallerIsBetter",
         "benches": [
           {
