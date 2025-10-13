@@ -1,40 +1,8 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1760114274313,
+  "lastUpdate": 1760354307936,
   "repoUrl": "https://github.com/Ultimaker/CuraEngine",
   "entries": {
     "Stress Benchmark": [
-      {
-        "commit": {
-          "author": {
-            "name": "Ultimaker",
-            "username": "Ultimaker"
-          },
-          "committer": {
-            "name": "Ultimaker",
-            "username": "Ultimaker"
-          },
-          "id": "f590948bbf5ef96770eeb03f130454a51e388473",
-          "message": "Np 208 various fixes",
-          "timestamp": "2024-08-06T13:56:32Z",
-          "url": "https://github.com/Ultimaker/CuraEngine/pull/2127/commits/f590948bbf5ef96770eeb03f130454a51e388473"
-        },
-        "date": 1722954556113,
-        "tool": "customSmallerIsBetter",
-        "benches": [
-          {
-            "name": "Number of test cases",
-            "value": 61,
-            "unit": "-",
-            "extra": ""
-          },
-          {
-            "name": "General Stress Level",
-            "value": 0,
-            "unit": "%",
-            "extra": "Crashes in: "
-          }
-        ]
-      },
       {
         "commit": {
           "author": {
@@ -8139,6 +8107,38 @@ window.BENCHMARK_DATA = {
           "url": "https://github.com/Ultimaker/CuraEngine/pull/2227/commits/97d783ffbf2e8b4e03a898115924619814a046c7"
         },
         "date": 1760114269677,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "Number of test cases",
+            "value": 61,
+            "unit": "-",
+            "extra": ""
+          },
+          {
+            "name": "General Stress Level",
+            "value": 0,
+            "unit": "%",
+            "extra": "Crashes in: "
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "Ultimaker",
+            "username": "Ultimaker"
+          },
+          "committer": {
+            "name": "Ultimaker",
+            "username": "Ultimaker"
+          },
+          "id": "e8b5fe12e3fbd1e52e0d434e9c0c80b687ccb8e1",
+          "message": "CURA-12770 Fix closed shaped being completely filled",
+          "timestamp": "2025-10-11T07:34:29Z",
+          "url": "https://github.com/Ultimaker/CuraEngine/pull/2252/commits/e8b5fe12e3fbd1e52e0d434e9c0c80b687ccb8e1"
+        },
+        "date": 1760354302229,
         "tool": "customSmallerIsBetter",
         "benches": [
           {
