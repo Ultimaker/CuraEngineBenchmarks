@@ -1,40 +1,8 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1760436722412,
+  "lastUpdate": 1760454607093,
   "repoUrl": "https://github.com/Ultimaker/CuraEngine",
   "entries": {
     "Stress Benchmark": [
-      {
-        "commit": {
-          "author": {
-            "name": "Ultimaker",
-            "username": "Ultimaker"
-          },
-          "committer": {
-            "name": "Ultimaker",
-            "username": "Ultimaker"
-          },
-          "id": "38357c4d6a604b495ab26db68c917c98d0ff8c99",
-          "message": "CURA-12096 move gradual flow plugin back into the engine core",
-          "timestamp": "2024-08-15T20:43:11Z",
-          "url": "https://github.com/Ultimaker/CuraEngine/pull/2133/commits/38357c4d6a604b495ab26db68c917c98d0ff8c99"
-        },
-        "date": 1723818303682,
-        "tool": "customSmallerIsBetter",
-        "benches": [
-          {
-            "name": "Number of test cases",
-            "value": 61,
-            "unit": "-",
-            "extra": ""
-          },
-          {
-            "name": "General Stress Level",
-            "value": 0,
-            "unit": "%",
-            "extra": "Crashes in: "
-          }
-        ]
-      },
       {
         "commit": {
           "author": {
@@ -8135,6 +8103,38 @@ window.BENCHMARK_DATA = {
           "url": "https://github.com/Ultimaker/CuraEngine/pull/2252/commits/45532cebf9d4662a87f9a60023fbaa01a72b8cc6"
         },
         "date": 1760436716321,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "Number of test cases",
+            "value": 61,
+            "unit": "-",
+            "extra": ""
+          },
+          {
+            "name": "General Stress Level",
+            "value": 0,
+            "unit": "%",
+            "extra": "Crashes in: "
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "Ultimaker",
+            "username": "Ultimaker"
+          },
+          "committer": {
+            "name": "Ultimaker",
+            "username": "Ultimaker"
+          },
+          "id": "c934effcd15f53c9e72bfaa840dfb525c9373d20",
+          "message": "[CURA-12768] minimize skin retracts",
+          "timestamp": "2025-10-11T07:34:29Z",
+          "url": "https://github.com/Ultimaker/CuraEngine/pull/2256/commits/c934effcd15f53c9e72bfaa840dfb525c9373d20"
+        },
+        "date": 1760454602223,
         "tool": "customSmallerIsBetter",
         "benches": [
           {
