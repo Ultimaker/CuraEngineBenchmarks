@@ -1,40 +1,8 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1760534672705,
+  "lastUpdate": 1760537255621,
   "repoUrl": "https://github.com/Ultimaker/CuraEngine",
   "entries": {
     "Stress Benchmark": [
-      {
-        "commit": {
-          "author": {
-            "name": "Ultimaker",
-            "username": "Ultimaker"
-          },
-          "committer": {
-            "name": "Ultimaker",
-            "username": "Ultimaker"
-          },
-          "id": "0f8e04fffb27200beaac2a53bcda8185fcb8d619",
-          "message": "refactor(FffGcodeWriter): fix extruder order calculation bug",
-          "timestamp": "2024-08-20T03:02:44Z",
-          "url": "https://github.com/Ultimaker/CuraEngine/pull/2134/commits/0f8e04fffb27200beaac2a53bcda8185fcb8d619"
-        },
-        "date": 1724165315568,
-        "tool": "customSmallerIsBetter",
-        "benches": [
-          {
-            "name": "Number of test cases",
-            "value": 61,
-            "unit": "-",
-            "extra": ""
-          },
-          {
-            "name": "General Stress Level",
-            "value": 0,
-            "unit": "%",
-            "extra": "Crashes in: "
-          }
-        ]
-      },
       {
         "commit": {
           "author": {
@@ -8131,6 +8099,38 @@ window.BENCHMARK_DATA = {
           "url": "https://github.com/Ultimaker/CuraEngine/pull/2257/commits/e57eb796c2b8589f0653f338265468efcf8f73e5"
         },
         "date": 1760534668020,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "Number of test cases",
+            "value": 61,
+            "unit": "-",
+            "extra": ""
+          },
+          {
+            "name": "General Stress Level",
+            "value": 0,
+            "unit": "%",
+            "extra": "Crashes in: "
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "Ultimaker",
+            "username": "Ultimaker"
+          },
+          "committer": {
+            "name": "Ultimaker",
+            "username": "Ultimaker"
+          },
+          "id": "d5ea4c997f09f0d7c63be6e433d26c65da4ec848",
+          "message": "CURA-12769 monotonic top surface lines printed in same direction",
+          "timestamp": "2025-10-15T07:34:48Z",
+          "url": "https://github.com/Ultimaker/CuraEngine/pull/2257/commits/d5ea4c997f09f0d7c63be6e433d26c65da4ec848"
+        },
+        "date": 1760537242979,
         "tool": "customSmallerIsBetter",
         "benches": [
           {
