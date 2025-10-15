@@ -1,44 +1,8 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1760524841056,
+  "lastUpdate": 1760525994554,
   "repoUrl": "https://github.com/Ultimaker/CuraEngine",
   "entries": {
     "Stress Benchmark": [
-      {
-        "commit": {
-          "author": {
-            "email": "alireza.doustdar@gmail.com",
-            "name": "HellAholic",
-            "username": "HellAholic"
-          },
-          "committer": {
-            "email": "noreply@github.com",
-            "name": "GitHub",
-            "username": "web-flow"
-          },
-          "distinct": true,
-          "id": "f05cf24d80f81cc1a1afc692c763d36ff8eb9f5e",
-          "message": "Create a set of extra lines to support corners of skins above.  [Ready for review+merge] (#2122)",
-          "timestamp": "2024-08-19T09:05:06+02:00",
-          "tree_id": "95444ff2b3c0ee6eaff3a3df46fe0cbb2bb8ead4",
-          "url": "https://github.com/Ultimaker/CuraEngine/commit/f05cf24d80f81cc1a1afc692c763d36ff8eb9f5e"
-        },
-        "date": 1724052364379,
-        "tool": "customSmallerIsBetter",
-        "benches": [
-          {
-            "name": "Number of test cases",
-            "value": 61,
-            "unit": "-",
-            "extra": ""
-          },
-          {
-            "name": "General Stress Level",
-            "value": 0,
-            "unit": "%",
-            "extra": "Crashes in: "
-          }
-        ]
-      },
       {
         "commit": {
           "author": {
@@ -8135,6 +8099,38 @@ window.BENCHMARK_DATA = {
           "url": "https://github.com/Ultimaker/CuraEngine/pull/2256/commits/cffeab93529725cae6a6a943cd17ef60048cd553"
         },
         "date": 1760524834992,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "Number of test cases",
+            "value": 61,
+            "unit": "-",
+            "extra": ""
+          },
+          {
+            "name": "General Stress Level",
+            "value": 0,
+            "unit": "%",
+            "extra": "Crashes in: "
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "Ultimaker",
+            "username": "Ultimaker"
+          },
+          "committer": {
+            "name": "Ultimaker",
+            "username": "Ultimaker"
+          },
+          "id": "778f3b4d1534583c277efce42a6951df4334ad39",
+          "message": "CURA-12769 monotonic top surface lines printed in same direction",
+          "timestamp": "2025-10-15T07:34:48Z",
+          "url": "https://github.com/Ultimaker/CuraEngine/pull/2257/commits/778f3b4d1534583c277efce42a6951df4334ad39"
+        },
+        "date": 1760525989421,
         "tool": "customSmallerIsBetter",
         "benches": [
           {
