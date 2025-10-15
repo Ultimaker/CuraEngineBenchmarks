@@ -1,40 +1,8 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1760454607093,
+  "lastUpdate": 1760518245248,
   "repoUrl": "https://github.com/Ultimaker/CuraEngine",
   "entries": {
     "Stress Benchmark": [
-      {
-        "commit": {
-          "author": {
-            "name": "Ultimaker",
-            "username": "Ultimaker"
-          },
-          "committer": {
-            "name": "Ultimaker",
-            "username": "Ultimaker"
-          },
-          "id": "4eb7b1e74e149dd41023183370a4f0421b643ca9",
-          "message": "CURA-12096 move gradual flow plugin back into the engine core",
-          "timestamp": "2024-08-15T20:43:11Z",
-          "url": "https://github.com/Ultimaker/CuraEngine/pull/2133/commits/4eb7b1e74e149dd41023183370a4f0421b643ca9"
-        },
-        "date": 1723819008031,
-        "tool": "customSmallerIsBetter",
-        "benches": [
-          {
-            "name": "Number of test cases",
-            "value": 61,
-            "unit": "-",
-            "extra": ""
-          },
-          {
-            "name": "General Stress Level",
-            "value": 0,
-            "unit": "%",
-            "extra": "Crashes in: "
-          }
-        ]
-      },
       {
         "commit": {
           "author": {
@@ -8135,6 +8103,38 @@ window.BENCHMARK_DATA = {
           "url": "https://github.com/Ultimaker/CuraEngine/pull/2256/commits/c934effcd15f53c9e72bfaa840dfb525c9373d20"
         },
         "date": 1760454602223,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "Number of test cases",
+            "value": 61,
+            "unit": "-",
+            "extra": ""
+          },
+          {
+            "name": "General Stress Level",
+            "value": 0,
+            "unit": "%",
+            "extra": "Crashes in: "
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "Ultimaker",
+            "username": "Ultimaker"
+          },
+          "committer": {
+            "name": "Ultimaker",
+            "username": "Ultimaker"
+          },
+          "id": "2f419f759ee97d5bd90f8b80d20cb9d0733871e8",
+          "message": "CURA-12769 monotonic top surface lines printed in same direction",
+          "timestamp": "2025-10-15T07:34:48Z",
+          "url": "https://github.com/Ultimaker/CuraEngine/pull/2257/commits/2f419f759ee97d5bd90f8b80d20cb9d0733871e8"
+        },
+        "date": 1760518240196,
         "tool": "customSmallerIsBetter",
         "benches": [
           {
