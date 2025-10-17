@@ -1,44 +1,8 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1760537734824,
+  "lastUpdate": 1760694839268,
   "repoUrl": "https://github.com/Ultimaker/CuraEngine",
   "entries": {
     "Stress Benchmark": [
-      {
-        "commit": {
-          "author": {
-            "email": "alireza.doustdar@gmail.com",
-            "name": "HellAholic",
-            "username": "HellAholic"
-          },
-          "committer": {
-            "email": "noreply@github.com",
-            "name": "GitHub",
-            "username": "web-flow"
-          },
-          "distinct": true,
-          "id": "1b78d4fe6ce1c4ccc1453c7a278eae209730c606",
-          "message": "CURA-12096 move gradual flow plugin back into the engine core (#2133)",
-          "timestamp": "2024-08-21T12:04:10+02:00",
-          "tree_id": "7cab38ec523b745d343ebca338a3b2e01788de3a",
-          "url": "https://github.com/Ultimaker/CuraEngine/commit/1b78d4fe6ce1c4ccc1453c7a278eae209730c606"
-        },
-        "date": 1724235521568,
-        "tool": "customSmallerIsBetter",
-        "benches": [
-          {
-            "name": "Number of test cases",
-            "value": 61,
-            "unit": "-",
-            "extra": ""
-          },
-          {
-            "name": "General Stress Level",
-            "value": 0,
-            "unit": "%",
-            "extra": "Crashes in: "
-          }
-        ]
-      },
       {
         "commit": {
           "author": {
@@ -8131,6 +8095,38 @@ window.BENCHMARK_DATA = {
           "url": "https://github.com/Ultimaker/CuraEngine/pull/2252/commits/d347fe37579bf3efc2a82825a1a1f02504e9874f"
         },
         "date": 1760537729931,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "Number of test cases",
+            "value": 61,
+            "unit": "-",
+            "extra": ""
+          },
+          {
+            "name": "General Stress Level",
+            "value": 0,
+            "unit": "%",
+            "extra": "Crashes in: "
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "Ultimaker",
+            "username": "Ultimaker"
+          },
+          "committer": {
+            "name": "Ultimaker",
+            "username": "Ultimaker"
+          },
+          "id": "c1eb4045aae7ace69e815e2e905a66cc6e23191a",
+          "message": "Cura 12797 make multi material settings settable per mesh",
+          "timestamp": "2025-10-15T07:34:48Z",
+          "url": "https://github.com/Ultimaker/CuraEngine/pull/2258/commits/c1eb4045aae7ace69e815e2e905a66cc6e23191a"
+        },
+        "date": 1760694834233,
         "tool": "customSmallerIsBetter",
         "benches": [
           {
