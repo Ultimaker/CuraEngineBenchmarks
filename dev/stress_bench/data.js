@@ -1,40 +1,8 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1760695920276,
+  "lastUpdate": 1761035090837,
   "repoUrl": "https://github.com/Ultimaker/CuraEngine",
   "entries": {
     "Stress Benchmark": [
-      {
-        "commit": {
-          "author": {
-            "name": "Ultimaker",
-            "username": "Ultimaker"
-          },
-          "committer": {
-            "name": "Ultimaker",
-            "username": "Ultimaker"
-          },
-          "id": "77db867f87b8c6b1d5e8e6d78e582e53c6ca0489",
-          "message": "Np 351 adding gcode header to emscription",
-          "timestamp": "2024-08-21T10:04:15Z",
-          "url": "https://github.com/Ultimaker/CuraEngine/pull/2136/commits/77db867f87b8c6b1d5e8e6d78e582e53c6ca0489"
-        },
-        "date": 1724246234587,
-        "tool": "customSmallerIsBetter",
-        "benches": [
-          {
-            "name": "Number of test cases",
-            "value": 61,
-            "unit": "-",
-            "extra": ""
-          },
-          {
-            "name": "General Stress Level",
-            "value": 0,
-            "unit": "%",
-            "extra": "Crashes in: "
-          }
-        ]
-      },
       {
         "commit": {
           "author": {
@@ -8127,6 +8095,38 @@ window.BENCHMARK_DATA = {
           "url": "https://github.com/Ultimaker/CuraEngine/pull/2259/commits/12a59b2233b9e4541d7b8ae62287ba0101a433e8"
         },
         "date": 1760695915445,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "Number of test cases",
+            "value": 61,
+            "unit": "-",
+            "extra": ""
+          },
+          {
+            "name": "General Stress Level",
+            "value": 0,
+            "unit": "%",
+            "extra": "Crashes in: "
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "Ultimaker",
+            "username": "Ultimaker"
+          },
+          "committer": {
+            "name": "Ultimaker",
+            "username": "Ultimaker"
+          },
+          "id": "811c190976bd5b91aadb9223b55f7a09e98a96db",
+          "message": "Cura 12797 make multi material settings settable per mesh",
+          "timestamp": "2025-10-19T05:48:50Z",
+          "url": "https://github.com/Ultimaker/CuraEngine/pull/2258/commits/811c190976bd5b91aadb9223b55f7a09e98a96db"
+        },
+        "date": 1761035086064,
         "tool": "customSmallerIsBetter",
         "benches": [
           {
