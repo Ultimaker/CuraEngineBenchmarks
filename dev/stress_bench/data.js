@@ -1,40 +1,8 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1761121210358,
+  "lastUpdate": 1761124353661,
   "repoUrl": "https://github.com/Ultimaker/CuraEngine",
   "entries": {
     "Stress Benchmark": [
-      {
-        "commit": {
-          "author": {
-            "name": "Ultimaker",
-            "username": "Ultimaker"
-          },
-          "committer": {
-            "name": "Ultimaker",
-            "username": "Ultimaker"
-          },
-          "id": "cabaa89e3ffe6d7c40dc2899dd5c1fd1c01d7a80",
-          "message": "NP- 327 emscripten communication",
-          "timestamp": "2024-08-21T10:04:15Z",
-          "url": "https://github.com/Ultimaker/CuraEngine/pull/2131/commits/cabaa89e3ffe6d7c40dc2899dd5c1fd1c01d7a80"
-        },
-        "date": 1724311427745,
-        "tool": "customSmallerIsBetter",
-        "benches": [
-          {
-            "name": "Number of test cases",
-            "value": 61,
-            "unit": "-",
-            "extra": ""
-          },
-          {
-            "name": "General Stress Level",
-            "value": 0,
-            "unit": "%",
-            "extra": "Crashes in: "
-          }
-        ]
-      },
       {
         "commit": {
           "author": {
@@ -8127,6 +8095,38 @@ window.BENCHMARK_DATA = {
           "url": "https://github.com/Ultimaker/CuraEngine/pull/2260/commits/cb20b67905fe16035c60ca31b5464f99a3fe1eca"
         },
         "date": 1761121204685,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "Number of test cases",
+            "value": 61,
+            "unit": "-",
+            "extra": ""
+          },
+          {
+            "name": "General Stress Level",
+            "value": 0,
+            "unit": "%",
+            "extra": "Crashes in: "
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "Ultimaker",
+            "username": "Ultimaker"
+          },
+          "committer": {
+            "name": "Ultimaker",
+            "username": "Ultimaker"
+          },
+          "id": "6c65776da7c114702906d723a4d601eb8eabfda8",
+          "message": "CURA-12794 Use seam painting data in surface mode",
+          "timestamp": "2025-10-19T05:48:50Z",
+          "url": "https://github.com/Ultimaker/CuraEngine/pull/2261/commits/6c65776da7c114702906d723a4d601eb8eabfda8"
+        },
+        "date": 1761124348740,
         "tool": "customSmallerIsBetter",
         "benches": [
           {
