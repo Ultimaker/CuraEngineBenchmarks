@@ -1,40 +1,8 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1761124353661,
+  "lastUpdate": 1761138030593,
   "repoUrl": "https://github.com/Ultimaker/CuraEngine",
   "entries": {
     "Stress Benchmark": [
-      {
-        "commit": {
-          "author": {
-            "name": "Ultimaker",
-            "username": "Ultimaker"
-          },
-          "committer": {
-            "name": "Ultimaker",
-            "username": "Ultimaker"
-          },
-          "id": "714f3e8183ff66370211845e8f70f0b536d28803",
-          "message": "NP- 327 emscripten communication",
-          "timestamp": "2024-08-21T10:04:15Z",
-          "url": "https://github.com/Ultimaker/CuraEngine/pull/2131/commits/714f3e8183ff66370211845e8f70f0b536d28803"
-        },
-        "date": 1724311580330,
-        "tool": "customSmallerIsBetter",
-        "benches": [
-          {
-            "name": "Number of test cases",
-            "value": 61,
-            "unit": "-",
-            "extra": ""
-          },
-          {
-            "name": "General Stress Level",
-            "value": 0,
-            "unit": "%",
-            "extra": "Crashes in: "
-          }
-        ]
-      },
       {
         "commit": {
           "author": {
@@ -8127,6 +8095,42 @@ window.BENCHMARK_DATA = {
           "url": "https://github.com/Ultimaker/CuraEngine/pull/2261/commits/6c65776da7c114702906d723a4d601eb8eabfda8"
         },
         "date": 1761124348740,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "Number of test cases",
+            "value": 61,
+            "unit": "-",
+            "extra": ""
+          },
+          {
+            "name": "General Stress Level",
+            "value": 0,
+            "unit": "%",
+            "extra": "Crashes in: "
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "alireza.doustdar@gmail.com",
+            "name": "HellAholic",
+            "username": "HellAholic"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": false,
+          "id": "7db5119c2674aaeabd2c0bc019c6b2c53982e849",
+          "message": "Cura 12797 make multi material settings settable per mesh (#2258)",
+          "timestamp": "2025-10-22T10:14:39+02:00",
+          "tree_id": "c0ba4793618e05e832a137947eae6e3b23c952d0",
+          "url": "https://github.com/Ultimaker/CuraEngine/commit/7db5119c2674aaeabd2c0bc019c6b2c53982e849"
+        },
+        "date": 1761138025493,
         "tool": "customSmallerIsBetter",
         "benches": [
           {
