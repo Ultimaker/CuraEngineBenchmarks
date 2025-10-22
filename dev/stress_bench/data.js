@@ -1,40 +1,8 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1761035090837,
+  "lastUpdate": 1761121210358,
   "repoUrl": "https://github.com/Ultimaker/CuraEngine",
   "entries": {
     "Stress Benchmark": [
-      {
-        "commit": {
-          "author": {
-            "name": "Ultimaker",
-            "username": "Ultimaker"
-          },
-          "committer": {
-            "name": "Ultimaker",
-            "username": "Ultimaker"
-          },
-          "id": "2a6b939962024f61db188748ca1983aa018154b5",
-          "message": "NP- 327 emscripten communication",
-          "timestamp": "2024-08-21T10:04:15Z",
-          "url": "https://github.com/Ultimaker/CuraEngine/pull/2131/commits/2a6b939962024f61db188748ca1983aa018154b5"
-        },
-        "date": 1724249186050,
-        "tool": "customSmallerIsBetter",
-        "benches": [
-          {
-            "name": "Number of test cases",
-            "value": 61,
-            "unit": "-",
-            "extra": ""
-          },
-          {
-            "name": "General Stress Level",
-            "value": 0,
-            "unit": "%",
-            "extra": "Crashes in: "
-          }
-        ]
-      },
       {
         "commit": {
           "author": {
@@ -8127,6 +8095,38 @@ window.BENCHMARK_DATA = {
           "url": "https://github.com/Ultimaker/CuraEngine/pull/2258/commits/811c190976bd5b91aadb9223b55f7a09e98a96db"
         },
         "date": 1761035086064,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "Number of test cases",
+            "value": 61,
+            "unit": "-",
+            "extra": ""
+          },
+          {
+            "name": "General Stress Level",
+            "value": 0,
+            "unit": "%",
+            "extra": "Crashes in: "
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "Ultimaker",
+            "username": "Ultimaker"
+          },
+          "committer": {
+            "name": "Ultimaker",
+            "username": "Ultimaker"
+          },
+          "id": "cb20b67905fe16035c60ca31b5464f99a3fe1eca",
+          "message": "CURA-12810 Make the multi-material progress reporting aware of multiple meshes",
+          "timestamp": "2025-10-19T05:48:50Z",
+          "url": "https://github.com/Ultimaker/CuraEngine/pull/2260/commits/cb20b67905fe16035c60ca31b5464f99a3fe1eca"
+        },
+        "date": 1761121204685,
         "tool": "customSmallerIsBetter",
         "benches": [
           {
