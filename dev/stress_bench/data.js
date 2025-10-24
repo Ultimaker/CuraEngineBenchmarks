@@ -1,40 +1,8 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1761138030593,
+  "lastUpdate": 1761310319759,
   "repoUrl": "https://github.com/Ultimaker/CuraEngine",
   "entries": {
     "Stress Benchmark": [
-      {
-        "commit": {
-          "author": {
-            "name": "Ultimaker",
-            "username": "Ultimaker"
-          },
-          "committer": {
-            "name": "Ultimaker",
-            "username": "Ultimaker"
-          },
-          "id": "63a84d0640c27345038aae1a8d48e7b9c0a88edc",
-          "message": "NP- 327 emscripten communication",
-          "timestamp": "2024-08-21T10:04:15Z",
-          "url": "https://github.com/Ultimaker/CuraEngine/pull/2131/commits/63a84d0640c27345038aae1a8d48e7b9c0a88edc"
-        },
-        "date": 1724313749003,
-        "tool": "customSmallerIsBetter",
-        "benches": [
-          {
-            "name": "Number of test cases",
-            "value": 61,
-            "unit": "-",
-            "extra": ""
-          },
-          {
-            "name": "General Stress Level",
-            "value": 0,
-            "unit": "%",
-            "extra": "Crashes in: "
-          }
-        ]
-      },
       {
         "commit": {
           "author": {
@@ -8131,6 +8099,42 @@ window.BENCHMARK_DATA = {
           "url": "https://github.com/Ultimaker/CuraEngine/commit/7db5119c2674aaeabd2c0bc019c6b2c53982e849"
         },
         "date": 1761138025493,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "Number of test cases",
+            "value": 61,
+            "unit": "-",
+            "extra": ""
+          },
+          {
+            "name": "General Stress Level",
+            "value": 0,
+            "unit": "%",
+            "extra": "Crashes in: "
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "erwan.mathieu@ultimaker.com",
+            "name": "Erwan MATHIEU",
+            "username": "wawanbreton"
+          },
+          "committer": {
+            "email": "erwan.mathieu@ultimaker.com",
+            "name": "Erwan MATHIEU",
+            "username": "wawanbreton"
+          },
+          "distinct": true,
+          "id": "e8f5b327ac29faebaefeb6f2daee007648d4eb70",
+          "message": "Bump version to 5.12",
+          "timestamp": "2025-10-24T14:25:47+02:00",
+          "tree_id": "9c9ec5c6a58147c5c23441bf68cb4e058f919409",
+          "url": "https://github.com/Ultimaker/CuraEngine/commit/e8f5b327ac29faebaefeb6f2daee007648d4eb70"
+        },
+        "date": 1761310314967,
         "tool": "customSmallerIsBetter",
         "benches": [
           {
