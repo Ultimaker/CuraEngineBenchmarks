@@ -1,40 +1,8 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1763047617684,
+  "lastUpdate": 1763716684955,
   "repoUrl": "https://github.com/Ultimaker/CuraEngine",
   "entries": {
     "Stress Benchmark": [
-      {
-        "commit": {
-          "author": {
-            "name": "Ultimaker",
-            "username": "Ultimaker"
-          },
-          "committer": {
-            "name": "Ultimaker",
-            "username": "Ultimaker"
-          },
-          "id": "030ee6864c78a12f93cc2015e631cfbd19dd174b",
-          "message": "NP- 327 emscripten communication",
-          "timestamp": "2024-08-21T10:04:15Z",
-          "url": "https://github.com/Ultimaker/CuraEngine/pull/2131/commits/030ee6864c78a12f93cc2015e631cfbd19dd174b"
-        },
-        "date": 1724321192276,
-        "tool": "customSmallerIsBetter",
-        "benches": [
-          {
-            "name": "Number of test cases",
-            "value": 61,
-            "unit": "-",
-            "extra": ""
-          },
-          {
-            "name": "General Stress Level",
-            "value": 0,
-            "unit": "%",
-            "extra": "Crashes in: "
-          }
-        ]
-      },
       {
         "commit": {
           "author": {
@@ -8135,6 +8103,42 @@ window.BENCHMARK_DATA = {
           "url": "https://github.com/Ultimaker/CuraEngine/pull/2263/commits/2d4612324431020cd6d4a5b6665d77d24e218699"
         },
         "date": 1763047613058,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "Number of test cases",
+            "value": 61,
+            "unit": "-",
+            "extra": ""
+          },
+          {
+            "name": "General Stress Level",
+            "value": 0,
+            "unit": "%",
+            "extra": "Crashes in: "
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "alireza.doustdar@gmail.com",
+            "name": "HellAholic",
+            "username": "HellAholic"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "60f5df1796e5efbdb73340fc57c9e66d466bb8cf",
+          "message": "CURA-12822 start end infill away from wall (#2263)",
+          "timestamp": "2025-11-21T08:55:18Z",
+          "tree_id": "050d5c7413bd1dfece9bc408af41f822f357c8e6",
+          "url": "https://github.com/Ultimaker/CuraEngine/commit/60f5df1796e5efbdb73340fc57c9e66d466bb8cf"
+        },
+        "date": 1763716680101,
         "tool": "customSmallerIsBetter",
         "benches": [
           {
