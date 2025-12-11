@@ -1,40 +1,8 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1764682043452,
+  "lastUpdate": 1765469144348,
   "repoUrl": "https://github.com/Ultimaker/CuraEngine",
   "entries": {
     "Stress Benchmark": [
-      {
-        "commit": {
-          "author": {
-            "name": "Ultimaker",
-            "username": "Ultimaker"
-          },
-          "committer": {
-            "name": "Ultimaker",
-            "username": "Ultimaker"
-          },
-          "id": "bf76f58ed36e712ec0cd06187e1ae934d88fbb0d",
-          "message": "NP- 327 emscripten communication",
-          "timestamp": "2024-08-21T10:04:15Z",
-          "url": "https://github.com/Ultimaker/CuraEngine/pull/2131/commits/bf76f58ed36e712ec0cd06187e1ae934d88fbb0d"
-        },
-        "date": 1724338300548,
-        "tool": "customSmallerIsBetter",
-        "benches": [
-          {
-            "name": "Number of test cases",
-            "value": 61,
-            "unit": "-",
-            "extra": ""
-          },
-          {
-            "name": "General Stress Level",
-            "value": 0,
-            "unit": "%",
-            "extra": "Crashes in: "
-          }
-        ]
-      },
       {
         "commit": {
           "author": {
@@ -8139,6 +8107,38 @@ window.BENCHMARK_DATA = {
           "url": "https://github.com/Ultimaker/CuraEngine/pull/2267/commits/d5b410e365965c3d2b1cd7f4c23f0f4a28cce245"
         },
         "date": 1764682038059,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "Number of test cases",
+            "value": 61,
+            "unit": "-",
+            "extra": ""
+          },
+          {
+            "name": "General Stress Level",
+            "value": 0,
+            "unit": "%",
+            "extra": "Crashes in: "
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "Ultimaker",
+            "username": "Ultimaker"
+          },
+          "committer": {
+            "name": "Ultimaker",
+            "username": "Ultimaker"
+          },
+          "id": "b557589401499edc7004b678cfe4d14234b009e9",
+          "message": "CURA-12361 add skin support",
+          "timestamp": "2025-12-10T16:43:35Z",
+          "url": "https://github.com/Ultimaker/CuraEngine/pull/2269/commits/b557589401499edc7004b678cfe4d14234b009e9"
+        },
+        "date": 1765469139576,
         "tool": "customSmallerIsBetter",
         "benches": [
           {
