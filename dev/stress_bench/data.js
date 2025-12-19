@@ -1,44 +1,8 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1766054445189,
+  "lastUpdate": 1766155217200,
   "repoUrl": "https://github.com/Ultimaker/CuraEngine",
   "entries": {
     "Stress Benchmark": [
-      {
-        "commit": {
-          "author": {
-            "email": "alireza.doustdar@gmail.com",
-            "name": "HellAholic",
-            "username": "HellAholic"
-          },
-          "committer": {
-            "email": "noreply@github.com",
-            "name": "GitHub",
-            "username": "web-flow"
-          },
-          "distinct": true,
-          "id": "0270dce423405ed8ea807cfb33a4ce587b38c6ec",
-          "message": "NP- 327 emscripten communication (#2131)",
-          "timestamp": "2024-08-30T09:03:11+02:00",
-          "tree_id": "9972fbbf620a0ffa7bd91736115b834756b4972d",
-          "url": "https://github.com/Ultimaker/CuraEngine/commit/0270dce423405ed8ea807cfb33a4ce587b38c6ec"
-        },
-        "date": 1725002215688,
-        "tool": "customSmallerIsBetter",
-        "benches": [
-          {
-            "name": "Number of test cases",
-            "value": 61,
-            "unit": "-",
-            "extra": ""
-          },
-          {
-            "name": "General Stress Level",
-            "value": 0,
-            "unit": "%",
-            "extra": "Crashes in: "
-          }
-        ]
-      },
       {
         "commit": {
           "author": {
@@ -8139,6 +8103,42 @@ window.BENCHMARK_DATA = {
           "url": "https://github.com/Ultimaker/CuraEngine/pull/2269/commits/dffbbf081d65c7ebd5070fb51b2328d8b2f41206"
         },
         "date": 1766054440455,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "Number of test cases",
+            "value": 61,
+            "unit": "-",
+            "extra": ""
+          },
+          {
+            "name": "General Stress Level",
+            "value": 0,
+            "unit": "%",
+            "extra": "Crashes in: "
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "alireza.doustdar@gmail.com",
+            "name": "HellAholic",
+            "username": "HellAholic"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "8bfb59a2d569491c54c009098803ee78a456adef",
+          "message": "CURA-12361 add skin support (#2269)",
+          "timestamp": "2025-12-19T15:16:56+01:00",
+          "tree_id": "140763edc78b950a085b288a5bdefe59f667a9ed",
+          "url": "https://github.com/Ultimaker/CuraEngine/commit/8bfb59a2d569491c54c009098803ee78a456adef"
+        },
+        "date": 1766155212430,
         "tool": "customSmallerIsBetter",
         "benches": [
           {
