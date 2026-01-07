@@ -1,40 +1,8 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1766155217200,
+  "lastUpdate": 1767781098386,
   "repoUrl": "https://github.com/Ultimaker/CuraEngine",
   "entries": {
     "Stress Benchmark": [
-      {
-        "commit": {
-          "author": {
-            "name": "Ultimaker",
-            "username": "Ultimaker"
-          },
-          "committer": {
-            "name": "Ultimaker",
-            "username": "Ultimaker"
-          },
-          "id": "4dd86a4825ac813191ede06c6a9b4acc36240414",
-          "message": "Fix unexpected type casting issues",
-          "timestamp": "2024-08-30T07:06:44Z",
-          "url": "https://github.com/Ultimaker/CuraEngine/pull/2139/commits/4dd86a4825ac813191ede06c6a9b4acc36240414"
-        },
-        "date": 1725027790848,
-        "tool": "customSmallerIsBetter",
-        "benches": [
-          {
-            "name": "Number of test cases",
-            "value": 61,
-            "unit": "-",
-            "extra": ""
-          },
-          {
-            "name": "General Stress Level",
-            "value": 0,
-            "unit": "%",
-            "extra": "Crashes in: "
-          }
-        ]
-      },
       {
         "commit": {
           "author": {
@@ -8139,6 +8107,38 @@ window.BENCHMARK_DATA = {
           "url": "https://github.com/Ultimaker/CuraEngine/commit/8bfb59a2d569491c54c009098803ee78a456adef"
         },
         "date": 1766155212430,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "Number of test cases",
+            "value": 61,
+            "unit": "-",
+            "extra": ""
+          },
+          {
+            "name": "General Stress Level",
+            "value": 0,
+            "unit": "%",
+            "extra": "Crashes in: "
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "Ultimaker",
+            "username": "Ultimaker"
+          },
+          "committer": {
+            "name": "Ultimaker",
+            "username": "Ultimaker"
+          },
+          "id": "36206129f3b9a55652bae905b5fb8275b0539148",
+          "message": "CURA-12860 Force retracted combed travel move when using minimum area",
+          "timestamp": "2026-01-07T09:52:43Z",
+          "url": "https://github.com/Ultimaker/CuraEngine/pull/2270/commits/36206129f3b9a55652bae905b5fb8275b0539148"
+        },
+        "date": 1767781093250,
         "tool": "customSmallerIsBetter",
         "benches": [
           {
