@@ -1,40 +1,8 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1767781098386,
+  "lastUpdate": 1767976769326,
   "repoUrl": "https://github.com/Ultimaker/CuraEngine",
   "entries": {
     "Stress Benchmark": [
-      {
-        "commit": {
-          "author": {
-            "name": "Ultimaker",
-            "username": "Ultimaker"
-          },
-          "committer": {
-            "name": "Ultimaker",
-            "username": "Ultimaker"
-          },
-          "id": "d8ca053d7a31dc328d3148c79253e473c855bcdf",
-          "message": "Fix unexpected type casting issues",
-          "timestamp": "2024-09-02T02:20:19Z",
-          "url": "https://github.com/Ultimaker/CuraEngine/pull/2139/commits/d8ca053d7a31dc328d3148c79253e473c855bcdf"
-        },
-        "date": 1725270320689,
-        "tool": "customSmallerIsBetter",
-        "benches": [
-          {
-            "name": "Number of test cases",
-            "value": 61,
-            "unit": "-",
-            "extra": ""
-          },
-          {
-            "name": "General Stress Level",
-            "value": 0,
-            "unit": "%",
-            "extra": "Crashes in: "
-          }
-        ]
-      },
       {
         "commit": {
           "author": {
@@ -8139,6 +8107,38 @@ window.BENCHMARK_DATA = {
           "url": "https://github.com/Ultimaker/CuraEngine/pull/2270/commits/36206129f3b9a55652bae905b5fb8275b0539148"
         },
         "date": 1767781093250,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "Number of test cases",
+            "value": 61,
+            "unit": "-",
+            "extra": ""
+          },
+          {
+            "name": "General Stress Level",
+            "value": 0,
+            "unit": "%",
+            "extra": "Crashes in: "
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "Ultimaker",
+            "username": "Ultimaker"
+          },
+          "committer": {
+            "name": "Ultimaker",
+            "username": "Ultimaker"
+          },
+          "id": "cfb52a362a814a34babfc2ca3bc1dc70c3e8d62f",
+          "message": "CURA-12894 honeycomb infill",
+          "timestamp": "2026-01-08T16:30:47Z",
+          "url": "https://github.com/Ultimaker/CuraEngine/pull/2272/commits/cfb52a362a814a34babfc2ca3bc1dc70c3e8d62f"
+        },
+        "date": 1767976764372,
         "tool": "customSmallerIsBetter",
         "benches": [
           {
