@@ -1,44 +1,8 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1768206776131,
+  "lastUpdate": 1768297299364,
   "repoUrl": "https://github.com/Ultimaker/CuraEngine",
   "entries": {
     "Stress Benchmark": [
-      {
-        "commit": {
-          "author": {
-            "email": "alireza.doustdar@gmail.com",
-            "name": "HellAholic",
-            "username": "HellAholic"
-          },
-          "committer": {
-            "email": "noreply@github.com",
-            "name": "GitHub",
-            "username": "web-flow"
-          },
-          "distinct": true,
-          "id": "5c8de197daba5ef4ce82841ce1e3c461595a488b",
-          "message": "refactor-improve-math-functions (#2135)",
-          "timestamp": "2024-09-05T09:13:54+02:00",
-          "tree_id": "e7feaf3b7fb13efd2290c3128b91aad0421c2999",
-          "url": "https://github.com/Ultimaker/CuraEngine/commit/5c8de197daba5ef4ce82841ce1e3c461595a488b"
-        },
-        "date": 1725521591947,
-        "tool": "customSmallerIsBetter",
-        "benches": [
-          {
-            "name": "Number of test cases",
-            "value": 61,
-            "unit": "-",
-            "extra": ""
-          },
-          {
-            "name": "General Stress Level",
-            "value": 0,
-            "unit": "%",
-            "extra": "Crashes in: "
-          }
-        ]
-      },
       {
         "commit": {
           "author": {
@@ -8135,6 +8099,38 @@ window.BENCHMARK_DATA = {
           "url": "https://github.com/Ultimaker/CuraEngine/pull/2272/commits/622e365002a3d6f16af4cf3e25691c1265d9ea66"
         },
         "date": 1768206771421,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "Number of test cases",
+            "value": 61,
+            "unit": "-",
+            "extra": ""
+          },
+          {
+            "name": "General Stress Level",
+            "value": 0,
+            "unit": "%",
+            "extra": "Crashes in: "
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "Ultimaker",
+            "username": "Ultimaker"
+          },
+          "committer": {
+            "name": "Ultimaker",
+            "username": "Ultimaker"
+          },
+          "id": "48081085a8ec3611e878a6fbc535267b69dd1814",
+          "message": "CURA-12894 honeycomb infill",
+          "timestamp": "2026-01-11T21:42:14Z",
+          "url": "https://github.com/Ultimaker/CuraEngine/pull/2272/commits/48081085a8ec3611e878a6fbc535267b69dd1814"
+        },
+        "date": 1768297294424,
         "tool": "customSmallerIsBetter",
         "benches": [
           {
