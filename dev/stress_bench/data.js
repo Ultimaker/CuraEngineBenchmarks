@@ -1,40 +1,8 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1768407528395,
+  "lastUpdate": 1768467102962,
   "repoUrl": "https://github.com/Ultimaker/CuraEngine",
   "entries": {
     "Stress Benchmark": [
-      {
-        "commit": {
-          "author": {
-            "name": "Ultimaker",
-            "username": "Ultimaker"
-          },
-          "committer": {
-            "name": "Ultimaker",
-            "username": "Ultimaker"
-          },
-          "id": "3541f2d51b78cf7e683c2be8af04577eef5a410b",
-          "message": "Change segment overhanging calculation formula",
-          "timestamp": "2024-10-04T12:34:06Z",
-          "url": "https://github.com/Ultimaker/CuraEngine/pull/2144/commits/3541f2d51b78cf7e683c2be8af04577eef5a410b"
-        },
-        "date": 1728305492559,
-        "tool": "customSmallerIsBetter",
-        "benches": [
-          {
-            "name": "Number of test cases",
-            "value": 61,
-            "unit": "-",
-            "extra": ""
-          },
-          {
-            "name": "General Stress Level",
-            "value": 0,
-            "unit": "%",
-            "extra": "Crashes in: "
-          }
-        ]
-      },
       {
         "commit": {
           "author": {
@@ -8127,6 +8095,38 @@ window.BENCHMARK_DATA = {
           "url": "https://github.com/Ultimaker/CuraEngine/pull/2273/commits/e1376c7a04c6a15edc90ae04971e7dbf93dd6d77"
         },
         "date": 1768407523131,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "Number of test cases",
+            "value": 61,
+            "unit": "-",
+            "extra": ""
+          },
+          {
+            "name": "General Stress Level",
+            "value": 0,
+            "unit": "%",
+            "extra": "Crashes in: "
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "Ultimaker",
+            "username": "Ultimaker"
+          },
+          "committer": {
+            "name": "Ultimaker",
+            "username": "Ultimaker"
+          },
+          "id": "5da8f3d2b691d0d2394670d56a4890ea77d3ae23",
+          "message": "[CURA-12831] Fix scarf / overhang angle interaction.",
+          "timestamp": "2026-01-14T20:43:49Z",
+          "url": "https://github.com/Ultimaker/CuraEngine/pull/2273/commits/5da8f3d2b691d0d2394670d56a4890ea77d3ae23"
+        },
+        "date": 1768467098053,
         "tool": "customSmallerIsBetter",
         "benches": [
           {
