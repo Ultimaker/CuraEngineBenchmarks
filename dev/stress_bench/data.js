@@ -1,40 +1,8 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1768551078926,
+  "lastUpdate": 1768557258301,
   "repoUrl": "https://github.com/Ultimaker/CuraEngine",
   "entries": {
     "Stress Benchmark": [
-      {
-        "commit": {
-          "author": {
-            "name": "Ultimaker",
-            "username": "Ultimaker"
-          },
-          "committer": {
-            "name": "Ultimaker",
-            "username": "Ultimaker"
-          },
-          "id": "1752db52531887c67b7bbc4218cf85e1619537f8",
-          "message": "[CURA-12153] Fix 'encompassing hole' issue (tree support).",
-          "timestamp": "2024-10-09T07:25:59Z",
-          "url": "https://github.com/Ultimaker/CuraEngine/pull/2145/commits/1752db52531887c67b7bbc4218cf85e1619537f8"
-        },
-        "date": 1728491515542,
-        "tool": "customSmallerIsBetter",
-        "benches": [
-          {
-            "name": "Number of test cases",
-            "value": 61,
-            "unit": "-",
-            "extra": ""
-          },
-          {
-            "name": "General Stress Level",
-            "value": 0,
-            "unit": "%",
-            "extra": "Crashes in: "
-          }
-        ]
-      },
       {
         "commit": {
           "author": {
@@ -8127,6 +8095,38 @@ window.BENCHMARK_DATA = {
           "url": "https://github.com/Ultimaker/CuraEngine/pull/2274/commits/fed95ba17082269c611f953136f824a2a20cfa32"
         },
         "date": 1768551072579,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "Number of test cases",
+            "value": 61,
+            "unit": "-",
+            "extra": ""
+          },
+          {
+            "name": "General Stress Level",
+            "value": 0,
+            "unit": "%",
+            "extra": "Crashes in: "
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "Ultimaker",
+            "username": "Ultimaker"
+          },
+          "committer": {
+            "name": "Ultimaker",
+            "username": "Ultimaker"
+          },
+          "id": "e3ae8e769e80d6058ed9118653166355d9dec55e",
+          "message": "CURA- 12556 formula parser in cura engine",
+          "timestamp": "2026-01-14T20:43:49Z",
+          "url": "https://github.com/Ultimaker/CuraEngine/pull/2274/commits/e3ae8e769e80d6058ed9118653166355d9dec55e"
+        },
+        "date": 1768557253529,
         "tool": "customSmallerIsBetter",
         "benches": [
           {
