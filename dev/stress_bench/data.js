@@ -1,40 +1,8 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1768557258301,
+  "lastUpdate": 1768570758555,
   "repoUrl": "https://github.com/Ultimaker/CuraEngine",
   "entries": {
     "Stress Benchmark": [
-      {
-        "commit": {
-          "author": {
-            "name": "Ultimaker",
-            "username": "Ultimaker"
-          },
-          "committer": {
-            "name": "Ultimaker",
-            "username": "Ultimaker"
-          },
-          "id": "45c585e3b3669f90b15e1f0084e184a0efd1ed23",
-          "message": "Add engine info handler for getting engine version and hash",
-          "timestamp": "2024-10-09T07:25:59Z",
-          "url": "https://github.com/Ultimaker/CuraEngine/pull/2146/commits/45c585e3b3669f90b15e1f0084e184a0efd1ed23"
-        },
-        "date": 1728555454149,
-        "tool": "customSmallerIsBetter",
-        "benches": [
-          {
-            "name": "Number of test cases",
-            "value": 61,
-            "unit": "-",
-            "extra": ""
-          },
-          {
-            "name": "General Stress Level",
-            "value": 0,
-            "unit": "%",
-            "extra": "Crashes in: "
-          }
-        ]
-      },
       {
         "commit": {
           "author": {
@@ -8140,6 +8108,38 @@ window.BENCHMARK_DATA = {
             "value": 0,
             "unit": "%",
             "extra": "Crashes in: "
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "Ultimaker",
+            "username": "Ultimaker"
+          },
+          "committer": {
+            "name": "Ultimaker",
+            "username": "Ultimaker"
+          },
+          "id": "8dfabcee4f64ac002b5b8a34596185873c2197ae",
+          "message": "CURA-12894 honeycomb infill",
+          "timestamp": "2026-01-14T20:43:49Z",
+          "url": "https://github.com/Ultimaker/CuraEngine/pull/2272/commits/8dfabcee4f64ac002b5b8a34596185873c2197ae"
+        },
+        "date": 1768570753522,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "Number of test cases",
+            "value": 61,
+            "unit": "-",
+            "extra": ""
+          },
+          {
+            "name": "General Stress Level",
+            "value": 4.918032786885246,
+            "unit": "%",
+            "extra": "Crashes in: 031, 003, 017"
           }
         ]
       }
