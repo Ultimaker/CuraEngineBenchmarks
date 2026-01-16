@@ -1,40 +1,8 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1768467102962,
+  "lastUpdate": 1768551078926,
   "repoUrl": "https://github.com/Ultimaker/CuraEngine",
   "entries": {
     "Stress Benchmark": [
-      {
-        "commit": {
-          "author": {
-            "name": "Ultimaker",
-            "username": "Ultimaker"
-          },
-          "committer": {
-            "name": "Ultimaker",
-            "username": "Ultimaker"
-          },
-          "id": "ac5f1aff6ba8b4825c579f5e22c29128f0d7b903",
-          "message": "Change segment overhanging calculation formula",
-          "timestamp": "2024-10-04T12:34:06Z",
-          "url": "https://github.com/Ultimaker/CuraEngine/pull/2144/commits/ac5f1aff6ba8b4825c579f5e22c29128f0d7b903"
-        },
-        "date": 1728387048200,
-        "tool": "customSmallerIsBetter",
-        "benches": [
-          {
-            "name": "Number of test cases",
-            "value": 61,
-            "unit": "-",
-            "extra": ""
-          },
-          {
-            "name": "General Stress Level",
-            "value": 0,
-            "unit": "%",
-            "extra": "Crashes in: "
-          }
-        ]
-      },
       {
         "commit": {
           "author": {
@@ -8127,6 +8095,38 @@ window.BENCHMARK_DATA = {
           "url": "https://github.com/Ultimaker/CuraEngine/pull/2273/commits/5da8f3d2b691d0d2394670d56a4890ea77d3ae23"
         },
         "date": 1768467098053,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "Number of test cases",
+            "value": 61,
+            "unit": "-",
+            "extra": ""
+          },
+          {
+            "name": "General Stress Level",
+            "value": 0,
+            "unit": "%",
+            "extra": "Crashes in: "
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "Ultimaker",
+            "username": "Ultimaker"
+          },
+          "committer": {
+            "name": "Ultimaker",
+            "username": "Ultimaker"
+          },
+          "id": "fed95ba17082269c611f953136f824a2a20cfa32",
+          "message": "CURA- 12556 formula parser in cura engine",
+          "timestamp": "2026-01-14T20:43:49Z",
+          "url": "https://github.com/Ultimaker/CuraEngine/pull/2274/commits/fed95ba17082269c611f953136f824a2a20cfa32"
+        },
+        "date": 1768551072579,
         "tool": "customSmallerIsBetter",
         "benches": [
           {
