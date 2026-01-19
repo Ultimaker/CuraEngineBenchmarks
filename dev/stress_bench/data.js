@@ -1,44 +1,8 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1768817689423,
+  "lastUpdate": 1768819273329,
   "repoUrl": "https://github.com/Ultimaker/CuraEngine",
   "entries": {
     "Stress Benchmark": [
-      {
-        "commit": {
-          "author": {
-            "email": "nallath@gmail.com",
-            "name": "Jaime van Kessel",
-            "username": "nallath"
-          },
-          "committer": {
-            "email": "nallath@gmail.com",
-            "name": "Jaime van Kessel",
-            "username": "nallath"
-          },
-          "distinct": true,
-          "id": "82a49861cd185bfd65e6cf2a1cf45b1d9233b238",
-          "message": "Merge branch 'main' of https://github.com/TheSin-/CuraEngine",
-          "timestamp": "2024-10-10T14:07:17+02:00",
-          "tree_id": "1d467a69a8ec0209699d09c64ad0fda241f8f081",
-          "url": "https://github.com/Ultimaker/CuraEngine/commit/82a49861cd185bfd65e6cf2a1cf45b1d9233b238"
-        },
-        "date": 1728562970471,
-        "tool": "customSmallerIsBetter",
-        "benches": [
-          {
-            "name": "Number of test cases",
-            "value": 61,
-            "unit": "-",
-            "extra": ""
-          },
-          {
-            "name": "General Stress Level",
-            "value": 0,
-            "unit": "%",
-            "extra": "Crashes in: "
-          }
-        ]
-      },
       {
         "commit": {
           "author": {
@@ -8131,6 +8095,42 @@ window.BENCHMARK_DATA = {
           "url": "https://github.com/Ultimaker/CuraEngine/pull/2273/commits/217b05ca384531e1fee59e2cae406b558e9dfdda"
         },
         "date": 1768817684679,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "Number of test cases",
+            "value": 61,
+            "unit": "-",
+            "extra": ""
+          },
+          {
+            "name": "General Stress Level",
+            "value": 0,
+            "unit": "%",
+            "extra": "Crashes in: "
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "alireza.doustdar@gmail.com",
+            "name": "HellAholic",
+            "username": "HellAholic"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "6a1247250735f72fc7a75e7ee562e8ef34c44199",
+          "message": "[CURA-12831] Fix scarf / overhang angle interaction. (#2273)",
+          "timestamp": "2026-01-19T11:15:32+01:00",
+          "tree_id": "a1def59185ca901c14b6b12742d6da00f85acd1d",
+          "url": "https://github.com/Ultimaker/CuraEngine/commit/6a1247250735f72fc7a75e7ee562e8ef34c44199"
+        },
+        "date": 1768819268289,
         "tool": "customSmallerIsBetter",
         "benches": [
           {
