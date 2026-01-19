@@ -1,40 +1,8 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1768570758555,
+  "lastUpdate": 1768816756851,
   "repoUrl": "https://github.com/Ultimaker/CuraEngine",
   "entries": {
     "Stress Benchmark": [
-      {
-        "commit": {
-          "author": {
-            "name": "Ultimaker",
-            "username": "Ultimaker"
-          },
-          "committer": {
-            "name": "Ultimaker",
-            "username": "Ultimaker"
-          },
-          "id": "916a92aabe7fada3fbfa2f1507969eb8edbaa2af",
-          "message": "Add engine info handler for getting engine version and hash",
-          "timestamp": "2024-10-09T07:25:59Z",
-          "url": "https://github.com/Ultimaker/CuraEngine/pull/2146/commits/916a92aabe7fada3fbfa2f1507969eb8edbaa2af"
-        },
-        "date": 1728558037326,
-        "tool": "customSmallerIsBetter",
-        "benches": [
-          {
-            "name": "Number of test cases",
-            "value": 61,
-            "unit": "-",
-            "extra": ""
-          },
-          {
-            "name": "General Stress Level",
-            "value": 0,
-            "unit": "%",
-            "extra": "Crashes in: "
-          }
-        ]
-      },
       {
         "commit": {
           "author": {
@@ -8140,6 +8108,42 @@ window.BENCHMARK_DATA = {
             "value": 4.918032786885246,
             "unit": "%",
             "extra": "Crashes in: 031, 003, 017"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "alireza.doustdar@gmail.com",
+            "name": "HellAholic",
+            "username": "HellAholic"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "c67d10e871ff706a1b3767e590e52513db422ff1",
+          "message": "CURA-12860 Force retracted combed travel move when using minimum area (#2270)",
+          "timestamp": "2026-01-19T10:35:03+01:00",
+          "tree_id": "5d34c31d0b9a049384b7508de63fbaedf26dc644",
+          "url": "https://github.com/Ultimaker/CuraEngine/commit/c67d10e871ff706a1b3767e590e52513db422ff1"
+        },
+        "date": 1768816750994,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "Number of test cases",
+            "value": 61,
+            "unit": "-",
+            "extra": ""
+          },
+          {
+            "name": "General Stress Level",
+            "value": 0,
+            "unit": "%",
+            "extra": "Crashes in: "
           }
         ]
       }
