@@ -1,40 +1,8 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1768902734958,
+  "lastUpdate": 1768902914641,
   "repoUrl": "https://github.com/Ultimaker/CuraEngine",
   "entries": {
     "Stress Benchmark": [
-      {
-        "commit": {
-          "author": {
-            "name": "Ultimaker",
-            "username": "Ultimaker"
-          },
-          "committer": {
-            "name": "Ultimaker",
-            "username": "Ultimaker"
-          },
-          "id": "b4565262429a0618e519dd0c4d4aa48370865452",
-          "message": "[CURA-12153] Fix 'encompassing hole' issue (tree support).",
-          "timestamp": "2024-10-12T14:34:46Z",
-          "url": "https://github.com/Ultimaker/CuraEngine/pull/2145/commits/b4565262429a0618e519dd0c4d4aa48370865452"
-        },
-        "date": 1728896355537,
-        "tool": "customSmallerIsBetter",
-        "benches": [
-          {
-            "name": "Number of test cases",
-            "value": 61,
-            "unit": "-",
-            "extra": ""
-          },
-          {
-            "name": "General Stress Level",
-            "value": 0,
-            "unit": "%",
-            "extra": "Crashes in: "
-          }
-        ]
-      },
       {
         "commit": {
           "author": {
@@ -8131,6 +8099,38 @@ window.BENCHMARK_DATA = {
           "url": "https://github.com/Ultimaker/CuraEngine/pull/2272/commits/8dc6aaa7a1c2cdc5e95c7d0d75f3fb34bef76d71"
         },
         "date": 1768902728697,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "Number of test cases",
+            "value": 61,
+            "unit": "-",
+            "extra": ""
+          },
+          {
+            "name": "General Stress Level",
+            "value": 0,
+            "unit": "%",
+            "extra": "Crashes in: "
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "Ultimaker",
+            "username": "Ultimaker"
+          },
+          "committer": {
+            "name": "Ultimaker",
+            "username": "Ultimaker"
+          },
+          "id": "552b24494d53f4a9c305060ff9a75b1de02aeb34",
+          "message": "CURA-12894 honeycomb infill",
+          "timestamp": "2026-01-19T10:15:38Z",
+          "url": "https://github.com/Ultimaker/CuraEngine/pull/2272/commits/552b24494d53f4a9c305060ff9a75b1de02aeb34"
+        },
+        "date": 1768902909554,
         "tool": "customSmallerIsBetter",
         "benches": [
           {
