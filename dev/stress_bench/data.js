@@ -1,40 +1,8 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1768904404481,
+  "lastUpdate": 1768906166639,
   "repoUrl": "https://github.com/Ultimaker/CuraEngine",
   "entries": {
     "Stress Benchmark": [
-      {
-        "commit": {
-          "author": {
-            "name": "Ultimaker",
-            "username": "Ultimaker"
-          },
-          "committer": {
-            "name": "Ultimaker",
-            "username": "Ultimaker"
-          },
-          "id": "edeaf0a3a4e67ef6728da6713c809bb19d9b43ed",
-          "message": "CURA-12164 Fix innerwall seam position",
-          "timestamp": "2024-10-15T15:25:54Z",
-          "url": "https://github.com/Ultimaker/CuraEngine/pull/2148/commits/edeaf0a3a4e67ef6728da6713c809bb19d9b43ed"
-        },
-        "date": 1729107537806,
-        "tool": "customSmallerIsBetter",
-        "benches": [
-          {
-            "name": "Number of test cases",
-            "value": 61,
-            "unit": "-",
-            "extra": ""
-          },
-          {
-            "name": "General Stress Level",
-            "value": 0,
-            "unit": "%",
-            "extra": "Crashes in: "
-          }
-        ]
-      },
       {
         "commit": {
           "author": {
@@ -8131,6 +8099,38 @@ window.BENCHMARK_DATA = {
           "url": "https://github.com/Ultimaker/CuraEngine/pull/2272/commits/d2645b8f12df65d762d980b2661601fbcb8ec0a7"
         },
         "date": 1768904399376,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "Number of test cases",
+            "value": 61,
+            "unit": "-",
+            "extra": ""
+          },
+          {
+            "name": "General Stress Level",
+            "value": 0,
+            "unit": "%",
+            "extra": "Crashes in: "
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "Ultimaker",
+            "username": "Ultimaker"
+          },
+          "committer": {
+            "name": "Ultimaker",
+            "username": "Ultimaker"
+          },
+          "id": "f7e5c789b5165920c253df0c3d6b6b1a2f85984a",
+          "message": "CURA-12894 honeycomb infill",
+          "timestamp": "2026-01-19T10:15:38Z",
+          "url": "https://github.com/Ultimaker/CuraEngine/pull/2272/commits/f7e5c789b5165920c253df0c3d6b6b1a2f85984a"
+        },
+        "date": 1768906161522,
         "tool": "customSmallerIsBetter",
         "benches": [
           {
