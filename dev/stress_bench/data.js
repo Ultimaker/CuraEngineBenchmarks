@@ -1,40 +1,8 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1768902914641,
+  "lastUpdate": 1768904404481,
   "repoUrl": "https://github.com/Ultimaker/CuraEngine",
   "entries": {
     "Stress Benchmark": [
-      {
-        "commit": {
-          "author": {
-            "name": "Ultimaker",
-            "username": "Ultimaker"
-          },
-          "committer": {
-            "name": "Ultimaker",
-            "username": "Ultimaker"
-          },
-          "id": "a1f65ab8a2a1053b07304004cd0dee9bf26a628f",
-          "message": "[CURA-12200] fix fan speed during extruder switch",
-          "timestamp": "2024-10-12T14:34:46Z",
-          "url": "https://github.com/Ultimaker/CuraEngine/pull/2147/commits/a1f65ab8a2a1053b07304004cd0dee9bf26a628f"
-        },
-        "date": 1728983042835,
-        "tool": "customSmallerIsBetter",
-        "benches": [
-          {
-            "name": "Number of test cases",
-            "value": 61,
-            "unit": "-",
-            "extra": ""
-          },
-          {
-            "name": "General Stress Level",
-            "value": 0,
-            "unit": "%",
-            "extra": "Crashes in: "
-          }
-        ]
-      },
       {
         "commit": {
           "author": {
@@ -8131,6 +8099,38 @@ window.BENCHMARK_DATA = {
           "url": "https://github.com/Ultimaker/CuraEngine/pull/2272/commits/552b24494d53f4a9c305060ff9a75b1de02aeb34"
         },
         "date": 1768902909554,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "Number of test cases",
+            "value": 61,
+            "unit": "-",
+            "extra": ""
+          },
+          {
+            "name": "General Stress Level",
+            "value": 0,
+            "unit": "%",
+            "extra": "Crashes in: "
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "Ultimaker",
+            "username": "Ultimaker"
+          },
+          "committer": {
+            "name": "Ultimaker",
+            "username": "Ultimaker"
+          },
+          "id": "d2645b8f12df65d762d980b2661601fbcb8ec0a7",
+          "message": "CURA-12894 honeycomb infill",
+          "timestamp": "2026-01-19T10:15:38Z",
+          "url": "https://github.com/Ultimaker/CuraEngine/pull/2272/commits/d2645b8f12df65d762d980b2661601fbcb8ec0a7"
+        },
+        "date": 1768904399376,
         "tool": "customSmallerIsBetter",
         "benches": [
           {
