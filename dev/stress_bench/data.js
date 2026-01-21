@@ -1,40 +1,8 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1769008278009,
+  "lastUpdate": 1769009608916,
   "repoUrl": "https://github.com/Ultimaker/CuraEngine",
   "entries": {
     "Stress Benchmark": [
-      {
-        "commit": {
-          "author": {
-            "name": "Ultimaker",
-            "username": "Ultimaker"
-          },
-          "committer": {
-            "name": "Ultimaker",
-            "username": "Ultimaker"
-          },
-          "id": "1a0f74193e0953fd57049c18b0d93161d6775d5a",
-          "message": "CURA-12164 Fix innerwall seam position",
-          "timestamp": "2024-10-17T08:45:36Z",
-          "url": "https://github.com/Ultimaker/CuraEngine/pull/2148/commits/1a0f74193e0953fd57049c18b0d93161d6775d5a"
-        },
-        "date": 1729254819728,
-        "tool": "customSmallerIsBetter",
-        "benches": [
-          {
-            "name": "Number of test cases",
-            "value": 61,
-            "unit": "-",
-            "extra": ""
-          },
-          {
-            "name": "General Stress Level",
-            "value": 0,
-            "unit": "%",
-            "extra": "Crashes in: "
-          }
-        ]
-      },
       {
         "commit": {
           "author": {
@@ -8131,6 +8099,38 @@ window.BENCHMARK_DATA = {
           "url": "https://github.com/Ultimaker/CuraEngine/pull/2274/commits/02375ca4a6b8df5e34c467744f342e9a7e17f661"
         },
         "date": 1769008268281,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "Number of test cases",
+            "value": 61,
+            "unit": "-",
+            "extra": ""
+          },
+          {
+            "name": "General Stress Level",
+            "value": 0,
+            "unit": "%",
+            "extra": "Crashes in: "
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "Ultimaker",
+            "username": "Ultimaker"
+          },
+          "committer": {
+            "name": "Ultimaker",
+            "username": "Ultimaker"
+          },
+          "id": "d9f67ad51c5390827c5fe0ad06234efaf6d86c27",
+          "message": "CURA- 12556 formula parser in cura engine",
+          "timestamp": "2026-01-19T10:15:38Z",
+          "url": "https://github.com/Ultimaker/CuraEngine/pull/2274/commits/d9f67ad51c5390827c5fe0ad06234efaf6d86c27"
+        },
+        "date": 1769009603929,
         "tool": "customSmallerIsBetter",
         "benches": [
           {
