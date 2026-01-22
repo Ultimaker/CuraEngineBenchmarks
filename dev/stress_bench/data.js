@@ -1,44 +1,8 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1769075851160,
+  "lastUpdate": 1769076302254,
   "repoUrl": "https://github.com/Ultimaker/CuraEngine",
   "entries": {
     "Stress Benchmark": [
-      {
-        "commit": {
-          "author": {
-            "email": "erwan.mathieu@ultimaker.com",
-            "name": "Erwan MATHIEU",
-            "username": "wawanbreton"
-          },
-          "committer": {
-            "email": "erwan.mathieu@ultimaker.com",
-            "name": "Erwan MATHIEU",
-            "username": "wawanbreton"
-          },
-          "distinct": true,
-          "id": "5b798aa6e5b5528d19481a4c49fdeb9bd3307a22",
-          "message": "Merge remote-tracking branch 'origin/5.9'",
-          "timestamp": "2024-10-22T10:45:13+02:00",
-          "tree_id": "1f102964b9ab6629f4dccbae852796d03cf2b4a1",
-          "url": "https://github.com/Ultimaker/CuraEngine/commit/5b798aa6e5b5528d19481a4c49fdeb9bd3307a22"
-        },
-        "date": 1729587955475,
-        "tool": "customSmallerIsBetter",
-        "benches": [
-          {
-            "name": "Number of test cases",
-            "value": 61,
-            "unit": "-",
-            "extra": ""
-          },
-          {
-            "name": "General Stress Level",
-            "value": 0,
-            "unit": "%",
-            "extra": "Crashes in: "
-          }
-        ]
-      },
       {
         "commit": {
           "author": {
@@ -8131,6 +8095,38 @@ window.BENCHMARK_DATA = {
           "url": "https://github.com/Ultimaker/CuraEngine/pull/2272/commits/9f16db5ef458eb74a5631a82fd625c4495e61254"
         },
         "date": 1769075845912,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "Number of test cases",
+            "value": 61,
+            "unit": "-",
+            "extra": ""
+          },
+          {
+            "name": "General Stress Level",
+            "value": 0,
+            "unit": "%",
+            "extra": "Crashes in: "
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "Ultimaker",
+            "username": "Ultimaker"
+          },
+          "committer": {
+            "name": "Ultimaker",
+            "username": "Ultimaker"
+          },
+          "id": "2ac8ad3f3fb9a19d681f121b3688c787ba564aed",
+          "message": "CURA- 12556 formula parser in cura engine",
+          "timestamp": "2026-01-19T10:15:38Z",
+          "url": "https://github.com/Ultimaker/CuraEngine/pull/2274/commits/2ac8ad3f3fb9a19d681f121b3688c787ba564aed"
+        },
+        "date": 1769076297158,
         "tool": "customSmallerIsBetter",
         "benches": [
           {
