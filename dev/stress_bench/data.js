@@ -1,40 +1,8 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1769076838642,
+  "lastUpdate": 1769098272059,
   "repoUrl": "https://github.com/Ultimaker/CuraEngine",
   "entries": {
     "Stress Benchmark": [
-      {
-        "commit": {
-          "author": {
-            "name": "Ultimaker",
-            "username": "Ultimaker"
-          },
-          "committer": {
-            "name": "Ultimaker",
-            "username": "Ultimaker"
-          },
-          "id": "669da734c19deb22d1de6566d339f40be4b149c7",
-          "message": "[CURA-12065] Fix (sort-of) conflict between per-object and per-mesh retraction.",
-          "timestamp": "2024-10-22T15:48:57Z",
-          "url": "https://github.com/Ultimaker/CuraEngine/pull/2154/commits/669da734c19deb22d1de6566d339f40be4b149c7"
-        },
-        "date": 1729692157865,
-        "tool": "customSmallerIsBetter",
-        "benches": [
-          {
-            "name": "Number of test cases",
-            "value": 61,
-            "unit": "-",
-            "extra": ""
-          },
-          {
-            "name": "General Stress Level",
-            "value": 0,
-            "unit": "%",
-            "extra": "Crashes in: "
-          }
-        ]
-      },
       {
         "commit": {
           "author": {
@@ -8127,6 +8095,38 @@ window.BENCHMARK_DATA = {
           "url": "https://github.com/Ultimaker/CuraEngine/pull/2274/commits/ec4ce82323d6dd07b9db349dbdfb59f7bce28cba"
         },
         "date": 1769076833710,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "Number of test cases",
+            "value": 61,
+            "unit": "-",
+            "extra": ""
+          },
+          {
+            "name": "General Stress Level",
+            "value": 0,
+            "unit": "%",
+            "extra": "Crashes in: "
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "Ultimaker",
+            "username": "Ultimaker"
+          },
+          "committer": {
+            "name": "Ultimaker",
+            "username": "Ultimaker"
+          },
+          "id": "36b5b61103ec08ea0e94110731277098745bee15",
+          "message": "[CURA-12446] Added settings for a different number of walls in top-/bottom-most skin.",
+          "timestamp": "2026-01-19T10:15:38Z",
+          "url": "https://github.com/Ultimaker/CuraEngine/pull/2227/commits/36b5b61103ec08ea0e94110731277098745bee15"
+        },
+        "date": 1769098267065,
         "tool": "customSmallerIsBetter",
         "benches": [
           {
