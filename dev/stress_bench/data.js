@@ -1,40 +1,8 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1769517624016,
+  "lastUpdate": 1769518393246,
   "repoUrl": "https://github.com/Ultimaker/CuraEngine",
   "entries": {
     "Stress Benchmark": [
-      {
-        "commit": {
-          "author": {
-            "name": "Ultimaker",
-            "username": "Ultimaker"
-          },
-          "committer": {
-            "name": "Ultimaker",
-            "username": "Ultimaker"
-          },
-          "id": "c0d91c9a41c68487fca32d44184ca4b03838aca2",
-          "message": "[CURA-12068] Fix missing infill in thin strips of space.",
-          "timestamp": "2024-10-22T15:48:57Z",
-          "url": "https://github.com/Ultimaker/CuraEngine/pull/2156/commits/c0d91c9a41c68487fca32d44184ca4b03838aca2"
-        },
-        "date": 1729759445237,
-        "tool": "customSmallerIsBetter",
-        "benches": [
-          {
-            "name": "Number of test cases",
-            "value": 61,
-            "unit": "-",
-            "extra": ""
-          },
-          {
-            "name": "General Stress Level",
-            "value": 0,
-            "unit": "%",
-            "extra": "Crashes in: "
-          }
-        ]
-      },
       {
         "commit": {
           "author": {
@@ -8127,6 +8095,42 @@ window.BENCHMARK_DATA = {
           "url": "https://github.com/Ultimaker/CuraEngine/pull/2275/commits/11b7e42ae34590188fa1283f43daf9a853609d53"
         },
         "date": 1769517617711,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "Number of test cases",
+            "value": 61,
+            "unit": "-",
+            "extra": ""
+          },
+          {
+            "name": "General Stress Level",
+            "value": 0,
+            "unit": "%",
+            "extra": "Crashes in: "
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "r.burema@ultimaker.com",
+            "name": "Remco Burema",
+            "username": "rburema"
+          },
+          "committer": {
+            "email": "r.burema@ultimaker.com",
+            "name": "Remco Burema",
+            "username": "rburema"
+          },
+          "distinct": true,
+          "id": "3496cf47c24e98544f63934ca920fae70e00bdab",
+          "message": "Add missing include (MSVC).",
+          "timestamp": "2026-01-27T13:27:57+01:00",
+          "tree_id": "4fc5ff2e1057de5ab9df33d8a903d53dc2a06dbc",
+          "url": "https://github.com/Ultimaker/CuraEngine/commit/3496cf47c24e98544f63934ca920fae70e00bdab"
+        },
+        "date": 1769518388417,
         "tool": "customSmallerIsBetter",
         "benches": [
           {
