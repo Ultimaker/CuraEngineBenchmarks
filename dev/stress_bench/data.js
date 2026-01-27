@@ -1,40 +1,8 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1769526552994,
+  "lastUpdate": 1769528291447,
   "repoUrl": "https://github.com/Ultimaker/CuraEngine",
   "entries": {
     "Stress Benchmark": [
-      {
-        "commit": {
-          "author": {
-            "name": "Ultimaker",
-            "username": "Ultimaker"
-          },
-          "committer": {
-            "name": "Ultimaker",
-            "username": "Ultimaker"
-          },
-          "id": "d036c0bb08ddf0fe1c6e9c287ea321374d2a477a",
-          "message": "Apply scarf seam and speed gradient in surface mode",
-          "timestamp": "2024-10-22T15:48:57Z",
-          "url": "https://github.com/Ultimaker/CuraEngine/pull/2158/commits/d036c0bb08ddf0fe1c6e9c287ea321374d2a477a"
-        },
-        "date": 1730127035702,
-        "tool": "customSmallerIsBetter",
-        "benches": [
-          {
-            "name": "Number of test cases",
-            "value": 61,
-            "unit": "-",
-            "extra": ""
-          },
-          {
-            "name": "General Stress Level",
-            "value": 0,
-            "unit": "%",
-            "extra": "Crashes in: "
-          }
-        ]
-      },
       {
         "commit": {
           "author": {
@@ -8131,6 +8099,42 @@ window.BENCHMARK_DATA = {
           "url": "https://github.com/Ultimaker/CuraEngine/pull/2272/commits/78f56dd834bbc5c570f6d9690e94990c7975e7a7"
         },
         "date": 1769526548293,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "Number of test cases",
+            "value": 61,
+            "unit": "-",
+            "extra": ""
+          },
+          {
+            "name": "General Stress Level",
+            "value": 0,
+            "unit": "%",
+            "extra": "Crashes in: "
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "alireza.doustdar@gmail.com",
+            "name": "HellAholic",
+            "username": "HellAholic"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "4f838cd0820743afcac508c992784f89b748ae1b",
+          "message": "CURA-12894 honeycomb infill (#2272)",
+          "timestamp": "2026-01-27T16:13:54+01:00",
+          "tree_id": "7dee13f9fa8f467fc3f07ff1a9881cb7b1410c8f",
+          "url": "https://github.com/Ultimaker/CuraEngine/commit/4f838cd0820743afcac508c992784f89b748ae1b"
+        },
+        "date": 1769528285322,
         "tool": "customSmallerIsBetter",
         "benches": [
           {
