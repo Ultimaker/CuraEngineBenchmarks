@@ -1,40 +1,8 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1769517169348,
+  "lastUpdate": 1769517624016,
   "repoUrl": "https://github.com/Ultimaker/CuraEngine",
   "entries": {
     "Stress Benchmark": [
-      {
-        "commit": {
-          "author": {
-            "name": "Ultimaker",
-            "username": "Ultimaker"
-          },
-          "committer": {
-            "name": "Ultimaker",
-            "username": "Ultimaker"
-          },
-          "id": "2da46b19271c4ba29f98d94b3715e90d9cdf83c2",
-          "message": "[CURA-12173] Only perform 'tiny loops' fix if there's space to do so.",
-          "timestamp": "2024-10-22T15:48:57Z",
-          "url": "https://github.com/Ultimaker/CuraEngine/pull/2153/commits/2da46b19271c4ba29f98d94b3715e90d9cdf83c2"
-        },
-        "date": 1729758224379,
-        "tool": "customSmallerIsBetter",
-        "benches": [
-          {
-            "name": "Number of test cases",
-            "value": 61,
-            "unit": "-",
-            "extra": ""
-          },
-          {
-            "name": "General Stress Level",
-            "value": 0,
-            "unit": "%",
-            "extra": "Crashes in: "
-          }
-        ]
-      },
       {
         "commit": {
           "author": {
@@ -8127,6 +8095,38 @@ window.BENCHMARK_DATA = {
           "url": "https://github.com/Ultimaker/CuraEngine/pull/2275/commits/b5d11cb8704f5d60760c7b365b20511b805cb8d5"
         },
         "date": 1769517159528,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "Number of test cases",
+            "value": 61,
+            "unit": "-",
+            "extra": ""
+          },
+          {
+            "name": "General Stress Level",
+            "value": 0,
+            "unit": "%",
+            "extra": "Crashes in: "
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "Ultimaker",
+            "username": "Ultimaker"
+          },
+          "committer": {
+            "name": "Ultimaker",
+            "username": "Ultimaker"
+          },
+          "id": "11b7e42ae34590188fa1283f43daf9a853609d53",
+          "message": "Add filesystem header to MeshGroup.cpp",
+          "timestamp": "2026-01-27T11:40:36Z",
+          "url": "https://github.com/Ultimaker/CuraEngine/pull/2275/commits/11b7e42ae34590188fa1283f43daf9a853609d53"
+        },
+        "date": 1769517617711,
         "tool": "customSmallerIsBetter",
         "benches": [
           {
