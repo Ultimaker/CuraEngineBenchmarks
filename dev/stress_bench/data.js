@@ -1,40 +1,8 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1769098272059,
+  "lastUpdate": 1769517169348,
   "repoUrl": "https://github.com/Ultimaker/CuraEngine",
   "entries": {
     "Stress Benchmark": [
-      {
-        "commit": {
-          "author": {
-            "name": "Ultimaker",
-            "username": "Ultimaker"
-          },
-          "committer": {
-            "name": "Ultimaker",
-            "username": "Ultimaker"
-          },
-          "id": "f37622470e576687c1a06b3db42b58da6d02f89b",
-          "message": "CURA-12175 Fix scarf seam and coasting interaction",
-          "timestamp": "2024-10-22T15:48:57Z",
-          "url": "https://github.com/Ultimaker/CuraEngine/pull/2155/commits/f37622470e576687c1a06b3db42b58da6d02f89b"
-        },
-        "date": 1729694939198,
-        "tool": "customSmallerIsBetter",
-        "benches": [
-          {
-            "name": "Number of test cases",
-            "value": 61,
-            "unit": "-",
-            "extra": ""
-          },
-          {
-            "name": "General Stress Level",
-            "value": 0,
-            "unit": "%",
-            "extra": "Crashes in: "
-          }
-        ]
-      },
       {
         "commit": {
           "author": {
@@ -8127,6 +8095,38 @@ window.BENCHMARK_DATA = {
           "url": "https://github.com/Ultimaker/CuraEngine/pull/2227/commits/36b5b61103ec08ea0e94110731277098745bee15"
         },
         "date": 1769098267065,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "Number of test cases",
+            "value": 61,
+            "unit": "-",
+            "extra": ""
+          },
+          {
+            "name": "General Stress Level",
+            "value": 0,
+            "unit": "%",
+            "extra": "Crashes in: "
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "Ultimaker",
+            "username": "Ultimaker"
+          },
+          "committer": {
+            "name": "Ultimaker",
+            "username": "Ultimaker"
+          },
+          "id": "b5d11cb8704f5d60760c7b365b20511b805cb8d5",
+          "message": "Add filesystem header to MeshGroup.cpp",
+          "timestamp": "2026-01-27T11:40:36Z",
+          "url": "https://github.com/Ultimaker/CuraEngine/pull/2275/commits/b5d11cb8704f5d60760c7b365b20511b805cb8d5"
+        },
+        "date": 1769517159528,
         "tool": "customSmallerIsBetter",
         "benches": [
           {
