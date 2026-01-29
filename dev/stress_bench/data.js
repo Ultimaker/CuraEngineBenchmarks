@@ -1,40 +1,8 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1769595286489,
+  "lastUpdate": 1769687076366,
   "repoUrl": "https://github.com/Ultimaker/CuraEngine",
   "entries": {
     "Stress Benchmark": [
-      {
-        "commit": {
-          "author": {
-            "name": "Ultimaker",
-            "username": "Ultimaker"
-          },
-          "committer": {
-            "name": "Ultimaker",
-            "username": "Ultimaker"
-          },
-          "id": "3bb6d32ec62ce7cd9b67dd607fd32ef25ac0968d",
-          "message": "Add writeGcodeFile function to GCodeExport",
-          "timestamp": "2024-10-22T15:48:57Z",
-          "url": "https://github.com/Ultimaker/CuraEngine/pull/2159/commits/3bb6d32ec62ce7cd9b67dd607fd32ef25ac0968d"
-        },
-        "date": 1730199468491,
-        "tool": "customSmallerIsBetter",
-        "benches": [
-          {
-            "name": "Number of test cases",
-            "value": 61,
-            "unit": "-",
-            "extra": ""
-          },
-          {
-            "name": "General Stress Level",
-            "value": 0,
-            "unit": "%",
-            "extra": "Crashes in: "
-          }
-        ]
-      },
       {
         "commit": {
           "author": {
@@ -8135,6 +8103,42 @@ window.BENCHMARK_DATA = {
           "url": "https://github.com/Ultimaker/CuraEngine/pull/2276/commits/a196cbc9ff19c197458a3286bb30e3574d7888ab"
         },
         "date": 1769595281725,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "Number of test cases",
+            "value": 61,
+            "unit": "-",
+            "extra": ""
+          },
+          {
+            "name": "General Stress Level",
+            "value": 0,
+            "unit": "%",
+            "extra": "Crashes in: "
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "r.burema@ultimaker.com",
+            "name": "Remco Burema",
+            "username": "rburema"
+          },
+          "committer": {
+            "email": "r.burema@ultimaker.com",
+            "name": "Remco Burema",
+            "username": "rburema"
+          },
+          "distinct": true,
+          "id": "f79d7d4dea126c6a8b7237384cd49e6676fdca93",
+          "message": "Fix analyzer (CI/CD step).\n\npart of CURA-12935",
+          "timestamp": "2026-01-29T12:19:10+01:00",
+          "tree_id": "1a511d11113096cb7ab70f28da70bec758c5e062",
+          "url": "https://github.com/Ultimaker/CuraEngine/commit/f79d7d4dea126c6a8b7237384cd49e6676fdca93"
+        },
+        "date": 1769687071200,
         "tool": "customSmallerIsBetter",
         "benches": [
           {
