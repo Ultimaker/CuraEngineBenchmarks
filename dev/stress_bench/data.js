@@ -1,40 +1,8 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1769781158510,
+  "lastUpdate": 1769781626723,
   "repoUrl": "https://github.com/Ultimaker/CuraEngine",
   "entries": {
     "Stress Benchmark": [
-      {
-        "commit": {
-          "author": {
-            "name": "Ultimaker",
-            "username": "Ultimaker"
-          },
-          "committer": {
-            "name": "Ultimaker",
-            "username": "Ultimaker"
-          },
-          "id": "6ccc9a04dd5f79a5a90f4464705eaa91f14da398",
-          "message": "CURA-12218 fix scattered seam for round models",
-          "timestamp": "2024-10-29T14:22:57Z",
-          "url": "https://github.com/Ultimaker/CuraEngine/pull/2160/commits/6ccc9a04dd5f79a5a90f4464705eaa91f14da398"
-        },
-        "date": 1730212657047,
-        "tool": "customSmallerIsBetter",
-        "benches": [
-          {
-            "name": "Number of test cases",
-            "value": 61,
-            "unit": "-",
-            "extra": ""
-          },
-          {
-            "name": "General Stress Level",
-            "value": 0,
-            "unit": "%",
-            "extra": "Crashes in: "
-          }
-        ]
-      },
       {
         "commit": {
           "author": {
@@ -8139,6 +8107,38 @@ window.BENCHMARK_DATA = {
           "url": "https://github.com/Ultimaker/CuraEngine/pull/2278/commits/0c8b3ceb2525851b0323e000dc333a3c65a84d5a"
         },
         "date": 1769781153604,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "Number of test cases",
+            "value": 61,
+            "unit": "-",
+            "extra": ""
+          },
+          {
+            "name": "General Stress Level",
+            "value": 0,
+            "unit": "%",
+            "extra": "Crashes in: "
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "Ultimaker",
+            "username": "Ultimaker"
+          },
+          "committer": {
+            "name": "Ultimaker",
+            "username": "Ultimaker"
+          },
+          "id": "29d18bfe405f38bfb9b2f87b3c3ea514f9fe25bd",
+          "message": "Apply roofing expansion only for wide roofing areas",
+          "timestamp": "2026-01-29T11:19:25Z",
+          "url": "https://github.com/Ultimaker/CuraEngine/pull/2278/commits/29d18bfe405f38bfb9b2f87b3c3ea514f9fe25bd"
+        },
+        "date": 1769781621378,
         "tool": "customSmallerIsBetter",
         "benches": [
           {
