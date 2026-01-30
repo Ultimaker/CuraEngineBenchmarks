@@ -1,40 +1,8 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1769791068896,
+  "lastUpdate": 1769791580023,
   "repoUrl": "https://github.com/Ultimaker/CuraEngine",
   "entries": {
     "Stress Benchmark": [
-      {
-        "commit": {
-          "author": {
-            "name": "Ultimaker",
-            "username": "Ultimaker"
-          },
-          "committer": {
-            "name": "Ultimaker",
-            "username": "Ultimaker"
-          },
-          "id": "1ae45ef17a4a76c691840023857256cacf503bfa",
-          "message": "CURA-12232 fix sentry crashes",
-          "timestamp": "2024-10-29T14:22:57Z",
-          "url": "https://github.com/Ultimaker/CuraEngine/pull/2162/commits/1ae45ef17a4a76c691840023857256cacf503bfa"
-        },
-        "date": 1730307060630,
-        "tool": "customSmallerIsBetter",
-        "benches": [
-          {
-            "name": "Number of test cases",
-            "value": 61,
-            "unit": "-",
-            "extra": ""
-          },
-          {
-            "name": "General Stress Level",
-            "value": 0,
-            "unit": "%",
-            "extra": "Crashes in: "
-          }
-        ]
-      },
       {
         "commit": {
           "author": {
@@ -8139,6 +8107,38 @@ window.BENCHMARK_DATA = {
           "url": "https://github.com/Ultimaker/CuraEngine/pull/2278/commits/90073c00a3f5a473904b557c3ce01fccdccefd5b"
         },
         "date": 1769791063637,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "Number of test cases",
+            "value": 61,
+            "unit": "-",
+            "extra": ""
+          },
+          {
+            "name": "General Stress Level",
+            "value": 0,
+            "unit": "%",
+            "extra": "Crashes in: "
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "Ultimaker",
+            "username": "Ultimaker"
+          },
+          "committer": {
+            "name": "Ultimaker",
+            "username": "Ultimaker"
+          },
+          "id": "5bb8bba206577846298b914aa2d0d467735af01b",
+          "message": "CURA-10381 Start or end infill close to seam",
+          "timestamp": "2026-01-29T11:19:25Z",
+          "url": "https://github.com/Ultimaker/CuraEngine/pull/2279/commits/5bb8bba206577846298b914aa2d0d467735af01b"
+        },
+        "date": 1769791574952,
         "tool": "customSmallerIsBetter",
         "benches": [
           {
