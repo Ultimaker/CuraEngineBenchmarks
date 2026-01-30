@@ -1,40 +1,8 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1769781626723,
+  "lastUpdate": 1769782442453,
   "repoUrl": "https://github.com/Ultimaker/CuraEngine",
   "entries": {
     "Stress Benchmark": [
-      {
-        "commit": {
-          "author": {
-            "name": "Ultimaker",
-            "username": "Ultimaker"
-          },
-          "committer": {
-            "name": "Ultimaker",
-            "username": "Ultimaker"
-          },
-          "id": "12491b406a5687fb961b556a8fdf61f1a14a261b",
-          "message": "Apply scarf seam and speed gradient in surface mode",
-          "timestamp": "2024-10-29T14:22:57Z",
-          "url": "https://github.com/Ultimaker/CuraEngine/pull/2158/commits/12491b406a5687fb961b556a8fdf61f1a14a261b"
-        },
-        "date": 1730213880722,
-        "tool": "customSmallerIsBetter",
-        "benches": [
-          {
-            "name": "Number of test cases",
-            "value": 61,
-            "unit": "-",
-            "extra": ""
-          },
-          {
-            "name": "General Stress Level",
-            "value": 0,
-            "unit": "%",
-            "extra": "Crashes in: "
-          }
-        ]
-      },
       {
         "commit": {
           "author": {
@@ -8139,6 +8107,38 @@ window.BENCHMARK_DATA = {
           "url": "https://github.com/Ultimaker/CuraEngine/pull/2278/commits/29d18bfe405f38bfb9b2f87b3c3ea514f9fe25bd"
         },
         "date": 1769781621378,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "Number of test cases",
+            "value": 61,
+            "unit": "-",
+            "extra": ""
+          },
+          {
+            "name": "General Stress Level",
+            "value": 0,
+            "unit": "%",
+            "extra": "Crashes in: "
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "Ultimaker",
+            "username": "Ultimaker"
+          },
+          "committer": {
+            "name": "Ultimaker",
+            "username": "Ultimaker"
+          },
+          "id": "585539f4394497a31e6787e18043ee90b3e31170",
+          "message": "CURA-10381 Start or end infill close to seam",
+          "timestamp": "2026-01-29T11:19:25Z",
+          "url": "https://github.com/Ultimaker/CuraEngine/pull/2279/commits/585539f4394497a31e6787e18043ee90b3e31170"
+        },
+        "date": 1769782437479,
         "tool": "customSmallerIsBetter",
         "benches": [
           {
