@@ -1,40 +1,8 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1770106355343,
+  "lastUpdate": 1770221676279,
   "repoUrl": "https://github.com/Ultimaker/CuraEngine",
   "entries": {
     "Stress Benchmark": [
-      {
-        "commit": {
-          "author": {
-            "name": "Ultimaker",
-            "username": "Ultimaker"
-          },
-          "committer": {
-            "name": "Ultimaker",
-            "username": "Ultimaker"
-          },
-          "id": "3a8682b217e896c1a92185eb400a23a4be543dcf",
-          "message": "CURA-12244 coasting generates z0 points",
-          "timestamp": "2024-10-31T03:05:28Z",
-          "url": "https://github.com/Ultimaker/CuraEngine/pull/2163/commits/3a8682b217e896c1a92185eb400a23a4be543dcf"
-        },
-        "date": 1730377329863,
-        "tool": "customSmallerIsBetter",
-        "benches": [
-          {
-            "name": "Number of test cases",
-            "value": 61,
-            "unit": "-",
-            "extra": ""
-          },
-          {
-            "name": "General Stress Level",
-            "value": 0,
-            "unit": "%",
-            "extra": "Crashes in: "
-          }
-        ]
-      },
       {
         "commit": {
           "author": {
@@ -8139,6 +8107,38 @@ window.BENCHMARK_DATA = {
           "url": "https://github.com/Ultimaker/CuraEngine/pull/2276/commits/32f4c21a59cfc30500de597045b0aff60ffb52a4"
         },
         "date": 1770106349769,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "Number of test cases",
+            "value": 61,
+            "unit": "-",
+            "extra": ""
+          },
+          {
+            "name": "General Stress Level",
+            "value": 0,
+            "unit": "%",
+            "extra": "Crashes in: "
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "Ultimaker",
+            "username": "Ultimaker"
+          },
+          "committer": {
+            "name": "Ultimaker",
+            "username": "Ultimaker"
+          },
+          "id": "71e372a87d25b4ead22e23207dd77f264827e3d3",
+          "message": "CURA-10381 Start or end infill close to seam",
+          "timestamp": "2026-02-01T09:13:05Z",
+          "url": "https://github.com/Ultimaker/CuraEngine/pull/2279/commits/71e372a87d25b4ead22e23207dd77f264827e3d3"
+        },
+        "date": 1770221671272,
         "tool": "customSmallerIsBetter",
         "benches": [
           {
