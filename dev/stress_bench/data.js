@@ -1,40 +1,8 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1770221676279,
+  "lastUpdate": 1770283001800,
   "repoUrl": "https://github.com/Ultimaker/CuraEngine",
   "entries": {
     "Stress Benchmark": [
-      {
-        "commit": {
-          "author": {
-            "name": "Ultimaker",
-            "username": "Ultimaker"
-          },
-          "committer": {
-            "name": "Ultimaker",
-            "username": "Ultimaker"
-          },
-          "id": "e61c204661baf3858d58ef9ce7a674a3b56caf89",
-          "message": "CURA-12175 Fix scarf seam and coasting interaction",
-          "timestamp": "2024-10-31T03:05:28Z",
-          "url": "https://github.com/Ultimaker/CuraEngine/pull/2155/commits/e61c204661baf3858d58ef9ce7a674a3b56caf89"
-        },
-        "date": 1730388333020,
-        "tool": "customSmallerIsBetter",
-        "benches": [
-          {
-            "name": "Number of test cases",
-            "value": 61,
-            "unit": "-",
-            "extra": ""
-          },
-          {
-            "name": "General Stress Level",
-            "value": 0,
-            "unit": "%",
-            "extra": "Crashes in: "
-          }
-        ]
-      },
       {
         "commit": {
           "author": {
@@ -8139,6 +8107,38 @@ window.BENCHMARK_DATA = {
           "url": "https://github.com/Ultimaker/CuraEngine/pull/2279/commits/71e372a87d25b4ead22e23207dd77f264827e3d3"
         },
         "date": 1770221671272,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "Number of test cases",
+            "value": 61,
+            "unit": "-",
+            "extra": ""
+          },
+          {
+            "name": "General Stress Level",
+            "value": 0,
+            "unit": "%",
+            "extra": "Crashes in: "
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "Ultimaker",
+            "username": "Ultimaker"
+          },
+          "committer": {
+            "name": "Ultimaker",
+            "username": "Ultimaker"
+          },
+          "id": "101318dfbbee850a4c30300a15b2bf152245c31b",
+          "message": "Apply roofing expansion only for wide roofing areas",
+          "timestamp": "2026-02-01T09:13:05Z",
+          "url": "https://github.com/Ultimaker/CuraEngine/pull/2278/commits/101318dfbbee850a4c30300a15b2bf152245c31b"
+        },
+        "date": 1770282996831,
         "tool": "customSmallerIsBetter",
         "benches": [
           {
