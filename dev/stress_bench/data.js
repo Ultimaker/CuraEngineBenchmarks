@@ -1,40 +1,8 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1770630062001,
+  "lastUpdate": 1770631628050,
   "repoUrl": "https://github.com/Ultimaker/CuraEngine",
   "entries": {
     "Stress Benchmark": [
-      {
-        "commit": {
-          "author": {
-            "name": "Ultimaker",
-            "username": "Ultimaker"
-          },
-          "committer": {
-            "name": "Ultimaker",
-            "username": "Ultimaker"
-          },
-          "id": "ba75a260f43d8f03ed10a72c6e2fe19e5e71b2b3",
-          "message": "CURA-12232 fix sentry crashes",
-          "timestamp": "2024-11-01T10:54:03Z",
-          "url": "https://github.com/Ultimaker/CuraEngine/pull/2162/commits/ba75a260f43d8f03ed10a72c6e2fe19e5e71b2b3"
-        },
-        "date": 1730468095776,
-        "tool": "customSmallerIsBetter",
-        "benches": [
-          {
-            "name": "Number of test cases",
-            "value": 61,
-            "unit": "-",
-            "extra": ""
-          },
-          {
-            "name": "General Stress Level",
-            "value": 0,
-            "unit": "%",
-            "extra": "Crashes in: "
-          }
-        ]
-      },
       {
         "commit": {
           "author": {
@@ -8139,6 +8107,38 @@ window.BENCHMARK_DATA = {
           "url": "https://github.com/Ultimaker/CuraEngine/pull/2280/commits/10491e9fc456997cfb6cc7a3e6dc31670549b447"
         },
         "date": 1770630056976,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "Number of test cases",
+            "value": 61,
+            "unit": "-",
+            "extra": ""
+          },
+          {
+            "name": "General Stress Level",
+            "value": 0,
+            "unit": "%",
+            "extra": "Crashes in: "
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "Ultimaker",
+            "username": "Ultimaker"
+          },
+          "committer": {
+            "name": "Ultimaker",
+            "username": "Ultimaker"
+          },
+          "id": "425ec070f672ccbe33806c5f63cb91ff7ac8e30a",
+          "message": "CURA-12889 painting on rotated cube is wrong",
+          "timestamp": "2026-02-09T02:30:32Z",
+          "url": "https://github.com/Ultimaker/CuraEngine/pull/2280/commits/425ec070f672ccbe33806c5f63cb91ff7ac8e30a"
+        },
+        "date": 1770631622981,
         "tool": "customSmallerIsBetter",
         "benches": [
           {
