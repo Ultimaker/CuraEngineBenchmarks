@@ -1,40 +1,8 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1770283001800,
+  "lastUpdate": 1770625468365,
   "repoUrl": "https://github.com/Ultimaker/CuraEngine",
   "entries": {
     "Stress Benchmark": [
-      {
-        "commit": {
-          "author": {
-            "name": "Ultimaker",
-            "username": "Ultimaker"
-          },
-          "committer": {
-            "name": "Ultimaker",
-            "username": "Ultimaker"
-          },
-          "id": "03116d9dd8c950c9b25517c14c91cbcab4d256d6",
-          "message": "CURA-12252 Fix outer wall being translated",
-          "timestamp": "2024-10-31T03:05:28Z",
-          "url": "https://github.com/Ultimaker/CuraEngine/pull/2164/commits/03116d9dd8c950c9b25517c14c91cbcab4d256d6"
-        },
-        "date": 1730457838501,
-        "tool": "customSmallerIsBetter",
-        "benches": [
-          {
-            "name": "Number of test cases",
-            "value": 61,
-            "unit": "-",
-            "extra": ""
-          },
-          {
-            "name": "General Stress Level",
-            "value": 0,
-            "unit": "%",
-            "extra": "Crashes in: "
-          }
-        ]
-      },
       {
         "commit": {
           "author": {
@@ -8139,6 +8107,38 @@ window.BENCHMARK_DATA = {
           "url": "https://github.com/Ultimaker/CuraEngine/pull/2278/commits/101318dfbbee850a4c30300a15b2bf152245c31b"
         },
         "date": 1770282996831,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "Number of test cases",
+            "value": 61,
+            "unit": "-",
+            "extra": ""
+          },
+          {
+            "name": "General Stress Level",
+            "value": 0,
+            "unit": "%",
+            "extra": "Crashes in: "
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "Ultimaker",
+            "username": "Ultimaker"
+          },
+          "committer": {
+            "name": "Ultimaker",
+            "username": "Ultimaker"
+          },
+          "id": "520bda7363fdaf163855bba8060b3332a6814db9",
+          "message": "Apply roofing expansion only for wide roofing areas",
+          "timestamp": "2026-02-09T02:30:32Z",
+          "url": "https://github.com/Ultimaker/CuraEngine/pull/2278/commits/520bda7363fdaf163855bba8060b3332a6814db9"
+        },
+        "date": 1770625463263,
         "tool": "customSmallerIsBetter",
         "benches": [
           {
