@@ -1,40 +1,8 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1770713876713,
+  "lastUpdate": 1770735824594,
   "repoUrl": "https://github.com/Ultimaker/CuraEngine",
   "entries": {
     "Stress Benchmark": [
-      {
-        "commit": {
-          "author": {
-            "name": "Ultimaker",
-            "username": "Ultimaker"
-          },
-          "committer": {
-            "name": "Ultimaker",
-            "username": "Ultimaker"
-          },
-          "id": "a6450b00d2c7e030d308bc07e16ee11b8355b18b",
-          "message": "CURA-12264 Fix seam alignment",
-          "timestamp": "2024-11-05T06:58:26Z",
-          "url": "https://github.com/Ultimaker/CuraEngine/pull/2167/commits/a6450b00d2c7e030d308bc07e16ee11b8355b18b"
-        },
-        "date": 1730821758217,
-        "tool": "customSmallerIsBetter",
-        "benches": [
-          {
-            "name": "Number of test cases",
-            "value": 61,
-            "unit": "-",
-            "extra": ""
-          },
-          {
-            "name": "General Stress Level",
-            "value": 0,
-            "unit": "%",
-            "extra": "Crashes in: "
-          }
-        ]
-      },
       {
         "commit": {
           "author": {
@@ -8139,6 +8107,38 @@ window.BENCHMARK_DATA = {
           "url": "https://github.com/Ultimaker/CuraEngine/pull/2282/commits/04754127107b08f39ebcc5c2753278a2727a6352"
         },
         "date": 1770713871027,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "Number of test cases",
+            "value": 61,
+            "unit": "-",
+            "extra": ""
+          },
+          {
+            "name": "General Stress Level",
+            "value": 0,
+            "unit": "%",
+            "extra": "Crashes in: "
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "Ultimaker",
+            "username": "Ultimaker"
+          },
+          "committer": {
+            "name": "Ultimaker",
+            "username": "Ultimaker"
+          },
+          "id": "29baff68b9c9358521fb9242618343546ec96093",
+          "message": "CURA-12968 Do not apply skin support when there is skin below",
+          "timestamp": "2026-02-09T02:30:32Z",
+          "url": "https://github.com/Ultimaker/CuraEngine/pull/2282/commits/29baff68b9c9358521fb9242618343546ec96093"
+        },
+        "date": 1770735818913,
         "tool": "customSmallerIsBetter",
         "benches": [
           {
