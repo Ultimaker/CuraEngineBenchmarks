@@ -1,44 +1,8 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1770814279921,
+  "lastUpdate": 1770814422411,
   "repoUrl": "https://github.com/Ultimaker/CuraEngine",
   "entries": {
     "Stress Benchmark": [
-      {
-        "commit": {
-          "author": {
-            "email": "erwan.mathieu@ultimaker.com",
-            "name": "Erwan MATHIEU",
-            "username": "wawanbreton"
-          },
-          "committer": {
-            "email": "erwan.mathieu@ultimaker.com",
-            "name": "Erwan MATHIEU",
-            "username": "wawanbreton"
-          },
-          "distinct": true,
-          "id": "7876d035c30d17a0f0e48568913e7d47ce4a3223",
-          "message": "Merge remote-tracking branch 'origin/5.9'",
-          "timestamp": "2024-11-07T09:46:14+01:00",
-          "tree_id": "ede388edf634aef275338bdfe5bb41b7ed972da4",
-          "url": "https://github.com/Ultimaker/CuraEngine/commit/7876d035c30d17a0f0e48568913e7d47ce4a3223"
-        },
-        "date": 1730970193927,
-        "tool": "customSmallerIsBetter",
-        "benches": [
-          {
-            "name": "Number of test cases",
-            "value": 61,
-            "unit": "-",
-            "extra": ""
-          },
-          {
-            "name": "General Stress Level",
-            "value": 0,
-            "unit": "%",
-            "extra": "Crashes in: "
-          }
-        ]
-      },
       {
         "commit": {
           "author": {
@@ -8139,6 +8103,38 @@ window.BENCHMARK_DATA = {
           "url": "https://github.com/Ultimaker/CuraEngine/pull/2283/commits/df3e11a7fc12f930f5703681e716dfd620e880e2"
         },
         "date": 1770814274357,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "Number of test cases",
+            "value": 61,
+            "unit": "-",
+            "extra": ""
+          },
+          {
+            "name": "General Stress Level",
+            "value": 0,
+            "unit": "%",
+            "extra": "Crashes in: "
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "Ultimaker",
+            "username": "Ultimaker"
+          },
+          "committer": {
+            "name": "Ultimaker",
+            "username": "Ultimaker"
+          },
+          "id": "c0662e1bab537d2bc3a3af69cc650e05c262a440",
+          "message": "CURA-11242 Apply flow change based on Z offset",
+          "timestamp": "2026-02-09T02:30:32Z",
+          "url": "https://github.com/Ultimaker/CuraEngine/pull/2281/commits/c0662e1bab537d2bc3a3af69cc650e05c262a440"
+        },
+        "date": 1770814410436,
         "tool": "customSmallerIsBetter",
         "benches": [
           {
