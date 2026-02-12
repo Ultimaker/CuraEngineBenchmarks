@@ -1,40 +1,8 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1770814422411,
+  "lastUpdate": 1770886603532,
   "repoUrl": "https://github.com/Ultimaker/CuraEngine",
   "entries": {
     "Stress Benchmark": [
-      {
-        "commit": {
-          "author": {
-            "name": "Ultimaker",
-            "username": "Ultimaker"
-          },
-          "committer": {
-            "name": "Ultimaker",
-            "username": "Ultimaker"
-          },
-          "id": "643a7124ed418a0435423eb788fc6bc0aeba5c8c",
-          "message": "CURA-12268 Fix useless Z move before switching layer",
-          "timestamp": "2024-11-07T08:46:29Z",
-          "url": "https://github.com/Ultimaker/CuraEngine/pull/2169/commits/643a7124ed418a0435423eb788fc6bc0aeba5c8c"
-        },
-        "date": 1730990728277,
-        "tool": "customSmallerIsBetter",
-        "benches": [
-          {
-            "name": "Number of test cases",
-            "value": 61,
-            "unit": "-",
-            "extra": ""
-          },
-          {
-            "name": "General Stress Level",
-            "value": 0,
-            "unit": "%",
-            "extra": "Crashes in: "
-          }
-        ]
-      },
       {
         "commit": {
           "author": {
@@ -8135,6 +8103,38 @@ window.BENCHMARK_DATA = {
           "url": "https://github.com/Ultimaker/CuraEngine/pull/2281/commits/c0662e1bab537d2bc3a3af69cc650e05c262a440"
         },
         "date": 1770814410436,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "Number of test cases",
+            "value": 61,
+            "unit": "-",
+            "extra": ""
+          },
+          {
+            "name": "General Stress Level",
+            "value": 0,
+            "unit": "%",
+            "extra": "Crashes in: "
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "Ultimaker",
+            "username": "Ultimaker"
+          },
+          "committer": {
+            "name": "Ultimaker",
+            "username": "Ultimaker"
+          },
+          "id": "803e5af2d5c96ba3111e795d31b2076af90d1908",
+          "message": "CURA- 12556 formula parser in cura engine",
+          "timestamp": "2026-02-09T02:30:32Z",
+          "url": "https://github.com/Ultimaker/CuraEngine/pull/2274/commits/803e5af2d5c96ba3111e795d31b2076af90d1908"
+        },
+        "date": 1770886597654,
         "tool": "customSmallerIsBetter",
         "benches": [
           {
