@@ -1,44 +1,8 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1770990380997,
+  "lastUpdate": 1770998466444,
   "repoUrl": "https://github.com/Ultimaker/CuraEngine",
   "entries": {
     "Stress Benchmark": [
-      {
-        "commit": {
-          "author": {
-            "email": "erwan.mathieu@ultimaker.com",
-            "name": "Erwan MATHIEU",
-            "username": "wawanbreton"
-          },
-          "committer": {
-            "email": "erwan.mathieu@ultimaker.com",
-            "name": "Erwan MATHIEU",
-            "username": "wawanbreton"
-          },
-          "distinct": true,
-          "id": "6b20571fe08811e8f000bc48d023297ee1f901b6",
-          "message": "Fix wrong scoring tendancy\n\nCURA-12324\nWhen processing the last criterion pass, we used to keep all the best candidates in regard to the scoring threshold, then the first one of them would be returned, which is not always the one with the actual best score. Now we just early-out with the best candidate in case of the last pass. This is also more efficient.",
-          "timestamp": "2024-11-22T09:06:30+01:00",
-          "tree_id": "a9b6e398a044b70049975c9a95e3df92de02ddce",
-          "url": "https://github.com/Ultimaker/CuraEngine/commit/6b20571fe08811e8f000bc48d023297ee1f901b6"
-        },
-        "date": 1732263841310,
-        "tool": "customSmallerIsBetter",
-        "benches": [
-          {
-            "name": "Number of test cases",
-            "value": 61,
-            "unit": "-",
-            "extra": ""
-          },
-          {
-            "name": "General Stress Level",
-            "value": 0,
-            "unit": "%",
-            "extra": "Crashes in: "
-          }
-        ]
-      },
       {
         "commit": {
           "author": {
@@ -8131,6 +8095,38 @@ window.BENCHMARK_DATA = {
           "url": "https://github.com/Ultimaker/CuraEngine/pull/2283/commits/e959bd16743520c1da5ccbc19b100d793548a4ea"
         },
         "date": 1770990375246,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "Number of test cases",
+            "value": 61,
+            "unit": "-",
+            "extra": ""
+          },
+          {
+            "name": "General Stress Level",
+            "value": 0,
+            "unit": "%",
+            "extra": "Crashes in: "
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "Ultimaker",
+            "username": "Ultimaker"
+          },
+          "committer": {
+            "name": "Ultimaker",
+            "username": "Ultimaker"
+          },
+          "id": "d3d06b74fdc294d207c20f8a1849b88ecdd7b1c7",
+          "message": "CURA-12972 missing inward infill move",
+          "timestamp": "2026-02-13T07:28:28Z",
+          "url": "https://github.com/Ultimaker/CuraEngine/pull/2284/commits/d3d06b74fdc294d207c20f8a1849b88ecdd7b1c7"
+        },
+        "date": 1770998461296,
         "tool": "customSmallerIsBetter",
         "benches": [
           {
