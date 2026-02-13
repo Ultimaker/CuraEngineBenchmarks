@@ -1,40 +1,8 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1770988404173,
+  "lastUpdate": 1770990167119,
   "repoUrl": "https://github.com/Ultimaker/CuraEngine",
   "entries": {
     "Stress Benchmark": [
-      {
-        "commit": {
-          "author": {
-            "name": "Ultimaker",
-            "username": "Ultimaker"
-          },
-          "committer": {
-            "name": "Ultimaker",
-            "username": "Ultimaker"
-          },
-          "id": "ecb2ae08e4361f1acac8e55b32d83ac0b1d93597",
-          "message": "Apply coasting only on walls",
-          "timestamp": "2024-11-12T17:43:05Z",
-          "url": "https://github.com/Ultimaker/CuraEngine/pull/2174/commits/ecb2ae08e4361f1acac8e55b32d83ac0b1d93597"
-        },
-        "date": 1731665225189,
-        "tool": "customSmallerIsBetter",
-        "benches": [
-          {
-            "name": "Number of test cases",
-            "value": 61,
-            "unit": "-",
-            "extra": ""
-          },
-          {
-            "name": "General Stress Level",
-            "value": 0,
-            "unit": "%",
-            "extra": "Crashes in: "
-          }
-        ]
-      },
       {
         "commit": {
           "author": {
@@ -8135,6 +8103,38 @@ window.BENCHMARK_DATA = {
           "url": "https://github.com/Ultimaker/CuraEngine/pull/2283/commits/c0fc97bd8ac0e239d89cd9d3d108d15638d27ef3"
         },
         "date": 1770988397518,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "Number of test cases",
+            "value": 61,
+            "unit": "-",
+            "extra": ""
+          },
+          {
+            "name": "General Stress Level",
+            "value": 0,
+            "unit": "%",
+            "extra": "Crashes in: "
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "Ultimaker",
+            "username": "Ultimaker"
+          },
+          "committer": {
+            "name": "Ultimaker",
+            "username": "Ultimaker"
+          },
+          "id": "8f83c412a76f277a300c747f3462fefba10bfc4c",
+          "message": "CURA-12957 infill can leave small dots lines",
+          "timestamp": "2026-02-13T07:28:28Z",
+          "url": "https://github.com/Ultimaker/CuraEngine/pull/2283/commits/8f83c412a76f277a300c747f3462fefba10bfc4c"
+        },
+        "date": 1770990161381,
         "tool": "customSmallerIsBetter",
         "benches": [
           {
