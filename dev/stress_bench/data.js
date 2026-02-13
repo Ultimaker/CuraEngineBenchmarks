@@ -1,40 +1,8 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1770904718598,
+  "lastUpdate": 1770987161947,
   "repoUrl": "https://github.com/Ultimaker/CuraEngine",
   "entries": {
     "Stress Benchmark": [
-      {
-        "commit": {
-          "author": {
-            "name": "Ultimaker",
-            "username": "Ultimaker"
-          },
-          "committer": {
-            "name": "Ultimaker",
-            "username": "Ultimaker"
-          },
-          "id": "3607b068e36037f946232a48232a4407fb6223ea",
-          "message": "Cura 12275 retract before outer wall only works on the initial layer",
-          "timestamp": "2024-11-08T06:16:26Z",
-          "url": "https://github.com/Ultimaker/CuraEngine/pull/2172/commits/3607b068e36037f946232a48232a4407fb6223ea"
-        },
-        "date": 1731328159939,
-        "tool": "customSmallerIsBetter",
-        "benches": [
-          {
-            "name": "Number of test cases",
-            "value": 61,
-            "unit": "-",
-            "extra": ""
-          },
-          {
-            "name": "General Stress Level",
-            "value": 0,
-            "unit": "%",
-            "extra": "Crashes in: "
-          }
-        ]
-      },
       {
         "commit": {
           "author": {
@@ -8135,6 +8103,38 @@ window.BENCHMARK_DATA = {
           "url": "https://github.com/Ultimaker/CuraEngine/pull/2280/commits/50767a75c096416622b71a5290d2eaa943d4dc9d"
         },
         "date": 1770904713304,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "Number of test cases",
+            "value": 61,
+            "unit": "-",
+            "extra": ""
+          },
+          {
+            "name": "General Stress Level",
+            "value": 0,
+            "unit": "%",
+            "extra": "Crashes in: "
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "Ultimaker",
+            "username": "Ultimaker"
+          },
+          "committer": {
+            "name": "Ultimaker",
+            "username": "Ultimaker"
+          },
+          "id": "b9cabf297d1c1c1fbc31c1f4b1358b7415f2e6ef",
+          "message": "CURA-12957 infill can leave small dots lines",
+          "timestamp": "2026-02-13T07:28:28Z",
+          "url": "https://github.com/Ultimaker/CuraEngine/pull/2283/commits/b9cabf297d1c1c1fbc31c1f4b1358b7415f2e6ef"
+        },
+        "date": 1770987156818,
         "tool": "customSmallerIsBetter",
         "benches": [
           {
