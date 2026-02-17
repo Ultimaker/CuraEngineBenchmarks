@@ -1,40 +1,8 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1771338335120,
+  "lastUpdate": 1771341856068,
   "repoUrl": "https://github.com/Ultimaker/CuraEngine",
   "entries": {
     "Stress Benchmark": [
-      {
-        "commit": {
-          "author": {
-            "name": "Ultimaker",
-            "username": "Ultimaker"
-          },
-          "committer": {
-            "name": "Ultimaker",
-            "username": "Ultimaker"
-          },
-          "id": "0abecdc2e61595302f10471c271ef676ab2b0154",
-          "message": "CURA-12324 random seam is not so random",
-          "timestamp": "2024-11-27T13:31:25Z",
-          "url": "https://github.com/Ultimaker/CuraEngine/pull/2175/commits/0abecdc2e61595302f10471c271ef676ab2b0154"
-        },
-        "date": 1732787495618,
-        "tool": "customSmallerIsBetter",
-        "benches": [
-          {
-            "name": "Number of test cases",
-            "value": 61,
-            "unit": "-",
-            "extra": ""
-          },
-          {
-            "name": "General Stress Level",
-            "value": 0,
-            "unit": "%",
-            "extra": "Crashes in: "
-          }
-        ]
-      },
       {
         "commit": {
           "author": {
@@ -8127,6 +8095,38 @@ window.BENCHMARK_DATA = {
           "url": "https://github.com/Ultimaker/CuraEngine/pull/2285/commits/cfe3eb23eca354778ee1f4868caf6ed3c16678a7"
         },
         "date": 1771338329734,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "Number of test cases",
+            "value": 61,
+            "unit": "-",
+            "extra": ""
+          },
+          {
+            "name": "General Stress Level",
+            "value": 0,
+            "unit": "%",
+            "extra": "Crashes in: "
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "Ultimaker",
+            "username": "Ultimaker"
+          },
+          "committer": {
+            "name": "Ultimaker",
+            "username": "Ultimaker"
+          },
+          "id": "e81dcd9dc4074a88202a5ca36945f1758aa9cd58",
+          "message": "Introduce bridging heuristic(s)",
+          "timestamp": "2026-02-16T19:39:24Z",
+          "url": "https://github.com/Ultimaker/CuraEngine/pull/2286/commits/e81dcd9dc4074a88202a5ca36945f1758aa9cd58"
+        },
+        "date": 1771341845216,
         "tool": "customSmallerIsBetter",
         "benches": [
           {
