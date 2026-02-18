@@ -1,40 +1,8 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1771423457364,
+  "lastUpdate": 1771426172360,
   "repoUrl": "https://github.com/Ultimaker/CuraEngine",
   "entries": {
     "Stress Benchmark": [
-      {
-        "commit": {
-          "author": {
-            "name": "Ultimaker",
-            "username": "Ultimaker"
-          },
-          "committer": {
-            "name": "Ultimaker",
-            "username": "Ultimaker"
-          },
-          "id": "80fab600a66e6fbb6a7e33c09017dc2f70bdfecb",
-          "message": "CURA-12352 different minimum layer time for layers that contain overhangs",
-          "timestamp": "2025-01-08T06:20:05Z",
-          "url": "https://github.com/Ultimaker/CuraEngine/pull/2187/commits/80fab600a66e6fbb6a7e33c09017dc2f70bdfecb"
-        },
-        "date": 1736434474457,
-        "tool": "customSmallerIsBetter",
-        "benches": [
-          {
-            "name": "Number of test cases",
-            "value": 61,
-            "unit": "-",
-            "extra": ""
-          },
-          {
-            "name": "General Stress Level",
-            "value": 0,
-            "unit": "%",
-            "extra": "Crashes in: "
-          }
-        ]
-      },
       {
         "commit": {
           "author": {
@@ -8115,6 +8083,38 @@ window.BENCHMARK_DATA = {
           "url": "https://github.com/Ultimaker/CuraEngine/pull/2288/commits/e7b056659e824d8d6fb7083306e063d4539d5e31"
         },
         "date": 1771423452143,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "Number of test cases",
+            "value": 61,
+            "unit": "-",
+            "extra": ""
+          },
+          {
+            "name": "General Stress Level",
+            "value": 0,
+            "unit": "%",
+            "extra": "Crashes in: "
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "Ultimaker",
+            "username": "Ultimaker"
+          },
+          "committer": {
+            "name": "Ultimaker",
+            "username": "Ultimaker"
+          },
+          "id": "bb060e983f406cf7e4abff0f21b7e8fff3e9af2d",
+          "message": "Raise nozzle for one-at-a-time final travel",
+          "timestamp": "2026-02-16T19:39:24Z",
+          "url": "https://github.com/Ultimaker/CuraEngine/pull/2288/commits/bb060e983f406cf7e4abff0f21b7e8fff3e9af2d"
+        },
+        "date": 1771426166273,
         "tool": "customSmallerIsBetter",
         "benches": [
           {
