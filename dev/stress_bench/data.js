@@ -1,44 +1,8 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1771426650355,
+  "lastUpdate": 1771428193256,
   "repoUrl": "https://github.com/Ultimaker/CuraEngine",
   "entries": {
     "Stress Benchmark": [
-      {
-        "commit": {
-          "author": {
-            "email": "alireza.doustdar@gmail.com",
-            "name": "HellAholic",
-            "username": "HellAholic"
-          },
-          "committer": {
-            "email": "noreply@github.com",
-            "name": "GitHub",
-            "username": "web-flow"
-          },
-          "distinct": true,
-          "id": "5438caa8a3cdd478087f5a11fb892a203471d1a3",
-          "message": "Fix wrong retraction settings being used (#2191)",
-          "timestamp": "2025-01-10T13:34:02+01:00",
-          "tree_id": "8431b6c6d35c351873377946a8cfe96a4fab9c1a",
-          "url": "https://github.com/Ultimaker/CuraEngine/commit/5438caa8a3cdd478087f5a11fb892a203471d1a3"
-        },
-        "date": 1736514001050,
-        "tool": "customSmallerIsBetter",
-        "benches": [
-          {
-            "name": "Number of test cases",
-            "value": 61,
-            "unit": "-",
-            "extra": ""
-          },
-          {
-            "name": "General Stress Level",
-            "value": 0,
-            "unit": "%",
-            "extra": "Crashes in: "
-          }
-        ]
-      },
       {
         "commit": {
           "author": {
@@ -8115,6 +8079,38 @@ window.BENCHMARK_DATA = {
           "url": "https://github.com/Ultimaker/CuraEngine/pull/2288/commits/018305564800bd136b426f293ff4309291f65fac"
         },
         "date": 1771426644512,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "Number of test cases",
+            "value": 61,
+            "unit": "-",
+            "extra": ""
+          },
+          {
+            "name": "General Stress Level",
+            "value": 0,
+            "unit": "%",
+            "extra": "Crashes in: "
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "Ultimaker",
+            "username": "Ultimaker"
+          },
+          "committer": {
+            "name": "Ultimaker",
+            "username": "Ultimaker"
+          },
+          "id": "5bbeb4060f1571e75f05896efa068fa5c39805de",
+          "message": "Write extruder-specific end G-code",
+          "timestamp": "2026-02-16T19:39:24Z",
+          "url": "https://github.com/Ultimaker/CuraEngine/pull/2289/commits/5bbeb4060f1571e75f05896efa068fa5c39805de"
+        },
+        "date": 1771428187254,
         "tool": "customSmallerIsBetter",
         "benches": [
           {
