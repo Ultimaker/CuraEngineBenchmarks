@@ -1,44 +1,8 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1771405399694,
+  "lastUpdate": 1771409957430,
   "repoUrl": "https://github.com/Ultimaker/CuraEngine",
   "entries": {
     "Stress Benchmark": [
-      {
-        "commit": {
-          "author": {
-            "email": "erwan.mathieu@ultimaker.com",
-            "name": "Erwan MATHIEU",
-            "username": "wawanbreton"
-          },
-          "committer": {
-            "email": "erwan.mathieu@ultimaker.com",
-            "name": "Erwan MATHIEU",
-            "username": "wawanbreton"
-          },
-          "distinct": true,
-          "id": "025fabd97a97dc918c616b9b1c2e4e4c9c609e97",
-          "message": "Fix build setting syntax",
-          "timestamp": "2024-12-20T13:26:36+01:00",
-          "tree_id": "fbd43e0d8cd5c02fc223347f56e14ac0ad39b30f",
-          "url": "https://github.com/Ultimaker/CuraEngine/commit/025fabd97a97dc918c616b9b1c2e4e4c9c609e97"
-        },
-        "date": 1734697962823,
-        "tool": "customSmallerIsBetter",
-        "benches": [
-          {
-            "name": "Number of test cases",
-            "value": 61,
-            "unit": "-",
-            "extra": ""
-          },
-          {
-            "name": "General Stress Level",
-            "value": 0,
-            "unit": "%",
-            "extra": "Crashes in: "
-          }
-        ]
-      },
       {
         "commit": {
           "author": {
@@ -8123,6 +8087,38 @@ window.BENCHMARK_DATA = {
           "url": "https://github.com/Ultimaker/CuraEngine/pull/2285/commits/f9ba6d6812f2ecc07686320fbdc3dfa0e7a9a2e9"
         },
         "date": 1771405392920,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "Number of test cases",
+            "value": 61,
+            "unit": "-",
+            "extra": ""
+          },
+          {
+            "name": "General Stress Level",
+            "value": 0,
+            "unit": "%",
+            "extra": "Crashes in: "
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "Ultimaker",
+            "username": "Ultimaker"
+          },
+          "committer": {
+            "name": "Ultimaker",
+            "username": "Ultimaker"
+          },
+          "id": "9719219c7d89520d29c6942643ef548e498f149f",
+          "message": "Introduce bridging heuristic(s)",
+          "timestamp": "2026-02-16T19:39:24Z",
+          "url": "https://github.com/Ultimaker/CuraEngine/pull/2286/commits/9719219c7d89520d29c6942643ef548e498f149f"
+        },
+        "date": 1771409952388,
         "tool": "customSmallerIsBetter",
         "benches": [
           {
