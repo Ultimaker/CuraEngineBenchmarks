@@ -1,40 +1,8 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1771409957430,
+  "lastUpdate": 1771409982337,
   "repoUrl": "https://github.com/Ultimaker/CuraEngine",
   "entries": {
     "Stress Benchmark": [
-      {
-        "commit": {
-          "author": {
-            "name": "Ultimaker",
-            "username": "Ultimaker"
-          },
-          "committer": {
-            "name": "Ultimaker",
-            "username": "Ultimaker"
-          },
-          "id": "9ac032997fe89e4b8ef839e11275e79f537408e8",
-          "message": "Fix wrong retraction settings being used",
-          "timestamp": "2024-12-20T14:22:46Z",
-          "url": "https://github.com/Ultimaker/CuraEngine/pull/2191/commits/9ac032997fe89e4b8ef839e11275e79f537408e8"
-        },
-        "date": 1734704908220,
-        "tool": "customSmallerIsBetter",
-        "benches": [
-          {
-            "name": "Number of test cases",
-            "value": 61,
-            "unit": "-",
-            "extra": ""
-          },
-          {
-            "name": "General Stress Level",
-            "value": 0,
-            "unit": "%",
-            "extra": "Crashes in: "
-          }
-        ]
-      },
       {
         "commit": {
           "author": {
@@ -8119,6 +8087,38 @@ window.BENCHMARK_DATA = {
           "url": "https://github.com/Ultimaker/CuraEngine/pull/2286/commits/9719219c7d89520d29c6942643ef548e498f149f"
         },
         "date": 1771409952388,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "Number of test cases",
+            "value": 61,
+            "unit": "-",
+            "extra": ""
+          },
+          {
+            "name": "General Stress Level",
+            "value": 0,
+            "unit": "%",
+            "extra": "Crashes in: "
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "Ultimaker",
+            "username": "Ultimaker"
+          },
+          "committer": {
+            "name": "Ultimaker",
+            "username": "Ultimaker"
+          },
+          "id": "3f97001fcdade089a0b29a8b96af13e675b1fd9c",
+          "message": "Introduce bridging heuristic(s)",
+          "timestamp": "2026-02-16T19:39:24Z",
+          "url": "https://github.com/Ultimaker/CuraEngine/pull/2286/commits/3f97001fcdade089a0b29a8b96af13e675b1fd9c"
+        },
+        "date": 1771409976609,
         "tool": "customSmallerIsBetter",
         "benches": [
           {
