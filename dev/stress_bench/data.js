@@ -1,44 +1,8 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1771409982337,
+  "lastUpdate": 1771414452684,
   "repoUrl": "https://github.com/Ultimaker/CuraEngine",
   "entries": {
     "Stress Benchmark": [
-      {
-        "commit": {
-          "author": {
-            "email": "erwan.mathieu@ultimaker.com",
-            "name": "Erwan MATHIEU",
-            "username": "wawanbreton"
-          },
-          "committer": {
-            "email": "erwan.mathieu@ultimaker.com",
-            "name": "Erwan MATHIEU",
-            "username": "wawanbreton"
-          },
-          "distinct": true,
-          "id": "39de9508e7c1ae736ecb95288a73dc54c76f1a61",
-          "message": "Set unit test setting for benchmarks",
-          "timestamp": "2024-12-20T15:22:40+01:00",
-          "tree_id": "5d97d55e53abdb990c83e4e0cda3e93a9091b871",
-          "url": "https://github.com/Ultimaker/CuraEngine/commit/39de9508e7c1ae736ecb95288a73dc54c76f1a61"
-        },
-        "date": 1734704909494,
-        "tool": "customSmallerIsBetter",
-        "benches": [
-          {
-            "name": "Number of test cases",
-            "value": 61,
-            "unit": "-",
-            "extra": ""
-          },
-          {
-            "name": "General Stress Level",
-            "value": 0,
-            "unit": "%",
-            "extra": "Crashes in: "
-          }
-        ]
-      },
       {
         "commit": {
           "author": {
@@ -8119,6 +8083,38 @@ window.BENCHMARK_DATA = {
           "url": "https://github.com/Ultimaker/CuraEngine/pull/2286/commits/3f97001fcdade089a0b29a8b96af13e675b1fd9c"
         },
         "date": 1771409976609,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "Number of test cases",
+            "value": 61,
+            "unit": "-",
+            "extra": ""
+          },
+          {
+            "name": "General Stress Level",
+            "value": 0,
+            "unit": "%",
+            "extra": "Crashes in: "
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "Ultimaker",
+            "username": "Ultimaker"
+          },
+          "committer": {
+            "name": "Ultimaker",
+            "username": "Ultimaker"
+          },
+          "id": "e2add4cd8a504948e97821c7650b94456394c2eb",
+          "message": "[CURA-12977] Fix non-retract-travels over (outer) walls.",
+          "timestamp": "2026-02-16T19:39:24Z",
+          "url": "https://github.com/Ultimaker/CuraEngine/pull/2287/commits/e2add4cd8a504948e97821c7650b94456394c2eb"
+        },
+        "date": 1771414447276,
         "tool": "customSmallerIsBetter",
         "benches": [
           {
