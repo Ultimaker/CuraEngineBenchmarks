@@ -1,40 +1,8 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1771508506891,
+  "lastUpdate": 1771508688291,
   "repoUrl": "https://github.com/Ultimaker/CuraEngine",
   "entries": {
     "Stress Benchmark": [
-      {
-        "commit": {
-          "author": {
-            "name": "Ultimaker",
-            "username": "Ultimaker"
-          },
-          "committer": {
-            "name": "Ultimaker",
-            "username": "Ultimaker"
-          },
-          "id": "34fbc599a0131a120e54a74f7ba18bee18b83490",
-          "message": "CURA-12335 Handle flooring settings on the same basis as roofing",
-          "timestamp": "2025-01-23T11:17:46Z",
-          "url": "https://github.com/Ultimaker/CuraEngine/pull/2202/commits/34fbc599a0131a120e54a74f7ba18bee18b83490"
-        },
-        "date": 1737970752815,
-        "tool": "customSmallerIsBetter",
-        "benches": [
-          {
-            "name": "Number of test cases",
-            "value": 61,
-            "unit": "-",
-            "extra": ""
-          },
-          {
-            "name": "General Stress Level",
-            "value": 0,
-            "unit": "%",
-            "extra": "Crashes in: "
-          }
-        ]
-      },
       {
         "commit": {
           "author": {
@@ -8099,6 +8067,38 @@ window.BENCHMARK_DATA = {
           "url": "https://github.com/Ultimaker/CuraEngine/pull/2290/commits/e0d699da5a7785514abfe719ed0a7c53a40a5cb5"
         },
         "date": 1771508501092,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "Number of test cases",
+            "value": 61,
+            "unit": "-",
+            "extra": ""
+          },
+          {
+            "name": "General Stress Level",
+            "value": 0,
+            "unit": "%",
+            "extra": "Crashes in: "
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "Ultimaker",
+            "username": "Ultimaker"
+          },
+          "committer": {
+            "name": "Ultimaker",
+            "username": "Ultimaker"
+          },
+          "id": "46571e528503d1d7e320d35e2254c1d401b52020",
+          "message": "Fix bridging over infill intersecting with skin walls ",
+          "timestamp": "2026-02-16T19:39:24Z",
+          "url": "https://github.com/Ultimaker/CuraEngine/pull/2292/commits/46571e528503d1d7e320d35e2254c1d401b52020"
+        },
+        "date": 1771508682863,
         "tool": "customSmallerIsBetter",
         "benches": [
           {
