@@ -1,40 +1,8 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1771494050127,
+  "lastUpdate": 1771494136554,
   "repoUrl": "https://github.com/Ultimaker/CuraEngine",
   "entries": {
     "Stress Benchmark": [
-      {
-        "commit": {
-          "author": {
-            "name": "Ultimaker",
-            "username": "Ultimaker"
-          },
-          "committer": {
-            "name": "Ultimaker",
-            "username": "Ultimaker"
-          },
-          "id": "a98e7d065fefa91bceab0789577915ea94e1f396",
-          "message": "CURA-12352 different minimum layer time for layers that contain overhangs",
-          "timestamp": "2025-01-14T20:29:36Z",
-          "url": "https://github.com/Ultimaker/CuraEngine/pull/2187/commits/a98e7d065fefa91bceab0789577915ea94e1f396"
-        },
-        "date": 1737035359352,
-        "tool": "customSmallerIsBetter",
-        "benches": [
-          {
-            "name": "Number of test cases",
-            "value": 61,
-            "unit": "-",
-            "extra": ""
-          },
-          {
-            "name": "General Stress Level",
-            "value": 0,
-            "unit": "%",
-            "extra": "Crashes in: "
-          }
-        ]
-      },
       {
         "commit": {
           "author": {
@@ -8103,6 +8071,38 @@ window.BENCHMARK_DATA = {
           "url": "https://github.com/Ultimaker/CuraEngine/pull/2290/commits/050da30875ba7db7b1d7157fd9bef97c6c289b08"
         },
         "date": 1771494043159,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "Number of test cases",
+            "value": 61,
+            "unit": "-",
+            "extra": ""
+          },
+          {
+            "name": "General Stress Level",
+            "value": 0,
+            "unit": "%",
+            "extra": "Crashes in: "
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "Ultimaker",
+            "username": "Ultimaker"
+          },
+          "committer": {
+            "name": "Ultimaker",
+            "username": "Ultimaker"
+          },
+          "id": "21e122e3d7cfc9aadd4625a20d20622f82e66c17",
+          "message": "CURA-12840 Set the Z after Z hop to avoide double trigger",
+          "timestamp": "2026-02-16T19:39:24Z",
+          "url": "https://github.com/Ultimaker/CuraEngine/pull/2290/commits/21e122e3d7cfc9aadd4625a20d20622f82e66c17"
+        },
+        "date": 1771494130911,
         "tool": "customSmallerIsBetter",
         "benches": [
           {
