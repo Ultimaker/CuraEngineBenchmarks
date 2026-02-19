@@ -1,40 +1,8 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1771508688291,
+  "lastUpdate": 1771509127298,
   "repoUrl": "https://github.com/Ultimaker/CuraEngine",
   "entries": {
     "Stress Benchmark": [
-      {
-        "commit": {
-          "author": {
-            "name": "Ultimaker",
-            "username": "Ultimaker"
-          },
-          "committer": {
-            "name": "Ultimaker",
-            "username": "Ultimaker"
-          },
-          "id": "83e9cc715e3675f9636651604fa9ce6e49955eff",
-          "message": "CURA-12335 Handle flooring settings on the same basis as roofing",
-          "timestamp": "2025-01-23T11:17:46Z",
-          "url": "https://github.com/Ultimaker/CuraEngine/pull/2202/commits/83e9cc715e3675f9636651604fa9ce6e49955eff"
-        },
-        "date": 1737973399416,
-        "tool": "customSmallerIsBetter",
-        "benches": [
-          {
-            "name": "Number of test cases",
-            "value": 61,
-            "unit": "-",
-            "extra": ""
-          },
-          {
-            "name": "General Stress Level",
-            "value": 0,
-            "unit": "%",
-            "extra": "Crashes in: "
-          }
-        ]
-      },
       {
         "commit": {
           "author": {
@@ -8099,6 +8067,38 @@ window.BENCHMARK_DATA = {
           "url": "https://github.com/Ultimaker/CuraEngine/pull/2292/commits/46571e528503d1d7e320d35e2254c1d401b52020"
         },
         "date": 1771508682863,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "Number of test cases",
+            "value": 61,
+            "unit": "-",
+            "extra": ""
+          },
+          {
+            "name": "General Stress Level",
+            "value": 0,
+            "unit": "%",
+            "extra": "Crashes in: "
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "Ultimaker",
+            "username": "Ultimaker"
+          },
+          "committer": {
+            "name": "Ultimaker",
+            "username": "Ultimaker"
+          },
+          "id": "7317be1ede38c4f1eae50612aaad02f15b1cf6ef",
+          "message": "CURA-12840 Set the Z after Z hop to avoide double trigger",
+          "timestamp": "2026-02-16T19:39:24Z",
+          "url": "https://github.com/Ultimaker/CuraEngine/pull/2290/commits/7317be1ede38c4f1eae50612aaad02f15b1cf6ef"
+        },
+        "date": 1771509121552,
         "tool": "customSmallerIsBetter",
         "benches": [
           {
