@@ -1,44 +1,8 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1771504585697,
+  "lastUpdate": 1771504868007,
   "repoUrl": "https://github.com/Ultimaker/CuraEngine",
   "entries": {
     "Stress Benchmark": [
-      {
-        "commit": {
-          "author": {
-            "email": "alireza.doustdar@gmail.com",
-            "name": "HellAholic",
-            "username": "HellAholic"
-          },
-          "committer": {
-            "email": "noreply@github.com",
-            "name": "GitHub",
-            "username": "web-flow"
-          },
-          "distinct": true,
-          "id": "35a8c5843e208ef3fe3f5772e7e2190cd37d5b67",
-          "message": "[CURA-12362] Cheetah flavor (#2198)",
-          "timestamp": "2025-01-23T12:17:40+01:00",
-          "tree_id": "7f0729e049e61bb33684348eb0e3810d11919a5e",
-          "url": "https://github.com/Ultimaker/CuraEngine/commit/35a8c5843e208ef3fe3f5772e7e2190cd37d5b67"
-        },
-        "date": 1737632636521,
-        "tool": "customSmallerIsBetter",
-        "benches": [
-          {
-            "name": "Number of test cases",
-            "value": 61,
-            "unit": "-",
-            "extra": ""
-          },
-          {
-            "name": "General Stress Level",
-            "value": 0,
-            "unit": "%",
-            "extra": "Crashes in: "
-          }
-        ]
-      },
       {
         "commit": {
           "author": {
@@ -8103,6 +8067,38 @@ window.BENCHMARK_DATA = {
           "url": "https://github.com/Ultimaker/CuraEngine/pull/2290/commits/e72fa705286238ca0713c6c41b78c8b480f27c6e"
         },
         "date": 1771504578593,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "Number of test cases",
+            "value": 61,
+            "unit": "-",
+            "extra": ""
+          },
+          {
+            "name": "General Stress Level",
+            "value": 0,
+            "unit": "%",
+            "extra": "Crashes in: "
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "Ultimaker",
+            "username": "Ultimaker"
+          },
+          "committer": {
+            "name": "Ultimaker",
+            "username": "Ultimaker"
+          },
+          "id": "48f1ae9d876fe71c0d99465481c3016271d13b56",
+          "message": "Fix issue where small lines would be printed floating within the bridging area",
+          "timestamp": "2026-02-16T19:39:24Z",
+          "url": "https://github.com/Ultimaker/CuraEngine/pull/2291/commits/48f1ae9d876fe71c0d99465481c3016271d13b56"
+        },
+        "date": 1771504862637,
         "tool": "customSmallerIsBetter",
         "benches": [
           {
