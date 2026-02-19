@@ -1,44 +1,8 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1771448816736,
+  "lastUpdate": 1771486924296,
   "repoUrl": "https://github.com/Ultimaker/CuraEngine",
   "entries": {
     "Stress Benchmark": [
-      {
-        "commit": {
-          "author": {
-            "email": "alireza.doustdar@gmail.com",
-            "name": "HellAholic",
-            "username": "HellAholic"
-          },
-          "committer": {
-            "email": "noreply@github.com",
-            "name": "GitHub",
-            "username": "web-flow"
-          },
-          "distinct": true,
-          "id": "45dded54fd8a9759f4bf111bc268c9d1ba268848",
-          "message": "CURA-12236 Apply distance to walls for inside combing (#2188)",
-          "timestamp": "2025-01-13T15:56:55+01:00",
-          "tree_id": "f04407de29a0c00e157a9cd10b810bf9fc0e1848",
-          "url": "https://github.com/Ultimaker/CuraEngine/commit/45dded54fd8a9759f4bf111bc268c9d1ba268848"
-        },
-        "date": 1736781828465,
-        "tool": "customSmallerIsBetter",
-        "benches": [
-          {
-            "name": "Number of test cases",
-            "value": 61,
-            "unit": "-",
-            "extra": ""
-          },
-          {
-            "name": "General Stress Level",
-            "value": 0,
-            "unit": "%",
-            "extra": "Crashes in: "
-          }
-        ]
-      },
       {
         "commit": {
           "author": {
@@ -8111,6 +8075,38 @@ window.BENCHMARK_DATA = {
           "url": "https://github.com/Ultimaker/CuraEngine/pull/2290/commits/1448c1b44ea03b83ef1fa636fe30366c7e43101c"
         },
         "date": 1771448811229,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "Number of test cases",
+            "value": 61,
+            "unit": "-",
+            "extra": ""
+          },
+          {
+            "name": "General Stress Level",
+            "value": 0,
+            "unit": "%",
+            "extra": "Crashes in: "
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "Ultimaker",
+            "username": "Ultimaker"
+          },
+          "committer": {
+            "name": "Ultimaker",
+            "username": "Ultimaker"
+          },
+          "id": "a3d85286c9bbc1e82a22c062ed5220e1d9f95175",
+          "message": "Fix issue where small lines would be printed floating within the bridging area",
+          "timestamp": "2026-02-16T19:39:24Z",
+          "url": "https://github.com/Ultimaker/CuraEngine/pull/2291/commits/a3d85286c9bbc1e82a22c062ed5220e1d9f95175"
+        },
+        "date": 1771486918672,
         "tool": "customSmallerIsBetter",
         "benches": [
           {
