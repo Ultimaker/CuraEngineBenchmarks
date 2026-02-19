@@ -1,44 +1,8 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1771486938683,
+  "lastUpdate": 1771488091390,
   "repoUrl": "https://github.com/Ultimaker/CuraEngine",
   "entries": {
     "Stress Benchmark": [
-      {
-        "commit": {
-          "author": {
-            "email": "alireza.doustdar@gmail.com",
-            "name": "HellAholic",
-            "username": "HellAholic"
-          },
-          "committer": {
-            "email": "noreply@github.com",
-            "name": "GitHub",
-            "username": "web-flow"
-          },
-          "distinct": true,
-          "id": "a7e6fa0488d0b298972d730737c8e0d0b2e5e29f",
-          "message": "CURA-12340 Seam on vertex does not work as expected with user defined (#2189)",
-          "timestamp": "2025-01-13T16:46:09+01:00",
-          "tree_id": "190d80d39d625b15c92b153772ce72d00ee1f315",
-          "url": "https://github.com/Ultimaker/CuraEngine/commit/a7e6fa0488d0b298972d730737c8e0d0b2e5e29f"
-        },
-        "date": 1736784673650,
-        "tool": "customSmallerIsBetter",
-        "benches": [
-          {
-            "name": "Number of test cases",
-            "value": 61,
-            "unit": "-",
-            "extra": ""
-          },
-          {
-            "name": "General Stress Level",
-            "value": 0,
-            "unit": "%",
-            "extra": "Crashes in: "
-          }
-        ]
-      },
       {
         "commit": {
           "author": {
@@ -8107,6 +8071,38 @@ window.BENCHMARK_DATA = {
           "url": "https://github.com/Ultimaker/CuraEngine/pull/2291/commits/18c2557fbbbe1d16f1f7f7ee40a547a03b0b346c"
         },
         "date": 1771486933473,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "Number of test cases",
+            "value": 61,
+            "unit": "-",
+            "extra": ""
+          },
+          {
+            "name": "General Stress Level",
+            "value": 0,
+            "unit": "%",
+            "extra": "Crashes in: "
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "Ultimaker",
+            "username": "Ultimaker"
+          },
+          "committer": {
+            "name": "Ultimaker",
+            "username": "Ultimaker"
+          },
+          "id": "c0155939cf30b57f4ce19629d6d048dc6da5548e",
+          "message": "Write extruder-specific end G-code",
+          "timestamp": "2026-02-16T19:39:24Z",
+          "url": "https://github.com/Ultimaker/CuraEngine/pull/2289/commits/c0155939cf30b57f4ce19629d6d048dc6da5548e"
+        },
+        "date": 1771488085800,
         "tool": "customSmallerIsBetter",
         "benches": [
           {
