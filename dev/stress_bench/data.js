@@ -1,40 +1,8 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1771494573519,
+  "lastUpdate": 1771496516472,
   "repoUrl": "https://github.com/Ultimaker/CuraEngine",
   "entries": {
     "Stress Benchmark": [
-      {
-        "commit": {
-          "author": {
-            "name": "Ultimaker",
-            "username": "Ultimaker"
-          },
-          "committer": {
-            "name": "Ultimaker",
-            "username": "Ultimaker"
-          },
-          "id": "bc7cdcaf3edf3b3df5377225a42ead6d1606bb93",
-          "message": "[CURA-12362] Cheetah flavor",
-          "timestamp": "2025-01-20T02:18:41Z",
-          "url": "https://github.com/Ultimaker/CuraEngine/pull/2198/commits/bc7cdcaf3edf3b3df5377225a42ead6d1606bb93"
-        },
-        "date": 1737375413273,
-        "tool": "customSmallerIsBetter",
-        "benches": [
-          {
-            "name": "Number of test cases",
-            "value": 61,
-            "unit": "-",
-            "extra": ""
-          },
-          {
-            "name": "General Stress Level",
-            "value": 0,
-            "unit": "%",
-            "extra": "Crashes in: "
-          }
-        ]
-      },
       {
         "commit": {
           "author": {
@@ -8103,6 +8071,38 @@ window.BENCHMARK_DATA = {
           "url": "https://github.com/Ultimaker/CuraEngine/pull/2288/commits/3821c18c9f5c5c61df0cb955eb5d8633e55c52af"
         },
         "date": 1771494568295,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "Number of test cases",
+            "value": 61,
+            "unit": "-",
+            "extra": ""
+          },
+          {
+            "name": "General Stress Level",
+            "value": 0,
+            "unit": "%",
+            "extra": "Crashes in: "
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "Ultimaker",
+            "username": "Ultimaker"
+          },
+          "committer": {
+            "name": "Ultimaker",
+            "username": "Ultimaker"
+          },
+          "id": "ff9031967f37b53753fc2db74428ab0b0d888179",
+          "message": "Fix issue where small lines would be printed floating within the bridging area",
+          "timestamp": "2026-02-16T19:39:24Z",
+          "url": "https://github.com/Ultimaker/CuraEngine/pull/2291/commits/ff9031967f37b53753fc2db74428ab0b0d888179"
+        },
+        "date": 1771496511067,
         "tool": "customSmallerIsBetter",
         "benches": [
           {
