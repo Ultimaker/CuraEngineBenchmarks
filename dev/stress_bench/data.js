@@ -1,40 +1,8 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1771496516472,
+  "lastUpdate": 1771501611906,
   "repoUrl": "https://github.com/Ultimaker/CuraEngine",
   "entries": {
     "Stress Benchmark": [
-      {
-        "commit": {
-          "author": {
-            "name": "Ultimaker",
-            "username": "Ultimaker"
-          },
-          "committer": {
-            "name": "Ultimaker",
-            "username": "Ultimaker"
-          },
-          "id": "fb54c9291e2f420c09c7927d4da61dc920ee561b",
-          "message": "CURA-11966 reduce speed on overhang",
-          "timestamp": "2025-01-20T02:18:41Z",
-          "url": "https://github.com/Ultimaker/CuraEngine/pull/2186/commits/fb54c9291e2f420c09c7927d4da61dc920ee561b"
-        },
-        "date": 1737382710150,
-        "tool": "customSmallerIsBetter",
-        "benches": [
-          {
-            "name": "Number of test cases",
-            "value": 61,
-            "unit": "-",
-            "extra": ""
-          },
-          {
-            "name": "General Stress Level",
-            "value": 0,
-            "unit": "%",
-            "extra": "Crashes in: "
-          }
-        ]
-      },
       {
         "commit": {
           "author": {
@@ -8103,6 +8071,38 @@ window.BENCHMARK_DATA = {
           "url": "https://github.com/Ultimaker/CuraEngine/pull/2291/commits/ff9031967f37b53753fc2db74428ab0b0d888179"
         },
         "date": 1771496511067,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "Number of test cases",
+            "value": 61,
+            "unit": "-",
+            "extra": ""
+          },
+          {
+            "name": "General Stress Level",
+            "value": 0,
+            "unit": "%",
+            "extra": "Crashes in: "
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "Ultimaker",
+            "username": "Ultimaker"
+          },
+          "committer": {
+            "name": "Ultimaker",
+            "username": "Ultimaker"
+          },
+          "id": "9bce7bbd889451485cd5ecccea14d6eb24af3b38",
+          "message": "Fix issue where small lines would be printed floating within the bridging area",
+          "timestamp": "2026-02-16T19:39:24Z",
+          "url": "https://github.com/Ultimaker/CuraEngine/pull/2291/commits/9bce7bbd889451485cd5ecccea14d6eb24af3b38"
+        },
+        "date": 1771501606154,
         "tool": "customSmallerIsBetter",
         "benches": [
           {
