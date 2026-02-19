@@ -1,40 +1,8 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1771486924296,
+  "lastUpdate": 1771486938683,
   "repoUrl": "https://github.com/Ultimaker/CuraEngine",
   "entries": {
     "Stress Benchmark": [
-      {
-        "commit": {
-          "author": {
-            "name": "Ultimaker",
-            "username": "Ultimaker"
-          },
-          "committer": {
-            "name": "Ultimaker",
-            "username": "Ultimaker"
-          },
-          "id": "e6ae42bcbfa7f97aa88f90a4093c3d4025b5a2af",
-          "message": "CURA-12340 Seam on vertex does not work as expected with user defined",
-          "timestamp": "2025-01-13T14:57:01Z",
-          "url": "https://github.com/Ultimaker/CuraEngine/pull/2189/commits/e6ae42bcbfa7f97aa88f90a4093c3d4025b5a2af"
-        },
-        "date": 1736783132577,
-        "tool": "customSmallerIsBetter",
-        "benches": [
-          {
-            "name": "Number of test cases",
-            "value": 61,
-            "unit": "-",
-            "extra": ""
-          },
-          {
-            "name": "General Stress Level",
-            "value": 0,
-            "unit": "%",
-            "extra": "Crashes in: "
-          }
-        ]
-      },
       {
         "commit": {
           "author": {
@@ -8107,6 +8075,38 @@ window.BENCHMARK_DATA = {
           "url": "https://github.com/Ultimaker/CuraEngine/pull/2291/commits/a3d85286c9bbc1e82a22c062ed5220e1d9f95175"
         },
         "date": 1771486918672,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "Number of test cases",
+            "value": 61,
+            "unit": "-",
+            "extra": ""
+          },
+          {
+            "name": "General Stress Level",
+            "value": 0,
+            "unit": "%",
+            "extra": "Crashes in: "
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "Ultimaker",
+            "username": "Ultimaker"
+          },
+          "committer": {
+            "name": "Ultimaker",
+            "username": "Ultimaker"
+          },
+          "id": "18c2557fbbbe1d16f1f7f7ee40a547a03b0b346c",
+          "message": "Fix issue where small lines would be printed floating within the bridging area",
+          "timestamp": "2026-02-16T19:39:24Z",
+          "url": "https://github.com/Ultimaker/CuraEngine/pull/2291/commits/18c2557fbbbe1d16f1f7f7ee40a547a03b0b346c"
+        },
+        "date": 1771486933473,
         "tool": "customSmallerIsBetter",
         "benches": [
           {
