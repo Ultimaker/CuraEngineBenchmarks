@@ -1,44 +1,8 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1771520506223,
+  "lastUpdate": 1771572764682,
   "repoUrl": "https://github.com/Ultimaker/CuraEngine",
   "entries": {
     "Stress Benchmark": [
-      {
-        "commit": {
-          "author": {
-            "email": "alireza.doustdar@gmail.com",
-            "name": "HellAholic",
-            "username": "HellAholic"
-          },
-          "committer": {
-            "email": "noreply@github.com",
-            "name": "GitHub",
-            "username": "web-flow"
-          },
-          "distinct": true,
-          "id": "2dec76dc89038c11dae41c2622ffedfb57eae197",
-          "message": "CURA-12352 different minimum layer time for layers that contain overhangs (#2187)",
-          "timestamp": "2025-02-03T11:02:06+01:00",
-          "tree_id": "b6356c3b139be23f65aec9645bb368c5635e427b",
-          "url": "https://github.com/Ultimaker/CuraEngine/commit/2dec76dc89038c11dae41c2622ffedfb57eae197"
-        },
-        "date": 1738578533965,
-        "tool": "customSmallerIsBetter",
-        "benches": [
-          {
-            "name": "Number of test cases",
-            "value": 61,
-            "unit": "-",
-            "extra": ""
-          },
-          {
-            "name": "General Stress Level",
-            "value": 0,
-            "unit": "%",
-            "extra": "Crashes in: "
-          }
-        ]
-      },
       {
         "commit": {
           "author": {
@@ -8099,6 +8063,38 @@ window.BENCHMARK_DATA = {
           "url": "https://github.com/Ultimaker/CuraEngine/pull/2290/commits/da2fdc7e5e008d711b4c4bab34613fc05f06cf2e"
         },
         "date": 1771520500521,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "Number of test cases",
+            "value": 61,
+            "unit": "-",
+            "extra": ""
+          },
+          {
+            "name": "General Stress Level",
+            "value": 0,
+            "unit": "%",
+            "extra": "Crashes in: "
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "Ultimaker",
+            "username": "Ultimaker"
+          },
+          "committer": {
+            "name": "Ultimaker",
+            "username": "Ultimaker"
+          },
+          "id": "d7f87dd0a4ec374a04f717ff0e5d61523b41a4b9",
+          "message": "Fix bridging over infill intersecting with skin walls ",
+          "timestamp": "2026-02-16T19:39:24Z",
+          "url": "https://github.com/Ultimaker/CuraEngine/pull/2292/commits/d7f87dd0a4ec374a04f717ff0e5d61523b41a4b9"
+        },
+        "date": 1771572758588,
         "tool": "customSmallerIsBetter",
         "benches": [
           {
