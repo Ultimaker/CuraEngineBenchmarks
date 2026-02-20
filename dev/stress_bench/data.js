@@ -1,40 +1,8 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1771572764682,
+  "lastUpdate": 1771573975183,
   "repoUrl": "https://github.com/Ultimaker/CuraEngine",
   "entries": {
     "Stress Benchmark": [
-      {
-        "commit": {
-          "author": {
-            "name": "Ultimaker",
-            "username": "Ultimaker"
-          },
-          "committer": {
-            "name": "Ultimaker",
-            "username": "Ultimaker"
-          },
-          "id": "84be5f5a63a1a21d71e7220b8a70ba7b30cc6c6f",
-          "message": "CURA-11978 Retract and unretract in a travel",
-          "timestamp": "2025-02-03T10:02:14Z",
-          "url": "https://github.com/Ultimaker/CuraEngine/pull/2204/commits/84be5f5a63a1a21d71e7220b8a70ba7b30cc6c6f"
-        },
-        "date": 1738748211472,
-        "tool": "customSmallerIsBetter",
-        "benches": [
-          {
-            "name": "Number of test cases",
-            "value": 61,
-            "unit": "-",
-            "extra": ""
-          },
-          {
-            "name": "General Stress Level",
-            "value": 0,
-            "unit": "%",
-            "extra": "Crashes in: "
-          }
-        ]
-      },
       {
         "commit": {
           "author": {
@@ -8095,6 +8063,38 @@ window.BENCHMARK_DATA = {
           "url": "https://github.com/Ultimaker/CuraEngine/pull/2292/commits/d7f87dd0a4ec374a04f717ff0e5d61523b41a4b9"
         },
         "date": 1771572758588,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "Number of test cases",
+            "value": 61,
+            "unit": "-",
+            "extra": ""
+          },
+          {
+            "name": "General Stress Level",
+            "value": 0,
+            "unit": "%",
+            "extra": "Crashes in: "
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "Ultimaker",
+            "username": "Ultimaker"
+          },
+          "committer": {
+            "name": "Ultimaker",
+            "username": "Ultimaker"
+          },
+          "id": "92826a15d53362850ae9e1c9176232a63223c5d5",
+          "message": "Prevent combing from adding tons of travels",
+          "timestamp": "2026-02-16T19:39:24Z",
+          "url": "https://github.com/Ultimaker/CuraEngine/pull/2293/commits/92826a15d53362850ae9e1c9176232a63223c5d5"
+        },
+        "date": 1771573969566,
         "tool": "customSmallerIsBetter",
         "benches": [
           {
