@@ -1,40 +1,8 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1771574269468,
+  "lastUpdate": 1771866137013,
   "repoUrl": "https://github.com/Ultimaker/CuraEngine",
   "entries": {
     "Stress Benchmark": [
-      {
-        "commit": {
-          "author": {
-            "name": "Ultimaker",
-            "username": "Ultimaker"
-          },
-          "committer": {
-            "name": "Ultimaker",
-            "username": "Ultimaker"
-          },
-          "id": "c83319437f5804c6017200ef63cc123199181af5",
-          "message": "CURA-11978 Retract and unretract in a travel",
-          "timestamp": "2025-02-03T10:02:14Z",
-          "url": "https://github.com/Ultimaker/CuraEngine/pull/2204/commits/c83319437f5804c6017200ef63cc123199181af5"
-        },
-        "date": 1738752024731,
-        "tool": "customSmallerIsBetter",
-        "benches": [
-          {
-            "name": "Number of test cases",
-            "value": 61,
-            "unit": "-",
-            "extra": ""
-          },
-          {
-            "name": "General Stress Level",
-            "value": 0,
-            "unit": "%",
-            "extra": "Crashes in: "
-          }
-        ]
-      },
       {
         "commit": {
           "author": {
@@ -8095,6 +8063,38 @@ window.BENCHMARK_DATA = {
           "url": "https://github.com/Ultimaker/CuraEngine/pull/2293/commits/7f994af727a915eddb5c1efdd7dfaf5faf1f3526"
         },
         "date": 1771574263484,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "Number of test cases",
+            "value": 61,
+            "unit": "-",
+            "extra": ""
+          },
+          {
+            "name": "General Stress Level",
+            "value": 0,
+            "unit": "%",
+            "extra": "Crashes in: "
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "Ultimaker",
+            "username": "Ultimaker"
+          },
+          "committer": {
+            "name": "Ultimaker",
+            "username": "Ultimaker"
+          },
+          "id": "99d7d2dcfcd446c24dcd444cc0b6cff213720cc2",
+          "message": "Fix flow calculation for gradual flow",
+          "timestamp": "2026-02-16T19:39:24Z",
+          "url": "https://github.com/Ultimaker/CuraEngine/pull/2294/commits/99d7d2dcfcd446c24dcd444cc0b6cff213720cc2"
+        },
+        "date": 1771866130858,
         "tool": "customSmallerIsBetter",
         "benches": [
           {
