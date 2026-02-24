@@ -1,40 +1,8 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1771938097165,
+  "lastUpdate": 1771941399418,
   "repoUrl": "https://github.com/Ultimaker/CuraEngine",
   "entries": {
     "Stress Benchmark": [
-      {
-        "commit": {
-          "author": {
-            "name": "Ultimaker",
-            "username": "Ultimaker"
-          },
-          "committer": {
-            "name": "Ultimaker",
-            "username": "Ultimaker"
-          },
-          "id": "c1eba8b26c914e9a3ad3b167ada5a827ce482002",
-          "message": "CURA-11978 Retract and unretract in a travel",
-          "timestamp": "2025-02-11T13:48:48Z",
-          "url": "https://github.com/Ultimaker/CuraEngine/pull/2204/commits/c1eba8b26c914e9a3ad3b167ada5a827ce482002"
-        },
-        "date": 1739374113190,
-        "tool": "customSmallerIsBetter",
-        "benches": [
-          {
-            "name": "Number of test cases",
-            "value": 61,
-            "unit": "-",
-            "extra": ""
-          },
-          {
-            "name": "General Stress Level",
-            "value": 0,
-            "unit": "%",
-            "extra": "Crashes in: "
-          }
-        ]
-      },
       {
         "commit": {
           "author": {
@@ -8095,6 +8063,38 @@ window.BENCHMARK_DATA = {
           "url": "https://github.com/Ultimaker/CuraEngine/pull/2296/commits/1a9b4e32c8f51e15822f24298419287d52de72fe"
         },
         "date": 1771938090006,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "Number of test cases",
+            "value": 61,
+            "unit": "-",
+            "extra": ""
+          },
+          {
+            "name": "General Stress Level",
+            "value": 0,
+            "unit": "%",
+            "extra": "Crashes in: "
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "Ultimaker",
+            "username": "Ultimaker"
+          },
+          "committer": {
+            "name": "Ultimaker",
+            "username": "Ultimaker"
+          },
+          "id": "f9bf84b71cf3718f7495e11248201e021a309b94",
+          "message": "CURA-13001 Limit walls bridging to anchored areas",
+          "timestamp": "2026-02-16T19:39:24Z",
+          "url": "https://github.com/Ultimaker/CuraEngine/pull/2296/commits/f9bf84b71cf3718f7495e11248201e021a309b94"
+        },
+        "date": 1771941392980,
         "tool": "customSmallerIsBetter",
         "benches": [
           {
