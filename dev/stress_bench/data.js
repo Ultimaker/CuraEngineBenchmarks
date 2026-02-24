@@ -1,44 +1,8 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1771963914103,
+  "lastUpdate": 1771965842420,
   "repoUrl": "https://github.com/Ultimaker/CuraEngine",
   "entries": {
     "Stress Benchmark": [
-      {
-        "commit": {
-          "author": {
-            "email": "alireza.doustdar@gmail.com",
-            "name": "HellAholic",
-            "username": "HellAholic"
-          },
-          "committer": {
-            "email": "noreply@github.com",
-            "name": "GitHub",
-            "username": "web-flow"
-          },
-          "distinct": true,
-          "id": "eb0d2d72130f7a0889776b003e238a569dcea0ad",
-          "message": "CURA-12335 Handle flooring settings on the same basis as roofing (#2202)",
-          "timestamp": "2025-02-14T14:39:50+01:00",
-          "tree_id": "6f3f45685cc305a48707b40539eecc318cab0235",
-          "url": "https://github.com/Ultimaker/CuraEngine/commit/eb0d2d72130f7a0889776b003e238a569dcea0ad"
-        },
-        "date": 1739541937984,
-        "tool": "customSmallerIsBetter",
-        "benches": [
-          {
-            "name": "Number of test cases",
-            "value": 61,
-            "unit": "-",
-            "extra": ""
-          },
-          {
-            "name": "General Stress Level",
-            "value": 0,
-            "unit": "%",
-            "extra": "Crashes in: "
-          }
-        ]
-      },
       {
         "commit": {
           "author": {
@@ -8095,6 +8059,38 @@ window.BENCHMARK_DATA = {
           "url": "https://github.com/Ultimaker/CuraEngine/pull/2297/commits/b6ac448a78e7b0075ffc485458686774ce3b2805"
         },
         "date": 1771963908115,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "Number of test cases",
+            "value": 61,
+            "unit": "-",
+            "extra": ""
+          },
+          {
+            "name": "General Stress Level",
+            "value": 0,
+            "unit": "%",
+            "extra": "Crashes in: "
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "Ultimaker",
+            "username": "Ultimaker"
+          },
+          "committer": {
+            "name": "Ultimaker",
+            "username": "Ultimaker"
+          },
+          "id": "df70be1ed0d2a6bcad368085a509908693160008",
+          "message": "CURA_13005",
+          "timestamp": "2026-02-16T19:39:24Z",
+          "url": "https://github.com/Ultimaker/CuraEngine/pull/2297/commits/df70be1ed0d2a6bcad368085a509908693160008"
+        },
+        "date": 1771965836023,
         "tool": "customSmallerIsBetter",
         "benches": [
           {
