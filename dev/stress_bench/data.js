@@ -1,40 +1,8 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1771968418686,
+  "lastUpdate": 1772008078236,
   "repoUrl": "https://github.com/Ultimaker/CuraEngine",
   "entries": {
     "Stress Benchmark": [
-      {
-        "commit": {
-          "author": {
-            "name": "Ultimaker",
-            "username": "Ultimaker"
-          },
-          "committer": {
-            "name": "Ultimaker",
-            "username": "Ultimaker"
-          },
-          "id": "576209a463f5f02e483b4b472b5d558ba8d44f2c",
-          "message": "CURA-11978 Retract and unretract in a travel",
-          "timestamp": "2025-02-14T13:39:56Z",
-          "url": "https://github.com/Ultimaker/CuraEngine/pull/2204/commits/576209a463f5f02e483b4b472b5d558ba8d44f2c"
-        },
-        "date": 1740050358760,
-        "tool": "customSmallerIsBetter",
-        "benches": [
-          {
-            "name": "Number of test cases",
-            "value": 61,
-            "unit": "-",
-            "extra": ""
-          },
-          {
-            "name": "General Stress Level",
-            "value": 0,
-            "unit": "%",
-            "extra": "Crashes in: "
-          }
-        ]
-      },
       {
         "commit": {
           "author": {
@@ -8091,6 +8059,38 @@ window.BENCHMARK_DATA = {
           "url": "https://github.com/Ultimaker/CuraEngine/pull/2297/commits/caa21defae65517b46c7bbbe770e84e853e5b11a"
         },
         "date": 1771968411712,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "Number of test cases",
+            "value": 61,
+            "unit": "-",
+            "extra": ""
+          },
+          {
+            "name": "General Stress Level",
+            "value": 0,
+            "unit": "%",
+            "extra": "Crashes in: "
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "Ultimaker",
+            "username": "Ultimaker"
+          },
+          "committer": {
+            "name": "Ultimaker",
+            "username": "Ultimaker"
+          },
+          "id": "ff62fd8e3f0446c9cbe1e5fe6f727b875a2c3eeb",
+          "message": "CURA-12972 missing inward infill move",
+          "timestamp": "2026-02-16T19:39:24Z",
+          "url": "https://github.com/Ultimaker/CuraEngine/pull/2284/commits/ff62fd8e3f0446c9cbe1e5fe6f727b875a2c3eeb"
+        },
+        "date": 1772008072632,
         "tool": "customSmallerIsBetter",
         "benches": [
           {
