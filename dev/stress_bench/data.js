@@ -1,40 +1,8 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1772196805458,
+  "lastUpdate": 1772398693456,
   "repoUrl": "https://github.com/Ultimaker/CuraEngine",
   "entries": {
     "Stress Benchmark": [
-      {
-        "commit": {
-          "author": {
-            "name": "Ultimaker",
-            "username": "Ultimaker"
-          },
-          "committer": {
-            "name": "Ultimaker",
-            "username": "Ultimaker"
-          },
-          "id": "c5eeccc5768e2b0a191203424e0ba1d5d92c8ab7",
-          "message": "Fix wrong returned index",
-          "timestamp": "2025-03-17T03:52:26Z",
-          "url": "https://github.com/Ultimaker/CuraEngine/pull/2211/commits/c5eeccc5768e2b0a191203424e0ba1d5d92c8ab7"
-        },
-        "date": 1742213731609,
-        "tool": "customSmallerIsBetter",
-        "benches": [
-          {
-            "name": "Number of test cases",
-            "value": 61,
-            "unit": "-",
-            "extra": ""
-          },
-          {
-            "name": "General Stress Level",
-            "value": 0,
-            "unit": "%",
-            "extra": "Crashes in: "
-          }
-        ]
-      },
       {
         "commit": {
           "author": {
@@ -8091,6 +8059,38 @@ window.BENCHMARK_DATA = {
           "url": "https://github.com/Ultimaker/CuraEngine/pull/2279/commits/d39fd7dab20fb974fb7db5dacff032a8f240259d"
         },
         "date": 1772196799403,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "Number of test cases",
+            "value": 61,
+            "unit": "-",
+            "extra": ""
+          },
+          {
+            "name": "General Stress Level",
+            "value": 0,
+            "unit": "%",
+            "extra": "Crashes in: "
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "Ultimaker",
+            "username": "Ultimaker"
+          },
+          "committer": {
+            "name": "Ultimaker",
+            "username": "Ultimaker"
+          },
+          "id": "cad5bd2bb348ea4078da99f4bff99036405f4976",
+          "message": "Fix issue where overhanging wall speeds was sporadically applied to support",
+          "timestamp": "2026-03-01T16:17:23Z",
+          "url": "https://github.com/Ultimaker/CuraEngine/pull/2299/commits/cad5bd2bb348ea4078da99f4bff99036405f4976"
+        },
+        "date": 1772398687538,
         "tool": "customSmallerIsBetter",
         "benches": [
           {
