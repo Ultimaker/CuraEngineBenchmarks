@@ -1,40 +1,8 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1772614852808,
+  "lastUpdate": 1772623832515,
   "repoUrl": "https://github.com/Ultimaker/CuraEngine",
   "entries": {
     "Stress Benchmark": [
-      {
-        "commit": {
-          "author": {
-            "name": "Ultimaker",
-            "username": "Ultimaker"
-          },
-          "committer": {
-            "name": "Ultimaker",
-            "username": "Ultimaker"
-          },
-          "id": "2c3d4e7d3e68214455e8e508bac470756d0d02ce",
-          "message": "Draft: [CURA-12490] Try to fix NPM-package build failing.",
-          "timestamp": "2025-03-17T03:52:26Z",
-          "url": "https://github.com/Ultimaker/CuraEngine/pull/2214/commits/2c3d4e7d3e68214455e8e508bac470756d0d02ce"
-        },
-        "date": 1742369368567,
-        "tool": "customSmallerIsBetter",
-        "benches": [
-          {
-            "name": "Number of test cases",
-            "value": 61,
-            "unit": "-",
-            "extra": ""
-          },
-          {
-            "name": "General Stress Level",
-            "value": 0,
-            "unit": "%",
-            "extra": "Crashes in: "
-          }
-        ]
-      },
       {
         "commit": {
           "author": {
@@ -8091,6 +8059,38 @@ window.BENCHMARK_DATA = {
           "url": "https://github.com/Ultimaker/CuraEngine/pull/2300/commits/5257032b8d68285be88a44ebaeef4050a14d83d8"
         },
         "date": 1772614846660,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "Number of test cases",
+            "value": 61,
+            "unit": "-",
+            "extra": ""
+          },
+          {
+            "name": "General Stress Level",
+            "value": 0,
+            "unit": "%",
+            "extra": "Crashes in: "
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "Ultimaker",
+            "username": "Ultimaker"
+          },
+          "committer": {
+            "name": "Ultimaker",
+            "username": "Ultimaker"
+          },
+          "id": "cf3dc2344c9e72fc6083ee04cca4b25031327d9c",
+          "message": "CURA-10381 Start or end infill close to seam",
+          "timestamp": "2026-03-01T16:17:23Z",
+          "url": "https://github.com/Ultimaker/CuraEngine/pull/2279/commits/cf3dc2344c9e72fc6083ee04cca4b25031327d9c"
+        },
+        "date": 1772623826699,
         "tool": "customSmallerIsBetter",
         "benches": [
           {
