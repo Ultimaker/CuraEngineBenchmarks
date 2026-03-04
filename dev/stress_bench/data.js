@@ -1,40 +1,8 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1772398693456,
+  "lastUpdate": 1772614852808,
   "repoUrl": "https://github.com/Ultimaker/CuraEngine",
   "entries": {
     "Stress Benchmark": [
-      {
-        "commit": {
-          "author": {
-            "name": "Ultimaker",
-            "username": "Ultimaker"
-          },
-          "committer": {
-            "name": "Ultimaker",
-            "username": "Ultimaker"
-          },
-          "id": "89653fb8f5630b4b45e6435454e683e292eb1177",
-          "message": "CURA-12474 set fixed 0 gap for brim support",
-          "timestamp": "2025-03-17T03:52:26Z",
-          "url": "https://github.com/Ultimaker/CuraEngine/pull/2213/commits/89653fb8f5630b4b45e6435454e683e292eb1177"
-        },
-        "date": 1742312917658,
-        "tool": "customSmallerIsBetter",
-        "benches": [
-          {
-            "name": "Number of test cases",
-            "value": 61,
-            "unit": "-",
-            "extra": ""
-          },
-          {
-            "name": "General Stress Level",
-            "value": 0,
-            "unit": "%",
-            "extra": "Crashes in: "
-          }
-        ]
-      },
       {
         "commit": {
           "author": {
@@ -8091,6 +8059,38 @@ window.BENCHMARK_DATA = {
           "url": "https://github.com/Ultimaker/CuraEngine/pull/2299/commits/cad5bd2bb348ea4078da99f4bff99036405f4976"
         },
         "date": 1772398687538,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "Number of test cases",
+            "value": 61,
+            "unit": "-",
+            "extra": ""
+          },
+          {
+            "name": "General Stress Level",
+            "value": 0,
+            "unit": "%",
+            "extra": "Crashes in: "
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "Ultimaker",
+            "username": "Ultimaker"
+          },
+          "committer": {
+            "name": "Ultimaker",
+            "username": "Ultimaker"
+          },
+          "id": "5257032b8d68285be88a44ebaeef4050a14d83d8",
+          "message": "[CURA-13017] Revert \"Fix non-retract-travels over (outer) walls.\"",
+          "timestamp": "2026-03-01T16:17:23Z",
+          "url": "https://github.com/Ultimaker/CuraEngine/pull/2300/commits/5257032b8d68285be88a44ebaeef4050a14d83d8"
+        },
+        "date": 1772614846660,
         "tool": "customSmallerIsBetter",
         "benches": [
           {
