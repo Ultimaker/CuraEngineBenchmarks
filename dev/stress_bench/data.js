@@ -1,40 +1,8 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1772724234924,
+  "lastUpdate": 1772726156126,
   "repoUrl": "https://github.com/Ultimaker/CuraEngine",
   "entries": {
     "Stress Benchmark": [
-      {
-        "commit": {
-          "author": {
-            "name": "Ultimaker",
-            "username": "Ultimaker"
-          },
-          "committer": {
-            "name": "Ultimaker",
-            "username": "Ultimaker"
-          },
-          "id": "39482a910eb9d67fadfc681012cf2c603801e976",
-          "message": "Use bridging settings for walls over flooring",
-          "timestamp": "2025-03-19T13:00:19Z",
-          "url": "https://github.com/Ultimaker/CuraEngine/pull/2217/commits/39482a910eb9d67fadfc681012cf2c603801e976"
-        },
-        "date": 1742487262178,
-        "tool": "customSmallerIsBetter",
-        "benches": [
-          {
-            "name": "Number of test cases",
-            "value": 61,
-            "unit": "-",
-            "extra": ""
-          },
-          {
-            "name": "General Stress Level",
-            "value": 0,
-            "unit": "%",
-            "extra": "Crashes in: "
-          }
-        ]
-      },
       {
         "commit": {
           "author": {
@@ -8091,6 +8059,38 @@ window.BENCHMARK_DATA = {
           "url": "https://github.com/Ultimaker/CuraEngine/pull/2302/commits/3e9dc3ec1ddb43fc4b7cada9d988cc413e27294d"
         },
         "date": 1772724229132,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "Number of test cases",
+            "value": 61,
+            "unit": "-",
+            "extra": ""
+          },
+          {
+            "name": "General Stress Level",
+            "value": 0,
+            "unit": "%",
+            "extra": "Crashes in: "
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "Ultimaker",
+            "username": "Ultimaker"
+          },
+          "committer": {
+            "name": "Ultimaker",
+            "username": "Ultimaker"
+          },
+          "id": "eab4729580bb4bb83c614f574c196430da1eecd9",
+          "message": "CURA-10381 Start or end infill close to seam",
+          "timestamp": "2026-03-05T12:48:31Z",
+          "url": "https://github.com/Ultimaker/CuraEngine/pull/2279/commits/eab4729580bb4bb83c614f574c196430da1eecd9"
+        },
+        "date": 1772726149868,
         "tool": "customSmallerIsBetter",
         "benches": [
           {
