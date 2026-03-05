@@ -1,40 +1,8 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1772716500169,
+  "lastUpdate": 1772719015826,
   "repoUrl": "https://github.com/Ultimaker/CuraEngine",
   "entries": {
     "Stress Benchmark": [
-      {
-        "commit": {
-          "author": {
-            "name": "Ultimaker",
-            "username": "Ultimaker"
-          },
-          "committer": {
-            "name": "Ultimaker",
-            "username": "Ultimaker"
-          },
-          "id": "c77d22e67ec576d13a6e2fe58d1738d644aa7e64",
-          "message": "(Alternate branch) Maybe fix spdlog for npm package.",
-          "timestamp": "2025-03-17T03:52:26Z",
-          "url": "https://github.com/Ultimaker/CuraEngine/pull/2215/commits/c77d22e67ec576d13a6e2fe58d1738d644aa7e64"
-        },
-        "date": 1742372871513,
-        "tool": "customSmallerIsBetter",
-        "benches": [
-          {
-            "name": "Number of test cases",
-            "value": 61,
-            "unit": "-",
-            "extra": ""
-          },
-          {
-            "name": "General Stress Level",
-            "value": 0,
-            "unit": "%",
-            "extra": "Crashes in: "
-          }
-        ]
-      },
       {
         "commit": {
           "author": {
@@ -8095,6 +8063,38 @@ window.BENCHMARK_DATA = {
           "url": "https://github.com/Ultimaker/CuraEngine/commit/38595fafd6b9dd003b5638409c22a08232c6dde3"
         },
         "date": 1772716492288,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "Number of test cases",
+            "value": 61,
+            "unit": "-",
+            "extra": ""
+          },
+          {
+            "name": "General Stress Level",
+            "value": 0,
+            "unit": "%",
+            "extra": "Crashes in: "
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "Ultimaker",
+            "username": "Ultimaker"
+          },
+          "committer": {
+            "name": "Ultimaker",
+            "username": "Ultimaker"
+          },
+          "id": "8e708f1b3087ca0716a8820a8c8dd34316cf0d79",
+          "message": "CURA-12992 Fix slicing crashes",
+          "timestamp": "2026-03-05T12:48:31Z",
+          "url": "https://github.com/Ultimaker/CuraEngine/pull/2301/commits/8e708f1b3087ca0716a8820a8c8dd34316cf0d79"
+        },
+        "date": 1772719009910,
         "tool": "customSmallerIsBetter",
         "benches": [
           {
