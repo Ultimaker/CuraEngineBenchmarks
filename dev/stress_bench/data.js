@@ -1,44 +1,8 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1772726156126,
+  "lastUpdate": 1772728564609,
   "repoUrl": "https://github.com/Ultimaker/CuraEngine",
   "entries": {
     "Stress Benchmark": [
-      {
-        "commit": {
-          "author": {
-            "email": "alireza.doustdar@gmail.com",
-            "name": "HellAholic",
-            "username": "HellAholic"
-          },
-          "committer": {
-            "email": "alireza.doustdar@gmail.com",
-            "name": "HellAholic",
-            "username": "HellAholic"
-          },
-          "distinct": true,
-          "id": "3835427a31180bafcfae95b45cf14ea4f25520d1",
-          "message": "Merge remote-tracking branch 'origin/5.10'",
-          "timestamp": "2025-03-25T11:03:47+01:00",
-          "tree_id": "e07474216bf0f7c241785cce0063f1b8a59d4616",
-          "url": "https://github.com/Ultimaker/CuraEngine/commit/3835427a31180bafcfae95b45cf14ea4f25520d1"
-        },
-        "date": 1742898489063,
-        "tool": "customSmallerIsBetter",
-        "benches": [
-          {
-            "name": "Number of test cases",
-            "value": 61,
-            "unit": "-",
-            "extra": ""
-          },
-          {
-            "name": "General Stress Level",
-            "value": 0,
-            "unit": "%",
-            "extra": "Crashes in: "
-          }
-        ]
-      },
       {
         "commit": {
           "author": {
@@ -8091,6 +8055,38 @@ window.BENCHMARK_DATA = {
           "url": "https://github.com/Ultimaker/CuraEngine/pull/2279/commits/eab4729580bb4bb83c614f574c196430da1eecd9"
         },
         "date": 1772726149868,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "Number of test cases",
+            "value": 61,
+            "unit": "-",
+            "extra": ""
+          },
+          {
+            "name": "General Stress Level",
+            "value": 0,
+            "unit": "%",
+            "extra": "Crashes in: "
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "Ultimaker",
+            "username": "Ultimaker"
+          },
+          "committer": {
+            "name": "Ultimaker",
+            "username": "Ultimaker"
+          },
+          "id": "12b7157c968b733b9e15c54d19fdb3a2761a6217",
+          "message": "CURA-12996 Allow small infill gaps to grow over infill",
+          "timestamp": "2026-03-05T12:48:31Z",
+          "url": "https://github.com/Ultimaker/CuraEngine/pull/2303/commits/12b7157c968b733b9e15c54d19fdb3a2761a6217"
+        },
+        "date": 1772728558861,
         "tool": "customSmallerIsBetter",
         "benches": [
           {
