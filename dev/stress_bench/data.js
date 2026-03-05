@@ -1,40 +1,8 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1772719215700,
+  "lastUpdate": 1772724234924,
   "repoUrl": "https://github.com/Ultimaker/CuraEngine",
   "entries": {
     "Stress Benchmark": [
-      {
-        "commit": {
-          "author": {
-            "name": "Ultimaker",
-            "username": "Ultimaker"
-          },
-          "committer": {
-            "name": "Ultimaker",
-            "username": "Ultimaker"
-          },
-          "id": "9d06c928b7e2a25ad05d3918bc3482cdd4a3f24c",
-          "message": "CURA-12474 set fixed 0 gap for brim support",
-          "timestamp": "2025-03-19T09:16:05Z",
-          "url": "https://github.com/Ultimaker/CuraEngine/pull/2213/commits/9d06c928b7e2a25ad05d3918bc3482cdd4a3f24c"
-        },
-        "date": 1742377380520,
-        "tool": "customSmallerIsBetter",
-        "benches": [
-          {
-            "name": "Number of test cases",
-            "value": 61,
-            "unit": "-",
-            "extra": ""
-          },
-          {
-            "name": "General Stress Level",
-            "value": 0,
-            "unit": "%",
-            "extra": "Crashes in: "
-          }
-        ]
-      },
       {
         "commit": {
           "author": {
@@ -8091,6 +8059,38 @@ window.BENCHMARK_DATA = {
           "url": "https://github.com/Ultimaker/CuraEngine/pull/2302/commits/d833fc92e69d7666fb2d6207d549749ba7b29e08"
         },
         "date": 1772719195059,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "Number of test cases",
+            "value": 61,
+            "unit": "-",
+            "extra": ""
+          },
+          {
+            "name": "General Stress Level",
+            "value": 0,
+            "unit": "%",
+            "extra": "Crashes in: "
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "Ultimaker",
+            "username": "Ultimaker"
+          },
+          "committer": {
+            "name": "Ultimaker",
+            "username": "Ultimaker"
+          },
+          "id": "3e9dc3ec1ddb43fc4b7cada9d988cc413e27294d",
+          "message": "CURA-12996 Fix flooring areas being generated when disabled",
+          "timestamp": "2026-03-05T12:48:31Z",
+          "url": "https://github.com/Ultimaker/CuraEngine/pull/2302/commits/3e9dc3ec1ddb43fc4b7cada9d988cc413e27294d"
+        },
+        "date": 1772724229132,
         "tool": "customSmallerIsBetter",
         "benches": [
           {
