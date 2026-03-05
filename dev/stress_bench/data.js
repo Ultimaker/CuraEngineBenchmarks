@@ -1,40 +1,8 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1772623832515,
+  "lastUpdate": 1772716500169,
   "repoUrl": "https://github.com/Ultimaker/CuraEngine",
   "entries": {
     "Stress Benchmark": [
-      {
-        "commit": {
-          "author": {
-            "name": "Ultimaker",
-            "username": "Ultimaker"
-          },
-          "committer": {
-            "name": "Ultimaker",
-            "username": "Ultimaker"
-          },
-          "id": "2c3d4e7d3e68214455e8e508bac470756d0d02ce",
-          "message": "(Alternate branch) Maybe fix spdlog for npm package.",
-          "timestamp": "2025-03-17T03:52:26Z",
-          "url": "https://github.com/Ultimaker/CuraEngine/pull/2215/commits/2c3d4e7d3e68214455e8e508bac470756d0d02ce"
-        },
-        "date": 1742370621383,
-        "tool": "customSmallerIsBetter",
-        "benches": [
-          {
-            "name": "Number of test cases",
-            "value": 61,
-            "unit": "-",
-            "extra": ""
-          },
-          {
-            "name": "General Stress Level",
-            "value": 0,
-            "unit": "%",
-            "extra": "Crashes in: "
-          }
-        ]
-      },
       {
         "commit": {
           "author": {
@@ -8091,6 +8059,42 @@ window.BENCHMARK_DATA = {
           "url": "https://github.com/Ultimaker/CuraEngine/pull/2279/commits/cf3dc2344c9e72fc6083ee04cca4b25031327d9c"
         },
         "date": 1772623826699,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "Number of test cases",
+            "value": 61,
+            "unit": "-",
+            "extra": ""
+          },
+          {
+            "name": "General Stress Level",
+            "value": 0,
+            "unit": "%",
+            "extra": "Crashes in: "
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "erwan.mathieu@ultimaker.com",
+            "name": "Erwan MATHIEU",
+            "username": "wawanbreton"
+          },
+          "committer": {
+            "email": "erwan.mathieu@ultimaker.com",
+            "name": "Erwan MATHIEU",
+            "username": "wawanbreton"
+          },
+          "distinct": true,
+          "id": "38595fafd6b9dd003b5638409c22a08232c6dde3",
+          "message": "Bump version to 5.13.0-alpha.0",
+          "timestamp": "2026-03-05T13:47:23+01:00",
+          "tree_id": "d3135c8f4c43e27fe16473abca6b46304732469f",
+          "url": "https://github.com/Ultimaker/CuraEngine/commit/38595fafd6b9dd003b5638409c22a08232c6dde3"
+        },
+        "date": 1772716492288,
         "tool": "customSmallerIsBetter",
         "benches": [
           {
