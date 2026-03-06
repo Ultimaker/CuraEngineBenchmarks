@@ -1,40 +1,8 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1772728564609,
+  "lastUpdate": 1772797890389,
   "repoUrl": "https://github.com/Ultimaker/CuraEngine",
   "entries": {
     "Stress Benchmark": [
-      {
-        "commit": {
-          "author": {
-            "name": "Ultimaker",
-            "username": "Ultimaker"
-          },
-          "committer": {
-            "name": "Ultimaker",
-            "username": "Ultimaker"
-          },
-          "id": "a9fd3b6bd7f7537f68e217940fda69e7566b4794",
-          "message": "[CURA-12503] Remove now unused 'skip agressive merge hint' variable.",
-          "timestamp": "2025-03-25T18:32:10Z",
-          "url": "https://github.com/Ultimaker/CuraEngine/pull/2220/commits/a9fd3b6bd7f7537f68e217940fda69e7566b4794"
-        },
-        "date": 1742976500055,
-        "tool": "customSmallerIsBetter",
-        "benches": [
-          {
-            "name": "Number of test cases",
-            "value": 61,
-            "unit": "-",
-            "extra": ""
-          },
-          {
-            "name": "General Stress Level",
-            "value": 0,
-            "unit": "%",
-            "extra": "Crashes in: "
-          }
-        ]
-      },
       {
         "commit": {
           "author": {
@@ -8087,6 +8055,38 @@ window.BENCHMARK_DATA = {
           "url": "https://github.com/Ultimaker/CuraEngine/pull/2303/commits/12b7157c968b733b9e15c54d19fdb3a2761a6217"
         },
         "date": 1772728558861,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "Number of test cases",
+            "value": 61,
+            "unit": "-",
+            "extra": ""
+          },
+          {
+            "name": "General Stress Level",
+            "value": 0,
+            "unit": "%",
+            "extra": "Crashes in: "
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "Ultimaker",
+            "username": "Ultimaker"
+          },
+          "committer": {
+            "name": "Ultimaker",
+            "username": "Ultimaker"
+          },
+          "id": "a519f367af34842b9f7cfa693c84c0b6ef317efd",
+          "message": "CURA_13005",
+          "timestamp": "2026-03-05T12:48:31Z",
+          "url": "https://github.com/Ultimaker/CuraEngine/pull/2297/commits/a519f367af34842b9f7cfa693c84c0b6ef317efd"
+        },
+        "date": 1772797884409,
         "tool": "customSmallerIsBetter",
         "benches": [
           {
