@@ -1,40 +1,8 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1772797890389,
+  "lastUpdate": 1772797979453,
   "repoUrl": "https://github.com/Ultimaker/CuraEngine",
   "entries": {
     "Stress Benchmark": [
-      {
-        "commit": {
-          "author": {
-            "name": "Ultimaker",
-            "username": "Ultimaker"
-          },
-          "committer": {
-            "name": "Ultimaker",
-            "username": "Ultimaker"
-          },
-          "id": "45bd4a7cae7a3b70191832abbeddb2d6797172d5",
-          "message": "[DONT MERGE] Revert \"Apply distance to walls for inside combing\"",
-          "timestamp": "2025-03-25T18:32:10Z",
-          "url": "https://github.com/Ultimaker/CuraEngine/pull/2221/commits/45bd4a7cae7a3b70191832abbeddb2d6797172d5"
-        },
-        "date": 1742986292467,
-        "tool": "customSmallerIsBetter",
-        "benches": [
-          {
-            "name": "Number of test cases",
-            "value": 61,
-            "unit": "-",
-            "extra": ""
-          },
-          {
-            "name": "General Stress Level",
-            "value": 0,
-            "unit": "%",
-            "extra": "Crashes in: "
-          }
-        ]
-      },
       {
         "commit": {
           "author": {
@@ -8087,6 +8055,38 @@ window.BENCHMARK_DATA = {
           "url": "https://github.com/Ultimaker/CuraEngine/pull/2297/commits/a519f367af34842b9f7cfa693c84c0b6ef317efd"
         },
         "date": 1772797884409,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "Number of test cases",
+            "value": 61,
+            "unit": "-",
+            "extra": ""
+          },
+          {
+            "name": "General Stress Level",
+            "value": 0,
+            "unit": "%",
+            "extra": "Crashes in: "
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "Ultimaker",
+            "username": "Ultimaker"
+          },
+          "committer": {
+            "name": "Ultimaker",
+            "username": "Ultimaker"
+          },
+          "id": "d0494685a25f1c696a13400bc465f8c1701797c7",
+          "message": "CURA_13005",
+          "timestamp": "2026-03-05T12:48:31Z",
+          "url": "https://github.com/Ultimaker/CuraEngine/pull/2297/commits/d0494685a25f1c696a13400bc465f8c1701797c7"
+        },
+        "date": 1772797973621,
         "tool": "customSmallerIsBetter",
         "benches": [
           {
