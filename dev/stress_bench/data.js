@@ -1,44 +1,8 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1772797979453,
+  "lastUpdate": 1772798001435,
   "repoUrl": "https://github.com/Ultimaker/CuraEngine",
   "entries": {
     "Stress Benchmark": [
-      {
-        "commit": {
-          "author": {
-            "email": "r.burema@ultimaker.com",
-            "name": "Remco Burema",
-            "username": "rburema"
-          },
-          "committer": {
-            "email": "r.burema@ultimaker.com",
-            "name": "Remco Burema",
-            "username": "rburema"
-          },
-          "distinct": true,
-          "id": "867781b8a170138a2b92164dcae4709bbfb787eb",
-          "message": "Retraction combing avoid distance on 0 would crash.\n\nThis isn't something you want, and thankfully doesn't happen in practice, since machines always have a 'machine_nozzle_size' in practice, but our tests take the 'default' in certain cases instead of the 'value' (which can actually be a formula).\n\nStill better to fix the edge-case, or at least work around it a bit more gracefully, regardless of what the tests end up being.",
-          "timestamp": "2025-03-26T16:33:33+01:00",
-          "tree_id": "5bac7a7e4c768f2fce29aeed834c7afcb5c654a7",
-          "url": "https://github.com/Ultimaker/CuraEngine/commit/867781b8a170138a2b92164dcae4709bbfb787eb"
-        },
-        "date": 1743004758794,
-        "tool": "customSmallerIsBetter",
-        "benches": [
-          {
-            "name": "Number of test cases",
-            "value": 61,
-            "unit": "-",
-            "extra": ""
-          },
-          {
-            "name": "General Stress Level",
-            "value": 0,
-            "unit": "%",
-            "extra": "Crashes in: "
-          }
-        ]
-      },
       {
         "commit": {
           "author": {
@@ -8087,6 +8051,38 @@ window.BENCHMARK_DATA = {
           "url": "https://github.com/Ultimaker/CuraEngine/pull/2297/commits/d0494685a25f1c696a13400bc465f8c1701797c7"
         },
         "date": 1772797973621,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "Number of test cases",
+            "value": 61,
+            "unit": "-",
+            "extra": ""
+          },
+          {
+            "name": "General Stress Level",
+            "value": 0,
+            "unit": "%",
+            "extra": "Crashes in: "
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "Ultimaker",
+            "username": "Ultimaker"
+          },
+          "committer": {
+            "name": "Ultimaker",
+            "username": "Ultimaker"
+          },
+          "id": "542993b3b75bd099ab79b5fab149996972056418",
+          "message": "CURA_13005",
+          "timestamp": "2026-03-05T12:48:31Z",
+          "url": "https://github.com/Ultimaker/CuraEngine/pull/2297/commits/542993b3b75bd099ab79b5fab149996972056418"
+        },
+        "date": 1772797995018,
         "tool": "customSmallerIsBetter",
         "benches": [
           {
