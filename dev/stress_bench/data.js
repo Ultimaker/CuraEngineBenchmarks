@@ -1,44 +1,8 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1773071199283,
+  "lastUpdate": 1773071743261,
   "repoUrl": "https://github.com/Ultimaker/CuraEngine",
   "entries": {
     "Stress Benchmark": [
-      {
-        "commit": {
-          "author": {
-            "email": "r.burema@ultimaker.com",
-            "name": "Remco Burema",
-            "username": "rburema"
-          },
-          "committer": {
-            "email": "r.burema@ultimaker.com",
-            "name": "Remco Burema",
-            "username": "rburema"
-          },
-          "distinct": true,
-          "id": "73a0374bcdc3be76c1f5ee61bf4fd2e50f455763",
-          "message": "Fix benchmarks.\n\nHopefully just this header -- otherwise we might've to do the ::join op by hand.",
-          "timestamp": "2025-04-23T16:42:33+02:00",
-          "tree_id": "3ec782af74f07c6116ead2e2aae695fccd7512b4",
-          "url": "https://github.com/Ultimaker/CuraEngine/commit/73a0374bcdc3be76c1f5ee61bf4fd2e50f455763"
-        },
-        "date": 1745420916871,
-        "tool": "customSmallerIsBetter",
-        "benches": [
-          {
-            "name": "Number of test cases",
-            "value": 61,
-            "unit": "-",
-            "extra": ""
-          },
-          {
-            "name": "General Stress Level",
-            "value": 0,
-            "unit": "%",
-            "extra": "Crashes in: "
-          }
-        ]
-      },
       {
         "commit": {
           "author": {
@@ -8083,6 +8047,38 @@ window.BENCHMARK_DATA = {
           "url": "https://github.com/Ultimaker/CuraEngine/pull/2297/commits/8866fc13135e3f08e07ae42fed67c199e13f032c"
         },
         "date": 1773071192535,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "Number of test cases",
+            "value": 61,
+            "unit": "-",
+            "extra": ""
+          },
+          {
+            "name": "General Stress Level",
+            "value": 0,
+            "unit": "%",
+            "extra": "Crashes in: "
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "Ultimaker",
+            "username": "Ultimaker"
+          },
+          "committer": {
+            "name": "Ultimaker",
+            "username": "Ultimaker"
+          },
+          "id": "1af9ab18ce04664345240cf69c27ac4131a17b5c",
+          "message": "CURA_13005",
+          "timestamp": "2026-03-07T13:13:44Z",
+          "url": "https://github.com/Ultimaker/CuraEngine/pull/2297/commits/1af9ab18ce04664345240cf69c27ac4131a17b5c"
+        },
+        "date": 1773071735360,
         "tool": "customSmallerIsBetter",
         "benches": [
           {
