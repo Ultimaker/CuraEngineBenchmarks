@@ -1,40 +1,8 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1772798001435,
+  "lastUpdate": 1773071199283,
   "repoUrl": "https://github.com/Ultimaker/CuraEngine",
   "entries": {
     "Stress Benchmark": [
-      {
-        "commit": {
-          "author": {
-            "name": "Ultimaker",
-            "username": "Ultimaker"
-          },
-          "committer": {
-            "name": "Ultimaker",
-            "username": "Ultimaker"
-          },
-          "id": "0bfd7462566bffb2a87d99357334fde31bd287fa",
-          "message": "CURA-12474 set fixed 0 gap for brim support",
-          "timestamp": "2025-03-31T11:23:05Z",
-          "url": "https://github.com/Ultimaker/CuraEngine/pull/2213/commits/0bfd7462566bffb2a87d99357334fde31bd287fa"
-        },
-        "date": 1743599649814,
-        "tool": "customSmallerIsBetter",
-        "benches": [
-          {
-            "name": "Number of test cases",
-            "value": 61,
-            "unit": "-",
-            "extra": ""
-          },
-          {
-            "name": "General Stress Level",
-            "value": 0,
-            "unit": "%",
-            "extra": "Crashes in: "
-          }
-        ]
-      },
       {
         "commit": {
           "author": {
@@ -8083,6 +8051,38 @@ window.BENCHMARK_DATA = {
           "url": "https://github.com/Ultimaker/CuraEngine/pull/2297/commits/542993b3b75bd099ab79b5fab149996972056418"
         },
         "date": 1772797995018,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "Number of test cases",
+            "value": 61,
+            "unit": "-",
+            "extra": ""
+          },
+          {
+            "name": "General Stress Level",
+            "value": 0,
+            "unit": "%",
+            "extra": "Crashes in: "
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "Ultimaker",
+            "username": "Ultimaker"
+          },
+          "committer": {
+            "name": "Ultimaker",
+            "username": "Ultimaker"
+          },
+          "id": "8866fc13135e3f08e07ae42fed67c199e13f032c",
+          "message": "CURA_13005",
+          "timestamp": "2026-03-07T13:13:44Z",
+          "url": "https://github.com/Ultimaker/CuraEngine/pull/2297/commits/8866fc13135e3f08e07ae42fed67c199e13f032c"
+        },
+        "date": 1773071192535,
         "tool": "customSmallerIsBetter",
         "benches": [
           {
