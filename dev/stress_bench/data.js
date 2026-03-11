@@ -1,40 +1,8 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1773071743261,
+  "lastUpdate": 1773235015874,
   "repoUrl": "https://github.com/Ultimaker/CuraEngine",
   "entries": {
     "Stress Benchmark": [
-      {
-        "commit": {
-          "author": {
-            "name": "Ultimaker",
-            "username": "Ultimaker"
-          },
-          "committer": {
-            "name": "Ultimaker",
-            "username": "Ultimaker"
-          },
-          "id": "d6cf775429dd9a8e3b26620bf40d7fb4d56e4e5b",
-          "message": "CURA-12474 set fixed 0 gap for brim support",
-          "timestamp": "2025-04-23T14:42:43Z",
-          "url": "https://github.com/Ultimaker/CuraEngine/pull/2213/commits/d6cf775429dd9a8e3b26620bf40d7fb4d56e4e5b"
-        },
-        "date": 1745478447858,
-        "tool": "customSmallerIsBetter",
-        "benches": [
-          {
-            "name": "Number of test cases",
-            "value": 61,
-            "unit": "-",
-            "extra": ""
-          },
-          {
-            "name": "General Stress Level",
-            "value": 0,
-            "unit": "%",
-            "extra": "Crashes in: "
-          }
-        ]
-      },
       {
         "commit": {
           "author": {
@@ -8079,6 +8047,38 @@ window.BENCHMARK_DATA = {
           "url": "https://github.com/Ultimaker/CuraEngine/pull/2297/commits/1af9ab18ce04664345240cf69c27ac4131a17b5c"
         },
         "date": 1773071735360,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "Number of test cases",
+            "value": 61,
+            "unit": "-",
+            "extra": ""
+          },
+          {
+            "name": "General Stress Level",
+            "value": 0,
+            "unit": "%",
+            "extra": "Crashes in: "
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "Ultimaker",
+            "username": "Ultimaker"
+          },
+          "committer": {
+            "name": "Ultimaker",
+            "username": "Ultimaker"
+          },
+          "id": "e6b7a7dd24fff499aeaf6f9d3e85664a4635458d",
+          "message": "[NP-1297 ??] Some processes can't handle a lone G0/G1 command; robustify that.",
+          "timestamp": "2026-03-10T18:26:06Z",
+          "url": "https://github.com/Ultimaker/CuraEngine/pull/2304/commits/e6b7a7dd24fff499aeaf6f9d3e85664a4635458d"
+        },
+        "date": 1773235009542,
         "tool": "customSmallerIsBetter",
         "benches": [
           {
