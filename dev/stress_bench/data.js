@@ -1,40 +1,8 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1773653930054,
+  "lastUpdate": 1773656637044,
   "repoUrl": "https://github.com/Ultimaker/CuraEngine",
   "entries": {
     "Stress Benchmark": [
-      {
-        "commit": {
-          "author": {
-            "name": "Ultimaker",
-            "username": "Ultimaker"
-          },
-          "committer": {
-            "name": "Ultimaker",
-            "username": "Ultimaker"
-          },
-          "id": "f489e74da5eece7b6190bb5717ef96731857e41f",
-          "message": "[CURA-12525] Print only done on any extruders > 0 should still set extruder,",
-          "timestamp": "2025-04-25T07:31:10Z",
-          "url": "https://github.com/Ultimaker/CuraEngine/pull/2224/commits/f489e74da5eece7b6190bb5717ef96731857e41f"
-        },
-        "date": 1745567744279,
-        "tool": "customSmallerIsBetter",
-        "benches": [
-          {
-            "name": "Number of test cases",
-            "value": 61,
-            "unit": "-",
-            "extra": ""
-          },
-          {
-            "name": "General Stress Level",
-            "value": 0,
-            "unit": "%",
-            "extra": "Crashes in: "
-          }
-        ]
-      },
       {
         "commit": {
           "author": {
@@ -8075,6 +8043,38 @@ window.BENCHMARK_DATA = {
           "url": "https://github.com/Ultimaker/CuraEngine/pull/2279/commits/f1483fe1675674a51dff525c02ce7c52828807c0"
         },
         "date": 1773653924097,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "Number of test cases",
+            "value": 61,
+            "unit": "-",
+            "extra": ""
+          },
+          {
+            "name": "General Stress Level",
+            "value": 0,
+            "unit": "%",
+            "extra": "Crashes in: "
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "Ultimaker",
+            "username": "Ultimaker"
+          },
+          "committer": {
+            "name": "Ultimaker",
+            "username": "Ultimaker"
+          },
+          "id": "302cc9671c819b25530e0a6320c82bec865d846d",
+          "message": "[CURA-13030] Some processes can't handle a lone G0/G1 command; robustify that.",
+          "timestamp": "2026-03-16T09:16:47Z",
+          "url": "https://github.com/Ultimaker/CuraEngine/pull/2304/commits/302cc9671c819b25530e0a6320c82bec865d846d"
+        },
+        "date": 1773656624837,
         "tool": "customSmallerIsBetter",
         "benches": [
           {
