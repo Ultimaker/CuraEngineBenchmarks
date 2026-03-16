@@ -1,40 +1,8 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1773656637044,
+  "lastUpdate": 1773660914856,
   "repoUrl": "https://github.com/Ultimaker/CuraEngine",
   "entries": {
     "Stress Benchmark": [
-      {
-        "commit": {
-          "author": {
-            "name": "Ultimaker",
-            "username": "Ultimaker"
-          },
-          "committer": {
-            "name": "Ultimaker",
-            "username": "Ultimaker"
-          },
-          "id": "5ab72988badcf24cd526a3ab90d79e7275d60473",
-          "message": "[CURA-12525] Print only done on any extruders > 0 should still set extruder,",
-          "timestamp": "2025-04-25T08:19:23Z",
-          "url": "https://github.com/Ultimaker/CuraEngine/pull/2224/commits/5ab72988badcf24cd526a3ab90d79e7275d60473"
-        },
-        "date": 1745570984776,
-        "tool": "customSmallerIsBetter",
-        "benches": [
-          {
-            "name": "Number of test cases",
-            "value": 61,
-            "unit": "-",
-            "extra": ""
-          },
-          {
-            "name": "General Stress Level",
-            "value": 0,
-            "unit": "%",
-            "extra": "Crashes in: "
-          }
-        ]
-      },
       {
         "commit": {
           "author": {
@@ -8075,6 +8043,38 @@ window.BENCHMARK_DATA = {
           "url": "https://github.com/Ultimaker/CuraEngine/pull/2304/commits/302cc9671c819b25530e0a6320c82bec865d846d"
         },
         "date": 1773656624837,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "Number of test cases",
+            "value": 61,
+            "unit": "-",
+            "extra": ""
+          },
+          {
+            "name": "General Stress Level",
+            "value": 0,
+            "unit": "%",
+            "extra": "Crashes in: "
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "Ultimaker",
+            "username": "Ultimaker"
+          },
+          "committer": {
+            "name": "Ultimaker",
+            "username": "Ultimaker"
+          },
+          "id": "82aa2f3cd92fba9e81599411f4800962ae0c0020",
+          "message": "CURA-10381 Start or end infill close to seam",
+          "timestamp": "2026-03-16T09:16:47Z",
+          "url": "https://github.com/Ultimaker/CuraEngine/pull/2279/commits/82aa2f3cd92fba9e81599411f4800962ae0c0020"
+        },
+        "date": 1773660908691,
         "tool": "customSmallerIsBetter",
         "benches": [
           {
