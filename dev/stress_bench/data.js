@@ -1,40 +1,8 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1773235015874,
+  "lastUpdate": 1773648025397,
   "repoUrl": "https://github.com/Ultimaker/CuraEngine",
   "entries": {
     "Stress Benchmark": [
-      {
-        "commit": {
-          "author": {
-            "name": "Ultimaker",
-            "username": "Ultimaker"
-          },
-          "committer": {
-            "name": "Ultimaker",
-            "username": "Ultimaker"
-          },
-          "id": "ce3c37f3c09774430d4c70d5e820823c57d4311b",
-          "message": "Also run NPM package on PR against main or release branch.",
-          "timestamp": "2025-04-23T14:42:43Z",
-          "url": "https://github.com/Ultimaker/CuraEngine/pull/2222/commits/ce3c37f3c09774430d4c70d5e820823c57d4311b"
-        },
-        "date": 1745497949910,
-        "tool": "customSmallerIsBetter",
-        "benches": [
-          {
-            "name": "Number of test cases",
-            "value": 61,
-            "unit": "-",
-            "extra": ""
-          },
-          {
-            "name": "General Stress Level",
-            "value": 0,
-            "unit": "%",
-            "extra": "Crashes in: "
-          }
-        ]
-      },
       {
         "commit": {
           "author": {
@@ -8079,6 +8047,38 @@ window.BENCHMARK_DATA = {
           "url": "https://github.com/Ultimaker/CuraEngine/pull/2304/commits/e6b7a7dd24fff499aeaf6f9d3e85664a4635458d"
         },
         "date": 1773235009542,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "Number of test cases",
+            "value": 61,
+            "unit": "-",
+            "extra": ""
+          },
+          {
+            "name": "General Stress Level",
+            "value": 0,
+            "unit": "%",
+            "extra": "Crashes in: "
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "Ultimaker",
+            "username": "Ultimaker"
+          },
+          "committer": {
+            "name": "Ultimaker",
+            "username": "Ultimaker"
+          },
+          "id": "3c150b0f68f96a89345f58dfd439f24b67b1d45e",
+          "message": "CURA-13029 add specific roofing temperature",
+          "timestamp": "2026-03-14T14:41:24Z",
+          "url": "https://github.com/Ultimaker/CuraEngine/pull/2305/commits/3c150b0f68f96a89345f58dfd439f24b67b1d45e"
+        },
+        "date": 1773648014979,
         "tool": "customSmallerIsBetter",
         "benches": [
           {
