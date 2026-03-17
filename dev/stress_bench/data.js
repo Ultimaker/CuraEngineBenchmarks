@@ -1,44 +1,8 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1773770258737,
+  "lastUpdate": 1773770386576,
   "repoUrl": "https://github.com/Ultimaker/CuraEngine",
   "entries": {
     "Stress Benchmark": [
-      {
-        "commit": {
-          "author": {
-            "email": "alireza.doustdar@gmail.com",
-            "name": "HellAholic",
-            "username": "HellAholic"
-          },
-          "committer": {
-            "email": "noreply@github.com",
-            "name": "GitHub",
-            "username": "web-flow"
-          },
-          "distinct": true,
-          "id": "04c60bb9627df5e8e4b150ee7c374ec3cccdd789",
-          "message": "CURA-12474 set fixed 0 gap for brim support (#2213)",
-          "timestamp": "2025-05-02T11:38:06+02:00",
-          "tree_id": "f6cce3889aba1702865b7406a8e52cbd147d9ff8",
-          "url": "https://github.com/Ultimaker/CuraEngine/commit/04c60bb9627df5e8e4b150ee7c374ec3cccdd789"
-        },
-        "date": 1746180129860,
-        "tool": "customSmallerIsBetter",
-        "benches": [
-          {
-            "name": "Number of test cases",
-            "value": 61,
-            "unit": "-",
-            "extra": ""
-          },
-          {
-            "name": "General Stress Level",
-            "value": 0,
-            "unit": "%",
-            "extra": "Crashes in: "
-          }
-        ]
-      },
       {
         "commit": {
           "author": {
@@ -8071,6 +8035,38 @@ window.BENCHMARK_DATA = {
           "url": "https://github.com/Ultimaker/CuraEngine/pull/2295/commits/dbe932f1eee1b5e6a6f4e4e0f5fc9004ef72788d"
         },
         "date": 1773770252760,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "Number of test cases",
+            "value": 61,
+            "unit": "-",
+            "extra": ""
+          },
+          {
+            "name": "General Stress Level",
+            "value": 0,
+            "unit": "%",
+            "extra": "Crashes in: "
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "Ultimaker",
+            "username": "Ultimaker"
+          },
+          "committer": {
+            "name": "Ultimaker",
+            "username": "Ultimaker"
+          },
+          "id": "fc95f7685dbec023bca389304c43b0fdeef0654a",
+          "message": "Use initial inset direction for layer 0",
+          "timestamp": "2026-03-17T12:48:56Z",
+          "url": "https://github.com/Ultimaker/CuraEngine/pull/2295/commits/fc95f7685dbec023bca389304c43b0fdeef0654a"
+        },
+        "date": 1773770370662,
         "tool": "customSmallerIsBetter",
         "benches": [
           {
