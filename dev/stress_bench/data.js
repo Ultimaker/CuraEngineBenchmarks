@@ -1,40 +1,8 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1773749263750,
+  "lastUpdate": 1773768093461,
   "repoUrl": "https://github.com/Ultimaker/CuraEngine",
   "entries": {
     "Stress Benchmark": [
-      {
-        "commit": {
-          "author": {
-            "name": "Ultimaker",
-            "username": "Ultimaker"
-          },
-          "committer": {
-            "name": "Ultimaker",
-            "username": "Ultimaker"
-          },
-          "id": "10d773d4354be9319527ad6f05a94af405221976",
-          "message": "[CURA-12446] Added settings for a different number of walls in top-/bottom-most skin.",
-          "timestamp": "2025-04-28T10:39:39Z",
-          "url": "https://github.com/Ultimaker/CuraEngine/pull/2227/commits/10d773d4354be9319527ad6f05a94af405221976"
-        },
-        "date": 1746024145462,
-        "tool": "customSmallerIsBetter",
-        "benches": [
-          {
-            "name": "Number of test cases",
-            "value": 61,
-            "unit": "-",
-            "extra": ""
-          },
-          {
-            "name": "General Stress Level",
-            "value": 0,
-            "unit": "%",
-            "extra": "Crashes in: "
-          }
-        ]
-      },
       {
         "commit": {
           "author": {
@@ -8071,6 +8039,38 @@ window.BENCHMARK_DATA = {
           "url": "https://github.com/Ultimaker/CuraEngine/pull/2302/commits/0788908060f393b789494ecaa6acb8b9c0f1b254"
         },
         "date": 1773749256382,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "Number of test cases",
+            "value": 61,
+            "unit": "-",
+            "extra": ""
+          },
+          {
+            "name": "General Stress Level",
+            "value": 0,
+            "unit": "%",
+            "extra": "Crashes in: "
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "Ultimaker",
+            "username": "Ultimaker"
+          },
+          "committer": {
+            "name": "Ultimaker",
+            "username": "Ultimaker"
+          },
+          "id": "38167733414c6191aaaa893ab0a1d2eb90469387",
+          "message": "CURA-10381 Start or end infill close to seam",
+          "timestamp": "2026-03-17T12:48:56Z",
+          "url": "https://github.com/Ultimaker/CuraEngine/pull/2279/commits/38167733414c6191aaaa893ab0a1d2eb90469387"
+        },
+        "date": 1773768086246,
         "tool": "customSmallerIsBetter",
         "benches": [
           {
