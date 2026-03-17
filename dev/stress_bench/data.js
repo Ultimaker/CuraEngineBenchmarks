@@ -1,40 +1,8 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1773674406403,
+  "lastUpdate": 1773749263750,
   "repoUrl": "https://github.com/Ultimaker/CuraEngine",
   "entries": {
     "Stress Benchmark": [
-      {
-        "commit": {
-          "author": {
-            "name": "Ultimaker",
-            "username": "Ultimaker"
-          },
-          "committer": {
-            "name": "Ultimaker",
-            "username": "Ultimaker"
-          },
-          "id": "14939f4a3eea799535a25d88afd5eb4bf4583082",
-          "message": "[CURA-12512] Add speed settings for auxilary ('build volume') fan.",
-          "timestamp": "2025-04-28T10:39:39Z",
-          "url": "https://github.com/Ultimaker/CuraEngine/pull/2226/commits/14939f4a3eea799535a25d88afd5eb4bf4583082"
-        },
-        "date": 1745929645607,
-        "tool": "customSmallerIsBetter",
-        "benches": [
-          {
-            "name": "Number of test cases",
-            "value": 61,
-            "unit": "-",
-            "extra": ""
-          },
-          {
-            "name": "General Stress Level",
-            "value": 0,
-            "unit": "%",
-            "extra": "Crashes in: "
-          }
-        ]
-      },
       {
         "commit": {
           "author": {
@@ -8071,6 +8039,38 @@ window.BENCHMARK_DATA = {
           "url": "https://github.com/Ultimaker/CuraEngine/pull/2279/commits/0d9a14f74c977de1b0862555aaa137ba1b2f07ea"
         },
         "date": 1773674399732,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "Number of test cases",
+            "value": 61,
+            "unit": "-",
+            "extra": ""
+          },
+          {
+            "name": "General Stress Level",
+            "value": 0,
+            "unit": "%",
+            "extra": "Crashes in: "
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "Ultimaker",
+            "username": "Ultimaker"
+          },
+          "committer": {
+            "name": "Ultimaker",
+            "username": "Ultimaker"
+          },
+          "id": "0788908060f393b789494ecaa6acb8b9c0f1b254",
+          "message": "CURA-12996 Fix flooring areas being generated when disabled",
+          "timestamp": "2026-03-16T09:16:47Z",
+          "url": "https://github.com/Ultimaker/CuraEngine/pull/2302/commits/0788908060f393b789494ecaa6acb8b9c0f1b254"
+        },
+        "date": 1773749256382,
         "tool": "customSmallerIsBetter",
         "benches": [
           {
