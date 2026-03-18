@@ -1,44 +1,8 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1773825607349,
+  "lastUpdate": 1773833636547,
   "repoUrl": "https://github.com/Ultimaker/CuraEngine",
   "entries": {
     "Stress Benchmark": [
-      {
-        "commit": {
-          "author": {
-            "email": "alireza.doustdar@gmail.com",
-            "name": "HellAholic",
-            "username": "HellAholic"
-          },
-          "committer": {
-            "email": "noreply@github.com",
-            "name": "GitHub",
-            "username": "web-flow"
-          },
-          "distinct": true,
-          "id": "45a71e41dd1b4824935c1179fe2874833e7b02a3",
-          "message": "[CURA-12512] Add speed settings for auxilary ('build volume') fan. (#2226)",
-          "timestamp": "2025-05-02T13:04:14+02:00",
-          "tree_id": "039d8fcbf0d7d74b996d6ae32c027552cba04fc0",
-          "url": "https://github.com/Ultimaker/CuraEngine/commit/45a71e41dd1b4824935c1179fe2874833e7b02a3"
-        },
-        "date": 1746185242090,
-        "tool": "customSmallerIsBetter",
-        "benches": [
-          {
-            "name": "Number of test cases",
-            "value": 61,
-            "unit": "-",
-            "extra": ""
-          },
-          {
-            "name": "General Stress Level",
-            "value": 0,
-            "unit": "%",
-            "extra": "Crashes in: "
-          }
-        ]
-      },
       {
         "commit": {
           "author": {
@@ -8067,6 +8031,38 @@ window.BENCHMARK_DATA = {
           "url": "https://github.com/Ultimaker/CuraEngine/pull/2307/commits/1da3c6322338504eb3574e6293e59f3adbdddb25"
         },
         "date": 1773825599946,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "Number of test cases",
+            "value": 61,
+            "unit": "-",
+            "extra": ""
+          },
+          {
+            "name": "General Stress Level",
+            "value": 0,
+            "unit": "%",
+            "extra": "Crashes in: "
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "Ultimaker",
+            "username": "Ultimaker"
+          },
+          "committer": {
+            "name": "Ultimaker",
+            "username": "Ultimaker"
+          },
+          "id": "a94ff8f9170df7d2b60cfe64ab96d921d246f9c7",
+          "message": "CURA-12829 Fix tree support top layer generation",
+          "timestamp": "2026-03-18T09:15:54Z",
+          "url": "https://github.com/Ultimaker/CuraEngine/pull/2306/commits/a94ff8f9170df7d2b60cfe64ab96d921d246f9c7"
+        },
+        "date": 1773833630394,
         "tool": "customSmallerIsBetter",
         "benches": [
           {
