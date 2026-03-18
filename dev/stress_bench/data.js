@@ -1,40 +1,8 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1773770386576,
+  "lastUpdate": 1773825607349,
   "repoUrl": "https://github.com/Ultimaker/CuraEngine",
   "entries": {
     "Stress Benchmark": [
-      {
-        "commit": {
-          "author": {
-            "name": "Ultimaker",
-            "username": "Ultimaker"
-          },
-          "committer": {
-            "name": "Ultimaker",
-            "username": "Ultimaker"
-          },
-          "id": "623791a483c341868c7e4616ff2b517102c7be9c",
-          "message": "[CURA-12512] Add speed settings for auxilary ('build volume') fan.",
-          "timestamp": "2025-05-02T09:38:12Z",
-          "url": "https://github.com/Ultimaker/CuraEngine/pull/2226/commits/623791a483c341868c7e4616ff2b517102c7be9c"
-        },
-        "date": 1746180247078,
-        "tool": "customSmallerIsBetter",
-        "benches": [
-          {
-            "name": "Number of test cases",
-            "value": 61,
-            "unit": "-",
-            "extra": ""
-          },
-          {
-            "name": "General Stress Level",
-            "value": 0,
-            "unit": "%",
-            "extra": "Crashes in: "
-          }
-        ]
-      },
       {
         "commit": {
           "author": {
@@ -8067,6 +8035,38 @@ window.BENCHMARK_DATA = {
           "url": "https://github.com/Ultimaker/CuraEngine/pull/2295/commits/fc95f7685dbec023bca389304c43b0fdeef0654a"
         },
         "date": 1773770370662,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "Number of test cases",
+            "value": 61,
+            "unit": "-",
+            "extra": ""
+          },
+          {
+            "name": "General Stress Level",
+            "value": 0,
+            "unit": "%",
+            "extra": "Crashes in: "
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "Ultimaker",
+            "username": "Ultimaker"
+          },
+          "committer": {
+            "name": "Ultimaker",
+            "username": "Ultimaker"
+          },
+          "id": "1da3c6322338504eb3574e6293e59f3adbdddb25",
+          "message": "CURA-13025 Fix skin support with random infill start",
+          "timestamp": "2026-03-17T12:48:56Z",
+          "url": "https://github.com/Ultimaker/CuraEngine/pull/2307/commits/1da3c6322338504eb3574e6293e59f3adbdddb25"
+        },
+        "date": 1773825599946,
         "tool": "customSmallerIsBetter",
         "benches": [
           {
