@@ -1,40 +1,8 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1773833636547,
+  "lastUpdate": 1773838295917,
   "repoUrl": "https://github.com/Ultimaker/CuraEngine",
   "entries": {
     "Stress Benchmark": [
-      {
-        "commit": {
-          "author": {
-            "name": "Ultimaker",
-            "username": "Ultimaker"
-          },
-          "committer": {
-            "name": "Ultimaker",
-            "username": "Ultimaker"
-          },
-          "id": "b21f96c74fa7ca804554e0a071772b83ab222682",
-          "message": "[CURA-12446] Added settings for a different number of walls in top-/bottom-most skin.",
-          "timestamp": "2025-05-02T11:04:19Z",
-          "url": "https://github.com/Ultimaker/CuraEngine/pull/2227/commits/b21f96c74fa7ca804554e0a071772b83ab222682"
-        },
-        "date": 1746524149469,
-        "tool": "customSmallerIsBetter",
-        "benches": [
-          {
-            "name": "Number of test cases",
-            "value": 61,
-            "unit": "-",
-            "extra": ""
-          },
-          {
-            "name": "General Stress Level",
-            "value": 0,
-            "unit": "%",
-            "extra": "Crashes in: "
-          }
-        ]
-      },
       {
         "commit": {
           "author": {
@@ -8063,6 +8031,38 @@ window.BENCHMARK_DATA = {
           "url": "https://github.com/Ultimaker/CuraEngine/pull/2306/commits/a94ff8f9170df7d2b60cfe64ab96d921d246f9c7"
         },
         "date": 1773833630394,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "Number of test cases",
+            "value": 61,
+            "unit": "-",
+            "extra": ""
+          },
+          {
+            "name": "General Stress Level",
+            "value": 0,
+            "unit": "%",
+            "extra": "Crashes in: "
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "Ultimaker",
+            "username": "Ultimaker"
+          },
+          "committer": {
+            "name": "Ultimaker",
+            "username": "Ultimaker"
+          },
+          "id": "2f90c6a02736c9016ccbd794d1aa6b12f122ddc0",
+          "message": "CURA-13032 Fix overhang speed factor being applied twice",
+          "timestamp": "2026-03-18T09:15:54Z",
+          "url": "https://github.com/Ultimaker/CuraEngine/pull/2308/commits/2f90c6a02736c9016ccbd794d1aa6b12f122ddc0"
+        },
+        "date": 1773838283723,
         "tool": "customSmallerIsBetter",
         "benches": [
           {
