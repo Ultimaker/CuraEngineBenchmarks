@@ -1,40 +1,8 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1773926773072,
+  "lastUpdate": 1773961419960,
   "repoUrl": "https://github.com/Ultimaker/CuraEngine",
   "entries": {
     "Stress Benchmark": [
-      {
-        "commit": {
-          "author": {
-            "name": "Ultimaker",
-            "username": "Ultimaker"
-          },
-          "committer": {
-            "name": "Ultimaker",
-            "username": "Ultimaker"
-          },
-          "id": "0d0c936167aaf36b9b4dfd9298c13b376d3cf7f0",
-          "message": "[CURA-12446] Added settings for a different number of walls in top-/bottom-most skin.",
-          "timestamp": "2025-05-07T05:43:53Z",
-          "url": "https://github.com/Ultimaker/CuraEngine/pull/2227/commits/0d0c936167aaf36b9b4dfd9298c13b376d3cf7f0"
-        },
-        "date": 1746619265401,
-        "tool": "customSmallerIsBetter",
-        "benches": [
-          {
-            "name": "Number of test cases",
-            "value": 61,
-            "unit": "-",
-            "extra": ""
-          },
-          {
-            "name": "General Stress Level",
-            "value": 0,
-            "unit": "%",
-            "extra": "Crashes in: "
-          }
-        ]
-      },
       {
         "commit": {
           "author": {
@@ -8063,6 +8031,38 @@ window.BENCHMARK_DATA = {
           "url": "https://github.com/Ultimaker/CuraEngine/pull/2310/commits/2775dcce98fce12a32da51c868189f0adfca3068"
         },
         "date": 1773926766750,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "Number of test cases",
+            "value": 61,
+            "unit": "-",
+            "extra": ""
+          },
+          {
+            "name": "General Stress Level",
+            "value": 0,
+            "unit": "%",
+            "extra": "Crashes in: "
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "Ultimaker",
+            "username": "Ultimaker"
+          },
+          "committer": {
+            "name": "Ultimaker",
+            "username": "Ultimaker"
+          },
+          "id": "f00e65d98d3c5f12ba95ccfa2d4d9ff39a75f745",
+          "message": "Use speed_z_hop for z-hop travel moves",
+          "timestamp": "2026-03-18T09:15:54Z",
+          "url": "https://github.com/Ultimaker/CuraEngine/pull/2311/commits/f00e65d98d3c5f12ba95ccfa2d4d9ff39a75f745"
+        },
+        "date": 1773961413967,
         "tool": "customSmallerIsBetter",
         "benches": [
           {
