@@ -1,40 +1,8 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1773838295917,
+  "lastUpdate": 1773912201306,
   "repoUrl": "https://github.com/Ultimaker/CuraEngine",
   "entries": {
     "Stress Benchmark": [
-      {
-        "commit": {
-          "author": {
-            "name": "Ultimaker",
-            "username": "Ultimaker"
-          },
-          "committer": {
-            "name": "Ultimaker",
-            "username": "Ultimaker"
-          },
-          "id": "0229ab2fc43717097cf444e04e86b0ef8c63db03",
-          "message": "[CURA-12446] Added settings for a different number of walls in top-/bottom-most skin.",
-          "timestamp": "2025-05-02T11:04:19Z",
-          "url": "https://github.com/Ultimaker/CuraEngine/pull/2227/commits/0229ab2fc43717097cf444e04e86b0ef8c63db03"
-        },
-        "date": 1746526523369,
-        "tool": "customSmallerIsBetter",
-        "benches": [
-          {
-            "name": "Number of test cases",
-            "value": 61,
-            "unit": "-",
-            "extra": ""
-          },
-          {
-            "name": "General Stress Level",
-            "value": 0,
-            "unit": "%",
-            "extra": "Crashes in: "
-          }
-        ]
-      },
       {
         "commit": {
           "author": {
@@ -8063,6 +8031,38 @@ window.BENCHMARK_DATA = {
           "url": "https://github.com/Ultimaker/CuraEngine/pull/2308/commits/2f90c6a02736c9016ccbd794d1aa6b12f122ddc0"
         },
         "date": 1773838283723,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "Number of test cases",
+            "value": 61,
+            "unit": "-",
+            "extra": ""
+          },
+          {
+            "name": "General Stress Level",
+            "value": 0,
+            "unit": "%",
+            "extra": "Crashes in: "
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "Ultimaker",
+            "username": "Ultimaker"
+          },
+          "committer": {
+            "name": "Ultimaker",
+            "username": "Ultimaker"
+          },
+          "id": "d0cbad5fa58bde2b744e0ddae76240ab028814e7",
+          "message": "Use initial inset direction for first layer",
+          "timestamp": "2026-03-18T09:15:54Z",
+          "url": "https://github.com/Ultimaker/CuraEngine/pull/2309/commits/d0cbad5fa58bde2b744e0ddae76240ab028814e7"
+        },
+        "date": 1773912194931,
         "tool": "customSmallerIsBetter",
         "benches": [
           {
