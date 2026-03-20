@@ -1,44 +1,8 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1773961419960,
+  "lastUpdate": 1773998702449,
   "repoUrl": "https://github.com/Ultimaker/CuraEngine",
   "entries": {
     "Stress Benchmark": [
-      {
-        "commit": {
-          "author": {
-            "email": "41987080+rburema@users.noreply.github.com",
-            "name": "Remco Burema",
-            "username": "rburema"
-          },
-          "committer": {
-            "email": "noreply@github.com",
-            "name": "GitHub",
-            "username": "web-flow"
-          },
-          "distinct": true,
-          "id": "7465edd936a1c1644bc6387417175351948dca05",
-          "message": "[CURA-12503] Remove now unused 'skip agressive merge hint' variable. (#2220)",
-          "timestamp": "2025-05-08T08:15:45+02:00",
-          "tree_id": "97e6c46c2d078341704191996300913c11a6110a",
-          "url": "https://github.com/Ultimaker/CuraEngine/commit/7465edd936a1c1644bc6387417175351948dca05"
-        },
-        "date": 1746686455276,
-        "tool": "customSmallerIsBetter",
-        "benches": [
-          {
-            "name": "Number of test cases",
-            "value": 61,
-            "unit": "-",
-            "extra": ""
-          },
-          {
-            "name": "General Stress Level",
-            "value": 0,
-            "unit": "%",
-            "extra": "Crashes in: "
-          }
-        ]
-      },
       {
         "commit": {
           "author": {
@@ -8063,6 +8027,38 @@ window.BENCHMARK_DATA = {
           "url": "https://github.com/Ultimaker/CuraEngine/pull/2311/commits/f00e65d98d3c5f12ba95ccfa2d4d9ff39a75f745"
         },
         "date": 1773961413967,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "Number of test cases",
+            "value": 61,
+            "unit": "-",
+            "extra": ""
+          },
+          {
+            "name": "General Stress Level",
+            "value": 0,
+            "unit": "%",
+            "extra": "Crashes in: "
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "Ultimaker",
+            "username": "Ultimaker"
+          },
+          "committer": {
+            "name": "Ultimaker",
+            "username": "Ultimaker"
+          },
+          "id": "3e632b6c5bf2aa04343765dbcab880ee05113794",
+          "message": "CURA-13039 lightning support",
+          "timestamp": "2026-03-18T09:15:54Z",
+          "url": "https://github.com/Ultimaker/CuraEngine/pull/2310/commits/3e632b6c5bf2aa04343765dbcab880ee05113794"
+        },
+        "date": 1773998696230,
         "tool": "customSmallerIsBetter",
         "benches": [
           {
