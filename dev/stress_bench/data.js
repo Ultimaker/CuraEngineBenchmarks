@@ -1,40 +1,8 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1773998702449,
+  "lastUpdate": 1774260943048,
   "repoUrl": "https://github.com/Ultimaker/CuraEngine",
   "entries": {
     "Stress Benchmark": [
-      {
-        "commit": {
-          "author": {
-            "name": "Ultimaker",
-            "username": "Ultimaker"
-          },
-          "committer": {
-            "name": "Ultimaker",
-            "username": "Ultimaker"
-          },
-          "id": "6ad3c80475f16a1e9bbb1ada8cb401ba95281c4c",
-          "message": "CURA-12369 extra wipe move with spiralize",
-          "timestamp": "2025-05-08T06:15:51Z",
-          "url": "https://github.com/Ultimaker/CuraEngine/pull/2206/commits/6ad3c80475f16a1e9bbb1ada8cb401ba95281c4c"
-        },
-        "date": 1746698811341,
-        "tool": "customSmallerIsBetter",
-        "benches": [
-          {
-            "name": "Number of test cases",
-            "value": 61,
-            "unit": "-",
-            "extra": ""
-          },
-          {
-            "name": "General Stress Level",
-            "value": 0,
-            "unit": "%",
-            "extra": "Crashes in: "
-          }
-        ]
-      },
       {
         "commit": {
           "author": {
@@ -8059,6 +8027,38 @@ window.BENCHMARK_DATA = {
           "url": "https://github.com/Ultimaker/CuraEngine/pull/2310/commits/3e632b6c5bf2aa04343765dbcab880ee05113794"
         },
         "date": 1773998696230,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "Number of test cases",
+            "value": 61,
+            "unit": "-",
+            "extra": ""
+          },
+          {
+            "name": "General Stress Level",
+            "value": 0,
+            "unit": "%",
+            "extra": "Crashes in: "
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "Ultimaker",
+            "username": "Ultimaker"
+          },
+          "committer": {
+            "name": "Ultimaker",
+            "username": "Ultimaker"
+          },
+          "id": "ab12df3b9208e768638e95d4f6d2b4a1b8bf68c2",
+          "message": "CURA_13005",
+          "timestamp": "2026-03-21T07:45:55Z",
+          "url": "https://github.com/Ultimaker/CuraEngine/pull/2297/commits/ab12df3b9208e768638e95d4f6d2b4a1b8bf68c2"
+        },
+        "date": 1774260936490,
         "tool": "customSmallerIsBetter",
         "benches": [
           {
