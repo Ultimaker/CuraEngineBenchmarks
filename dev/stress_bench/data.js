@@ -1,40 +1,8 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1774273940280,
+  "lastUpdate": 1774278545615,
   "repoUrl": "https://github.com/Ultimaker/CuraEngine",
   "entries": {
     "Stress Benchmark": [
-      {
-        "commit": {
-          "author": {
-            "name": "Ultimaker",
-            "username": "Ultimaker"
-          },
-          "committer": {
-            "name": "Ultimaker",
-            "username": "Ultimaker"
-          },
-          "id": "ca754db6fe48375b3806e2a97cb8cfb3e79b842b",
-          "message": "[CURA-12555] Forced brim 0 on support-brim, but now for 5.10.x",
-          "timestamp": "2025-05-19T01:45:35Z",
-          "url": "https://github.com/Ultimaker/CuraEngine/pull/2230/commits/ca754db6fe48375b3806e2a97cb8cfb3e79b842b"
-        },
-        "date": 1747732033976,
-        "tool": "customSmallerIsBetter",
-        "benches": [
-          {
-            "name": "Number of test cases",
-            "value": 61,
-            "unit": "-",
-            "extra": ""
-          },
-          {
-            "name": "General Stress Level",
-            "value": 0,
-            "unit": "%",
-            "extra": "Crashes in: "
-          }
-        ]
-      },
       {
         "commit": {
           "author": {
@@ -8055,6 +8023,38 @@ window.BENCHMARK_DATA = {
           "url": "https://github.com/Ultimaker/CuraEngine/pull/2279/commits/d9448661f6987b7690f01147a51be45e5f209089"
         },
         "date": 1774273926865,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "Number of test cases",
+            "value": 61,
+            "unit": "-",
+            "extra": ""
+          },
+          {
+            "name": "General Stress Level",
+            "value": 0,
+            "unit": "%",
+            "extra": "Crashes in: "
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "Ultimaker",
+            "username": "Ultimaker"
+          },
+          "committer": {
+            "name": "Ultimaker",
+            "username": "Ultimaker"
+          },
+          "id": "c873f306ffaa7f47d52ba6d41c470eb6f90bdb9b",
+          "message": "Replace sprintf with snprintf in string utils",
+          "timestamp": "2026-03-21T07:45:55Z",
+          "url": "https://github.com/Ultimaker/CuraEngine/pull/2312/commits/c873f306ffaa7f47d52ba6d41c470eb6f90bdb9b"
+        },
+        "date": 1774278539403,
         "tool": "customSmallerIsBetter",
         "benches": [
           {
