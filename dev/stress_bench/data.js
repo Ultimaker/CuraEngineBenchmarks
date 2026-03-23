@@ -1,44 +1,8 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1774260943048,
+  "lastUpdate": 1774272887798,
   "repoUrl": "https://github.com/Ultimaker/CuraEngine",
   "entries": {
     "Stress Benchmark": [
-      {
-        "commit": {
-          "author": {
-            "email": "alireza.doustdar@gmail.com",
-            "name": "HellAholic",
-            "username": "HellAholic"
-          },
-          "committer": {
-            "email": "noreply@github.com",
-            "name": "GitHub",
-            "username": "web-flow"
-          },
-          "distinct": true,
-          "id": "ae38e6010d34f65493d3e2cc3c91a4c6f023145c",
-          "message": "CURA-12369 extra wipe move with spiralize (#2206)",
-          "timestamp": "2025-05-09T11:36:53+02:00",
-          "tree_id": "b51f9256f02f66595a6ac9bb494761f5cabb948b",
-          "url": "https://github.com/Ultimaker/CuraEngine/commit/ae38e6010d34f65493d3e2cc3c91a4c6f023145c"
-        },
-        "date": 1746784878458,
-        "tool": "customSmallerIsBetter",
-        "benches": [
-          {
-            "name": "Number of test cases",
-            "value": 61,
-            "unit": "-",
-            "extra": ""
-          },
-          {
-            "name": "General Stress Level",
-            "value": 0,
-            "unit": "%",
-            "extra": "Crashes in: "
-          }
-        ]
-      },
       {
         "commit": {
           "author": {
@@ -8059,6 +8023,38 @@ window.BENCHMARK_DATA = {
           "url": "https://github.com/Ultimaker/CuraEngine/pull/2297/commits/ab12df3b9208e768638e95d4f6d2b4a1b8bf68c2"
         },
         "date": 1774260936490,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "Number of test cases",
+            "value": 61,
+            "unit": "-",
+            "extra": ""
+          },
+          {
+            "name": "General Stress Level",
+            "value": 0,
+            "unit": "%",
+            "extra": "Crashes in: "
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "Ultimaker",
+            "username": "Ultimaker"
+          },
+          "committer": {
+            "name": "Ultimaker",
+            "username": "Ultimaker"
+          },
+          "id": "ea009269ee8fe1c513776d0f59dc3789efacf2d5",
+          "message": "CURA-10381 Start or end infill close to seam",
+          "timestamp": "2026-03-21T07:45:55Z",
+          "url": "https://github.com/Ultimaker/CuraEngine/pull/2279/commits/ea009269ee8fe1c513776d0f59dc3789efacf2d5"
+        },
+        "date": 1774272881577,
         "tool": "customSmallerIsBetter",
         "benches": [
           {
