@@ -1,40 +1,8 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1774278545615,
+  "lastUpdate": 1774343505648,
   "repoUrl": "https://github.com/Ultimaker/CuraEngine",
   "entries": {
     "Stress Benchmark": [
-      {
-        "commit": {
-          "author": {
-            "name": "Ultimaker",
-            "username": "Ultimaker"
-          },
-          "committer": {
-            "name": "Ultimaker",
-            "username": "Ultimaker"
-          },
-          "id": "a3c56e1ea2dc7597965db6c866a85cabc06a9efa",
-          "message": "CURA-11978 Retract and unretract in a travel",
-          "timestamp": "2025-05-20T20:51:41Z",
-          "url": "https://github.com/Ultimaker/CuraEngine/pull/2204/commits/a3c56e1ea2dc7597965db6c866a85cabc06a9efa"
-        },
-        "date": 1747834408594,
-        "tool": "customSmallerIsBetter",
-        "benches": [
-          {
-            "name": "Number of test cases",
-            "value": 61,
-            "unit": "-",
-            "extra": ""
-          },
-          {
-            "name": "General Stress Level",
-            "value": 0,
-            "unit": "%",
-            "extra": "Crashes in: "
-          }
-        ]
-      },
       {
         "commit": {
           "author": {
@@ -8055,6 +8023,38 @@ window.BENCHMARK_DATA = {
           "url": "https://github.com/Ultimaker/CuraEngine/pull/2312/commits/c873f306ffaa7f47d52ba6d41c470eb6f90bdb9b"
         },
         "date": 1774278539403,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "Number of test cases",
+            "value": 61,
+            "unit": "-",
+            "extra": ""
+          },
+          {
+            "name": "General Stress Level",
+            "value": 0,
+            "unit": "%",
+            "extra": "Crashes in: "
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "Ultimaker",
+            "username": "Ultimaker"
+          },
+          "committer": {
+            "name": "Ultimaker",
+            "username": "Ultimaker"
+          },
+          "id": "447943767b8eba54d315a76ac11d15755f336569",
+          "message": "CURA-13039 lightning support",
+          "timestamp": "2026-03-24T01:39:13Z",
+          "url": "https://github.com/Ultimaker/CuraEngine/pull/2310/commits/447943767b8eba54d315a76ac11d15755f336569"
+        },
+        "date": 1774343499566,
         "tool": "customSmallerIsBetter",
         "benches": [
           {
