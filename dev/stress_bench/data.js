@@ -1,44 +1,8 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1774346522567,
+  "lastUpdate": 1774361056652,
   "repoUrl": "https://github.com/Ultimaker/CuraEngine",
   "entries": {
     "Stress Benchmark": [
-      {
-        "commit": {
-          "author": {
-            "email": "alireza.doustdar@gmail.com",
-            "name": "HellAholic",
-            "username": "HellAholic"
-          },
-          "committer": {
-            "email": "alireza.doustdar@gmail.com",
-            "name": "HellAholic",
-            "username": "HellAholic"
-          },
-          "distinct": true,
-          "id": "d65343d51d93b4a40f2e39e9b412830fade97a19",
-          "message": "Merge remote-tracking branch 'origin/5.10'",
-          "timestamp": "2025-06-04T10:43:18+02:00",
-          "tree_id": "43deb32b2a495a3aa40eafad982cd42f874ebbba",
-          "url": "https://github.com/Ultimaker/CuraEngine/commit/d65343d51d93b4a40f2e39e9b412830fade97a19"
-        },
-        "date": 1749028145376,
-        "tool": "customSmallerIsBetter",
-        "benches": [
-          {
-            "name": "Number of test cases",
-            "value": 61,
-            "unit": "-",
-            "extra": ""
-          },
-          {
-            "name": "General Stress Level",
-            "value": 0,
-            "unit": "%",
-            "extra": "Crashes in: "
-          }
-        ]
-      },
       {
         "commit": {
           "author": {
@@ -8055,6 +8019,38 @@ window.BENCHMARK_DATA = {
           "url": "https://github.com/Ultimaker/CuraEngine/pull/2279/commits/103e680eb70548cae4db7ac4318b97b4f3f96c72"
         },
         "date": 1774346516309,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "Number of test cases",
+            "value": 61,
+            "unit": "-",
+            "extra": ""
+          },
+          {
+            "name": "General Stress Level",
+            "value": 0,
+            "unit": "%",
+            "extra": "Crashes in: "
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "Ultimaker",
+            "username": "Ultimaker"
+          },
+          "committer": {
+            "name": "Ultimaker",
+            "username": "Ultimaker"
+          },
+          "id": "7e6f3a5d4334a9f9c1c5b4dfbbfdeae1c0e2f818",
+          "message": "CURA-13029 add specific roofing temperature",
+          "timestamp": "2026-03-24T01:39:13Z",
+          "url": "https://github.com/Ultimaker/CuraEngine/pull/2305/commits/7e6f3a5d4334a9f9c1c5b4dfbbfdeae1c0e2f818"
+        },
+        "date": 1774361050382,
         "tool": "customSmallerIsBetter",
         "benches": [
           {
