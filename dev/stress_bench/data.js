@@ -1,40 +1,8 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1774447480734,
+  "lastUpdate": 1774513011224,
   "repoUrl": "https://github.com/Ultimaker/CuraEngine",
   "entries": {
     "Stress Benchmark": [
-      {
-        "commit": {
-          "author": {
-            "name": "Ultimaker",
-            "username": "Ultimaker"
-          },
-          "committer": {
-            "name": "Ultimaker",
-            "username": "Ultimaker"
-          },
-          "id": "ba9a4136b2f4a4374eaf06c98b895524fc24ce6a",
-          "message": "CURA-11978 Retract and unretract in a travel",
-          "timestamp": "2025-06-04T08:43:34Z",
-          "url": "https://github.com/Ultimaker/CuraEngine/pull/2204/commits/ba9a4136b2f4a4374eaf06c98b895524fc24ce6a"
-        },
-        "date": 1749545393540,
-        "tool": "customSmallerIsBetter",
-        "benches": [
-          {
-            "name": "Number of test cases",
-            "value": 61,
-            "unit": "-",
-            "extra": ""
-          },
-          {
-            "name": "General Stress Level",
-            "value": 0,
-            "unit": "%",
-            "extra": "Crashes in: "
-          }
-        ]
-      },
       {
         "commit": {
           "author": {
@@ -8051,6 +8019,38 @@ window.BENCHMARK_DATA = {
           "url": "https://github.com/Ultimaker/CuraEngine/pull/2279/commits/f338d3b0d681f2babb94cfc9a2d9f30c56f9772c"
         },
         "date": 1774447474591,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "Number of test cases",
+            "value": 61,
+            "unit": "-",
+            "extra": ""
+          },
+          {
+            "name": "General Stress Level",
+            "value": 0,
+            "unit": "%",
+            "extra": "Crashes in: "
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "Ultimaker",
+            "username": "Ultimaker"
+          },
+          "committer": {
+            "name": "Ultimaker",
+            "username": "Ultimaker"
+          },
+          "id": "4527328928d999a278a4eb0528e4588efbbd4daa",
+          "message": "CURA-13029 add specific roofing temperature",
+          "timestamp": "2026-03-26T04:37:03Z",
+          "url": "https://github.com/Ultimaker/CuraEngine/pull/2305/commits/4527328928d999a278a4eb0528e4588efbbd4daa"
+        },
+        "date": 1774513005144,
         "tool": "customSmallerIsBetter",
         "benches": [
           {
