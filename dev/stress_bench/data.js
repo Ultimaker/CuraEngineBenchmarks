@@ -1,40 +1,8 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1774513021334,
+  "lastUpdate": 1774516203387,
   "repoUrl": "https://github.com/Ultimaker/CuraEngine",
   "entries": {
     "Stress Benchmark": [
-      {
-        "commit": {
-          "author": {
-            "name": "Ultimaker",
-            "username": "Ultimaker"
-          },
-          "committer": {
-            "name": "Ultimaker",
-            "username": "Ultimaker"
-          },
-          "id": "a1159f4dcf1374016000a05442c9d11dbcafcafd",
-          "message": "CURA-11978 Retract and unretract in a travel",
-          "timestamp": "2025-06-12T03:54:50Z",
-          "url": "https://github.com/Ultimaker/CuraEngine/pull/2204/commits/a1159f4dcf1374016000a05442c9d11dbcafcafd"
-        },
-        "date": 1749709188106,
-        "tool": "customSmallerIsBetter",
-        "benches": [
-          {
-            "name": "Number of test cases",
-            "value": 61,
-            "unit": "-",
-            "extra": ""
-          },
-          {
-            "name": "General Stress Level",
-            "value": 0,
-            "unit": "%",
-            "extra": "Crashes in: "
-          }
-        ]
-      },
       {
         "commit": {
           "author": {
@@ -8051,6 +8019,38 @@ window.BENCHMARK_DATA = {
           "url": "https://github.com/Ultimaker/CuraEngine/pull/2305/commits/72c6d688f786849de803949bbd8a450481b47e7b"
         },
         "date": 1774513008277,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "Number of test cases",
+            "value": 61,
+            "unit": "-",
+            "extra": ""
+          },
+          {
+            "name": "General Stress Level",
+            "value": 0,
+            "unit": "%",
+            "extra": "Crashes in: "
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "Ultimaker",
+            "username": "Ultimaker"
+          },
+          "committer": {
+            "name": "Ultimaker",
+            "username": "Ultimaker"
+          },
+          "id": "748399d46811961ce852139ca86b410945cfec23",
+          "message": "CURA-10381 Start or end infill close to seam",
+          "timestamp": "2026-03-26T04:37:03Z",
+          "url": "https://github.com/Ultimaker/CuraEngine/pull/2279/commits/748399d46811961ce852139ca86b410945cfec23"
+        },
+        "date": 1774516197070,
         "tool": "customSmallerIsBetter",
         "benches": [
           {
