@@ -1,40 +1,8 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1774608897724,
+  "lastUpdate": 1774619433829,
   "repoUrl": "https://github.com/Ultimaker/CuraEngine",
   "entries": {
     "Stress Benchmark": [
-      {
-        "commit": {
-          "author": {
-            "name": "Ultimaker",
-            "username": "Ultimaker"
-          },
-          "committer": {
-            "name": "Ultimaker",
-            "username": "Ultimaker"
-          },
-          "id": "945c507eac606e99e212a5bce049d3a8918106e3",
-          "message": "CURA-12515 Print bridge walls without overhanging speed",
-          "timestamp": "2025-06-13T16:53:55Z",
-          "url": "https://github.com/Ultimaker/CuraEngine/pull/2238/commits/945c507eac606e99e212a5bce049d3a8918106e3"
-        },
-        "date": 1750071544970,
-        "tool": "customSmallerIsBetter",
-        "benches": [
-          {
-            "name": "Number of test cases",
-            "value": 61,
-            "unit": "-",
-            "extra": ""
-          },
-          {
-            "name": "General Stress Level",
-            "value": 0,
-            "unit": "%",
-            "extra": "Crashes in: "
-          }
-        ]
-      },
       {
         "commit": {
           "author": {
@@ -8051,6 +8019,38 @@ window.BENCHMARK_DATA = {
           "url": "https://github.com/Ultimaker/CuraEngine/pull/2305/commits/4db9b120abdbe4e126222cdad8c2806f892e9adc"
         },
         "date": 1774608885118,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "Number of test cases",
+            "value": 61,
+            "unit": "-",
+            "extra": ""
+          },
+          {
+            "name": "General Stress Level",
+            "value": 0,
+            "unit": "%",
+            "extra": "Crashes in: "
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "Ultimaker",
+            "username": "Ultimaker"
+          },
+          "committer": {
+            "name": "Ultimaker",
+            "username": "Ultimaker"
+          },
+          "id": "c847949e2fb9c87fa3c7f2d505b75a513ad3448b",
+          "message": "CURA-13029 add specific roofing temperature",
+          "timestamp": "2026-03-26T04:37:03Z",
+          "url": "https://github.com/Ultimaker/CuraEngine/pull/2305/commits/c847949e2fb9c87fa3c7f2d505b75a513ad3448b"
+        },
+        "date": 1774619427470,
         "tool": "customSmallerIsBetter",
         "benches": [
           {
