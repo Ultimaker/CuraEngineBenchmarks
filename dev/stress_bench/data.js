@@ -1,40 +1,8 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1774856264134,
+  "lastUpdate": 1774860555057,
   "repoUrl": "https://github.com/Ultimaker/CuraEngine",
   "entries": {
     "Stress Benchmark": [
-      {
-        "commit": {
-          "author": {
-            "name": "Ultimaker",
-            "username": "Ultimaker"
-          },
-          "committer": {
-            "name": "Ultimaker",
-            "username": "Ultimaker"
-          },
-          "id": "c5d40756ccd8a2853f9c06e09335fd78a1bb8b9d",
-          "message": "CURA-9909 investigate replacing sort with stable sort",
-          "timestamp": "2025-06-19T10:44:05Z",
-          "url": "https://github.com/Ultimaker/CuraEngine/pull/2235/commits/c5d40756ccd8a2853f9c06e09335fd78a1bb8b9d"
-        },
-        "date": 1750331773369,
-        "tool": "customSmallerIsBetter",
-        "benches": [
-          {
-            "name": "Number of test cases",
-            "value": 61,
-            "unit": "-",
-            "extra": ""
-          },
-          {
-            "name": "General Stress Level",
-            "value": 0,
-            "unit": "%",
-            "extra": "Crashes in: "
-          }
-        ]
-      },
       {
         "commit": {
           "author": {
@@ -8047,6 +8015,38 @@ window.BENCHMARK_DATA = {
           "url": "https://github.com/Ultimaker/CuraEngine/pull/2314/commits/0ee74e6ed7f724a4a92f8d87d8b866cb05c1358d"
         },
         "date": 1774856257889,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "Number of test cases",
+            "value": 61,
+            "unit": "-",
+            "extra": ""
+          },
+          {
+            "name": "General Stress Level",
+            "value": 0,
+            "unit": "%",
+            "extra": "Crashes in: "
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "Ultimaker",
+            "username": "Ultimaker"
+          },
+          "committer": {
+            "name": "Ultimaker",
+            "username": "Ultimaker"
+          },
+          "id": "978d94bc9dceffd369201b0244765a0f711ca8e6",
+          "message": "CURA-13064 Expand the Retract Before Outer Wall setting",
+          "timestamp": "2026-03-27T17:59:07Z",
+          "url": "https://github.com/Ultimaker/CuraEngine/pull/2314/commits/978d94bc9dceffd369201b0244765a0f711ca8e6"
+        },
+        "date": 1774860548991,
         "tool": "customSmallerIsBetter",
         "benches": [
           {
