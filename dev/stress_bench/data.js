@@ -1,40 +1,8 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1774876597906,
+  "lastUpdate": 1774882511888,
   "repoUrl": "https://github.com/Ultimaker/CuraEngine",
   "entries": {
     "Stress Benchmark": [
-      {
-        "commit": {
-          "author": {
-            "name": "Ultimaker",
-            "username": "Ultimaker"
-          },
-          "committer": {
-            "name": "Ultimaker",
-            "username": "Ultimaker"
-          },
-          "id": "464ff217bc824af7a893367479c4a2b3f8bca05e",
-          "message": "Cura 12543 painting ux",
-          "timestamp": "2025-06-28T18:07:54Z",
-          "url": "https://github.com/Ultimaker/CuraEngine/pull/2239/commits/464ff217bc824af7a893367479c4a2b3f8bca05e"
-        },
-        "date": 1751636720476,
-        "tool": "customSmallerIsBetter",
-        "benches": [
-          {
-            "name": "Number of test cases",
-            "value": 61,
-            "unit": "-",
-            "extra": ""
-          },
-          {
-            "name": "General Stress Level",
-            "value": 0,
-            "unit": "%",
-            "extra": "Crashes in: "
-          }
-        ]
-      },
       {
         "commit": {
           "author": {
@@ -8043,6 +8011,38 @@ window.BENCHMARK_DATA = {
           "url": "https://github.com/Ultimaker/CuraEngine/pull/2314/commits/7436652244fe6a8b49fc1234ffddec9b32c685f7"
         },
         "date": 1774876591236,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "Number of test cases",
+            "value": 61,
+            "unit": "-",
+            "extra": ""
+          },
+          {
+            "name": "General Stress Level",
+            "value": 0,
+            "unit": "%",
+            "extra": "Crashes in: "
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "Ultimaker",
+            "username": "Ultimaker"
+          },
+          "committer": {
+            "name": "Ultimaker",
+            "username": "Ultimaker"
+          },
+          "id": "f28c6c20af79d4257a8dd9c6fe1ef7f721da04d1",
+          "message": "CURA-13065 Fix polygons-based infill not respecting end close to seam",
+          "timestamp": "2026-03-27T17:59:07Z",
+          "url": "https://github.com/Ultimaker/CuraEngine/pull/2315/commits/f28c6c20af79d4257a8dd9c6fe1ef7f721da04d1"
+        },
+        "date": 1774882505715,
         "tool": "customSmallerIsBetter",
         "benches": [
           {
