@@ -1,44 +1,8 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1774856155207,
+  "lastUpdate": 1774856264134,
   "repoUrl": "https://github.com/Ultimaker/CuraEngine",
   "entries": {
     "Stress Benchmark": [
-      {
-        "commit": {
-          "author": {
-            "email": "alireza.doustdar@gmail.com",
-            "name": "HellAholic",
-            "username": "HellAholic"
-          },
-          "committer": {
-            "email": "noreply@github.com",
-            "name": "GitHub",
-            "username": "web-flow"
-          },
-          "distinct": true,
-          "id": "422e9036c53ac3197d2155f2ab8d1dd50bc655bc",
-          "message": "CURA-12515 Print bridge walls without overhanging speed (#2238)",
-          "timestamp": "2025-06-19T12:43:58+02:00",
-          "tree_id": "17ec846911c8d12e0134782f6908a4bbd27b505d",
-          "url": "https://github.com/Ultimaker/CuraEngine/commit/422e9036c53ac3197d2155f2ab8d1dd50bc655bc"
-        },
-        "date": 1750331330572,
-        "tool": "customSmallerIsBetter",
-        "benches": [
-          {
-            "name": "Number of test cases",
-            "value": 61,
-            "unit": "-",
-            "extra": ""
-          },
-          {
-            "name": "General Stress Level",
-            "value": 0,
-            "unit": "%",
-            "extra": "Crashes in: "
-          }
-        ]
-      },
       {
         "commit": {
           "author": {
@@ -8051,6 +8015,38 @@ window.BENCHMARK_DATA = {
           "url": "https://github.com/Ultimaker/CuraEngine/pull/2314/commits/87c61f460fa740642d86d9d586d1a7f3643c4d73"
         },
         "date": 1774856149138,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "Number of test cases",
+            "value": 61,
+            "unit": "-",
+            "extra": ""
+          },
+          {
+            "name": "General Stress Level",
+            "value": 0,
+            "unit": "%",
+            "extra": "Crashes in: "
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "Ultimaker",
+            "username": "Ultimaker"
+          },
+          "committer": {
+            "name": "Ultimaker",
+            "username": "Ultimaker"
+          },
+          "id": "0ee74e6ed7f724a4a92f8d87d8b866cb05c1358d",
+          "message": "CURA-13064 Expand the Retract Before Outer Wall setting",
+          "timestamp": "2026-03-27T17:59:07Z",
+          "url": "https://github.com/Ultimaker/CuraEngine/pull/2314/commits/0ee74e6ed7f724a4a92f8d87d8b866cb05c1358d"
+        },
+        "date": 1774856257889,
         "tool": "customSmallerIsBetter",
         "benches": [
           {
