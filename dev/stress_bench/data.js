@@ -1,40 +1,8 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1774949851383,
+  "lastUpdate": 1774957952106,
   "repoUrl": "https://github.com/Ultimaker/CuraEngine",
   "entries": {
     "Stress Benchmark": [
-      {
-        "commit": {
-          "author": {
-            "name": "Ultimaker",
-            "username": "Ultimaker"
-          },
-          "committer": {
-            "name": "Ultimaker",
-            "username": "Ultimaker"
-          },
-          "id": "1beb1bfa6517a6b70d5a7d1281ff85c0f893a969",
-          "message": "Cura 12543 painting ux",
-          "timestamp": "2025-07-14T22:43:11Z",
-          "url": "https://github.com/Ultimaker/CuraEngine/pull/2239/commits/1beb1bfa6517a6b70d5a7d1281ff85c0f893a969"
-        },
-        "date": 1752582918132,
-        "tool": "customSmallerIsBetter",
-        "benches": [
-          {
-            "name": "Number of test cases",
-            "value": 61,
-            "unit": "-",
-            "extra": ""
-          },
-          {
-            "name": "General Stress Level",
-            "value": 0,
-            "unit": "%",
-            "extra": "Crashes in: "
-          }
-        ]
-      },
       {
         "commit": {
           "author": {
@@ -8043,6 +8011,38 @@ window.BENCHMARK_DATA = {
           "url": "https://github.com/Ultimaker/CuraEngine/pull/2302/commits/df42b2e7b568588314829fc96da47cf8a5a7de6d"
         },
         "date": 1774949842960,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "Number of test cases",
+            "value": 61,
+            "unit": "-",
+            "extra": ""
+          },
+          {
+            "name": "General Stress Level",
+            "value": 0,
+            "unit": "%",
+            "extra": "Crashes in: "
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "Ultimaker",
+            "username": "Ultimaker"
+          },
+          "committer": {
+            "name": "Ultimaker",
+            "username": "Ultimaker"
+          },
+          "id": "879b3f1956d37262fd66c30290fd867fc0f40214",
+          "message": "CURA-12997 Allow small infill gaps to grow over infill",
+          "timestamp": "2026-03-27T17:59:07Z",
+          "url": "https://github.com/Ultimaker/CuraEngine/pull/2303/commits/879b3f1956d37262fd66c30290fd867fc0f40214"
+        },
+        "date": 1774957945919,
         "tool": "customSmallerIsBetter",
         "benches": [
           {
