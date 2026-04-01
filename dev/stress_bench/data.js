@@ -1,44 +1,8 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1775032893974,
+  "lastUpdate": 1775048692077,
   "repoUrl": "https://github.com/Ultimaker/CuraEngine",
   "entries": {
     "Stress Benchmark": [
-      {
-        "commit": {
-          "author": {
-            "email": "alireza.doustdar@gmail.com",
-            "name": "HellAholic",
-            "username": "HellAholic"
-          },
-          "committer": {
-            "email": "noreply@github.com",
-            "name": "GitHub",
-            "username": "web-flow"
-          },
-          "distinct": true,
-          "id": "3edc57adf487b16ca99bec300da84d1a652add32",
-          "message": "[CURA-12622] warn on actual unused extruder(s) (#2240)",
-          "timestamp": "2025-07-24T14:31:47+02:00",
-          "tree_id": "dc0cdf32628ba41823d25b1a6113fe4ccaaf1b3d",
-          "url": "https://github.com/Ultimaker/CuraEngine/commit/3edc57adf487b16ca99bec300da84d1a652add32"
-        },
-        "date": 1753361846250,
-        "tool": "customSmallerIsBetter",
-        "benches": [
-          {
-            "name": "Number of test cases",
-            "value": 61,
-            "unit": "-",
-            "extra": ""
-          },
-          {
-            "name": "General Stress Level",
-            "value": 0,
-            "unit": "%",
-            "extra": "Crashes in: "
-          }
-        ]
-      },
       {
         "commit": {
           "author": {
@@ -8039,6 +8003,38 @@ window.BENCHMARK_DATA = {
           "url": "https://github.com/Ultimaker/CuraEngine/pull/2316/commits/0822fac4094afedfbf68efeda6ffe28016251107"
         },
         "date": 1775032887729,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "Number of test cases",
+            "value": 61,
+            "unit": "-",
+            "extra": ""
+          },
+          {
+            "name": "General Stress Level",
+            "value": 0,
+            "unit": "%",
+            "extra": "Crashes in: "
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "Ultimaker",
+            "username": "Ultimaker"
+          },
+          "committer": {
+            "name": "Ultimaker",
+            "username": "Ultimaker"
+          },
+          "id": "4607454c4504a69942e96029a46b863a21e4f924",
+          "message": "[CURA-13024] Spike: merge thin parts of floor/roof/skin",
+          "timestamp": "2026-04-01T10:06:25Z",
+          "url": "https://github.com/Ultimaker/CuraEngine/pull/2316/commits/4607454c4504a69942e96029a46b863a21e4f924"
+        },
+        "date": 1775048685938,
         "tool": "customSmallerIsBetter",
         "benches": [
           {
