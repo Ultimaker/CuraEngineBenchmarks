@@ -1,44 +1,8 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1775030038393,
+  "lastUpdate": 1775031795216,
   "repoUrl": "https://github.com/Ultimaker/CuraEngine",
   "entries": {
     "Stress Benchmark": [
-      {
-        "commit": {
-          "author": {
-            "email": "alireza.doustdar@gmail.com",
-            "name": "HellAholic",
-            "username": "HellAholic"
-          },
-          "committer": {
-            "email": "noreply@github.com",
-            "name": "GitHub",
-            "username": "web-flow"
-          },
-          "distinct": true,
-          "id": "47dad14a41431b1c2bcb35c2b19daeae1a0770eb",
-          "message": "Cura 12543 painting ux (#2239)",
-          "timestamp": "2025-07-17T12:07:04+02:00",
-          "tree_id": "d39498829a109b17f7657a2db7f48288a25de982",
-          "url": "https://github.com/Ultimaker/CuraEngine/commit/47dad14a41431b1c2bcb35c2b19daeae1a0770eb"
-        },
-        "date": 1752748342693,
-        "tool": "customSmallerIsBetter",
-        "benches": [
-          {
-            "name": "Number of test cases",
-            "value": 61,
-            "unit": "-",
-            "extra": ""
-          },
-          {
-            "name": "General Stress Level",
-            "value": 0,
-            "unit": "%",
-            "extra": "Crashes in: "
-          }
-        ]
-      },
       {
         "commit": {
           "author": {
@@ -8043,6 +8007,38 @@ window.BENCHMARK_DATA = {
           "url": "https://github.com/Ultimaker/CuraEngine/pull/2302/commits/ae215cc020968168caa33e1906551a2d2d26879a"
         },
         "date": 1775030032203,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "Number of test cases",
+            "value": 61,
+            "unit": "-",
+            "extra": ""
+          },
+          {
+            "name": "General Stress Level",
+            "value": 0,
+            "unit": "%",
+            "extra": "Crashes in: "
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "Ultimaker",
+            "username": "Ultimaker"
+          },
+          "committer": {
+            "name": "Ultimaker",
+            "username": "Ultimaker"
+          },
+          "id": "cf79291c3bff845a893cefdf369cc24e0036f197",
+          "message": "CURA-12992 Fix slicing crashes",
+          "timestamp": "2026-04-01T06:01:02Z",
+          "url": "https://github.com/Ultimaker/CuraEngine/pull/2301/commits/cf79291c3bff845a893cefdf369cc24e0036f197"
+        },
+        "date": 1775031788295,
         "tool": "customSmallerIsBetter",
         "benches": [
           {
