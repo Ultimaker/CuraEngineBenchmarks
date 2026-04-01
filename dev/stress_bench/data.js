@@ -1,40 +1,8 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1775031795216,
+  "lastUpdate": 1775032019323,
   "repoUrl": "https://github.com/Ultimaker/CuraEngine",
   "entries": {
     "Stress Benchmark": [
-      {
-        "commit": {
-          "author": {
-            "name": "Ultimaker",
-            "username": "Ultimaker"
-          },
-          "committer": {
-            "name": "Ultimaker",
-            "username": "Ultimaker"
-          },
-          "id": "74a2a578bb16754d42ab87d54c063bbbc54b21ee",
-          "message": "[CURA-12622] warn on actual unused extruder(s)",
-          "timestamp": "2025-07-20T12:55:43Z",
-          "url": "https://github.com/Ultimaker/CuraEngine/pull/2240/commits/74a2a578bb16754d42ab87d54c063bbbc54b21ee"
-        },
-        "date": 1753100618476,
-        "tool": "customSmallerIsBetter",
-        "benches": [
-          {
-            "name": "Number of test cases",
-            "value": 61,
-            "unit": "-",
-            "extra": ""
-          },
-          {
-            "name": "General Stress Level",
-            "value": 0,
-            "unit": "%",
-            "extra": "Crashes in: "
-          }
-        ]
-      },
       {
         "commit": {
           "author": {
@@ -8039,6 +8007,38 @@ window.BENCHMARK_DATA = {
           "url": "https://github.com/Ultimaker/CuraEngine/pull/2301/commits/cf79291c3bff845a893cefdf369cc24e0036f197"
         },
         "date": 1775031788295,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "Number of test cases",
+            "value": 61,
+            "unit": "-",
+            "extra": ""
+          },
+          {
+            "name": "General Stress Level",
+            "value": 0,
+            "unit": "%",
+            "extra": "Crashes in: "
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "Ultimaker",
+            "username": "Ultimaker"
+          },
+          "committer": {
+            "name": "Ultimaker",
+            "username": "Ultimaker"
+          },
+          "id": "21fbf73f1db5e305124baf151f86e5cffb06a1b0",
+          "message": "CURA-12992 Fix slicing crashes",
+          "timestamp": "2026-04-01T07:44:36Z",
+          "url": "https://github.com/Ultimaker/CuraEngine/pull/2301/commits/21fbf73f1db5e305124baf151f86e5cffb06a1b0"
+        },
+        "date": 1775032013185,
         "tool": "customSmallerIsBetter",
         "benches": [
           {
