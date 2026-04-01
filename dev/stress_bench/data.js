@@ -1,40 +1,8 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1774957952106,
+  "lastUpdate": 1775030038393,
   "repoUrl": "https://github.com/Ultimaker/CuraEngine",
   "entries": {
     "Stress Benchmark": [
-      {
-        "commit": {
-          "author": {
-            "name": "Ultimaker",
-            "username": "Ultimaker"
-          },
-          "committer": {
-            "name": "Ultimaker",
-            "username": "Ultimaker"
-          },
-          "id": "aff96bb67816139b0021cc4e708476f4a311dc49",
-          "message": "[CURA-12622] warn on actual unused extruder(s)",
-          "timestamp": "2025-07-14T22:43:11Z",
-          "url": "https://github.com/Ultimaker/CuraEngine/pull/2240/commits/aff96bb67816139b0021cc4e708476f4a311dc49"
-        },
-        "date": 1752660275032,
-        "tool": "customSmallerIsBetter",
-        "benches": [
-          {
-            "name": "Number of test cases",
-            "value": 61,
-            "unit": "-",
-            "extra": ""
-          },
-          {
-            "name": "General Stress Level",
-            "value": 0,
-            "unit": "%",
-            "extra": "Crashes in: "
-          }
-        ]
-      },
       {
         "commit": {
           "author": {
@@ -8043,6 +8011,38 @@ window.BENCHMARK_DATA = {
           "url": "https://github.com/Ultimaker/CuraEngine/pull/2303/commits/879b3f1956d37262fd66c30290fd867fc0f40214"
         },
         "date": 1774957945919,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "Number of test cases",
+            "value": 61,
+            "unit": "-",
+            "extra": ""
+          },
+          {
+            "name": "General Stress Level",
+            "value": 0,
+            "unit": "%",
+            "extra": "Crashes in: "
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "Ultimaker",
+            "username": "Ultimaker"
+          },
+          "committer": {
+            "name": "Ultimaker",
+            "username": "Ultimaker"
+          },
+          "id": "ae215cc020968168caa33e1906551a2d2d26879a",
+          "message": "CURA-12996 Fix flooring areas being generated when disabled",
+          "timestamp": "2026-04-01T06:01:02Z",
+          "url": "https://github.com/Ultimaker/CuraEngine/pull/2302/commits/ae215cc020968168caa33e1906551a2d2d26879a"
+        },
+        "date": 1775030032203,
         "tool": "customSmallerIsBetter",
         "benches": [
           {
