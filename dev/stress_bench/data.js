@@ -1,40 +1,8 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1775052675773,
+  "lastUpdate": 1775120360067,
   "repoUrl": "https://github.com/Ultimaker/CuraEngine",
   "entries": {
     "Stress Benchmark": [
-      {
-        "commit": {
-          "author": {
-            "name": "Ultimaker",
-            "username": "Ultimaker"
-          },
-          "committer": {
-            "name": "Ultimaker",
-            "username": "Ultimaker"
-          },
-          "id": "d7b3c3b34ea4d752904e0ccf9b97311672c90b90",
-          "message": "CURA-12449 handling painted models map",
-          "timestamp": "2025-08-07T10:12:59Z",
-          "url": "https://github.com/Ultimaker/CuraEngine/pull/2243/commits/d7b3c3b34ea4d752904e0ccf9b97311672c90b90"
-        },
-        "date": 1754662831148,
-        "tool": "customSmallerIsBetter",
-        "benches": [
-          {
-            "name": "Number of test cases",
-            "value": 61,
-            "unit": "-",
-            "extra": ""
-          },
-          {
-            "name": "General Stress Level",
-            "value": 0,
-            "unit": "%",
-            "extra": "Crashes in: "
-          }
-        ]
-      },
       {
         "commit": {
           "author": {
@@ -8035,6 +8003,38 @@ window.BENCHMARK_DATA = {
           "url": "https://github.com/Ultimaker/CuraEngine/pull/2316/commits/4eab7c2629d6e372db407442755e70d1984d1e5e"
         },
         "date": 1775052669575,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "Number of test cases",
+            "value": 61,
+            "unit": "-",
+            "extra": ""
+          },
+          {
+            "name": "General Stress Level",
+            "value": 0,
+            "unit": "%",
+            "extra": "Crashes in: "
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "Ultimaker",
+            "username": "Ultimaker"
+          },
+          "committer": {
+            "name": "Ultimaker",
+            "username": "Ultimaker"
+          },
+          "id": "38ae2fc3cb79a1b596902a0e2d2414ec3aa48fdf",
+          "message": "CURA-12580 paint on support",
+          "timestamp": "2026-04-01T13:49:09Z",
+          "url": "https://github.com/Ultimaker/CuraEngine/pull/2317/commits/38ae2fc3cb79a1b596902a0e2d2414ec3aa48fdf"
+        },
+        "date": 1775120353577,
         "tool": "customSmallerIsBetter",
         "benches": [
           {
