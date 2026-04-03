@@ -1,40 +1,8 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1775230209736,
+  "lastUpdate": 1775230795067,
   "repoUrl": "https://github.com/Ultimaker/CuraEngine",
   "entries": {
     "Stress Benchmark": [
-      {
-        "commit": {
-          "author": {
-            "name": "Ultimaker",
-            "username": "Ultimaker"
-          },
-          "committer": {
-            "name": "Ultimaker",
-            "username": "Ultimaker"
-          },
-          "id": "d07b94385c522bd8f44154b745f2bf0f295e3b14",
-          "message": "CURA-12449 handling painted models",
-          "timestamp": "2025-09-11T00:43:13Z",
-          "url": "https://github.com/Ultimaker/CuraEngine/pull/2243/commits/d07b94385c522bd8f44154b745f2bf0f295e3b14"
-        },
-        "date": 1757575825797,
-        "tool": "customSmallerIsBetter",
-        "benches": [
-          {
-            "name": "Number of test cases",
-            "value": 61,
-            "unit": "-",
-            "extra": ""
-          },
-          {
-            "name": "General Stress Level",
-            "value": 0,
-            "unit": "%",
-            "extra": "Crashes in: "
-          }
-        ]
-      },
       {
         "commit": {
           "author": {
@@ -8035,6 +8003,38 @@ window.BENCHMARK_DATA = {
           "url": "https://github.com/Ultimaker/CuraEngine/pull/2318/commits/0148da51bcf23f8d16ff2590a13f001d14362fbe"
         },
         "date": 1775230203065,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "Number of test cases",
+            "value": 61,
+            "unit": "-",
+            "extra": ""
+          },
+          {
+            "name": "General Stress Level",
+            "value": 0,
+            "unit": "%",
+            "extra": "Crashes in: "
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "Ultimaker",
+            "username": "Ultimaker"
+          },
+          "committer": {
+            "name": "Ultimaker",
+            "username": "Ultimaker"
+          },
+          "id": "1be1aad640f5cbd60c171ad449da6f304a775583",
+          "message": "CURA-13072 Fix impossible ordering conditions",
+          "timestamp": "2026-04-03T14:33:19Z",
+          "url": "https://github.com/Ultimaker/CuraEngine/pull/2318/commits/1be1aad640f5cbd60c171ad449da6f304a775583"
+        },
+        "date": 1775230788601,
         "tool": "customSmallerIsBetter",
         "benches": [
           {
