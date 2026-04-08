@@ -1,40 +1,8 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1775643850822,
+  "lastUpdate": 1775658955241,
   "repoUrl": "https://github.com/Ultimaker/CuraEngine",
   "entries": {
     "Stress Benchmark": [
-      {
-        "commit": {
-          "author": {
-            "name": "Ultimaker",
-            "username": "Ultimaker"
-          },
-          "committer": {
-            "name": "Ultimaker",
-            "username": "Ultimaker"
-          },
-          "id": "5156bdcc4d3e95770c406a88f0a58b19f640e92b",
-          "message": "CURA-12249 Remove \"None\" seam corner preference",
-          "timestamp": "2025-09-11T00:43:13Z",
-          "url": "https://github.com/Ultimaker/CuraEngine/pull/2244/commits/5156bdcc4d3e95770c406a88f0a58b19f640e92b"
-        },
-        "date": 1757608149914,
-        "tool": "customSmallerIsBetter",
-        "benches": [
-          {
-            "name": "Number of test cases",
-            "value": 61,
-            "unit": "-",
-            "extra": ""
-          },
-          {
-            "name": "General Stress Level",
-            "value": 0,
-            "unit": "%",
-            "extra": "Crashes in: "
-          }
-        ]
-      },
       {
         "commit": {
           "author": {
@@ -8035,6 +8003,38 @@ window.BENCHMARK_DATA = {
           "url": "https://github.com/Ultimaker/CuraEngine/pull/2283/commits/05b2c31f0d0a5062873df0ee6c53387734a4c6a3"
         },
         "date": 1775643844426,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "Number of test cases",
+            "value": 61,
+            "unit": "-",
+            "extra": ""
+          },
+          {
+            "name": "General Stress Level",
+            "value": 0,
+            "unit": "%",
+            "extra": "Crashes in: "
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "Ultimaker",
+            "username": "Ultimaker"
+          },
+          "committer": {
+            "name": "Ultimaker",
+            "username": "Ultimaker"
+          },
+          "id": "11e638610925033d22662234e0e74f4fcc140120",
+          "message": "Cura 13080",
+          "timestamp": "2026-04-03T19:24:52Z",
+          "url": "https://github.com/Ultimaker/CuraEngine/pull/2319/commits/11e638610925033d22662234e0e74f4fcc140120"
+        },
+        "date": 1775658948974,
         "tool": "customSmallerIsBetter",
         "benches": [
           {
