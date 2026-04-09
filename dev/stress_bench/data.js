@@ -1,44 +1,8 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1775740028968,
+  "lastUpdate": 1775746410349,
   "repoUrl": "https://github.com/Ultimaker/CuraEngine",
   "entries": {
     "Stress Benchmark": [
-      {
-        "commit": {
-          "author": {
-            "email": "alireza.doustdar@gmail.com",
-            "name": "HellAholic",
-            "username": "HellAholic"
-          },
-          "committer": {
-            "email": "noreply@github.com",
-            "name": "GitHub",
-            "username": "web-flow"
-          },
-          "distinct": true,
-          "id": "53d1ae7b42ca4a4f64984639af2e1fba4122b4a9",
-          "message": "CURA-12249 Remove \"None\" seam corner preference (#2244)",
-          "timestamp": "2025-09-17T13:40:22+02:00",
-          "tree_id": "b90ca06a7680e3a8aef808660d3e1e8a7fa2eca9",
-          "url": "https://github.com/Ultimaker/CuraEngine/commit/53d1ae7b42ca4a4f64984639af2e1fba4122b4a9"
-        },
-        "date": 1758110801222,
-        "tool": "customSmallerIsBetter",
-        "benches": [
-          {
-            "name": "Number of test cases",
-            "value": 61,
-            "unit": "-",
-            "extra": ""
-          },
-          {
-            "name": "General Stress Level",
-            "value": 0,
-            "unit": "%",
-            "extra": "Crashes in: "
-          }
-        ]
-      },
       {
         "commit": {
           "author": {
@@ -8035,6 +7999,38 @@ window.BENCHMARK_DATA = {
           "url": "https://github.com/Ultimaker/CuraEngine/pull/2321/commits/f54a4469be698c95dcfa99e2e1b1b05953fc8c22"
         },
         "date": 1775740022525,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "Number of test cases",
+            "value": 61,
+            "unit": "-",
+            "extra": ""
+          },
+          {
+            "name": "General Stress Level",
+            "value": 0,
+            "unit": "%",
+            "extra": "Crashes in: "
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "Ultimaker",
+            "username": "Ultimaker"
+          },
+          "committer": {
+            "name": "Ultimaker",
+            "username": "Ultimaker"
+          },
+          "id": "2673e18bf7b6f95f52df185a3dfc9d1e930799c0",
+          "message": "[CURA-13075] Handle LIGHTNING support pattern",
+          "timestamp": "2026-04-03T19:24:52Z",
+          "url": "https://github.com/Ultimaker/CuraEngine/pull/2321/commits/2673e18bf7b6f95f52df185a3dfc9d1e930799c0"
+        },
+        "date": 1775746404005,
         "tool": "customSmallerIsBetter",
         "benches": [
           {
