@@ -1,40 +1,8 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1775746410349,
+  "lastUpdate": 1775827140071,
   "repoUrl": "https://github.com/Ultimaker/CuraEngine",
   "entries": {
     "Stress Benchmark": [
-      {
-        "commit": {
-          "author": {
-            "name": "Ultimaker",
-            "username": "Ultimaker"
-          },
-          "committer": {
-            "name": "Ultimaker",
-            "username": "Ultimaker"
-          },
-          "id": "e1886e8fc21ca0e0ab4eacd32c8343b7d9fee15d",
-          "message": "CURA-12449 handling painted models",
-          "timestamp": "2025-09-17T11:40:27Z",
-          "url": "https://github.com/Ultimaker/CuraEngine/pull/2243/commits/e1886e8fc21ca0e0ab4eacd32c8343b7d9fee15d"
-        },
-        "date": 1758186447204,
-        "tool": "customSmallerIsBetter",
-        "benches": [
-          {
-            "name": "Number of test cases",
-            "value": 61,
-            "unit": "-",
-            "extra": ""
-          },
-          {
-            "name": "General Stress Level",
-            "value": 0,
-            "unit": "%",
-            "extra": "Crashes in: "
-          }
-        ]
-      },
       {
         "commit": {
           "author": {
@@ -8031,6 +7999,38 @@ window.BENCHMARK_DATA = {
           "url": "https://github.com/Ultimaker/CuraEngine/pull/2321/commits/2673e18bf7b6f95f52df185a3dfc9d1e930799c0"
         },
         "date": 1775746404005,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "Number of test cases",
+            "value": 61,
+            "unit": "-",
+            "extra": ""
+          },
+          {
+            "name": "General Stress Level",
+            "value": 0,
+            "unit": "%",
+            "extra": "Crashes in: "
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "Ultimaker",
+            "username": "Ultimaker"
+          },
+          "committer": {
+            "name": "Ultimaker",
+            "username": "Ultimaker"
+          },
+          "id": "b4141821dde02255ffc4f063242c9c93485874d1",
+          "message": "CURA-12636 Non tree support inside tree support",
+          "timestamp": "2026-04-10T11:43:04Z",
+          "url": "https://github.com/Ultimaker/CuraEngine/pull/2322/commits/b4141821dde02255ffc4f063242c9c93485874d1"
+        },
+        "date": 1775827133485,
         "tool": "customSmallerIsBetter",
         "benches": [
           {
