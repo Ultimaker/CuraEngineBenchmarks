@@ -1,40 +1,8 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1776072303717,
+  "lastUpdate": 1776072633778,
   "repoUrl": "https://github.com/Ultimaker/CuraEngine",
   "entries": {
     "Stress Benchmark": [
-      {
-        "commit": {
-          "author": {
-            "name": "Ultimaker",
-            "username": "Ultimaker"
-          },
-          "committer": {
-            "name": "Ultimaker",
-            "username": "Ultimaker"
-          },
-          "id": "2964d7058b535c06d881067e2c81a172b99db052",
-          "message": "[CURA-12726] don",
-          "timestamp": "2025-09-19T11:34:21Z",
-          "url": "https://github.com/Ultimaker/CuraEngine/pull/2247/commits/2964d7058b535c06d881067e2c81a172b99db052"
-        },
-        "date": 1758723061015,
-        "tool": "customSmallerIsBetter",
-        "benches": [
-          {
-            "name": "Number of test cases",
-            "value": 61,
-            "unit": "-",
-            "extra": ""
-          },
-          {
-            "name": "General Stress Level",
-            "value": 0,
-            "unit": "%",
-            "extra": "Crashes in: "
-          }
-        ]
-      },
       {
         "commit": {
           "author": {
@@ -8027,6 +7995,42 @@ window.BENCHMARK_DATA = {
           "url": "https://github.com/Ultimaker/CuraEngine/pull/2322/commits/5bd228a862192f247dde37fa782efc15c5c9a171"
         },
         "date": 1776072297339,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "Number of test cases",
+            "value": 61,
+            "unit": "-",
+            "extra": ""
+          },
+          {
+            "name": "General Stress Level",
+            "value": 0,
+            "unit": "%",
+            "extra": "Crashes in: "
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "alireza.doustdar@gmail.com",
+            "name": "HellAholic",
+            "username": "HellAholic"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "2783da419b41f2d32b1c18dc66514ad09d5c8347",
+          "message": "CURA-12957 infill can leave small dots lines (#2283)",
+          "timestamp": "2026-04-13T10:47:04+02:00",
+          "tree_id": "d0ceedb6817715d4e533042a85487d03b3648720",
+          "url": "https://github.com/Ultimaker/CuraEngine/commit/2783da419b41f2d32b1c18dc66514ad09d5c8347"
+        },
+        "date": 1776072626642,
         "tool": "customSmallerIsBetter",
         "benches": [
           {
