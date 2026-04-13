@@ -1,40 +1,8 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1775833577514,
+  "lastUpdate": 1776072303717,
   "repoUrl": "https://github.com/Ultimaker/CuraEngine",
   "entries": {
     "Stress Benchmark": [
-      {
-        "commit": {
-          "author": {
-            "name": "Ultimaker",
-            "username": "Ultimaker"
-          },
-          "committer": {
-            "name": "Ultimaker",
-            "username": "Ultimaker"
-          },
-          "id": "77920828906d1177e10dff1093a473266afdd8b9",
-          "message": "Exclude OneTBB dependency and related code for Emscripten builds.",
-          "timestamp": "2025-09-19T11:34:21Z",
-          "url": "https://github.com/Ultimaker/CuraEngine/pull/2246/commits/77920828906d1177e10dff1093a473266afdd8b9"
-        },
-        "date": 1758641499163,
-        "tool": "customSmallerIsBetter",
-        "benches": [
-          {
-            "name": "Number of test cases",
-            "value": 61,
-            "unit": "-",
-            "extra": ""
-          },
-          {
-            "name": "General Stress Level",
-            "value": 0,
-            "unit": "%",
-            "extra": "Crashes in: "
-          }
-        ]
-      },
       {
         "commit": {
           "author": {
@@ -8027,6 +7995,38 @@ window.BENCHMARK_DATA = {
           "url": "https://github.com/Ultimaker/CuraEngine/pull/2317/commits/4b833093d4b4d5e62bc2f22b2f96c842735c1902"
         },
         "date": 1775833569661,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "Number of test cases",
+            "value": 61,
+            "unit": "-",
+            "extra": ""
+          },
+          {
+            "name": "General Stress Level",
+            "value": 0,
+            "unit": "%",
+            "extra": "Crashes in: "
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "Ultimaker",
+            "username": "Ultimaker"
+          },
+          "committer": {
+            "name": "Ultimaker",
+            "username": "Ultimaker"
+          },
+          "id": "5bd228a862192f247dde37fa782efc15c5c9a171",
+          "message": "CURA-12636 Non tree support inside tree support",
+          "timestamp": "2026-04-13T08:47:11Z",
+          "url": "https://github.com/Ultimaker/CuraEngine/pull/2322/commits/5bd228a862192f247dde37fa782efc15c5c9a171"
+        },
+        "date": 1776072297339,
         "tool": "customSmallerIsBetter",
         "benches": [
           {
