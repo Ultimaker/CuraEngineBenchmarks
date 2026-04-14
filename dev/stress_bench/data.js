@@ -1,40 +1,8 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1776160697308,
+  "lastUpdate": 1776163946809,
   "repoUrl": "https://github.com/Ultimaker/CuraEngine",
   "entries": {
     "Stress Benchmark": [
-      {
-        "commit": {
-          "author": {
-            "name": "Ultimaker",
-            "username": "Ultimaker"
-          },
-          "committer": {
-            "name": "Ultimaker",
-            "username": "Ultimaker"
-          },
-          "id": "83a402e42ec2b984dabab1a55ceb85eaa5618160",
-          "message": "Fix blobs between painted areas",
-          "timestamp": "2025-10-06T23:26:35Z",
-          "url": "https://github.com/Ultimaker/CuraEngine/pull/2253/commits/83a402e42ec2b984dabab1a55ceb85eaa5618160"
-        },
-        "date": 1759931448735,
-        "tool": "customSmallerIsBetter",
-        "benches": [
-          {
-            "name": "Number of test cases",
-            "value": 61,
-            "unit": "-",
-            "extra": ""
-          },
-          {
-            "name": "General Stress Level",
-            "value": 0,
-            "unit": "%",
-            "extra": "Crashes in: "
-          }
-        ]
-      },
       {
         "commit": {
           "author": {
@@ -8039,6 +8007,38 @@ window.BENCHMARK_DATA = {
           "url": "https://github.com/Ultimaker/CuraEngine/commit/cd70a6e5f5a32eb5cef5d09427e0210b1dd590f7"
         },
         "date": 1776160688986,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "Number of test cases",
+            "value": 61,
+            "unit": "-",
+            "extra": ""
+          },
+          {
+            "name": "General Stress Level",
+            "value": 0,
+            "unit": "%",
+            "extra": "Crashes in: "
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "Ultimaker",
+            "username": "Ultimaker"
+          },
+          "committer": {
+            "name": "Ultimaker",
+            "username": "Ultimaker"
+          },
+          "id": "f905ae75ab97aa99d9f030fdc95ddcc7be89e075",
+          "message": "Avoid adding extra newline in writeCode",
+          "timestamp": "2026-04-14T09:17:06Z",
+          "url": "https://github.com/Ultimaker/CuraEngine/pull/2323/commits/f905ae75ab97aa99d9f030fdc95ddcc7be89e075"
+        },
+        "date": 1776163940396,
         "tool": "customSmallerIsBetter",
         "benches": [
           {
