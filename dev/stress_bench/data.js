@@ -1,40 +1,8 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1776157337774,
+  "lastUpdate": 1776158679397,
   "repoUrl": "https://github.com/Ultimaker/CuraEngine",
   "entries": {
     "Stress Benchmark": [
-      {
-        "commit": {
-          "author": {
-            "name": "Ultimaker",
-            "username": "Ultimaker"
-          },
-          "committer": {
-            "name": "Ultimaker",
-            "username": "Ultimaker"
-          },
-          "id": "9e65bdea518a3e505a152b8ab0e4f1494d204a35",
-          "message": "CURA-12740 properly handle material painting when object is set to extruder != 1",
-          "timestamp": "2025-09-19T11:34:21Z",
-          "url": "https://github.com/Ultimaker/CuraEngine/pull/2249/commits/9e65bdea518a3e505a152b8ab0e4f1494d204a35"
-        },
-        "date": 1759410137857,
-        "tool": "customSmallerIsBetter",
-        "benches": [
-          {
-            "name": "Number of test cases",
-            "value": 61,
-            "unit": "-",
-            "extra": ""
-          },
-          {
-            "name": "General Stress Level",
-            "value": 0,
-            "unit": "%",
-            "extra": "Crashes in: "
-          }
-        ]
-      },
       {
         "commit": {
           "author": {
@@ -8035,6 +8003,38 @@ window.BENCHMARK_DATA = {
           "url": "https://github.com/Ultimaker/CuraEngine/pull/2323/commits/1f785aea0c208e0750cd3d1a49d8914b424d133e"
         },
         "date": 1776157330261,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "Number of test cases",
+            "value": 61,
+            "unit": "-",
+            "extra": ""
+          },
+          {
+            "name": "General Stress Level",
+            "value": 0,
+            "unit": "%",
+            "extra": "Crashes in: "
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "Ultimaker",
+            "username": "Ultimaker"
+          },
+          "committer": {
+            "name": "Ultimaker",
+            "username": "Ultimaker"
+          },
+          "id": "f7be5352891a0d5f1c6d1812ab9366c7fca08092",
+          "message": "Avoid adding extra newline in writeCode",
+          "timestamp": "2026-04-14T07:21:08Z",
+          "url": "https://github.com/Ultimaker/CuraEngine/pull/2323/commits/f7be5352891a0d5f1c6d1812ab9366c7fca08092"
+        },
+        "date": 1776158672428,
         "tool": "customSmallerIsBetter",
         "benches": [
           {
