@@ -1,40 +1,8 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1776075260730,
+  "lastUpdate": 1776150650431,
   "repoUrl": "https://github.com/Ultimaker/CuraEngine",
   "entries": {
     "Stress Benchmark": [
-      {
-        "commit": {
-          "author": {
-            "name": "Ultimaker",
-            "username": "Ultimaker"
-          },
-          "committer": {
-            "name": "Ultimaker",
-            "username": "Ultimaker"
-          },
-          "id": "586384b36f7eae0a1d613464ae9d6ed9591af0f0",
-          "message": "CURA-12730 Use mesh extruder if painted extruder is missing or disabled",
-          "timestamp": "2025-09-19T11:34:21Z",
-          "url": "https://github.com/Ultimaker/CuraEngine/pull/2248/commits/586384b36f7eae0a1d613464ae9d6ed9591af0f0"
-        },
-        "date": 1759140286795,
-        "tool": "customSmallerIsBetter",
-        "benches": [
-          {
-            "name": "Number of test cases",
-            "value": 61,
-            "unit": "-",
-            "extra": ""
-          },
-          {
-            "name": "General Stress Level",
-            "value": 0,
-            "unit": "%",
-            "extra": "Crashes in: "
-          }
-        ]
-      },
       {
         "commit": {
           "author": {
@@ -8031,6 +7999,38 @@ window.BENCHMARK_DATA = {
           "url": "https://github.com/Ultimaker/CuraEngine/pull/2317/commits/ef59a0e17a46a445d3b3fd1ac4e7cb270c27b0f6"
         },
         "date": 1776075254404,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "Number of test cases",
+            "value": 61,
+            "unit": "-",
+            "extra": ""
+          },
+          {
+            "name": "General Stress Level",
+            "value": 0,
+            "unit": "%",
+            "extra": "Crashes in: "
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "Ultimaker",
+            "username": "Ultimaker"
+          },
+          "committer": {
+            "name": "Ultimaker",
+            "username": "Ultimaker"
+          },
+          "id": "b3c57357628d3f1361bbb4ba2589dcb37bce5ab3",
+          "message": "CURA_13005",
+          "timestamp": "2026-04-14T06:04:06Z",
+          "url": "https://github.com/Ultimaker/CuraEngine/pull/2297/commits/b3c57357628d3f1361bbb4ba2589dcb37bce5ab3"
+        },
+        "date": 1776150643786,
         "tool": "customSmallerIsBetter",
         "benches": [
           {
