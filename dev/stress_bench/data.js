@@ -1,40 +1,8 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1776151371313,
+  "lastUpdate": 1776153692669,
   "repoUrl": "https://github.com/Ultimaker/CuraEngine",
   "entries": {
     "Stress Benchmark": [
-      {
-        "commit": {
-          "author": {
-            "name": "Ultimaker",
-            "username": "Ultimaker"
-          },
-          "committer": {
-            "name": "Ultimaker",
-            "username": "Ultimaker"
-          },
-          "id": "91d6fff639d2826c28ee59e254f67d153841366d",
-          "message": "CURA-12736 Make sure extruder mesh modifiers are treated as regular meshes",
-          "timestamp": "2025-09-19T11:34:21Z",
-          "url": "https://github.com/Ultimaker/CuraEngine/pull/2250/commits/91d6fff639d2826c28ee59e254f67d153841366d"
-        },
-        "date": 1759159580368,
-        "tool": "customSmallerIsBetter",
-        "benches": [
-          {
-            "name": "Number of test cases",
-            "value": 61,
-            "unit": "-",
-            "extra": ""
-          },
-          {
-            "name": "General Stress Level",
-            "value": 0,
-            "unit": "%",
-            "extra": "Crashes in: "
-          }
-        ]
-      },
       {
         "commit": {
           "author": {
@@ -8031,6 +7999,42 @@ window.BENCHMARK_DATA = {
           "url": "https://github.com/Ultimaker/CuraEngine/pull/2301/commits/55b24acc1fa569314d4b010a7703892b3b1c7a98"
         },
         "date": 1776151362497,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "Number of test cases",
+            "value": 61,
+            "unit": "-",
+            "extra": ""
+          },
+          {
+            "name": "General Stress Level",
+            "value": 0,
+            "unit": "%",
+            "extra": "Crashes in: "
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "erwan.mathieu@ultimaker.com",
+            "name": "Erwan MATHIEU",
+            "username": "wawanbreton"
+          },
+          "committer": {
+            "email": "erwan.mathieu@ultimaker.com",
+            "name": "Erwan MATHIEU",
+            "username": "wawanbreton"
+          },
+          "distinct": true,
+          "id": "62efbe08c267ce0375bfdd3587d6ec957d715528",
+          "message": "Merge remote-tracking branch 'origin/5.13'",
+          "timestamp": "2026-04-14T09:20:47+02:00",
+          "tree_id": "f95f4cd1b7b0bba6fcec4453b92ab1721b999aa6",
+          "url": "https://github.com/Ultimaker/CuraEngine/commit/62efbe08c267ce0375bfdd3587d6ec957d715528"
+        },
+        "date": 1776153686145,
         "tool": "customSmallerIsBetter",
         "benches": [
           {
