@@ -1,40 +1,8 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1776164283334,
+  "lastUpdate": 1776244021681,
   "repoUrl": "https://github.com/Ultimaker/CuraEngine",
   "entries": {
     "Stress Benchmark": [
-      {
-        "commit": {
-          "author": {
-            "name": "Ultimaker",
-            "username": "Ultimaker"
-          },
-          "committer": {
-            "name": "Ultimaker",
-            "username": "Ultimaker"
-          },
-          "id": "5b3d98966db442347557b2b6b2ae1e4099142cad",
-          "message": "[CURA-12446] Added settings for a different number of walls in top-/bottom-most skin.",
-          "timestamp": "2025-10-06T23:26:35Z",
-          "url": "https://github.com/Ultimaker/CuraEngine/pull/2227/commits/5b3d98966db442347557b2b6b2ae1e4099142cad"
-        },
-        "date": 1760088038928,
-        "tool": "customSmallerIsBetter",
-        "benches": [
-          {
-            "name": "Number of test cases",
-            "value": 61,
-            "unit": "-",
-            "extra": ""
-          },
-          {
-            "name": "General Stress Level",
-            "value": 0,
-            "unit": "%",
-            "extra": "Crashes in: "
-          }
-        ]
-      },
       {
         "commit": {
           "author": {
@@ -8039,6 +8007,38 @@ window.BENCHMARK_DATA = {
           "url": "https://github.com/Ultimaker/CuraEngine/pull/2297/commits/e3393608aa02342bfe123a7d191b8837e0edddd5"
         },
         "date": 1776164276995,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "Number of test cases",
+            "value": 61,
+            "unit": "-",
+            "extra": ""
+          },
+          {
+            "name": "General Stress Level",
+            "value": 0,
+            "unit": "%",
+            "extra": "Crashes in: "
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "Ultimaker",
+            "username": "Ultimaker"
+          },
+          "committer": {
+            "name": "Ultimaker",
+            "username": "Ultimaker"
+          },
+          "id": "2a9aa7607fc4bd91c524a042069d4e9820ed824c",
+          "message": "CURA-12580 paint on support",
+          "timestamp": "2026-04-15T02:30:22Z",
+          "url": "https://github.com/Ultimaker/CuraEngine/pull/2317/commits/2a9aa7607fc4bd91c524a042069d4e9820ed824c"
+        },
+        "date": 1776244014506,
         "tool": "customSmallerIsBetter",
         "benches": [
           {
