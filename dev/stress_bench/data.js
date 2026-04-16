@@ -1,40 +1,8 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1776329633309,
+  "lastUpdate": 1776338299695,
   "repoUrl": "https://github.com/Ultimaker/CuraEngine",
   "entries": {
     "Stress Benchmark": [
-      {
-        "commit": {
-          "author": {
-            "name": "Ultimaker",
-            "username": "Ultimaker"
-          },
-          "committer": {
-            "name": "Ultimaker",
-            "username": "Ultimaker"
-          },
-          "id": "c04a9241d10affe322f3aa20040c689fd828302b",
-          "message": "[CURA-12446] Added settings for a different number of walls in top-/bottom-most skin.",
-          "timestamp": "2025-10-11T07:34:29Z",
-          "url": "https://github.com/Ultimaker/CuraEngine/pull/2227/commits/c04a9241d10affe322f3aa20040c689fd828302b"
-        },
-        "date": 1760370578301,
-        "tool": "customSmallerIsBetter",
-        "benches": [
-          {
-            "name": "Number of test cases",
-            "value": 61,
-            "unit": "-",
-            "extra": ""
-          },
-          {
-            "name": "General Stress Level",
-            "value": 0,
-            "unit": "%",
-            "extra": "Crashes in: "
-          }
-        ]
-      },
       {
         "commit": {
           "author": {
@@ -8039,6 +8007,42 @@ window.BENCHMARK_DATA = {
           "url": "https://github.com/Ultimaker/CuraEngine/pull/2302/commits/e49466ba1124371b22fbf69b7fccba074dc1147e"
         },
         "date": 1776329627651,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "Number of test cases",
+            "value": 61,
+            "unit": "-",
+            "extra": ""
+          },
+          {
+            "name": "General Stress Level",
+            "value": 0,
+            "unit": "%",
+            "extra": "Crashes in: "
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "alireza.doustdar@gmail.com",
+            "name": "HellAholic",
+            "username": "HellAholic"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "212a4bea8d7a16af6b71486b738417f94320cd33",
+          "message": "CURA-12996 Fix flooring areas being generated when disabled (#2302)",
+          "timestamp": "2026-04-16T12:31:55+02:00",
+          "tree_id": "f010528be50d410c101e51f4e1cde1fcb383a942",
+          "url": "https://github.com/Ultimaker/CuraEngine/commit/212a4bea8d7a16af6b71486b738417f94320cd33"
+        },
+        "date": 1776338292721,
         "tool": "customSmallerIsBetter",
         "benches": [
           {
