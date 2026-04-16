@@ -1,40 +1,8 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1776340595684,
+  "lastUpdate": 1776348601781,
   "repoUrl": "https://github.com/Ultimaker/CuraEngine",
   "entries": {
     "Stress Benchmark": [
-      {
-        "commit": {
-          "author": {
-            "name": "Ultimaker",
-            "username": "Ultimaker"
-          },
-          "committer": {
-            "name": "Ultimaker",
-            "username": "Ultimaker"
-          },
-          "id": "c934effcd15f53c9e72bfaa840dfb525c9373d20",
-          "message": "[CURA-12768] minimize skin retracts",
-          "timestamp": "2025-10-11T07:34:29Z",
-          "url": "https://github.com/Ultimaker/CuraEngine/pull/2256/commits/c934effcd15f53c9e72bfaa840dfb525c9373d20"
-        },
-        "date": 1760454602223,
-        "tool": "customSmallerIsBetter",
-        "benches": [
-          {
-            "name": "Number of test cases",
-            "value": 61,
-            "unit": "-",
-            "extra": ""
-          },
-          {
-            "name": "General Stress Level",
-            "value": 0,
-            "unit": "%",
-            "extra": "Crashes in: "
-          }
-        ]
-      },
       {
         "commit": {
           "author": {
@@ -8047,6 +8015,38 @@ window.BENCHMARK_DATA = {
           "url": "https://github.com/Ultimaker/CuraEngine/commit/eb2e6124c6ae9acfb2f3cf64226a7239e534f987"
         },
         "date": 1776340589120,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "Number of test cases",
+            "value": 61,
+            "unit": "-",
+            "extra": ""
+          },
+          {
+            "name": "General Stress Level",
+            "value": 0,
+            "unit": "%",
+            "extra": "Crashes in: "
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "Ultimaker",
+            "username": "Ultimaker"
+          },
+          "committer": {
+            "name": "Ultimaker",
+            "username": "Ultimaker"
+          },
+          "id": "cb97e69f84998b9a7462c456cf3d36257d410a40",
+          "message": "Avoid adding extra newline in writeCode",
+          "timestamp": "2026-04-16T11:09:01Z",
+          "url": "https://github.com/Ultimaker/CuraEngine/pull/2323/commits/cb97e69f84998b9a7462c456cf3d36257d410a40"
+        },
+        "date": 1776348594234,
         "tool": "customSmallerIsBetter",
         "benches": [
           {
