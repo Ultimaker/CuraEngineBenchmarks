@@ -1,40 +1,8 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1776339931822,
+  "lastUpdate": 1776340595684,
   "repoUrl": "https://github.com/Ultimaker/CuraEngine",
   "entries": {
     "Stress Benchmark": [
-      {
-        "commit": {
-          "author": {
-            "name": "Ultimaker",
-            "username": "Ultimaker"
-          },
-          "committer": {
-            "name": "Ultimaker",
-            "username": "Ultimaker"
-          },
-          "id": "45532cebf9d4662a87f9a60023fbaa01a72b8cc6",
-          "message": "CURA-12770 Fix closed shaped being completely filled",
-          "timestamp": "2025-10-11T07:34:29Z",
-          "url": "https://github.com/Ultimaker/CuraEngine/pull/2252/commits/45532cebf9d4662a87f9a60023fbaa01a72b8cc6"
-        },
-        "date": 1760436716321,
-        "tool": "customSmallerIsBetter",
-        "benches": [
-          {
-            "name": "Number of test cases",
-            "value": 61,
-            "unit": "-",
-            "extra": ""
-          },
-          {
-            "name": "General Stress Level",
-            "value": 0,
-            "unit": "%",
-            "extra": "Crashes in: "
-          }
-        ]
-      },
       {
         "commit": {
           "author": {
@@ -8043,6 +8011,42 @@ window.BENCHMARK_DATA = {
           "url": "https://github.com/Ultimaker/CuraEngine/pull/2323/commits/2c16e9bad8b0081900e97fa4a71ca4952c5e092d"
         },
         "date": 1776339925469,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "Number of test cases",
+            "value": 61,
+            "unit": "-",
+            "extra": ""
+          },
+          {
+            "name": "General Stress Level",
+            "value": 0,
+            "unit": "%",
+            "extra": "Crashes in: "
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "alireza.doustdar@gmail.com",
+            "name": "HellAholic",
+            "username": "HellAholic"
+          },
+          "committer": {
+            "email": "alireza.doustdar@gmail.com",
+            "name": "HellAholic",
+            "username": "HellAholic"
+          },
+          "distinct": true,
+          "id": "eb2e6124c6ae9acfb2f3cf64226a7239e534f987",
+          "message": "Merge branch '5.13'",
+          "timestamp": "2026-04-16T13:07:39+02:00",
+          "tree_id": "8398a56e15f42122ea95313ba0bf8f08a7805363",
+          "url": "https://github.com/Ultimaker/CuraEngine/commit/eb2e6124c6ae9acfb2f3cf64226a7239e534f987"
+        },
+        "date": 1776340589120,
         "tool": "customSmallerIsBetter",
         "benches": [
           {
