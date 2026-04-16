@@ -1,40 +1,8 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1776328849036,
+  "lastUpdate": 1776329633309,
   "repoUrl": "https://github.com/Ultimaker/CuraEngine",
   "entries": {
     "Stress Benchmark": [
-      {
-        "commit": {
-          "author": {
-            "name": "Ultimaker",
-            "username": "Ultimaker"
-          },
-          "committer": {
-            "name": "Ultimaker",
-            "username": "Ultimaker"
-          },
-          "id": "d0a9dfbc2bf2834b4b72f2549dfc787741184bf7",
-          "message": "CURA-11989 difference in slice time on linux vs windows",
-          "timestamp": "2025-10-11T07:34:29Z",
-          "url": "https://github.com/Ultimaker/CuraEngine/pull/2254/commits/d0a9dfbc2bf2834b4b72f2549dfc787741184bf7"
-        },
-        "date": 1760356637823,
-        "tool": "customSmallerIsBetter",
-        "benches": [
-          {
-            "name": "Number of test cases",
-            "value": 61,
-            "unit": "-",
-            "extra": ""
-          },
-          {
-            "name": "General Stress Level",
-            "value": 0,
-            "unit": "%",
-            "extra": "Crashes in: "
-          }
-        ]
-      },
       {
         "commit": {
           "author": {
@@ -8039,6 +8007,38 @@ window.BENCHMARK_DATA = {
           "url": "https://github.com/Ultimaker/CuraEngine/pull/2322/commits/d21778b85388518349426f5fa57229bd57f450f8"
         },
         "date": 1776328842977,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "Number of test cases",
+            "value": 61,
+            "unit": "-",
+            "extra": ""
+          },
+          {
+            "name": "General Stress Level",
+            "value": 0,
+            "unit": "%",
+            "extra": "Crashes in: "
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "Ultimaker",
+            "username": "Ultimaker"
+          },
+          "committer": {
+            "name": "Ultimaker",
+            "username": "Ultimaker"
+          },
+          "id": "e49466ba1124371b22fbf69b7fccba074dc1147e",
+          "message": "CURA-12996 Fix flooring areas being generated when disabled",
+          "timestamp": "2026-04-15T02:30:22Z",
+          "url": "https://github.com/Ultimaker/CuraEngine/pull/2302/commits/e49466ba1124371b22fbf69b7fccba074dc1147e"
+        },
+        "date": 1776329627651,
         "tool": "customSmallerIsBetter",
         "benches": [
           {
