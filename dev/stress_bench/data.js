@@ -1,40 +1,8 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1776350859381,
+  "lastUpdate": 1776414700278,
   "repoUrl": "https://github.com/Ultimaker/CuraEngine",
   "entries": {
     "Stress Benchmark": [
-      {
-        "commit": {
-          "author": {
-            "name": "Ultimaker",
-            "username": "Ultimaker"
-          },
-          "committer": {
-            "name": "Ultimaker",
-            "username": "Ultimaker"
-          },
-          "id": "0b9c13e34fa6955e87f1b0a9a2bb3f7f26dbf102",
-          "message": "CURA-12769 monotonic top surface lines printed in same direction",
-          "timestamp": "2025-10-15T07:34:48Z",
-          "url": "https://github.com/Ultimaker/CuraEngine/pull/2257/commits/0b9c13e34fa6955e87f1b0a9a2bb3f7f26dbf102"
-        },
-        "date": 1760518393750,
-        "tool": "customSmallerIsBetter",
-        "benches": [
-          {
-            "name": "Number of test cases",
-            "value": 61,
-            "unit": "-",
-            "extra": ""
-          },
-          {
-            "name": "General Stress Level",
-            "value": 0,
-            "unit": "%",
-            "extra": "Crashes in: "
-          }
-        ]
-      },
       {
         "commit": {
           "author": {
@@ -8051,6 +8019,38 @@ window.BENCHMARK_DATA = {
           "url": "https://github.com/Ultimaker/CuraEngine/commit/419a1b234f6d38cc7502a302ccab81c342bb950b"
         },
         "date": 1776350851256,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "Number of test cases",
+            "value": 61,
+            "unit": "-",
+            "extra": ""
+          },
+          {
+            "name": "General Stress Level",
+            "value": 0,
+            "unit": "%",
+            "extra": "Crashes in: "
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "Ultimaker",
+            "username": "Ultimaker"
+          },
+          "committer": {
+            "name": "Ultimaker",
+            "username": "Ultimaker"
+          },
+          "id": "e4130606fe1a39aee6da6278ce0d04340dc4b789",
+          "message": "CURA_13005",
+          "timestamp": "2026-04-16T14:10:32Z",
+          "url": "https://github.com/Ultimaker/CuraEngine/pull/2297/commits/e4130606fe1a39aee6da6278ce0d04340dc4b789"
+        },
+        "date": 1776414693537,
         "tool": "customSmallerIsBetter",
         "benches": [
           {
