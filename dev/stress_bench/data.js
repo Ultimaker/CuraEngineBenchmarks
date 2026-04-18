@@ -1,40 +1,8 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1776550802430,
+  "lastUpdate": 1776553330617,
   "repoUrl": "https://github.com/Ultimaker/CuraEngine",
   "entries": {
     "Stress Benchmark": [
-      {
-        "commit": {
-          "author": {
-            "name": "Ultimaker",
-            "username": "Ultimaker"
-          },
-          "committer": {
-            "name": "Ultimaker",
-            "username": "Ultimaker"
-          },
-          "id": "778f3b4d1534583c277efce42a6951df4334ad39",
-          "message": "CURA-12769 monotonic top surface lines printed in same direction",
-          "timestamp": "2025-10-15T07:34:48Z",
-          "url": "https://github.com/Ultimaker/CuraEngine/pull/2257/commits/778f3b4d1534583c277efce42a6951df4334ad39"
-        },
-        "date": 1760525989421,
-        "tool": "customSmallerIsBetter",
-        "benches": [
-          {
-            "name": "Number of test cases",
-            "value": 61,
-            "unit": "-",
-            "extra": ""
-          },
-          {
-            "name": "General Stress Level",
-            "value": 0,
-            "unit": "%",
-            "extra": "Crashes in: "
-          }
-        ]
-      },
       {
         "commit": {
           "author": {
@@ -8051,6 +8019,38 @@ window.BENCHMARK_DATA = {
           "url": "https://github.com/Ultimaker/CuraEngine/pull/2328/commits/3b6dad27e2243c7940b451bdbeda08c7f20fa2f6"
         },
         "date": 1776550795663,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "Number of test cases",
+            "value": 61,
+            "unit": "-",
+            "extra": ""
+          },
+          {
+            "name": "General Stress Level",
+            "value": 0,
+            "unit": "%",
+            "extra": "Crashes in: "
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "Ultimaker",
+            "username": "Ultimaker"
+          },
+          "committer": {
+            "name": "Ultimaker",
+            "username": "Ultimaker"
+          },
+          "id": "0b37c1e5cf5e4c067e304bdd282228dbfd3b506c",
+          "message": "fix: Temperature preheat command fires at correct time within long co…",
+          "timestamp": "2026-04-18T00:41:45Z",
+          "url": "https://github.com/Ultimaker/CuraEngine/pull/2328/commits/0b37c1e5cf5e4c067e304bdd282228dbfd3b506c"
+        },
+        "date": 1776553323033,
         "tool": "customSmallerIsBetter",
         "benches": [
           {
