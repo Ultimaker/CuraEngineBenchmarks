@@ -1,40 +1,8 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1776414700278,
+  "lastUpdate": 1776550802430,
   "repoUrl": "https://github.com/Ultimaker/CuraEngine",
   "entries": {
     "Stress Benchmark": [
-      {
-        "commit": {
-          "author": {
-            "name": "Ultimaker",
-            "username": "Ultimaker"
-          },
-          "committer": {
-            "name": "Ultimaker",
-            "username": "Ultimaker"
-          },
-          "id": "cffeab93529725cae6a6a943cd17ef60048cd553",
-          "message": "[CURA-12768] minimize skin retracts",
-          "timestamp": "2025-10-15T07:34:48Z",
-          "url": "https://github.com/Ultimaker/CuraEngine/pull/2256/commits/cffeab93529725cae6a6a943cd17ef60048cd553"
-        },
-        "date": 1760524834992,
-        "tool": "customSmallerIsBetter",
-        "benches": [
-          {
-            "name": "Number of test cases",
-            "value": 61,
-            "unit": "-",
-            "extra": ""
-          },
-          {
-            "name": "General Stress Level",
-            "value": 0,
-            "unit": "%",
-            "extra": "Crashes in: "
-          }
-        ]
-      },
       {
         "commit": {
           "author": {
@@ -8051,6 +8019,38 @@ window.BENCHMARK_DATA = {
           "url": "https://github.com/Ultimaker/CuraEngine/pull/2297/commits/e4130606fe1a39aee6da6278ce0d04340dc4b789"
         },
         "date": 1776414693537,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "Number of test cases",
+            "value": 61,
+            "unit": "-",
+            "extra": ""
+          },
+          {
+            "name": "General Stress Level",
+            "value": 0,
+            "unit": "%",
+            "extra": "Crashes in: "
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "Ultimaker",
+            "username": "Ultimaker"
+          },
+          "committer": {
+            "name": "Ultimaker",
+            "username": "Ultimaker"
+          },
+          "id": "3b6dad27e2243c7940b451bdbeda08c7f20fa2f6",
+          "message": "fix: Temperature preheat command fires at correct time within long co…",
+          "timestamp": "2026-04-18T00:41:45Z",
+          "url": "https://github.com/Ultimaker/CuraEngine/pull/2328/commits/3b6dad27e2243c7940b451bdbeda08c7f20fa2f6"
+        },
+        "date": 1776550795663,
         "tool": "customSmallerIsBetter",
         "benches": [
           {
