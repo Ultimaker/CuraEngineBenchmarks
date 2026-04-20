@@ -1,40 +1,8 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1776553330617,
+  "lastUpdate": 1776673594394,
   "repoUrl": "https://github.com/Ultimaker/CuraEngine",
   "entries": {
     "Stress Benchmark": [
-      {
-        "commit": {
-          "author": {
-            "name": "Ultimaker",
-            "username": "Ultimaker"
-          },
-          "committer": {
-            "name": "Ultimaker",
-            "username": "Ultimaker"
-          },
-          "id": "e57eb796c2b8589f0653f338265468efcf8f73e5",
-          "message": "CURA-12769 monotonic top surface lines printed in same direction",
-          "timestamp": "2025-10-15T07:34:48Z",
-          "url": "https://github.com/Ultimaker/CuraEngine/pull/2257/commits/e57eb796c2b8589f0653f338265468efcf8f73e5"
-        },
-        "date": 1760534668020,
-        "tool": "customSmallerIsBetter",
-        "benches": [
-          {
-            "name": "Number of test cases",
-            "value": 61,
-            "unit": "-",
-            "extra": ""
-          },
-          {
-            "name": "General Stress Level",
-            "value": 0,
-            "unit": "%",
-            "extra": "Crashes in: "
-          }
-        ]
-      },
       {
         "commit": {
           "author": {
@@ -8051,6 +8019,42 @@ window.BENCHMARK_DATA = {
           "url": "https://github.com/Ultimaker/CuraEngine/pull/2328/commits/0b37c1e5cf5e4c067e304bdd282228dbfd3b506c"
         },
         "date": 1776553323033,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "Number of test cases",
+            "value": 61,
+            "unit": "-",
+            "extra": ""
+          },
+          {
+            "name": "General Stress Level",
+            "value": 0,
+            "unit": "%",
+            "extra": "Crashes in: "
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "alireza.doustdar@gmail.com",
+            "name": "HellAholic",
+            "username": "HellAholic"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "7f104ceca55854bdf0bf86f3c4a48d9baad7b146",
+          "message": "CURA_13005 (#2297)",
+          "timestamp": "2026-04-20T09:42:33+02:00",
+          "tree_id": "4bddcc4af32788fd6fa229259003136e66497a5d",
+          "url": "https://github.com/Ultimaker/CuraEngine/commit/7f104ceca55854bdf0bf86f3c4a48d9baad7b146"
+        },
+        "date": 1776673586821,
         "tool": "customSmallerIsBetter",
         "benches": [
           {
