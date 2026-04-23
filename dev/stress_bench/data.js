@@ -1,40 +1,8 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1776848274963,
+  "lastUpdate": 1776931512961,
   "repoUrl": "https://github.com/Ultimaker/CuraEngine",
   "entries": {
     "Stress Benchmark": [
-      {
-        "commit": {
-          "author": {
-            "name": "Ultimaker",
-            "username": "Ultimaker"
-          },
-          "committer": {
-            "name": "Ultimaker",
-            "username": "Ultimaker"
-          },
-          "id": "12a59b2233b9e4541d7b8ae62287ba0101a433e8",
-          "message": "CURA-12798 Rename \"Top Surface Extension\" to \"Top Surface Expansion\"",
-          "timestamp": "2025-10-15T07:34:48Z",
-          "url": "https://github.com/Ultimaker/CuraEngine/pull/2259/commits/12a59b2233b9e4541d7b8ae62287ba0101a433e8"
-        },
-        "date": 1760695915445,
-        "tool": "customSmallerIsBetter",
-        "benches": [
-          {
-            "name": "Number of test cases",
-            "value": 61,
-            "unit": "-",
-            "extra": ""
-          },
-          {
-            "name": "General Stress Level",
-            "value": 0,
-            "unit": "%",
-            "extra": "Crashes in: "
-          }
-        ]
-      },
       {
         "commit": {
           "author": {
@@ -8055,6 +8023,38 @@ window.BENCHMARK_DATA = {
           "url": "https://github.com/Ultimaker/CuraEngine/pull/2330/commits/43e9412f1187843d89491cd376cf3d128dced285"
         },
         "date": 1776848267521,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "Number of test cases",
+            "value": 61,
+            "unit": "-",
+            "extra": ""
+          },
+          {
+            "name": "General Stress Level",
+            "value": 0,
+            "unit": "%",
+            "extra": "Crashes in: "
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "Ultimaker",
+            "username": "Ultimaker"
+          },
+          "committer": {
+            "name": "Ultimaker",
+            "username": "Ultimaker"
+          },
+          "id": "b56d8f30cf4017ea4802eba2456dc3f5fddb8dc0",
+          "message": "Update the workflow",
+          "timestamp": "2026-04-22T02:14:19Z",
+          "url": "https://github.com/Ultimaker/CuraEngine/pull/2326/commits/b56d8f30cf4017ea4802eba2456dc3f5fddb8dc0"
+        },
+        "date": 1776931506691,
         "tool": "customSmallerIsBetter",
         "benches": [
           {
