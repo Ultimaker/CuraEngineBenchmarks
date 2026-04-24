@@ -1,40 +1,8 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1776944830233,
+  "lastUpdate": 1777038128368,
   "repoUrl": "https://github.com/Ultimaker/CuraEngine",
   "entries": {
     "Stress Benchmark": [
-      {
-        "commit": {
-          "author": {
-            "name": "Ultimaker",
-            "username": "Ultimaker"
-          },
-          "committer": {
-            "name": "Ultimaker",
-            "username": "Ultimaker"
-          },
-          "id": "6c65776da7c114702906d723a4d601eb8eabfda8",
-          "message": "CURA-12794 Use seam painting data in surface mode",
-          "timestamp": "2025-10-19T05:48:50Z",
-          "url": "https://github.com/Ultimaker/CuraEngine/pull/2261/commits/6c65776da7c114702906d723a4d601eb8eabfda8"
-        },
-        "date": 1761124348740,
-        "tool": "customSmallerIsBetter",
-        "benches": [
-          {
-            "name": "Number of test cases",
-            "value": 61,
-            "unit": "-",
-            "extra": ""
-          },
-          {
-            "name": "General Stress Level",
-            "value": 0,
-            "unit": "%",
-            "extra": "Crashes in: "
-          }
-        ]
-      },
       {
         "commit": {
           "author": {
@@ -8055,6 +8023,42 @@ window.BENCHMARK_DATA = {
           "url": "https://github.com/Ultimaker/CuraEngine/pull/2326/commits/f991aac51cc4ab6ef228a477ca259bdb5376a989"
         },
         "date": 1776944823315,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "Number of test cases",
+            "value": 61,
+            "unit": "-",
+            "extra": ""
+          },
+          {
+            "name": "General Stress Level",
+            "value": 0,
+            "unit": "%",
+            "extra": "Crashes in: "
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "alireza.doustdar@gmail.com",
+            "name": "HellAholic",
+            "username": "HellAholic"
+          },
+          "committer": {
+            "email": "alireza.doustdar@gmail.com",
+            "name": "HellAholic",
+            "username": "HellAholic"
+          },
+          "distinct": true,
+          "id": "ab43569dfa12a2c4dc2e2f0432351526b0453608",
+          "message": "Merge remote-tracking branch 'origin/5.13'",
+          "timestamp": "2026-04-24T14:57:23+02:00",
+          "tree_id": "7c00c541d26830fcb2ad042e44741bdbf75f26d2",
+          "url": "https://github.com/Ultimaker/CuraEngine/commit/ab43569dfa12a2c4dc2e2f0432351526b0453608"
+        },
+        "date": 1777038121534,
         "tool": "customSmallerIsBetter",
         "benches": [
           {
