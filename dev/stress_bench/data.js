@@ -1,40 +1,8 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1777389665261,
+  "lastUpdate": 1777389759440,
   "repoUrl": "https://github.com/Ultimaker/CuraEngine",
   "entries": {
     "Stress Benchmark": [
-      {
-        "commit": {
-          "author": {
-            "name": "Ultimaker",
-            "username": "Ultimaker"
-          },
-          "committer": {
-            "name": "Ultimaker",
-            "username": "Ultimaker"
-          },
-          "id": "4f3583928ed621d04128edff8f761d7cd5527a64",
-          "message": "CURA-12822 start end infill away from wall",
-          "timestamp": "2025-11-12T16:13:00Z",
-          "url": "https://github.com/Ultimaker/CuraEngine/pull/2263/commits/4f3583928ed621d04128edff8f761d7cd5527a64"
-        },
-        "date": 1763028994249,
-        "tool": "customSmallerIsBetter",
-        "benches": [
-          {
-            "name": "Number of test cases",
-            "value": 61,
-            "unit": "-",
-            "extra": ""
-          },
-          {
-            "name": "General Stress Level",
-            "value": 0,
-            "unit": "%",
-            "extra": "Crashes in: "
-          }
-        ]
-      },
       {
         "commit": {
           "author": {
@@ -8051,6 +8019,38 @@ window.BENCHMARK_DATA = {
           "url": "https://github.com/Ultimaker/CuraEngine/pull/2313/commits/bc55f7ec4d739f7a4f3584e95b36dbfb6afe0f4a"
         },
         "date": 1777389657727,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "Number of test cases",
+            "value": 61,
+            "unit": "-",
+            "extra": ""
+          },
+          {
+            "name": "General Stress Level",
+            "value": 0,
+            "unit": "%",
+            "extra": "Crashes in: "
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "Ultimaker",
+            "username": "Ultimaker"
+          },
+          "committer": {
+            "name": "Ultimaker",
+            "username": "Ultimaker"
+          },
+          "id": "da4b865de994d9520868d77cf3d8d480ad0b03d3",
+          "message": "CURA-13049 process the end variable replacement in the engine",
+          "timestamp": "2026-04-28T08:38:17Z",
+          "url": "https://github.com/Ultimaker/CuraEngine/pull/2313/commits/da4b865de994d9520868d77cf3d8d480ad0b03d3"
+        },
+        "date": 1777389750553,
         "tool": "customSmallerIsBetter",
         "benches": [
           {
