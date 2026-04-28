@@ -1,44 +1,8 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1777038128368,
+  "lastUpdate": 1777389497704,
   "repoUrl": "https://github.com/Ultimaker/CuraEngine",
   "entries": {
     "Stress Benchmark": [
-      {
-        "commit": {
-          "author": {
-            "email": "alireza.doustdar@gmail.com",
-            "name": "HellAholic",
-            "username": "HellAholic"
-          },
-          "committer": {
-            "email": "noreply@github.com",
-            "name": "GitHub",
-            "username": "web-flow"
-          },
-          "distinct": false,
-          "id": "7db5119c2674aaeabd2c0bc019c6b2c53982e849",
-          "message": "Cura 12797 make multi material settings settable per mesh (#2258)",
-          "timestamp": "2025-10-22T10:14:39+02:00",
-          "tree_id": "c0ba4793618e05e832a137947eae6e3b23c952d0",
-          "url": "https://github.com/Ultimaker/CuraEngine/commit/7db5119c2674aaeabd2c0bc019c6b2c53982e849"
-        },
-        "date": 1761138025493,
-        "tool": "customSmallerIsBetter",
-        "benches": [
-          {
-            "name": "Number of test cases",
-            "value": 61,
-            "unit": "-",
-            "extra": ""
-          },
-          {
-            "name": "General Stress Level",
-            "value": 0,
-            "unit": "%",
-            "extra": "Crashes in: "
-          }
-        ]
-      },
       {
         "commit": {
           "author": {
@@ -8059,6 +8023,38 @@ window.BENCHMARK_DATA = {
           "url": "https://github.com/Ultimaker/CuraEngine/commit/ab43569dfa12a2c4dc2e2f0432351526b0453608"
         },
         "date": 1777038121534,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "Number of test cases",
+            "value": 61,
+            "unit": "-",
+            "extra": ""
+          },
+          {
+            "name": "General Stress Level",
+            "value": 0,
+            "unit": "%",
+            "extra": "Crashes in: "
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "Ultimaker",
+            "username": "Ultimaker"
+          },
+          "committer": {
+            "name": "Ultimaker",
+            "username": "Ultimaker"
+          },
+          "id": "337babe28f72745426c1a488744383b35eeab81c",
+          "message": "CURA-13049 process the end variable replacement in the engine",
+          "timestamp": "2026-04-28T08:38:17Z",
+          "url": "https://github.com/Ultimaker/CuraEngine/pull/2313/commits/337babe28f72745426c1a488744383b35eeab81c"
+        },
+        "date": 1777389490798,
         "tool": "customSmallerIsBetter",
         "benches": [
           {
