@@ -1,44 +1,8 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1777389497704,
+  "lastUpdate": 1777389665261,
   "repoUrl": "https://github.com/Ultimaker/CuraEngine",
   "entries": {
     "Stress Benchmark": [
-      {
-        "commit": {
-          "author": {
-            "email": "erwan.mathieu@ultimaker.com",
-            "name": "Erwan MATHIEU",
-            "username": "wawanbreton"
-          },
-          "committer": {
-            "email": "erwan.mathieu@ultimaker.com",
-            "name": "Erwan MATHIEU",
-            "username": "wawanbreton"
-          },
-          "distinct": true,
-          "id": "e8f5b327ac29faebaefeb6f2daee007648d4eb70",
-          "message": "Bump version to 5.12",
-          "timestamp": "2025-10-24T14:25:47+02:00",
-          "tree_id": "9c9ec5c6a58147c5c23441bf68cb4e058f919409",
-          "url": "https://github.com/Ultimaker/CuraEngine/commit/e8f5b327ac29faebaefeb6f2daee007648d4eb70"
-        },
-        "date": 1761310314967,
-        "tool": "customSmallerIsBetter",
-        "benches": [
-          {
-            "name": "Number of test cases",
-            "value": 61,
-            "unit": "-",
-            "extra": ""
-          },
-          {
-            "name": "General Stress Level",
-            "value": 0,
-            "unit": "%",
-            "extra": "Crashes in: "
-          }
-        ]
-      },
       {
         "commit": {
           "author": {
@@ -8055,6 +8019,38 @@ window.BENCHMARK_DATA = {
           "url": "https://github.com/Ultimaker/CuraEngine/pull/2313/commits/337babe28f72745426c1a488744383b35eeab81c"
         },
         "date": 1777389490798,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "Number of test cases",
+            "value": 61,
+            "unit": "-",
+            "extra": ""
+          },
+          {
+            "name": "General Stress Level",
+            "value": 0,
+            "unit": "%",
+            "extra": "Crashes in: "
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "Ultimaker",
+            "username": "Ultimaker"
+          },
+          "committer": {
+            "name": "Ultimaker",
+            "username": "Ultimaker"
+          },
+          "id": "bc55f7ec4d739f7a4f3584e95b36dbfb6afe0f4a",
+          "message": "CURA-13049 process the end variable replacement in the engine",
+          "timestamp": "2026-04-28T08:38:17Z",
+          "url": "https://github.com/Ultimaker/CuraEngine/pull/2313/commits/bc55f7ec4d739f7a4f3584e95b36dbfb6afe0f4a"
+        },
+        "date": 1777389657727,
         "tool": "customSmallerIsBetter",
         "benches": [
           {
