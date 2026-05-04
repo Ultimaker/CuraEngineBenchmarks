@@ -1,40 +1,8 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1777547808493,
+  "lastUpdate": 1777899908009,
   "repoUrl": "https://github.com/Ultimaker/CuraEngine",
   "entries": {
     "Stress Benchmark": [
-      {
-        "commit": {
-          "author": {
-            "name": "Ultimaker",
-            "username": "Ultimaker"
-          },
-          "committer": {
-            "name": "Ultimaker",
-            "username": "Ultimaker"
-          },
-          "id": "b557589401499edc7004b678cfe4d14234b009e9",
-          "message": "CURA-12361 add skin support",
-          "timestamp": "2025-12-10T16:43:35Z",
-          "url": "https://github.com/Ultimaker/CuraEngine/pull/2269/commits/b557589401499edc7004b678cfe4d14234b009e9"
-        },
-        "date": 1765469139576,
-        "tool": "customSmallerIsBetter",
-        "benches": [
-          {
-            "name": "Number of test cases",
-            "value": 61,
-            "unit": "-",
-            "extra": ""
-          },
-          {
-            "name": "General Stress Level",
-            "value": 0,
-            "unit": "%",
-            "extra": "Crashes in: "
-          }
-        ]
-      },
       {
         "commit": {
           "author": {
@@ -8047,6 +8015,38 @@ window.BENCHMARK_DATA = {
           "url": "https://github.com/Ultimaker/CuraEngine/pull/2313/commits/13f1704298bdc201922904607deb54fcab1a3468"
         },
         "date": 1777547801966,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "Number of test cases",
+            "value": 61,
+            "unit": "-",
+            "extra": ""
+          },
+          {
+            "name": "General Stress Level",
+            "value": 0,
+            "unit": "%",
+            "extra": "Crashes in: "
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "Ultimaker",
+            "username": "Ultimaker"
+          },
+          "committer": {
+            "name": "Ultimaker",
+            "username": "Ultimaker"
+          },
+          "id": "8a1aeba8a8f39fad028354f31584951ab8eb7ea5",
+          "message": "[CURA-13024] Spike: merge thin parts of floor/roof/skin",
+          "timestamp": "2026-05-02T14:19:36Z",
+          "url": "https://github.com/Ultimaker/CuraEngine/pull/2316/commits/8a1aeba8a8f39fad028354f31584951ab8eb7ea5"
+        },
+        "date": 1777899901413,
         "tool": "customSmallerIsBetter",
         "benches": [
           {
