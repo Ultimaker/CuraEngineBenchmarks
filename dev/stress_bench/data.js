@@ -1,40 +1,8 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1778070024292,
+  "lastUpdate": 1778167750967,
   "repoUrl": "https://github.com/Ultimaker/CuraEngine",
   "entries": {
     "Stress Benchmark": [
-      {
-        "commit": {
-          "author": {
-            "name": "Ultimaker",
-            "username": "Ultimaker"
-          },
-          "committer": {
-            "name": "Ultimaker",
-            "username": "Ultimaker"
-          },
-          "id": "dffbbf081d65c7ebd5070fb51b2328d8b2f41206",
-          "message": "CURA-12361 add skin support",
-          "timestamp": "2025-12-18T09:41:08Z",
-          "url": "https://github.com/Ultimaker/CuraEngine/pull/2269/commits/dffbbf081d65c7ebd5070fb51b2328d8b2f41206"
-        },
-        "date": 1766054440455,
-        "tool": "customSmallerIsBetter",
-        "benches": [
-          {
-            "name": "Number of test cases",
-            "value": 61,
-            "unit": "-",
-            "extra": ""
-          },
-          {
-            "name": "General Stress Level",
-            "value": 0,
-            "unit": "%",
-            "extra": "Crashes in: "
-          }
-        ]
-      },
       {
         "commit": {
           "author": {
@@ -8047,6 +8015,38 @@ window.BENCHMARK_DATA = {
           "url": "https://github.com/Ultimaker/CuraEngine/pull/2313/commits/58064fa4958515eed780f80b1678721878c9136f"
         },
         "date": 1778070017504,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "Number of test cases",
+            "value": 61,
+            "unit": "-",
+            "extra": ""
+          },
+          {
+            "name": "General Stress Level",
+            "value": 0,
+            "unit": "%",
+            "extra": "Crashes in: "
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "Ultimaker",
+            "username": "Ultimaker"
+          },
+          "committer": {
+            "name": "Ultimaker",
+            "username": "Ultimaker"
+          },
+          "id": "ebc678176f95a9be9b0a8741bb80f6d8b3e9bb97",
+          "message": "Disable tbbproxy (not available on ARM64 platforms)",
+          "timestamp": "2026-05-06T08:00:49Z",
+          "url": "https://github.com/Ultimaker/CuraEngine/pull/2264/commits/ebc678176f95a9be9b0a8741bb80f6d8b3e9bb97"
+        },
+        "date": 1778167742134,
         "tool": "customSmallerIsBetter",
         "benches": [
           {
