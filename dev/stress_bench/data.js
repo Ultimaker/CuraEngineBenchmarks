@@ -1,40 +1,8 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1778245656217,
+  "lastUpdate": 1778503627875,
   "repoUrl": "https://github.com/Ultimaker/CuraEngine",
   "entries": {
     "Stress Benchmark": [
-      {
-        "commit": {
-          "author": {
-            "name": "Ultimaker",
-            "username": "Ultimaker"
-          },
-          "committer": {
-            "name": "Ultimaker",
-            "username": "Ultimaker"
-          },
-          "id": "36206129f3b9a55652bae905b5fb8275b0539148",
-          "message": "CURA-12860 Force retracted combed travel move when using minimum area",
-          "timestamp": "2026-01-07T09:52:43Z",
-          "url": "https://github.com/Ultimaker/CuraEngine/pull/2270/commits/36206129f3b9a55652bae905b5fb8275b0539148"
-        },
-        "date": 1767781093250,
-        "tool": "customSmallerIsBetter",
-        "benches": [
-          {
-            "name": "Number of test cases",
-            "value": 61,
-            "unit": "-",
-            "extra": ""
-          },
-          {
-            "name": "General Stress Level",
-            "value": 0,
-            "unit": "%",
-            "extra": "Crashes in: "
-          }
-        ]
-      },
       {
         "commit": {
           "author": {
@@ -8043,6 +8011,38 @@ window.BENCHMARK_DATA = {
           "url": "https://github.com/Ultimaker/CuraEngine/pull/2313/commits/84a0b9e5c3464d3eacb7474a960e14e89c13925c"
         },
         "date": 1778245648916,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "Number of test cases",
+            "value": 61,
+            "unit": "-",
+            "extra": ""
+          },
+          {
+            "name": "General Stress Level",
+            "value": 0,
+            "unit": "%",
+            "extra": "Crashes in: "
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "Ultimaker",
+            "username": "Ultimaker"
+          },
+          "committer": {
+            "name": "Ultimaker",
+            "username": "Ultimaker"
+          },
+          "id": "2452942b9e58dafd1a1056ada17a7e7b658df790",
+          "message": "[CURA-13024] Spike: merge thin parts of floor/roof/skin",
+          "timestamp": "2026-05-09T06:29:23Z",
+          "url": "https://github.com/Ultimaker/CuraEngine/pull/2316/commits/2452942b9e58dafd1a1056ada17a7e7b658df790"
+        },
+        "date": 1778503619586,
         "tool": "customSmallerIsBetter",
         "benches": [
           {
