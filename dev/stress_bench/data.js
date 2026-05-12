@@ -1,40 +1,8 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1778595923771,
+  "lastUpdate": 1778596747105,
   "repoUrl": "https://github.com/Ultimaker/CuraEngine",
   "entries": {
     "Stress Benchmark": [
-      {
-        "commit": {
-          "author": {
-            "name": "Ultimaker",
-            "username": "Ultimaker"
-          },
-          "committer": {
-            "name": "Ultimaker",
-            "username": "Ultimaker"
-          },
-          "id": "48081085a8ec3611e878a6fbc535267b69dd1814",
-          "message": "CURA-12894 honeycomb infill",
-          "timestamp": "2026-01-11T21:42:14Z",
-          "url": "https://github.com/Ultimaker/CuraEngine/pull/2272/commits/48081085a8ec3611e878a6fbc535267b69dd1814"
-        },
-        "date": 1768297294424,
-        "tool": "customSmallerIsBetter",
-        "benches": [
-          {
-            "name": "Number of test cases",
-            "value": 61,
-            "unit": "-",
-            "extra": ""
-          },
-          {
-            "name": "General Stress Level",
-            "value": 0,
-            "unit": "%",
-            "extra": "Crashes in: "
-          }
-        ]
-      },
       {
         "commit": {
           "author": {
@@ -8043,6 +8011,38 @@ window.BENCHMARK_DATA = {
           "url": "https://github.com/Ultimaker/CuraEngine/pull/2332/commits/8d9431294e8ef96de68ff82b7f4fb913fba84bd3"
         },
         "date": 1778595917072,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "Number of test cases",
+            "value": 61,
+            "unit": "-",
+            "extra": ""
+          },
+          {
+            "name": "General Stress Level",
+            "value": 0,
+            "unit": "%",
+            "extra": "Crashes in: "
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "Ultimaker",
+            "username": "Ultimaker"
+          },
+          "committer": {
+            "name": "Ultimaker",
+            "username": "Ultimaker"
+          },
+          "id": "a9d7a52f4cacda02d25297d6f248c909e916b750",
+          "message": "[CURA-13023] Merge surface (floor, roof) to skin when relevant settings are equal.",
+          "timestamp": "2026-05-12T10:20:02Z",
+          "url": "https://github.com/Ultimaker/CuraEngine/pull/2333/commits/a9d7a52f4cacda02d25297d6f248c909e916b750"
+        },
+        "date": 1778596739843,
         "tool": "customSmallerIsBetter",
         "benches": [
           {
