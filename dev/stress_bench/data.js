@@ -1,40 +1,8 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1778673631498,
+  "lastUpdate": 1779177473004,
   "repoUrl": "https://github.com/Ultimaker/CuraEngine",
   "entries": {
     "Stress Benchmark": [
-      {
-        "commit": {
-          "author": {
-            "name": "Ultimaker",
-            "username": "Ultimaker"
-          },
-          "committer": {
-            "name": "Ultimaker",
-            "username": "Ultimaker"
-          },
-          "id": "e1376c7a04c6a15edc90ae04971e7dbf93dd6d77",
-          "message": "[CURA-12831] Fix scarf / overhang angle interaction.",
-          "timestamp": "2026-01-11T21:42:14Z",
-          "url": "https://github.com/Ultimaker/CuraEngine/pull/2273/commits/e1376c7a04c6a15edc90ae04971e7dbf93dd6d77"
-        },
-        "date": 1768407523131,
-        "tool": "customSmallerIsBetter",
-        "benches": [
-          {
-            "name": "Number of test cases",
-            "value": 61,
-            "unit": "-",
-            "extra": ""
-          },
-          {
-            "name": "General Stress Level",
-            "value": 0,
-            "unit": "%",
-            "extra": "Crashes in: "
-          }
-        ]
-      },
       {
         "commit": {
           "author": {
@@ -8043,6 +8011,38 @@ window.BENCHMARK_DATA = {
           "url": "https://github.com/Ultimaker/CuraEngine/pull/2316/commits/8d8c7376b785ab362503c6ed93e9213bfae9dc5d"
         },
         "date": 1778673624362,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "Number of test cases",
+            "value": 61,
+            "unit": "-",
+            "extra": ""
+          },
+          {
+            "name": "General Stress Level",
+            "value": 0,
+            "unit": "%",
+            "extra": "Crashes in: "
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "Ultimaker",
+            "username": "Ultimaker"
+          },
+          "committer": {
+            "name": "Ultimaker",
+            "username": "Ultimaker"
+          },
+          "id": "d04672b97f430a6d9424ccb9749948b722cd345a",
+          "message": "[CURA-13023] Merge surface (floor, roof) to skin when relevant settings are equal.",
+          "timestamp": "2026-05-14T08:33:54Z",
+          "url": "https://github.com/Ultimaker/CuraEngine/pull/2333/commits/d04672b97f430a6d9424ccb9749948b722cd345a"
+        },
+        "date": 1779177466530,
         "tool": "customSmallerIsBetter",
         "benches": [
           {
