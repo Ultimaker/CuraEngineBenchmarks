@@ -1,40 +1,8 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1779781453779,
+  "lastUpdate": 1780298244259,
   "repoUrl": "https://github.com/Ultimaker/CuraEngine",
   "entries": {
     "Stress Benchmark": [
-      {
-        "commit": {
-          "author": {
-            "name": "Ultimaker",
-            "username": "Ultimaker"
-          },
-          "committer": {
-            "name": "Ultimaker",
-            "username": "Ultimaker"
-          },
-          "id": "8dfabcee4f64ac002b5b8a34596185873c2197ae",
-          "message": "CURA-12894 honeycomb infill",
-          "timestamp": "2026-01-14T20:43:49Z",
-          "url": "https://github.com/Ultimaker/CuraEngine/pull/2272/commits/8dfabcee4f64ac002b5b8a34596185873c2197ae"
-        },
-        "date": 1768570753522,
-        "tool": "customSmallerIsBetter",
-        "benches": [
-          {
-            "name": "Number of test cases",
-            "value": 61,
-            "unit": "-",
-            "extra": ""
-          },
-          {
-            "name": "General Stress Level",
-            "value": 4.918032786885246,
-            "unit": "%",
-            "extra": "Crashes in: 031, 003, 017"
-          }
-        ]
-      },
       {
         "commit": {
           "author": {
@@ -8043,6 +8011,38 @@ window.BENCHMARK_DATA = {
           "url": "https://github.com/Ultimaker/CuraEngine/pull/2316/commits/7b6c6d33160cbdd0b1e251bf8c33bd0a219ce92c"
         },
         "date": 1779781446917,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "Number of test cases",
+            "value": 61,
+            "unit": "-",
+            "extra": ""
+          },
+          {
+            "name": "General Stress Level",
+            "value": 0,
+            "unit": "%",
+            "extra": "Crashes in: "
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "Ultimaker",
+            "username": "Ultimaker"
+          },
+          "committer": {
+            "name": "Ultimaker",
+            "username": "Ultimaker"
+          },
+          "id": "58900d50f926e20cdff8d7f5f65fc1e96f71dcba",
+          "message": "CURA-12446 top bottom wall count v3",
+          "timestamp": "2026-05-31T23:35:03Z",
+          "url": "https://github.com/Ultimaker/CuraEngine/pull/2334/commits/58900d50f926e20cdff8d7f5f65fc1e96f71dcba"
+        },
+        "date": 1780298236887,
         "tool": "customSmallerIsBetter",
         "benches": [
           {
