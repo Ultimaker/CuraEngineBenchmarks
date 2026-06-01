@@ -1,44 +1,8 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1780298244259,
+  "lastUpdate": 1780318389493,
   "repoUrl": "https://github.com/Ultimaker/CuraEngine",
   "entries": {
     "Stress Benchmark": [
-      {
-        "commit": {
-          "author": {
-            "email": "alireza.doustdar@gmail.com",
-            "name": "HellAholic",
-            "username": "HellAholic"
-          },
-          "committer": {
-            "email": "noreply@github.com",
-            "name": "GitHub",
-            "username": "web-flow"
-          },
-          "distinct": true,
-          "id": "c67d10e871ff706a1b3767e590e52513db422ff1",
-          "message": "CURA-12860 Force retracted combed travel move when using minimum area (#2270)",
-          "timestamp": "2026-01-19T10:35:03+01:00",
-          "tree_id": "5d34c31d0b9a049384b7508de63fbaedf26dc644",
-          "url": "https://github.com/Ultimaker/CuraEngine/commit/c67d10e871ff706a1b3767e590e52513db422ff1"
-        },
-        "date": 1768816750994,
-        "tool": "customSmallerIsBetter",
-        "benches": [
-          {
-            "name": "Number of test cases",
-            "value": 61,
-            "unit": "-",
-            "extra": ""
-          },
-          {
-            "name": "General Stress Level",
-            "value": 0,
-            "unit": "%",
-            "extra": "Crashes in: "
-          }
-        ]
-      },
       {
         "commit": {
           "author": {
@@ -8043,6 +8007,38 @@ window.BENCHMARK_DATA = {
           "url": "https://github.com/Ultimaker/CuraEngine/pull/2334/commits/58900d50f926e20cdff8d7f5f65fc1e96f71dcba"
         },
         "date": 1780298236887,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "Number of test cases",
+            "value": 61,
+            "unit": "-",
+            "extra": ""
+          },
+          {
+            "name": "General Stress Level",
+            "value": 0,
+            "unit": "%",
+            "extra": "Crashes in: "
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "Ultimaker",
+            "username": "Ultimaker"
+          },
+          "committer": {
+            "name": "Ultimaker",
+            "username": "Ultimaker"
+          },
+          "id": "4b9f8cb7c66b6831fbb2985d0110e4db042934eb",
+          "message": "CURA-12446 top bottom wall count v3",
+          "timestamp": "2026-06-01T08:55:36Z",
+          "url": "https://github.com/Ultimaker/CuraEngine/pull/2334/commits/4b9f8cb7c66b6831fbb2985d0110e4db042934eb"
+        },
+        "date": 1780318381583,
         "tool": "customSmallerIsBetter",
         "benches": [
           {
