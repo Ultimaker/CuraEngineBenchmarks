@@ -1,40 +1,8 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1780318389493,
+  "lastUpdate": 1780320286632,
   "repoUrl": "https://github.com/Ultimaker/CuraEngine",
   "entries": {
     "Stress Benchmark": [
-      {
-        "commit": {
-          "author": {
-            "name": "Ultimaker",
-            "username": "Ultimaker"
-          },
-          "committer": {
-            "name": "Ultimaker",
-            "username": "Ultimaker"
-          },
-          "id": "217b05ca384531e1fee59e2cae406b558e9dfdda",
-          "message": "[CURA-12831] Fix scarf / overhang angle interaction.",
-          "timestamp": "2026-01-19T09:35:12Z",
-          "url": "https://github.com/Ultimaker/CuraEngine/pull/2273/commits/217b05ca384531e1fee59e2cae406b558e9dfdda"
-        },
-        "date": 1768817684679,
-        "tool": "customSmallerIsBetter",
-        "benches": [
-          {
-            "name": "Number of test cases",
-            "value": 61,
-            "unit": "-",
-            "extra": ""
-          },
-          {
-            "name": "General Stress Level",
-            "value": 0,
-            "unit": "%",
-            "extra": "Crashes in: "
-          }
-        ]
-      },
       {
         "commit": {
           "author": {
@@ -8039,6 +8007,38 @@ window.BENCHMARK_DATA = {
           "url": "https://github.com/Ultimaker/CuraEngine/pull/2334/commits/4b9f8cb7c66b6831fbb2985d0110e4db042934eb"
         },
         "date": 1780318381583,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "Number of test cases",
+            "value": 61,
+            "unit": "-",
+            "extra": ""
+          },
+          {
+            "name": "General Stress Level",
+            "value": 0,
+            "unit": "%",
+            "extra": "Crashes in: "
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "Ultimaker",
+            "username": "Ultimaker"
+          },
+          "committer": {
+            "name": "Ultimaker",
+            "username": "Ultimaker"
+          },
+          "id": "84b2b6b438f89e25b0097b8a8d3917f306657638",
+          "message": "CURA-12446 top bottom wall count v3",
+          "timestamp": "2026-06-01T08:55:36Z",
+          "url": "https://github.com/Ultimaker/CuraEngine/pull/2334/commits/84b2b6b438f89e25b0097b8a8d3917f306657638"
+        },
+        "date": 1780320277788,
         "tool": "customSmallerIsBetter",
         "benches": [
           {
