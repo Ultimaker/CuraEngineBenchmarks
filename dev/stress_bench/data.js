@@ -1,40 +1,8 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1780391421920,
+  "lastUpdate": 1780493400632,
   "repoUrl": "https://github.com/Ultimaker/CuraEngine",
   "entries": {
     "Stress Benchmark": [
-      {
-        "commit": {
-          "author": {
-            "name": "Ultimaker",
-            "username": "Ultimaker"
-          },
-          "committer": {
-            "name": "Ultimaker",
-            "username": "Ultimaker"
-          },
-          "id": "552b24494d53f4a9c305060ff9a75b1de02aeb34",
-          "message": "CURA-12894 honeycomb infill",
-          "timestamp": "2026-01-19T10:15:38Z",
-          "url": "https://github.com/Ultimaker/CuraEngine/pull/2272/commits/552b24494d53f4a9c305060ff9a75b1de02aeb34"
-        },
-        "date": 1768902909554,
-        "tool": "customSmallerIsBetter",
-        "benches": [
-          {
-            "name": "Number of test cases",
-            "value": 61,
-            "unit": "-",
-            "extra": ""
-          },
-          {
-            "name": "General Stress Level",
-            "value": 0,
-            "unit": "%",
-            "extra": "Crashes in: "
-          }
-        ]
-      },
       {
         "commit": {
           "author": {
@@ -8035,6 +8003,38 @@ window.BENCHMARK_DATA = {
           "url": "https://github.com/Ultimaker/CuraEngine/pull/2334/commits/728444d0d05d28cc75a751b1786ac4213aac639c"
         },
         "date": 1780391414523,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "Number of test cases",
+            "value": 61,
+            "unit": "-",
+            "extra": ""
+          },
+          {
+            "name": "General Stress Level",
+            "value": 0,
+            "unit": "%",
+            "extra": "Crashes in: "
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "Ultimaker",
+            "username": "Ultimaker"
+          },
+          "committer": {
+            "name": "Ultimaker",
+            "username": "Ultimaker"
+          },
+          "id": "871c0dbe97ed80b4a59c298f3211d5d245fcfa8a",
+          "message": "[CURA-12580, CURA-13056] (Show possible) support placement (painting).",
+          "timestamp": "2026-06-03T11:48:49Z",
+          "url": "https://github.com/Ultimaker/CuraEngine/pull/2337/commits/871c0dbe97ed80b4a59c298f3211d5d245fcfa8a"
+        },
+        "date": 1780493393271,
         "tool": "customSmallerIsBetter",
         "benches": [
           {
