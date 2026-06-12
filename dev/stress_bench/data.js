@@ -1,40 +1,8 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1780559020480,
+  "lastUpdate": 1781252846050,
   "repoUrl": "https://github.com/Ultimaker/CuraEngine",
   "entries": {
     "Stress Benchmark": [
-      {
-        "commit": {
-          "author": {
-            "name": "Ultimaker",
-            "username": "Ultimaker"
-          },
-          "committer": {
-            "name": "Ultimaker",
-            "username": "Ultimaker"
-          },
-          "id": "952149ae3b8e8cd6564f1e78146405a4e7637fb1",
-          "message": "CURA-12894 honeycomb infill",
-          "timestamp": "2026-01-19T10:15:38Z",
-          "url": "https://github.com/Ultimaker/CuraEngine/pull/2272/commits/952149ae3b8e8cd6564f1e78146405a4e7637fb1"
-        },
-        "date": 1768906480981,
-        "tool": "customSmallerIsBetter",
-        "benches": [
-          {
-            "name": "Number of test cases",
-            "value": 61,
-            "unit": "-",
-            "extra": ""
-          },
-          {
-            "name": "General Stress Level",
-            "value": 0,
-            "unit": "%",
-            "extra": "Crashes in: "
-          }
-        ]
-      },
       {
         "commit": {
           "author": {
@@ -8035,6 +8003,38 @@ window.BENCHMARK_DATA = {
           "url": "https://github.com/Ultimaker/CuraEngine/pull/2337/commits/a3db3c48dc31ace51ad4e51bdf2d3a36ae50cd72"
         },
         "date": 1780559006089,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "Number of test cases",
+            "value": 61,
+            "unit": "-",
+            "extra": ""
+          },
+          {
+            "name": "General Stress Level",
+            "value": 0,
+            "unit": "%",
+            "extra": "Crashes in: "
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "Ultimaker",
+            "username": "Ultimaker"
+          },
+          "committer": {
+            "name": "Ultimaker",
+            "username": "Ultimaker"
+          },
+          "id": "61126e612e9be21080fc18df5bf4f59a9b7d3fb9",
+          "message": "fix: Temperature preheat command fires at correct time within long co…",
+          "timestamp": "2026-06-08T07:35:21Z",
+          "url": "https://github.com/Ultimaker/CuraEngine/pull/2328/commits/61126e612e9be21080fc18df5bf4f59a9b7d3fb9"
+        },
+        "date": 1781252838672,
         "tool": "customSmallerIsBetter",
         "benches": [
           {
