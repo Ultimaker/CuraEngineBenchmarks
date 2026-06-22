@@ -1,44 +1,8 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1781604841307,
+  "lastUpdate": 1782129885347,
   "repoUrl": "https://github.com/Ultimaker/CuraEngine",
   "entries": {
     "Stress Benchmark": [
-      {
-        "commit": {
-          "author": {
-            "email": "r.burema@ultimaker.com",
-            "name": "Remco Burema",
-            "username": "rburema"
-          },
-          "committer": {
-            "email": "r.burema@ultimaker.com",
-            "name": "Remco Burema",
-            "username": "rburema"
-          },
-          "distinct": true,
-          "id": "3496cf47c24e98544f63934ca920fae70e00bdab",
-          "message": "Add missing include (MSVC).",
-          "timestamp": "2026-01-27T13:27:57+01:00",
-          "tree_id": "4fc5ff2e1057de5ab9df33d8a903d53dc2a06dbc",
-          "url": "https://github.com/Ultimaker/CuraEngine/commit/3496cf47c24e98544f63934ca920fae70e00bdab"
-        },
-        "date": 1769518388417,
-        "tool": "customSmallerIsBetter",
-        "benches": [
-          {
-            "name": "Number of test cases",
-            "value": 61,
-            "unit": "-",
-            "extra": ""
-          },
-          {
-            "name": "General Stress Level",
-            "value": 0,
-            "unit": "%",
-            "extra": "Crashes in: "
-          }
-        ]
-      },
       {
         "commit": {
           "author": {
@@ -8035,6 +7999,38 @@ window.BENCHMARK_DATA = {
           "url": "https://github.com/Ultimaker/CuraEngine/pull/2338/commits/351fec00407cbcdd6f1a5cd7204b9ec80cb34c77"
         },
         "date": 1781604833784,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "Number of test cases",
+            "value": 61,
+            "unit": "-",
+            "extra": ""
+          },
+          {
+            "name": "General Stress Level",
+            "value": 0,
+            "unit": "%",
+            "extra": "Crashes in: "
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "Ultimaker",
+            "username": "Ultimaker"
+          },
+          "committer": {
+            "name": "Ultimaker",
+            "username": "Ultimaker"
+          },
+          "id": "47a67d50b7bec8a2df7d8f40d1713b9b75474caa",
+          "message": "Disable tbbproxy (not available on ARM64 platforms)",
+          "timestamp": "2026-06-22T06:11:40Z",
+          "url": "https://github.com/Ultimaker/CuraEngine/pull/2264/commits/47a67d50b7bec8a2df7d8f40d1713b9b75474caa"
+        },
+        "date": 1782129877260,
         "tool": "customSmallerIsBetter",
         "benches": [
           {
