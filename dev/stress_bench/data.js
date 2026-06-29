@@ -1,40 +1,8 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1782738792015,
+  "lastUpdate": 1782739190953,
   "repoUrl": "https://github.com/Ultimaker/CuraEngine",
   "entries": {
     "Stress Benchmark": [
-      {
-        "commit": {
-          "author": {
-            "name": "Ultimaker",
-            "username": "Ultimaker"
-          },
-          "committer": {
-            "name": "Ultimaker",
-            "username": "Ultimaker"
-          },
-          "id": "78f56dd834bbc5c570f6d9690e94990c7975e7a7",
-          "message": "CURA-12894 honeycomb infill",
-          "timestamp": "2026-01-27T12:28:08Z",
-          "url": "https://github.com/Ultimaker/CuraEngine/pull/2272/commits/78f56dd834bbc5c570f6d9690e94990c7975e7a7"
-        },
-        "date": 1769526548293,
-        "tool": "customSmallerIsBetter",
-        "benches": [
-          {
-            "name": "Number of test cases",
-            "value": 61,
-            "unit": "-",
-            "extra": ""
-          },
-          {
-            "name": "General Stress Level",
-            "value": 0,
-            "unit": "%",
-            "extra": "Crashes in: "
-          }
-        ]
-      },
       {
         "commit": {
           "author": {
@@ -8031,6 +7999,38 @@ window.BENCHMARK_DATA = {
           "url": "https://github.com/Ultimaker/CuraEngine/pull/2342/commits/5a278e34dd5f602af35a1029e772289cf422d44e"
         },
         "date": 1782738784183,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "Number of test cases",
+            "value": 61,
+            "unit": "-",
+            "extra": ""
+          },
+          {
+            "name": "General Stress Level",
+            "value": 0,
+            "unit": "%",
+            "extra": "Crashes in: "
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "Ultimaker",
+            "username": "Ultimaker"
+          },
+          "committer": {
+            "name": "Ultimaker",
+            "username": "Ultimaker"
+          },
+          "id": "f40d2253ef3e43dda14146fceb10e98d72d0caaf",
+          "message": "[CURA-13249] Move generator comment to file header to fix post-processing script ordering",
+          "timestamp": "2026-06-26T16:04:20Z",
+          "url": "https://github.com/Ultimaker/CuraEngine/pull/2343/commits/f40d2253ef3e43dda14146fceb10e98d72d0caaf"
+        },
+        "date": 1782739183527,
         "tool": "customSmallerIsBetter",
         "benches": [
           {
