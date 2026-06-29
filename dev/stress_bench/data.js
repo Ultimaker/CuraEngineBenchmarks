@@ -1,40 +1,8 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1782129885347,
+  "lastUpdate": 1782738792015,
   "repoUrl": "https://github.com/Ultimaker/CuraEngine",
   "entries": {
     "Stress Benchmark": [
-      {
-        "commit": {
-          "author": {
-            "name": "Ultimaker",
-            "username": "Ultimaker"
-          },
-          "committer": {
-            "name": "Ultimaker",
-            "username": "Ultimaker"
-          },
-          "id": "6858d63b248f38ade2ee95e619f80394ff674c68",
-          "message": "Add filesystem header to MeshGroup.cpp",
-          "timestamp": "2026-01-27T12:28:08Z",
-          "url": "https://github.com/Ultimaker/CuraEngine/pull/2275/commits/6858d63b248f38ade2ee95e619f80394ff674c68"
-        },
-        "date": 1769520215340,
-        "tool": "customSmallerIsBetter",
-        "benches": [
-          {
-            "name": "Number of test cases",
-            "value": 61,
-            "unit": "-",
-            "extra": ""
-          },
-          {
-            "name": "General Stress Level",
-            "value": 0,
-            "unit": "%",
-            "extra": "Crashes in: "
-          }
-        ]
-      },
       {
         "commit": {
           "author": {
@@ -8031,6 +7999,38 @@ window.BENCHMARK_DATA = {
           "url": "https://github.com/Ultimaker/CuraEngine/pull/2264/commits/47a67d50b7bec8a2df7d8f40d1713b9b75474caa"
         },
         "date": 1782129877260,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "Number of test cases",
+            "value": 61,
+            "unit": "-",
+            "extra": ""
+          },
+          {
+            "name": "General Stress Level",
+            "value": 0,
+            "unit": "%",
+            "extra": "Crashes in: "
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "Ultimaker",
+            "username": "Ultimaker"
+          },
+          "committer": {
+            "name": "Ultimaker",
+            "username": "Ultimaker"
+          },
+          "id": "5a278e34dd5f602af35a1029e772289cf422d44e",
+          "message": "Fix quoted extruder capture in template regex",
+          "timestamp": "2026-06-26T16:04:20Z",
+          "url": "https://github.com/Ultimaker/CuraEngine/pull/2342/commits/5a278e34dd5f602af35a1029e772289cf422d44e"
+        },
+        "date": 1782738784183,
         "tool": "customSmallerIsBetter",
         "benches": [
           {
