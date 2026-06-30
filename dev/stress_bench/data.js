@@ -1,44 +1,8 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1782739190953,
+  "lastUpdate": 1782813731581,
   "repoUrl": "https://github.com/Ultimaker/CuraEngine",
   "entries": {
     "Stress Benchmark": [
-      {
-        "commit": {
-          "author": {
-            "email": "alireza.doustdar@gmail.com",
-            "name": "HellAholic",
-            "username": "HellAholic"
-          },
-          "committer": {
-            "email": "noreply@github.com",
-            "name": "GitHub",
-            "username": "web-flow"
-          },
-          "distinct": true,
-          "id": "4f838cd0820743afcac508c992784f89b748ae1b",
-          "message": "CURA-12894 honeycomb infill (#2272)",
-          "timestamp": "2026-01-27T16:13:54+01:00",
-          "tree_id": "7dee13f9fa8f467fc3f07ff1a9881cb7b1410c8f",
-          "url": "https://github.com/Ultimaker/CuraEngine/commit/4f838cd0820743afcac508c992784f89b748ae1b"
-        },
-        "date": 1769528285322,
-        "tool": "customSmallerIsBetter",
-        "benches": [
-          {
-            "name": "Number of test cases",
-            "value": 61,
-            "unit": "-",
-            "extra": ""
-          },
-          {
-            "name": "General Stress Level",
-            "value": 0,
-            "unit": "%",
-            "extra": "Crashes in: "
-          }
-        ]
-      },
       {
         "commit": {
           "author": {
@@ -8031,6 +7995,38 @@ window.BENCHMARK_DATA = {
           "url": "https://github.com/Ultimaker/CuraEngine/pull/2343/commits/f40d2253ef3e43dda14146fceb10e98d72d0caaf"
         },
         "date": 1782739183527,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "Number of test cases",
+            "value": 61,
+            "unit": "-",
+            "extra": ""
+          },
+          {
+            "name": "General Stress Level",
+            "value": 0,
+            "unit": "%",
+            "extra": "Crashes in: "
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "Ultimaker",
+            "username": "Ultimaker"
+          },
+          "committer": {
+            "name": "Ultimaker",
+            "username": "Ultimaker"
+          },
+          "id": "17a7a361a228e566c888d19d9a073b755c52539e",
+          "message": "[CURA-13125] Respect cool_fan_enabled for fan overrides",
+          "timestamp": "2026-06-26T16:04:20Z",
+          "url": "https://github.com/Ultimaker/CuraEngine/pull/2344/commits/17a7a361a228e566c888d19d9a073b755c52539e"
+        },
+        "date": 1782813724495,
         "tool": "customSmallerIsBetter",
         "benches": [
           {
