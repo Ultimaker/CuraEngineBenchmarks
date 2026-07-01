@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1782901222774,
+  "lastUpdate": 1782905956670,
   "repoUrl": "https://github.com/Ultimaker/GCodeInsight",
   "entries": {
     "GCodeAnalyzer UMS5_painted_cube": [
@@ -459,6 +459,98 @@ window.BENCHMARK_DATA = {
           {
             "name": "Slicing time UMS5_painted_cube.gcode",
             "value": 0,
+            "unit": "s"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "wawanbreton",
+            "username": "wawanbreton",
+            "email": "601114+wawanbreton@users.noreply.github.com"
+          },
+          "committer": {
+            "name": "github-actions[bot]",
+            "username": "github-actions[bot]",
+            "email": "41898282+github-actions[bot]@users.noreply.github.com"
+          },
+          "id": "ae1e42ab8261742cd807f527568df82a4561e469",
+          "message": "Run benchmark",
+          "timestamp": "2026-07-01T11:38:27Z",
+          "url": "https://github.com/Ultimaker/GCodeInsight/commit/ae1e42ab8261742cd807f527568df82a4561e469"
+        },
+        "date": 1782905942423,
+        "tool": "customBiggerIsBetter",
+        "benches": [
+          {
+            "name": "Print time UMS5_painted_cube.gcode",
+            "value": 3318.658804639165,
+            "unit": "s"
+          },
+          {
+            "name": "Microsegment violations in wall-skin UMS5_painted_cube.gcode",
+            "value": 6118,
+            "unit": "-"
+          },
+          {
+            "name": "Microsegment violations in infill UMS5_painted_cube.gcode",
+            "value": 124,
+            "unit": "-"
+          },
+          {
+            "name": "Number of retractions UMS5_painted_cube.gcode",
+            "value": 808,
+            "unit": "-"
+          },
+          {
+            "name": "Total travel length UMS5_painted_cube.gcode",
+            "value": 56860.354471292216,
+            "unit": "mm"
+          },
+          {
+            "name": "Minimum Line Length UMS5_painted_cube.gcode",
+            "value": 0.0009999999999763531,
+            "unit": "mm"
+          },
+          {
+            "name": "Line Lengths 25 Percentile UMS5_painted_cube.gcode",
+            "value": 0.398006595413456,
+            "unit": "mm"
+          },
+          {
+            "name": "Minimum All Distances UMS5_painted_cube.gcode",
+            "value": 0.0010000000000047748,
+            "unit": "mm"
+          },
+          {
+            "name": "All Distances 25 Percentile UMS5_painted_cube.gcode",
+            "value": 0.4773017913228465,
+            "unit": "mm"
+          },
+          {
+            "name": "Extrusion-Axis UMS5_painted_cube.gcode",
+            "value": 0.03332,
+            "unit": "mm"
+          },
+          {
+            "name": "Extrusion Lengths 25 Percentile UMS5_painted_cube.gcode",
+            "value": 19.129965000000002,
+            "unit": "mm"
+          },
+          {
+            "name": "Number Of Temperature Commands UMS5_painted_cube.gcode",
+            "value": 59542,
+            "unit": "#"
+          },
+          {
+            "name": "Mean Temperature UMS5_painted_cube.gcode",
+            "value": 205,
+            "unit": "Celcius"
+          },
+          {
+            "name": "Slicing time UMS5_painted_cube.gcode",
+            "value": 0.358,
             "unit": "s"
           }
         ]
