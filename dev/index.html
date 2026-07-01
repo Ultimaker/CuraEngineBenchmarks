@@ -51,11 +51,43 @@
   </head>
   <body>
     <h1>CuraEngine Benchmarks</h1>
-    <ul>
-      <li><a href="bench/">Benchmarks</a></li>
-      <li><a href="gcodeanalyzer/">GCode Analyzer</a></li>
-      <li><a href="profiles_bench/">Profiles Benchmarks</a></li>
-      <li><a href="stress_bench/">Stress Benchmarks</a></li>
-    </ul>
+    <ul id="list"></ul>
+
+    <script>
+      'use strict';
+      (function () {
+        var list = document.getElementById('list');
+
+        function render(folders) {
+          list.innerHTML = '';
+          if (folders.length === 0) {
+            var li = document.createElement('li');
+            li.textContent = 'No benchmarks found.';
+            list.appendChild(li);
+            return;
+          }
+          folders.forEach(function (name) {
+            var li = document.createElement('li');
+            var a = document.createElement('a');
+            a.href = name + '/';
+            a.textContent = name;
+            li.appendChild(a);
+            list.appendChild(li);
+          });
+        }
+
+        fetch('https://api.github.com/repos/Ultimaker/CuraEngineBenchmarks/contents/dev?ref=main')
+          .then(function (r) { return r.json(); })
+          .then(function (items) {
+            var dirs = items
+              .filter(function (item) { return item.type === 'dir'; })
+              .map(function (item) { return item.name; });
+            render(dirs);
+          })
+          .catch(function () {
+            list.innerHTML = '<li>Failed to load benchmark list.</li>';
+          });
+      })();
+    </script>
   </body>
 </html>
