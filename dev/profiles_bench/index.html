@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, minimum-scale=1.0, initial-scale=1, user-scalable=yes" />
+    <style>
+      html {
+        font-family: BlinkMacSystemFont,-apple-system,"Segoe UI",Roboto,Oxygen,Ubuntu,Cantarell,"Fira Sans","Droid Sans","Helvetica Neue",Helvetica,Arial,sans-serif;
+        -webkit-font-smoothing: antialiased;
+        background-color: #fff;
+        font-size: 16px;
+      }
+      body {
+        color: #4a4a4a;
+        margin: 8px;
+        font-size: 1em;
+        font-weight: 400;
+      }
+      h1 {
+        text-align: center;
+        font-size: 2.5rem;
+        font-weight: 600;
+        margin: 32px 0 24px;
+      }
+      .back {
+        display: inline-block;
+        margin-bottom: 16px;
+        color: #3273dc;
+        text-decoration: none;
+        font-size: 0.95rem;
+      }
+      .back:hover {
+        color: #000;
+      }
+      ul {
+        list-style: none;
+        padding: 0;
+        margin: 0 auto;
+        max-width: 480px;
+      }
+      li {
+        margin: 12px 0;
+      }
+      a.entry {
+        display: block;
+        padding: 14px 20px;
+        background-color: #f5f5f5;
+        border: 1px solid #dbdbdb;
+        border-radius: 4px;
+        color: #3273dc;
+        text-decoration: none;
+        font-size: 1.1rem;
+      }
+      a.entry:hover {
+        background-color: #eef3fb;
+        border-color: #3273dc;
+        color: #000;
+      }
+    </style>
+    <title>Profiles Benchmarks</title>
+  </head>
+  <body>
+    <a class="back" href="../">&larr; Back to all benchmarks</a>
+    <h1>Profiles Benchmarks</h1>
+    <ul id="list"></ul>
+
+    <script src="subfolders.js"></script>
+    <script>
+      'use strict';
+      (function () {
+        var list = document.getElementById('list');
+        var folders = window.PROFILES_BENCH_SUBFOLDERS || [];
+        folders.forEach(function (name) {
+          var li = document.createElement('li');
+          var a = document.createElement('a');
+          a.className = 'entry';
+          a.href = name + '/';
+          a.textContent = name;
+          li.appendChild(a);
+          list.appendChild(li);
+        });
+        if (folders.length === 0) {
+          var li = document.createElement('li');
+          li.textContent = 'No profiles available yet.';
+          list.appendChild(li);
+        }
+      })();
+    </script>
+  </body>
+</html>
