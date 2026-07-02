@@ -1,40 +1,8 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1782813731581,
+  "lastUpdate": 1783004962211,
   "repoUrl": "https://github.com/Ultimaker/CuraEngine",
   "entries": {
     "Stress Benchmark": [
-      {
-        "commit": {
-          "author": {
-            "name": "Ultimaker",
-            "username": "Ultimaker"
-          },
-          "committer": {
-            "name": "Ultimaker",
-            "username": "Ultimaker"
-          },
-          "id": "a196cbc9ff19c197458a3286bb30e3574d7888ab",
-          "message": "[CURA-12917] Add a setting to continue bridging over support.",
-          "timestamp": "2026-01-27T15:18:26Z",
-          "url": "https://github.com/Ultimaker/CuraEngine/pull/2276/commits/a196cbc9ff19c197458a3286bb30e3574d7888ab"
-        },
-        "date": 1769595281725,
-        "tool": "customSmallerIsBetter",
-        "benches": [
-          {
-            "name": "Number of test cases",
-            "value": 61,
-            "unit": "-",
-            "extra": ""
-          },
-          {
-            "name": "General Stress Level",
-            "value": 0,
-            "unit": "%",
-            "extra": "Crashes in: "
-          }
-        ]
-      },
       {
         "commit": {
           "author": {
@@ -8027,6 +7995,38 @@ window.BENCHMARK_DATA = {
           "url": "https://github.com/Ultimaker/CuraEngine/pull/2344/commits/17a7a361a228e566c888d19d9a073b755c52539e"
         },
         "date": 1782813724495,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "Number of test cases",
+            "value": 61,
+            "unit": "-",
+            "extra": ""
+          },
+          {
+            "name": "General Stress Level",
+            "value": 0,
+            "unit": "%",
+            "extra": "Crashes in: "
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "Ultimaker",
+            "username": "Ultimaker"
+          },
+          "committer": {
+            "name": "Ultimaker",
+            "username": "Ultimaker"
+          },
+          "id": "3e6809df645df10b770d16aaede6bb8eb283aafc",
+          "message": "CURA-13226 Engine adjustments for benchmark tooling",
+          "timestamp": "2026-07-01T14:05:39Z",
+          "url": "https://github.com/Ultimaker/CuraEngine/pull/2345/commits/3e6809df645df10b770d16aaede6bb8eb283aafc"
+        },
+        "date": 1783004954697,
         "tool": "customSmallerIsBetter",
         "benches": [
           {
