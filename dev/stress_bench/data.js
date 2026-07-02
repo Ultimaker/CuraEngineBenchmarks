@@ -1,44 +1,8 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1783004962211,
+  "lastUpdate": 1783005105936,
   "repoUrl": "https://github.com/Ultimaker/CuraEngine",
   "entries": {
     "Stress Benchmark": [
-      {
-        "commit": {
-          "author": {
-            "email": "r.burema@ultimaker.com",
-            "name": "Remco Burema",
-            "username": "rburema"
-          },
-          "committer": {
-            "email": "r.burema@ultimaker.com",
-            "name": "Remco Burema",
-            "username": "rburema"
-          },
-          "distinct": true,
-          "id": "f79d7d4dea126c6a8b7237384cd49e6676fdca93",
-          "message": "Fix analyzer (CI/CD step).\n\npart of CURA-12935",
-          "timestamp": "2026-01-29T12:19:10+01:00",
-          "tree_id": "1a511d11113096cb7ab70f28da70bec758c5e062",
-          "url": "https://github.com/Ultimaker/CuraEngine/commit/f79d7d4dea126c6a8b7237384cd49e6676fdca93"
-        },
-        "date": 1769687071200,
-        "tool": "customSmallerIsBetter",
-        "benches": [
-          {
-            "name": "Number of test cases",
-            "value": 61,
-            "unit": "-",
-            "extra": ""
-          },
-          {
-            "name": "General Stress Level",
-            "value": 0,
-            "unit": "%",
-            "extra": "Crashes in: "
-          }
-        ]
-      },
       {
         "commit": {
           "author": {
@@ -8027,6 +7991,38 @@ window.BENCHMARK_DATA = {
           "url": "https://github.com/Ultimaker/CuraEngine/pull/2345/commits/3e6809df645df10b770d16aaede6bb8eb283aafc"
         },
         "date": 1783004954697,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "Number of test cases",
+            "value": 61,
+            "unit": "-",
+            "extra": ""
+          },
+          {
+            "name": "General Stress Level",
+            "value": 0,
+            "unit": "%",
+            "extra": "Crashes in: "
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "Ultimaker",
+            "username": "Ultimaker"
+          },
+          "committer": {
+            "name": "Ultimaker",
+            "username": "Ultimaker"
+          },
+          "id": "4d5fb16ae7ac0d49ec0a6475d37db551adca739d",
+          "message": "CURA-13226 Engine adjustments for benchmark tooling",
+          "timestamp": "2026-07-01T14:05:39Z",
+          "url": "https://github.com/Ultimaker/CuraEngine/pull/2345/commits/4d5fb16ae7ac0d49ec0a6475d37db551adca739d"
+        },
+        "date": 1783005096542,
         "tool": "customSmallerIsBetter",
         "benches": [
           {
