@@ -1,40 +1,8 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1783065108039,
+  "lastUpdate": 1783069842230,
   "repoUrl": "https://github.com/Ultimaker/CuraEngine",
   "entries": {
     "Stress Benchmark": [
-      {
-        "commit": {
-          "author": {
-            "name": "Ultimaker",
-            "username": "Ultimaker"
-          },
-          "committer": {
-            "name": "Ultimaker",
-            "username": "Ultimaker"
-          },
-          "id": "585539f4394497a31e6787e18043ee90b3e31170",
-          "message": "CURA-10381 Start or end infill close to seam",
-          "timestamp": "2026-01-29T11:19:25Z",
-          "url": "https://github.com/Ultimaker/CuraEngine/pull/2279/commits/585539f4394497a31e6787e18043ee90b3e31170"
-        },
-        "date": 1769782437479,
-        "tool": "customSmallerIsBetter",
-        "benches": [
-          {
-            "name": "Number of test cases",
-            "value": 61,
-            "unit": "-",
-            "extra": ""
-          },
-          {
-            "name": "General Stress Level",
-            "value": 0,
-            "unit": "%",
-            "extra": "Crashes in: "
-          }
-        ]
-      },
       {
         "commit": {
           "author": {
@@ -8023,6 +7991,38 @@ window.BENCHMARK_DATA = {
           "url": "https://github.com/Ultimaker/CuraEngine/pull/2342/commits/fbd74988e3c5e5f6d4d4df0305124e24270dd03b"
         },
         "date": 1783065099920,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "Number of test cases",
+            "value": 61,
+            "unit": "-",
+            "extra": ""
+          },
+          {
+            "name": "General Stress Level",
+            "value": 0,
+            "unit": "%",
+            "extra": "Crashes in: "
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "Ultimaker",
+            "username": "Ultimaker"
+          },
+          "committer": {
+            "name": "Ultimaker",
+            "username": "Ultimaker"
+          },
+          "id": "d45dcfc8a659d715ed7b058be8627bb66d7e2f02",
+          "message": "[CURA-13248] Fix quoted extruder capture in template regex",
+          "timestamp": "2026-07-01T14:05:39Z",
+          "url": "https://github.com/Ultimaker/CuraEngine/pull/2342/commits/d45dcfc8a659d715ed7b058be8627bb66d7e2f02"
+        },
+        "date": 1783069834692,
         "tool": "customSmallerIsBetter",
         "benches": [
           {
