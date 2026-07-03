@@ -1,40 +1,8 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1783070069093,
+  "lastUpdate": 1783077718393,
   "repoUrl": "https://github.com/Ultimaker/CuraEngine",
   "entries": {
     "Stress Benchmark": [
-      {
-        "commit": {
-          "author": {
-            "name": "Ultimaker",
-            "username": "Ultimaker"
-          },
-          "committer": {
-            "name": "Ultimaker",
-            "username": "Ultimaker"
-          },
-          "id": "1a04b3cb8710772d2d58c6e2a237122740fe6ad6",
-          "message": "Apply roofing expansion only for wide roofing areas",
-          "timestamp": "2026-01-29T11:19:25Z",
-          "url": "https://github.com/Ultimaker/CuraEngine/pull/2278/commits/1a04b3cb8710772d2d58c6e2a237122740fe6ad6"
-        },
-        "date": 1769790025982,
-        "tool": "customSmallerIsBetter",
-        "benches": [
-          {
-            "name": "Number of test cases",
-            "value": 61,
-            "unit": "-",
-            "extra": ""
-          },
-          {
-            "name": "General Stress Level",
-            "value": 0,
-            "unit": "%",
-            "extra": "Crashes in: "
-          }
-        ]
-      },
       {
         "commit": {
           "author": {
@@ -8023,6 +7991,38 @@ window.BENCHMARK_DATA = {
           "url": "https://github.com/Ultimaker/CuraEngine/pull/2345/commits/9b7e03688ca6bc7b8b36799554ed0853aac348b9"
         },
         "date": 1783070060573,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "Number of test cases",
+            "value": 61,
+            "unit": "-",
+            "extra": ""
+          },
+          {
+            "name": "General Stress Level",
+            "value": 0,
+            "unit": "%",
+            "extra": "Crashes in: "
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "Ultimaker",
+            "username": "Ultimaker"
+          },
+          "committer": {
+            "name": "Ultimaker",
+            "username": "Ultimaker"
+          },
+          "id": "0d4248121b04ade607e19ffede7508bfa8fc135c",
+          "message": "CURA-13226 Engine adjustments for benchmark tooling",
+          "timestamp": "2026-07-01T14:05:39Z",
+          "url": "https://github.com/Ultimaker/CuraEngine/pull/2345/commits/0d4248121b04ade607e19ffede7508bfa8fc135c"
+        },
+        "date": 1783077709798,
         "tool": "customSmallerIsBetter",
         "benches": [
           {
