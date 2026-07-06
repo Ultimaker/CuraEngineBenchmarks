@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1783322573204,
+  "lastUpdate": 1783325350158,
   "repoUrl": "https://github.com/Ultimaker/GCodeInsight",
   "entries": {
     "GCodeAnalyzer UMMXL_arrow": [
@@ -243,6 +243,43 @@ window.BENCHMARK_DATA = {
           "url": "https://github.com/Ultimaker/GCodeInsight/commit/27446e30a0dd83fb6d8e4117624d641425afbf4e"
         },
         "date": 1783322559843,
+        "tool": "customBiggerIsBetter",
+        "benches": [
+          {
+            "name": "Slicing time",
+            "value": 0.076,
+            "unit": "s"
+          },
+          {
+            "name": "Print time",
+            "value": 5140,
+            "unit": "s"
+          },
+          {
+            "name": "Buffer overflows",
+            "value": 4,
+            "unit": "#"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "wawanbreton",
+            "username": "wawanbreton",
+            "email": "601114+wawanbreton@users.noreply.github.com"
+          },
+          "committer": {
+            "name": "github-actions[bot]",
+            "username": "github-actions[bot]",
+            "email": "41898282+github-actions[bot]@users.noreply.github.com"
+          },
+          "id": "0dd1b625fef3afe1e1b1aa7bb9d21e0cf46d6298",
+          "message": "Run benchmark",
+          "timestamp": "2026-07-06T08:08:39Z",
+          "url": "https://github.com/Ultimaker/GCodeInsight/commit/0dd1b625fef3afe1e1b1aa7bb9d21e0cf46d6298"
+        },
+        "date": 1783325334840,
         "tool": "customBiggerIsBetter",
         "benches": [
           {
