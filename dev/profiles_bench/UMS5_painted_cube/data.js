@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1783330349429,
+  "lastUpdate": 1783341017703,
   "repoUrl": "https://github.com/Ultimaker/GCodeInsight",
   "entries": {
     "GCodeAnalyzer UMS5_painted_cube": [
@@ -369,6 +369,43 @@ window.BENCHMARK_DATA = {
           {
             "name": "Buffer overflows",
             "value": 2385,
+            "unit": "#"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "wawanbreton",
+            "username": "wawanbreton",
+            "email": "601114+wawanbreton@users.noreply.github.com"
+          },
+          "committer": {
+            "name": "github-actions[bot]",
+            "username": "github-actions[bot]",
+            "email": "41898282+github-actions[bot]@users.noreply.github.com"
+          },
+          "id": "0a712c1ad4c0ea117cfdacc967da7340ba59925d",
+          "message": "Run benchmark",
+          "timestamp": "2026-07-06T12:29:12Z",
+          "url": "https://github.com/Ultimaker/GCodeInsight/commit/0a712c1ad4c0ea117cfdacc967da7340ba59925d"
+        },
+        "date": 1783341002664,
+        "tool": "customBiggerIsBetter",
+        "benches": [
+          {
+            "name": "Slicing time",
+            "value": 0.372,
+            "unit": "s"
+          },
+          {
+            "name": "Print time",
+            "value": 3442,
+            "unit": "s"
+          },
+          {
+            "name": "Buffer overflows",
+            "value": 2359,
             "unit": "#"
           }
         ]
