@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1783340976622,
+  "lastUpdate": 1783411415922,
   "repoUrl": "https://github.com/Ultimaker/GCodeInsight",
   "entries": {
     "GCodeAnalyzer UMF4_m7-steering-wheel-stl": [
@@ -221,6 +221,43 @@ window.BENCHMARK_DATA = {
           {
             "name": "Buffer overflows",
             "value": 415352,
+            "unit": "#"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "wawanbreton",
+            "username": "wawanbreton",
+            "email": "601114+wawanbreton@users.noreply.github.com"
+          },
+          "committer": {
+            "name": "github-actions[bot]",
+            "username": "github-actions[bot]",
+            "email": "41898282+github-actions[bot]@users.noreply.github.com"
+          },
+          "id": "7e5b47459d72d9166868aa9cb352f0237ad4949b",
+          "message": "Run benchmark",
+          "timestamp": "2026-07-07T08:03:04Z",
+          "url": "https://github.com/Ultimaker/GCodeInsight/commit/7e5b47459d72d9166868aa9cb352f0237ad4949b"
+        },
+        "date": 1783411398660,
+        "tool": "customBiggerIsBetter",
+        "benches": [
+          {
+            "name": "Slicing time",
+            "value": 358.548,
+            "unit": "s"
+          },
+          {
+            "name": "Print time",
+            "value": 71927,
+            "unit": "s"
+          },
+          {
+            "name": "Buffer overflows",
+            "value": 415231,
             "unit": "#"
           }
         ]
