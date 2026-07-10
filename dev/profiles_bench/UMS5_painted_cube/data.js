@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1783411464713,
+  "lastUpdate": 1783704351835,
   "repoUrl": "https://github.com/Ultimaker/GCodeInsight",
   "entries": {
     "GCodeAnalyzer UMS5_painted_cube": [
@@ -443,6 +443,43 @@ window.BENCHMARK_DATA = {
           {
             "name": "Buffer overflows",
             "value": 2357,
+            "unit": "#"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "Erwan MATHIEU",
+            "username": "wawanbreton",
+            "email": "erwan.mathieu@ultimaker.com"
+          },
+          "committer": {
+            "name": "Erwan MATHIEU",
+            "username": "wawanbreton",
+            "email": "erwan.mathieu@ultimaker.com"
+          },
+          "id": "673d4aa9bbe689e2b9fe9f93e6cc43d8ddbf5778",
+          "message": "Fix gcode path not matching time file\n\nCURA-13226",
+          "timestamp": "2026-07-10T13:43:47Z",
+          "url": "https://github.com/Ultimaker/GCodeInsight/commit/673d4aa9bbe689e2b9fe9f93e6cc43d8ddbf5778"
+        },
+        "date": 1783704337325,
+        "tool": "customBiggerIsBetter",
+        "benches": [
+          {
+            "name": "Slicing time",
+            "value": 0.401,
+            "unit": "s"
+          },
+          {
+            "name": "Print time",
+            "value": 3441,
+            "unit": "s"
+          },
+          {
+            "name": "Buffer overflows",
+            "value": 2346,
             "unit": "#"
           }
         ]
