@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1783411439206,
+  "lastUpdate": 1783704327647,
   "repoUrl": "https://github.com/Ultimaker/GCodeInsight",
   "entries": {
     "GCodeAnalyzer UMMXL_arrow": [
@@ -428,6 +428,43 @@ window.BENCHMARK_DATA = {
           "url": "https://github.com/Ultimaker/GCodeInsight/commit/7e5b47459d72d9166868aa9cb352f0237ad4949b"
         },
         "date": 1783411424812,
+        "tool": "customBiggerIsBetter",
+        "benches": [
+          {
+            "name": "Slicing time",
+            "value": 0.064,
+            "unit": "s"
+          },
+          {
+            "name": "Print time",
+            "value": 5140,
+            "unit": "s"
+          },
+          {
+            "name": "Buffer overflows",
+            "value": 4,
+            "unit": "#"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "Erwan MATHIEU",
+            "username": "wawanbreton",
+            "email": "erwan.mathieu@ultimaker.com"
+          },
+          "committer": {
+            "name": "Erwan MATHIEU",
+            "username": "wawanbreton",
+            "email": "erwan.mathieu@ultimaker.com"
+          },
+          "id": "673d4aa9bbe689e2b9fe9f93e6cc43d8ddbf5778",
+          "message": "Fix gcode path not matching time file\n\nCURA-13226",
+          "timestamp": "2026-07-10T13:43:47Z",
+          "url": "https://github.com/Ultimaker/GCodeInsight/commit/673d4aa9bbe689e2b9fe9f93e6cc43d8ddbf5778"
+        },
+        "date": 1783704312932,
         "tool": "customBiggerIsBetter",
         "benches": [
           {
