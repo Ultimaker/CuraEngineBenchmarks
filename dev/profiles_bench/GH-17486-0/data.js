@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1783700768379,
+  "lastUpdate": 1783931388255,
   "repoUrl": "https://github.com/Ultimaker/GCodeInsight",
   "entries": {
     "GCodeAnalyzer GH-17486-0": [
@@ -36,6 +36,43 @@ window.BENCHMARK_DATA = {
           {
             "name": "Buffer overflows",
             "value": 11212,
+            "unit": "#"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "Erwan MATHIEU",
+            "username": "wawanbreton",
+            "email": "erwan.mathieu@ultimaker.com"
+          },
+          "committer": {
+            "name": "Erwan MATHIEU",
+            "username": "wawanbreton",
+            "email": "erwan.mathieu@ultimaker.com"
+          },
+          "id": "6182450170166657579cd4f3c6b244d275db2cb0",
+          "message": "Properly handle files with spaces in name\n\nCURA-13226",
+          "timestamp": "2026-07-13T06:35:24Z",
+          "url": "https://github.com/Ultimaker/GCodeInsight/commit/6182450170166657579cd4f3c6b244d275db2cb0"
+        },
+        "date": 1783931373839,
+        "tool": "customBiggerIsBetter",
+        "benches": [
+          {
+            "name": "Slicing time",
+            "value": 10.515,
+            "unit": "s"
+          },
+          {
+            "name": "Print time",
+            "value": 0,
+            "unit": "s"
+          },
+          {
+            "name": "Buffer overflows",
+            "value": 11160,
             "unit": "#"
           }
         ]
