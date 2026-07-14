@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1783934852495,
+  "lastUpdate": 1784048112707,
   "repoUrl": "https://github.com/Ultimaker/GCodeInsight",
   "entries": {
     "GCodeAnalyzer UMDLL_TRANSFERT": [
@@ -73,6 +73,43 @@ window.BENCHMARK_DATA = {
           {
             "name": "Buffer overflows",
             "value": 2034850,
+            "unit": "#"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "wawanbreton",
+            "username": "wawanbreton",
+            "email": "601114+wawanbreton@users.noreply.github.com"
+          },
+          "committer": {
+            "name": "github-actions[bot]",
+            "username": "github-actions[bot]",
+            "email": "41898282+github-actions[bot]@users.noreply.github.com"
+          },
+          "id": "48e39a5e71dc9ae17da469cfc0f51fda5b526243",
+          "message": "Run benchmark",
+          "timestamp": "2026-07-14T15:19:24Z",
+          "url": "https://github.com/Ultimaker/GCodeInsight/commit/48e39a5e71dc9ae17da469cfc0f51fda5b526243"
+        },
+        "date": 1784048002851,
+        "tool": "customBiggerIsBetter",
+        "benches": [
+          {
+            "name": "Slicing time",
+            "value": 89.56700000000001,
+            "unit": "s"
+          },
+          {
+            "name": "Print time",
+            "value": 56862,
+            "unit": "s"
+          },
+          {
+            "name": "Buffer overflows",
+            "value": 2034967,
             "unit": "#"
           }
         ]
