@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1784048187148,
+  "lastUpdate": 1784109915496,
   "repoUrl": "https://github.com/Ultimaker/GCodeInsight",
   "entries": {
     "GCodeAnalyzer UMS5_B1_1 Tool holder v2_Grip-Surface_amp0p50": [
@@ -73,6 +73,43 @@ window.BENCHMARK_DATA = {
           {
             "name": "Buffer overflows",
             "value": 240674,
+            "unit": "#"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "wawanbreton",
+            "username": "wawanbreton",
+            "email": "601114+wawanbreton@users.noreply.github.com"
+          },
+          "committer": {
+            "name": "github-actions[bot]",
+            "username": "github-actions[bot]",
+            "email": "41898282+github-actions[bot]@users.noreply.github.com"
+          },
+          "id": "3459cc34e02ed6705a7c2fc5617fe49f76773c2c",
+          "message": "Run benchmark",
+          "timestamp": "2026-07-15T08:31:19Z",
+          "url": "https://github.com/Ultimaker/GCodeInsight/commit/3459cc34e02ed6705a7c2fc5617fe49f76773c2c"
+        },
+        "date": 1784109901248,
+        "tool": "customBiggerIsBetter",
+        "benches": [
+          {
+            "name": "Slicing time",
+            "value": 210.13,
+            "unit": "s"
+          },
+          {
+            "name": "Print time",
+            "value": 22885,
+            "unit": "s"
+          },
+          {
+            "name": "Buffer overflows",
+            "value": 240645,
             "unit": "#"
           }
         ]
