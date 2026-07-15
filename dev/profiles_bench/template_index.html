@@ -92,9 +92,6 @@
         <strong class="header-label">Last Update:</strong>
         <span id="last-update"></span>
       </div>
-      <div class="header-item">
-        <strong class="header-label">Repository:</strong>
-      </div>
     </header>
     <main id="main"></main>
     <footer>
@@ -207,8 +204,7 @@
               tooltips: {
                 callbacks: {
                   afterTitle: items => {
-                    const {index} = items[0];
-                    return '\n' + dataset[index].timestamp + '\n';
+                    return '';
                   },
                   label: item => {
                     let label = item.value;
