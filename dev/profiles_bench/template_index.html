@@ -94,14 +94,12 @@
       </div>
       <div class="header-item">
         <strong class="header-label">Repository:</strong>
-        <a id="repository-link" rel="noopener"></a>
       </div>
     </header>
     <main id="main"></main>
     <footer>
       <button id="dl-button">Download data as JSON</button>
       <div class="spacer"></div>
-      <div class="small">Powered by <a rel="noopener" href="https://github.com/marketplace/actions/continuous-benchmark">github-action-benchmark</a></div>
     </footer>
 
     <script src="https://cdn.jsdelivr.net/npm/chart.js@2.9.2/dist/Chart.min.js"></script>
@@ -130,9 +128,9 @@
           function collectBenchesPerTestCase(entries) {
             const map = new Map();
             for (const entry of entries) {
-              const {commit, date, tool, benches} = entry;
+              const {timestamp, benches} = entry;
               for (const bench of benches) {
-                const result = { commit, date, tool, bench };
+                const result = { timestamp, bench };
                 const arr = map.get(bench.name);
                 if (arr === undefined) {
                   map.set(bench.name, [result]);
@@ -148,9 +146,6 @@
 
           // Render header
           document.getElementById('last-update').textContent = new Date(data.lastUpdate).toString();
-          const repoLink = document.getElementById('repository-link');
-          repoLink.href = data.repoUrl;
-          repoLink.textContent = data.repoUrl;
 
           // Render footer
           document.getElementById('dl-button').onclick = () => {
@@ -177,7 +172,7 @@
 
             const color = toolColors[dataset.length > 0 ? dataset[0].tool : '_'];
             const data = {
-              labels: dataset.map(d => d.commit.id.slice(0, 7)),
+              labels: dataset.map(d => d.timestamp),
               datasets: [
                 {
                   label: name,
@@ -193,7 +188,7 @@
                   {
                     scaleLabel: {
                       display: true,
-                      labelString: 'commit',
+                      labelString: 'timestamp',
                     },
                   }
                 ],
@@ -213,8 +208,7 @@
                 callbacks: {
                   afterTitle: items => {
                     const {index} = items[0];
-                    const data = dataset[index];
-                    return '\n' + data.commit.message + '\n\n' + data.commit.timestamp + ' committed by @' + data.commit.committer.username + '\n';
+                    return '\n' + dataset[index].timestamp '\n';
                   },
                   label: item => {
                     let label = item.value;
@@ -230,15 +224,6 @@
                     return extra ? '\n' + extra : '';
                   }
                 }
-              },
-              onClick: (_mouseEvent, activeElems) => {
-                if (activeElems.length === 0) {
-                  return;
-                }
-                // XXX: Undocumented. How can we know the index?
-                const index = activeElems[0]._index;
-                const url = dataset[index].commit.url;
-                window.open(url, '_blank');
               },
             };
 
