@@ -1,40 +1,8 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1784203535232,
+  "lastUpdate": 1784209476512,
   "repoUrl": "https://github.com/Ultimaker/CuraEngine",
   "entries": {
     "Stress Benchmark": [
-      {
-        "commit": {
-          "author": {
-            "name": "Ultimaker",
-            "username": "Ultimaker"
-          },
-          "committer": {
-            "name": "Ultimaker",
-            "username": "Ultimaker"
-          },
-          "id": "c0662e1bab537d2bc3a3af69cc650e05c262a440",
-          "message": "CURA-11242 Apply flow change based on Z offset",
-          "timestamp": "2026-02-09T02:30:32Z",
-          "url": "https://github.com/Ultimaker/CuraEngine/pull/2281/commits/c0662e1bab537d2bc3a3af69cc650e05c262a440"
-        },
-        "date": 1770814410436,
-        "tool": "customSmallerIsBetter",
-        "benches": [
-          {
-            "name": "Number of test cases",
-            "value": 61,
-            "unit": "-",
-            "extra": ""
-          },
-          {
-            "name": "General Stress Level",
-            "value": 0,
-            "unit": "%",
-            "extra": "Crashes in: "
-          }
-        ]
-      },
       {
         "commit": {
           "author": {
@@ -8023,6 +7991,38 @@ window.BENCHMARK_DATA = {
           "url": "https://github.com/Ultimaker/CuraEngine/pull/2347/commits/397beceacd553915e93d90c62a3fce6d54670169"
         },
         "date": 1784203527785,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "Number of test cases",
+            "value": 61,
+            "unit": "-",
+            "extra": ""
+          },
+          {
+            "name": "General Stress Level",
+            "value": 0,
+            "unit": "%",
+            "extra": "Crashes in: "
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "Ultimaker",
+            "username": "Ultimaker"
+          },
+          "committer": {
+            "name": "Ultimaker",
+            "username": "Ultimaker"
+          },
+          "id": "1f6dda6c2983aac3c9748a0b2b0f9d555fbb9b86",
+          "message": "[CURA-13251] variable wall thickness for tree support",
+          "timestamp": "2026-07-09T06:09:10Z",
+          "url": "https://github.com/Ultimaker/CuraEngine/pull/2347/commits/1f6dda6c2983aac3c9748a0b2b0f9d555fbb9b86"
+        },
+        "date": 1784209468680,
         "tool": "customSmallerIsBetter",
         "benches": [
           {
