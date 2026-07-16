@@ -1,0 +1,27 @@
+window.BENCHMARK_DATA = {
+  "lastUpdate": 1784183234293,
+  "entries": {
+    "GCodeAnalyzer GH-17314-0": [
+      {
+        "timestamp": "2026-07-16 08:27:14.293245",
+        "benches": [
+          {
+            "name": "Slicing time",
+            "unit": "s",
+            "value": 3.78
+          },
+          {
+            "name": "Print time",
+            "unit": "s",
+            "value": 0
+          },
+          {
+            "name": "Buffer overflows",
+            "unit": "#",
+            "value": 638
+          }
+        ]
+      }
+    ]
+  }
+}
