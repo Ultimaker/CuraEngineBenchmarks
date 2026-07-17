@@ -1,0 +1,27 @@
+window.BENCHMARK_DATA = {
+  "lastUpdate": 1784291432852,
+  "entries": {
+    "Analysis of GH-17813-0": [
+      {
+        "timestamp": "2026-07-17 14:30:32.852193",
+        "benches": [
+          {
+            "name": "Slicing time",
+            "unit": "s",
+            "value": 0.115
+          },
+          {
+            "name": "Print time",
+            "unit": "s",
+            "value": 2050
+          },
+          {
+            "name": "Buffer overflows",
+            "unit": "#",
+            "value": 0
+          }
+        ]
+      }
+    ]
+  }
+}
