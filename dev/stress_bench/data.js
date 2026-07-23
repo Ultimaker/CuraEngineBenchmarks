@@ -1,40 +1,8 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1784811729050,
+  "lastUpdate": 1784811747506,
   "repoUrl": "https://github.com/Ultimaker/CuraEngine",
   "entries": {
     "Stress Benchmark": [
-      {
-        "commit": {
-          "author": {
-            "name": "Ultimaker",
-            "username": "Ultimaker"
-          },
-          "committer": {
-            "name": "Ultimaker",
-            "username": "Ultimaker"
-          },
-          "id": "e959bd16743520c1da5ccbc19b100d793548a4ea",
-          "message": "CURA-12957 infill can leave small dots lines",
-          "timestamp": "2026-02-13T07:28:28Z",
-          "url": "https://github.com/Ultimaker/CuraEngine/pull/2283/commits/e959bd16743520c1da5ccbc19b100d793548a4ea"
-        },
-        "date": 1770990375246,
-        "tool": "customSmallerIsBetter",
-        "benches": [
-          {
-            "name": "Number of test cases",
-            "value": 61,
-            "unit": "-",
-            "extra": ""
-          },
-          {
-            "name": "General Stress Level",
-            "value": 0,
-            "unit": "%",
-            "extra": "Crashes in: "
-          }
-        ]
-      },
       {
         "commit": {
           "author": {
@@ -8023,6 +7991,38 @@ window.BENCHMARK_DATA = {
           "url": "https://github.com/Ultimaker/CuraEngine/pull/2349/commits/7f636a0ce8475de33dd336e64830674b2f554bcf"
         },
         "date": 1784811721027,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "Number of test cases",
+            "value": 61,
+            "unit": "-",
+            "extra": ""
+          },
+          {
+            "name": "General Stress Level",
+            "value": 0,
+            "unit": "%",
+            "extra": "Crashes in: "
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "Ultimaker",
+            "username": "Ultimaker"
+          },
+          "committer": {
+            "name": "Ultimaker",
+            "username": "Ultimaker"
+          },
+          "id": "e799c859f133cc6c1ba75c18eab02d736f7a7623",
+          "message": "[CURA-13054] Don't take support into account w.r.t. seam overhang.",
+          "timestamp": "2026-07-20T11:09:30Z",
+          "url": "https://github.com/Ultimaker/CuraEngine/pull/2349/commits/e799c859f133cc6c1ba75c18eab02d736f7a7623"
+        },
+        "date": 1784811739377,
         "tool": "customSmallerIsBetter",
         "benches": [
           {
