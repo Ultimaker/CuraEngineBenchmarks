@@ -1,40 +1,8 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1784815902386,
+  "lastUpdate": 1784820004944,
   "repoUrl": "https://github.com/Ultimaker/CuraEngine",
   "entries": {
     "Stress Benchmark": [
-      {
-        "commit": {
-          "author": {
-            "name": "Ultimaker",
-            "username": "Ultimaker"
-          },
-          "committer": {
-            "name": "Ultimaker",
-            "username": "Ultimaker"
-          },
-          "id": "e81dcd9dc4074a88202a5ca36945f1758aa9cd58",
-          "message": "Introduce bridging heuristic(s)",
-          "timestamp": "2026-02-16T19:39:24Z",
-          "url": "https://github.com/Ultimaker/CuraEngine/pull/2286/commits/e81dcd9dc4074a88202a5ca36945f1758aa9cd58"
-        },
-        "date": 1771341845216,
-        "tool": "customSmallerIsBetter",
-        "benches": [
-          {
-            "name": "Number of test cases",
-            "value": 61,
-            "unit": "-",
-            "extra": ""
-          },
-          {
-            "name": "General Stress Level",
-            "value": 0,
-            "unit": "%",
-            "extra": "Crashes in: "
-          }
-        ]
-      },
       {
         "commit": {
           "author": {
@@ -8023,6 +7991,38 @@ window.BENCHMARK_DATA = {
           "url": "https://github.com/Ultimaker/CuraEngine/pull/2349/commits/892da8546475b3783ac2d8aa69e857714bcaa146"
         },
         "date": 1784815894800,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "Number of test cases",
+            "value": 61,
+            "unit": "-",
+            "extra": ""
+          },
+          {
+            "name": "General Stress Level",
+            "value": 0,
+            "unit": "%",
+            "extra": "Crashes in: "
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "Ultimaker",
+            "username": "Ultimaker"
+          },
+          "committer": {
+            "name": "Ultimaker",
+            "username": "Ultimaker"
+          },
+          "id": "3a7861807a3e2d2f41ca369f3a2b86a3d79e75cb",
+          "message": "CURA-13250 chamfered tree base",
+          "timestamp": "2026-07-23T14:15:18Z",
+          "url": "https://github.com/Ultimaker/CuraEngine/pull/2346/commits/3a7861807a3e2d2f41ca369f3a2b86a3d79e75cb"
+        },
+        "date": 1784819997345,
         "tool": "customSmallerIsBetter",
         "benches": [
           {
