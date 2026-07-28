@@ -1,40 +1,8 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1785248250282,
+  "lastUpdate": 1785248661216,
   "repoUrl": "https://github.com/Ultimaker/CuraEngine",
   "entries": {
     "Stress Benchmark": [
-      {
-        "commit": {
-          "author": {
-            "name": "Ultimaker",
-            "username": "Ultimaker"
-          },
-          "committer": {
-            "name": "Ultimaker",
-            "username": "Ultimaker"
-          },
-          "id": "e2add4cd8a504948e97821c7650b94456394c2eb",
-          "message": "[CURA-12977] Fix non-retract-travels over (outer) walls.",
-          "timestamp": "2026-02-16T19:39:24Z",
-          "url": "https://github.com/Ultimaker/CuraEngine/pull/2287/commits/e2add4cd8a504948e97821c7650b94456394c2eb"
-        },
-        "date": 1771414447276,
-        "tool": "customSmallerIsBetter",
-        "benches": [
-          {
-            "name": "Number of test cases",
-            "value": 61,
-            "unit": "-",
-            "extra": ""
-          },
-          {
-            "name": "General Stress Level",
-            "value": 0,
-            "unit": "%",
-            "extra": "Crashes in: "
-          }
-        ]
-      },
       {
         "commit": {
           "author": {
@@ -8023,6 +7991,38 @@ window.BENCHMARK_DATA = {
           "url": "https://github.com/Ultimaker/CuraEngine/pull/2351/commits/64468193f9edfd4ceaa44a1e36ca846796a7078c"
         },
         "date": 1785248241975,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "Number of test cases",
+            "value": 61,
+            "unit": "-",
+            "extra": ""
+          },
+          {
+            "name": "General Stress Level",
+            "value": 0,
+            "unit": "%",
+            "extra": "Crashes in: "
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "Ultimaker",
+            "username": "Ultimaker"
+          },
+          "committer": {
+            "name": "Ultimaker",
+            "username": "Ultimaker"
+          },
+          "id": "8db3467a49b6e9ab4300e88c64e7abf6bb039644",
+          "message": "Use integers for Arachne as internal coord representation for generating toolpaths",
+          "timestamp": "2026-07-27T21:03:16Z",
+          "url": "https://github.com/Ultimaker/CuraEngine/pull/2351/commits/8db3467a49b6e9ab4300e88c64e7abf6bb039644"
+        },
+        "date": 1785248653477,
         "tool": "customSmallerIsBetter",
         "benches": [
           {
