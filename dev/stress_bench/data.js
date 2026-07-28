@@ -1,40 +1,8 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1785162544338,
+  "lastUpdate": 1785248250282,
   "repoUrl": "https://github.com/Ultimaker/CuraEngine",
   "entries": {
     "Stress Benchmark": [
-      {
-        "commit": {
-          "author": {
-            "name": "Ultimaker",
-            "username": "Ultimaker"
-          },
-          "committer": {
-            "name": "Ultimaker",
-            "username": "Ultimaker"
-          },
-          "id": "3f97001fcdade089a0b29a8b96af13e675b1fd9c",
-          "message": "Introduce bridging heuristic(s)",
-          "timestamp": "2026-02-16T19:39:24Z",
-          "url": "https://github.com/Ultimaker/CuraEngine/pull/2286/commits/3f97001fcdade089a0b29a8b96af13e675b1fd9c"
-        },
-        "date": 1771409976609,
-        "tool": "customSmallerIsBetter",
-        "benches": [
-          {
-            "name": "Number of test cases",
-            "value": 61,
-            "unit": "-",
-            "extra": ""
-          },
-          {
-            "name": "General Stress Level",
-            "value": 0,
-            "unit": "%",
-            "extra": "Crashes in: "
-          }
-        ]
-      },
       {
         "commit": {
           "author": {
@@ -8023,6 +7991,38 @@ window.BENCHMARK_DATA = {
           "url": "https://github.com/Ultimaker/CuraEngine/pull/2346/commits/b55bc27524f6b094940bbcc29a8883243af92697"
         },
         "date": 1785162536256,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "Number of test cases",
+            "value": 61,
+            "unit": "-",
+            "extra": ""
+          },
+          {
+            "name": "General Stress Level",
+            "value": 0,
+            "unit": "%",
+            "extra": "Crashes in: "
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "Ultimaker",
+            "username": "Ultimaker"
+          },
+          "committer": {
+            "name": "Ultimaker",
+            "username": "Ultimaker"
+          },
+          "id": "64468193f9edfd4ceaa44a1e36ca846796a7078c",
+          "message": "Use integers for Arachne as internal coord representation for generating toolpaths",
+          "timestamp": "2026-07-27T21:03:16Z",
+          "url": "https://github.com/Ultimaker/CuraEngine/pull/2351/commits/64468193f9edfd4ceaa44a1e36ca846796a7078c"
+        },
+        "date": 1785248241975,
         "tool": "customSmallerIsBetter",
         "benches": [
           {
