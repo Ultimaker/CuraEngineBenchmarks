@@ -1,40 +1,8 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1785399344031,
+  "lastUpdate": 1785402471479,
   "repoUrl": "https://github.com/Ultimaker/CuraEngine",
   "entries": {
     "Stress Benchmark": [
-      {
-        "commit": {
-          "author": {
-            "name": "Ultimaker",
-            "username": "Ultimaker"
-          },
-          "committer": {
-            "name": "Ultimaker",
-            "username": "Ultimaker"
-          },
-          "id": "bb060e983f406cf7e4abff0f21b7e8fff3e9af2d",
-          "message": "Raise nozzle for one-at-a-time final travel",
-          "timestamp": "2026-02-16T19:39:24Z",
-          "url": "https://github.com/Ultimaker/CuraEngine/pull/2288/commits/bb060e983f406cf7e4abff0f21b7e8fff3e9af2d"
-        },
-        "date": 1771426166273,
-        "tool": "customSmallerIsBetter",
-        "benches": [
-          {
-            "name": "Number of test cases",
-            "value": 61,
-            "unit": "-",
-            "extra": ""
-          },
-          {
-            "name": "General Stress Level",
-            "value": 0,
-            "unit": "%",
-            "extra": "Crashes in: "
-          }
-        ]
-      },
       {
         "commit": {
           "author": {
@@ -8023,6 +7991,38 @@ window.BENCHMARK_DATA = {
           "url": "https://github.com/Ultimaker/CuraEngine/pull/2354/commits/ed418ad240f3e602c3343762b91ac118ae439c1b"
         },
         "date": 1785399336925,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "Number of test cases",
+            "value": 61,
+            "unit": "-",
+            "extra": ""
+          },
+          {
+            "name": "General Stress Level",
+            "value": 0,
+            "unit": "%",
+            "extra": "Crashes in: "
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "Ultimaker",
+            "username": "Ultimaker"
+          },
+          "committer": {
+            "name": "Ultimaker",
+            "username": "Ultimaker"
+          },
+          "id": "ec8bbf71f9d7b96beb4b79fa7005c9b5493030b8",
+          "message": "Fix member init order for min_bead_width_",
+          "timestamp": "2026-07-28T18:10:43Z",
+          "url": "https://github.com/Ultimaker/CuraEngine/pull/2355/commits/ec8bbf71f9d7b96beb4b79fa7005c9b5493030b8"
+        },
+        "date": 1785402463525,
         "tool": "customSmallerIsBetter",
         "benches": [
           {
