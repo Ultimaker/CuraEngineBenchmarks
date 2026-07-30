@@ -1,40 +1,8 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1785328246544,
+  "lastUpdate": 1785399344031,
   "repoUrl": "https://github.com/Ultimaker/CuraEngine",
   "entries": {
     "Stress Benchmark": [
-      {
-        "commit": {
-          "author": {
-            "name": "Ultimaker",
-            "username": "Ultimaker"
-          },
-          "committer": {
-            "name": "Ultimaker",
-            "username": "Ultimaker"
-          },
-          "id": "e7b056659e824d8d6fb7083306e063d4539d5e31",
-          "message": "Raise nozzle for one-at-a-time final travel",
-          "timestamp": "2026-02-16T19:39:24Z",
-          "url": "https://github.com/Ultimaker/CuraEngine/pull/2288/commits/e7b056659e824d8d6fb7083306e063d4539d5e31"
-        },
-        "date": 1771423452143,
-        "tool": "customSmallerIsBetter",
-        "benches": [
-          {
-            "name": "Number of test cases",
-            "value": 61,
-            "unit": "-",
-            "extra": ""
-          },
-          {
-            "name": "General Stress Level",
-            "value": 0,
-            "unit": "%",
-            "extra": "Crashes in: "
-          }
-        ]
-      },
       {
         "commit": {
           "author": {
@@ -8036,6 +8004,38 @@ window.BENCHMARK_DATA = {
             "value": 100,
             "unit": "%",
             "extra": "Crashes in: 045, 016, 056, 014, 019, 050, 034, 005, 020, 055, 009, 026, 007, 012, 062, 015, 003, 029, 037, 030, 033, 036, 049, 039, 035, 006, 065, 024, 002, 023, 028, 059, 048, 051, 021, 025, 060, 011, 001, 017, 041, 066, 052, 022, 038, 042, 004, 058, 043, 053, 010, 031, 046, 008, 047, 018, 040, 044, 027, 013, 032"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "Ultimaker",
+            "username": "Ultimaker"
+          },
+          "committer": {
+            "name": "Ultimaker",
+            "username": "Ultimaker"
+          },
+          "id": "ed418ad240f3e602c3343762b91ac118ae439c1b",
+          "message": "Fix implicit type conversions",
+          "timestamp": "2026-07-28T18:10:43Z",
+          "url": "https://github.com/Ultimaker/CuraEngine/pull/2354/commits/ed418ad240f3e602c3343762b91ac118ae439c1b"
+        },
+        "date": 1785399336925,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "Number of test cases",
+            "value": 61,
+            "unit": "-",
+            "extra": ""
+          },
+          {
+            "name": "General Stress Level",
+            "value": 0,
+            "unit": "%",
+            "extra": "Crashes in: "
           }
         ]
       }
