@@ -1,40 +1,8 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1785402471479,
+  "lastUpdate": 1785496508641,
   "repoUrl": "https://github.com/Ultimaker/CuraEngine",
   "entries": {
     "Stress Benchmark": [
-      {
-        "commit": {
-          "author": {
-            "name": "Ultimaker",
-            "username": "Ultimaker"
-          },
-          "committer": {
-            "name": "Ultimaker",
-            "username": "Ultimaker"
-          },
-          "id": "018305564800bd136b426f293ff4309291f65fac",
-          "message": "Raise nozzle for one-at-a-time final travel",
-          "timestamp": "2026-02-16T19:39:24Z",
-          "url": "https://github.com/Ultimaker/CuraEngine/pull/2288/commits/018305564800bd136b426f293ff4309291f65fac"
-        },
-        "date": 1771426644512,
-        "tool": "customSmallerIsBetter",
-        "benches": [
-          {
-            "name": "Number of test cases",
-            "value": 61,
-            "unit": "-",
-            "extra": ""
-          },
-          {
-            "name": "General Stress Level",
-            "value": 0,
-            "unit": "%",
-            "extra": "Crashes in: "
-          }
-        ]
-      },
       {
         "commit": {
           "author": {
@@ -8036,6 +8004,38 @@ window.BENCHMARK_DATA = {
             "value": 0,
             "unit": "%",
             "extra": "Crashes in: "
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "Ultimaker",
+            "username": "Ultimaker"
+          },
+          "committer": {
+            "name": "Ultimaker",
+            "username": "Ultimaker"
+          },
+          "id": "3f4c4210046f0d16d1eacdb4691da2927b66f9b3",
+          "message": "Introduce setting \"Inner Wall Inset\"",
+          "timestamp": "2026-07-30T12:52:54Z",
+          "url": "https://github.com/Ultimaker/CuraEngine/pull/2353/commits/3f4c4210046f0d16d1eacdb4691da2927b66f9b3"
+        },
+        "date": 1785496500301,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "Number of test cases",
+            "value": 61,
+            "unit": "-",
+            "extra": ""
+          },
+          {
+            "name": "General Stress Level",
+            "value": 100,
+            "unit": "%",
+            "extra": "Crashes in: 045, 016, 056, 014, 019, 050, 034, 005, 020, 055, 009, 026, 007, 012, 062, 015, 003, 029, 037, 030, 033, 036, 049, 039, 035, 006, 065, 024, 002, 023, 028, 059, 048, 051, 021, 025, 060, 011, 001, 017, 041, 066, 052, 022, 038, 042, 004, 058, 043, 053, 010, 031, 046, 008, 047, 018, 040, 044, 027, 013, 032"
           }
         ]
       }
