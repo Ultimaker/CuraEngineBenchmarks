@@ -1,868 +1,8 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1785757552768,
+  "lastUpdate": 1785766307860,
   "repoUrl": "https://github.com/Ultimaker/CuraEngine",
   "entries": {
     "CGcodeAnalyzer": [
-      {
-        "commit": {
-          "author": {
-            "name": "Ultimaker",
-            "username": "Ultimaker"
-          },
-          "committer": {
-            "name": "Ultimaker",
-            "username": "Ultimaker"
-          },
-          "id": "2da46b19271c4ba29f98d94b3715e90d9cdf83c2",
-          "message": "[CURA-12173] Only perform 'tiny loops' fix if there's space to do so.",
-          "timestamp": "2024-10-22T15:48:57Z",
-          "url": "https://github.com/Ultimaker/CuraEngine/pull/2153/commits/2da46b19271c4ba29f98d94b3715e90d9cdf83c2"
-        },
-        "date": 1729759344137,
-        "tool": "customBiggerIsBetter",
-        "benches": [
-          {
-            "name": "Print time buckle_4.gcode",
-            "value": 7568.003911284444,
-            "unit": "s"
-          },
-          {
-            "name": "Microsegment violations in wall-skin buckle_4.gcode",
-            "value": 723,
-            "unit": "-"
-          },
-          {
-            "name": "Microsegment violations in infill buckle_4.gcode",
-            "value": 0,
-            "unit": "-"
-          },
-          {
-            "name": "Number of retractions buckle_4.gcode",
-            "value": 13,
-            "unit": "-"
-          },
-          {
-            "name": "Total travel length buckle_4.gcode",
-            "value": 76931.20468552834,
-            "unit": "mm"
-          },
-          {
-            "name": "Minimum Line Length buckle_4.gcode",
-            "value": 0.005830951894834148,
-            "unit": "mm"
-          },
-          {
-            "name": "Line Lengths 25 Percentile buckle_4.gcode",
-            "value": 0.7804261656300415,
-            "unit": "mm"
-          },
-          {
-            "name": "Minimum All Distances buckle_4.gcode",
-            "value": 0.0014142135623597504,
-            "unit": "mm"
-          },
-          {
-            "name": "All Distances 25 Percentile buckle_4.gcode",
-            "value": 0.13700000000000045,
-            "unit": "mm"
-          },
-          {
-            "name": "Extrusion-Axis buckle_4.gcode",
-            "value": 0.02696,
-            "unit": "mm"
-          },
-          {
-            "name": "Extrusion Lengths 25 Percentile buckle_4.gcode",
-            "value": 171.21371,
-            "unit": "mm"
-          },
-          {
-            "name": "Number Of Temperature Commands buckle_4.gcode",
-            "value": 162456,
-            "unit": "#"
-          },
-          {
-            "name": "Mean Temperature buckle_4.gcode",
-            "value": 210,
-            "unit": "Celcius"
-          },
-          {
-            "name": "Slicing time buckle_4.gcode",
-            "value": 2.537,
-            "unit": "s"
-          },
-          {
-            "name": "Print time buckle_6.gcode",
-            "value": 21054.09825152732,
-            "unit": "s"
-          },
-          {
-            "name": "Microsegment violations in wall-skin buckle_6.gcode",
-            "value": 103,
-            "unit": "-"
-          },
-          {
-            "name": "Microsegment violations in infill buckle_6.gcode",
-            "value": 0,
-            "unit": "-"
-          },
-          {
-            "name": "Number of retractions buckle_6.gcode",
-            "value": 19,
-            "unit": "-"
-          },
-          {
-            "name": "Total travel length buckle_6.gcode",
-            "value": 190135.4464892918,
-            "unit": "mm"
-          },
-          {
-            "name": "Minimum Line Length buckle_6.gcode",
-            "value": 0.009433981132050434,
-            "unit": "mm"
-          },
-          {
-            "name": "Line Lengths 25 Percentile buckle_6.gcode",
-            "value": 1.1357046270928066,
-            "unit": "mm"
-          },
-          {
-            "name": "Minimum All Distances buckle_6.gcode",
-            "value": 0.000999999999990564,
-            "unit": "mm"
-          },
-          {
-            "name": "All Distances 25 Percentile buckle_6.gcode",
-            "value": 0.13609188072768624,
-            "unit": "mm"
-          },
-          {
-            "name": "Extrusion-Axis buckle_6.gcode",
-            "value": 0.01683,
-            "unit": "mm"
-          },
-          {
-            "name": "Extrusion Lengths 25 Percentile buckle_6.gcode",
-            "value": 254.64513,
-            "unit": "mm"
-          },
-          {
-            "name": "Number Of Temperature Commands buckle_6.gcode",
-            "value": 408469,
-            "unit": "#"
-          },
-          {
-            "name": "Mean Temperature buckle_6.gcode",
-            "value": 210,
-            "unit": "Celcius"
-          },
-          {
-            "name": "Slicing time buckle_6.gcode",
-            "value": 5.743,
-            "unit": "s"
-          },
-          {
-            "name": "Print time conical.gcode",
-            "value": 202.98581245000585,
-            "unit": "s"
-          },
-          {
-            "name": "Microsegment violations in wall-skin conical.gcode",
-            "value": 0,
-            "unit": "-"
-          },
-          {
-            "name": "Microsegment violations in infill conical.gcode",
-            "value": 0,
-            "unit": "-"
-          },
-          {
-            "name": "Number of retractions conical.gcode",
-            "value": 2,
-            "unit": "-"
-          },
-          {
-            "name": "Total travel length conical.gcode",
-            "value": 822.0105184115464,
-            "unit": "mm"
-          },
-          {
-            "name": "Minimum Line Length conical.gcode",
-            "value": 0.0586685605754904,
-            "unit": "mm"
-          },
-          {
-            "name": "Line Lengths 25 Percentile conical.gcode",
-            "value": 0.30532114240582126,
-            "unit": "mm"
-          },
-          {
-            "name": "Minimum All Distances conical.gcode",
-            "value": 0.010049875621112316,
-            "unit": "mm"
-          },
-          {
-            "name": "All Distances 25 Percentile conical.gcode",
-            "value": 0.10000000000000009,
-            "unit": "mm"
-          },
-          {
-            "name": "Extrusion-Axis conical.gcode",
-            "value": 0.04299,
-            "unit": "mm"
-          },
-          {
-            "name": "Extrusion Lengths 25 Percentile conical.gcode",
-            "value": 17.47999,
-            "unit": "mm"
-          },
-          {
-            "name": "Number Of Temperature Commands conical.gcode",
-            "value": 5600,
-            "unit": "#"
-          },
-          {
-            "name": "Mean Temperature conical.gcode",
-            "value": 0,
-            "unit": "Celcius"
-          },
-          {
-            "name": "Slicing time conical.gcode",
-            "value": 0.115,
-            "unit": "s"
-          },
-          {
-            "name": "Print time new_spikes_and_holes_2022.gcode",
-            "value": 12373.281501977934,
-            "unit": "s"
-          },
-          {
-            "name": "Microsegment violations in wall-skin new_spikes_and_holes_2022.gcode",
-            "value": 176673,
-            "unit": "-"
-          },
-          {
-            "name": "Microsegment violations in infill new_spikes_and_holes_2022.gcode",
-            "value": 0,
-            "unit": "-"
-          },
-          {
-            "name": "Number of retractions new_spikes_and_holes_2022.gcode",
-            "value": 6380,
-            "unit": "-"
-          },
-          {
-            "name": "Total travel length new_spikes_and_holes_2022.gcode",
-            "value": 91970.58247745979,
-            "unit": "mm"
-          },
-          {
-            "name": "Minimum Line Length new_spikes_and_holes_2022.gcode",
-            "value": 0.006000000000000227,
-            "unit": "mm"
-          },
-          {
-            "name": "Line Lengths 25 Percentile new_spikes_and_holes_2022.gcode",
-            "value": 0.28376927247325257,
-            "unit": "mm"
-          },
-          {
-            "name": "Minimum All Distances new_spikes_and_holes_2022.gcode",
-            "value": 0.000999999999990564,
-            "unit": "mm"
-          },
-          {
-            "name": "All Distances 25 Percentile new_spikes_and_holes_2022.gcode",
-            "value": 0.25752669764511876,
-            "unit": "mm"
-          },
-          {
-            "name": "Extrusion-Axis new_spikes_and_holes_2022.gcode",
-            "value": 0.00393,
-            "unit": "mm"
-          },
-          {
-            "name": "Extrusion Lengths 25 Percentile new_spikes_and_holes_2022.gcode",
-            "value": 875.859485,
-            "unit": "mm"
-          },
-          {
-            "name": "Number Of Temperature Commands new_spikes_and_holes_2022.gcode",
-            "value": 427205,
-            "unit": "#"
-          },
-          {
-            "name": "Mean Temperature new_spikes_and_holes_2022.gcode",
-            "value": 210,
-            "unit": "Celcius"
-          },
-          {
-            "name": "Slicing time new_spikes_and_holes_2022.gcode",
-            "value": 10.515,
-            "unit": "s"
-          },
-          {
-            "name": "Print time squaring.gcode",
-            "value": 1197.5360470157948,
-            "unit": "s"
-          },
-          {
-            "name": "Microsegment violations in wall-skin squaring.gcode",
-            "value": 1,
-            "unit": "-"
-          },
-          {
-            "name": "Microsegment violations in infill squaring.gcode",
-            "value": 0,
-            "unit": "-"
-          },
-          {
-            "name": "Number of retractions squaring.gcode",
-            "value": 406,
-            "unit": "-"
-          },
-          {
-            "name": "Total travel length squaring.gcode",
-            "value": 9745.320961999409,
-            "unit": "mm"
-          },
-          {
-            "name": "Minimum Line Length squaring.gcode",
-            "value": 0.03689173349140395,
-            "unit": "mm"
-          },
-          {
-            "name": "Line Lengths 25 Percentile squaring.gcode",
-            "value": 0.7090007052182702,
-            "unit": "mm"
-          },
-          {
-            "name": "Minimum All Distances squaring.gcode",
-            "value": 0.0031622776601699975,
-            "unit": "mm"
-          },
-          {
-            "name": "All Distances 25 Percentile squaring.gcode",
-            "value": 0.1993238570768722,
-            "unit": "mm"
-          },
-          {
-            "name": "Extrusion-Axis squaring.gcode",
-            "value": 0.03326,
-            "unit": "mm"
-          },
-          {
-            "name": "Extrusion Lengths 25 Percentile squaring.gcode",
-            "value": 50.945,
-            "unit": "mm"
-          },
-          {
-            "name": "Number Of Temperature Commands squaring.gcode",
-            "value": 16123,
-            "unit": "#"
-          },
-          {
-            "name": "Mean Temperature squaring.gcode",
-            "value": 61.5,
-            "unit": "Celcius"
-          },
-          {
-            "name": "Slicing time squaring.gcode",
-            "value": 0.281,
-            "unit": "s"
-          },
-          {
-            "name": "Print time buckle_5.gcode",
-            "value": 7214.634900947828,
-            "unit": "s"
-          },
-          {
-            "name": "Microsegment violations in wall-skin buckle_5.gcode",
-            "value": 387,
-            "unit": "-"
-          },
-          {
-            "name": "Microsegment violations in infill buckle_5.gcode",
-            "value": 0,
-            "unit": "-"
-          },
-          {
-            "name": "Number of retractions buckle_5.gcode",
-            "value": 24,
-            "unit": "-"
-          },
-          {
-            "name": "Total travel length buckle_5.gcode",
-            "value": 69511.60699856016,
-            "unit": "mm"
-          },
-          {
-            "name": "Minimum Line Length buckle_5.gcode",
-            "value": 0.00583095189484146,
-            "unit": "mm"
-          },
-          {
-            "name": "Line Lengths 25 Percentile buckle_5.gcode",
-            "value": 0.8550368413115349,
-            "unit": "mm"
-          },
-          {
-            "name": "Minimum All Distances buckle_5.gcode",
-            "value": 0.0009999999999763531,
-            "unit": "mm"
-          },
-          {
-            "name": "All Distances 25 Percentile buckle_5.gcode",
-            "value": 0.13164344456270333,
-            "unit": "mm"
-          },
-          {
-            "name": "Extrusion-Axis buckle_5.gcode",
-            "value": 0.01296,
-            "unit": "mm"
-          },
-          {
-            "name": "Extrusion Lengths 25 Percentile buckle_5.gcode",
-            "value": 342.55611,
-            "unit": "mm"
-          },
-          {
-            "name": "Number Of Temperature Commands buckle_5.gcode",
-            "value": 148733,
-            "unit": "#"
-          },
-          {
-            "name": "Mean Temperature buckle_5.gcode",
-            "value": 210,
-            "unit": "Celcius"
-          },
-          {
-            "name": "Slicing time buckle_5.gcode",
-            "value": 2.404,
-            "unit": "s"
-          },
-          {
-            "name": "Print time buckle_2.gcode",
-            "value": 4475.762517890673,
-            "unit": "s"
-          },
-          {
-            "name": "Microsegment violations in wall-skin buckle_2.gcode",
-            "value": 2129,
-            "unit": "-"
-          },
-          {
-            "name": "Microsegment violations in infill buckle_2.gcode",
-            "value": 0,
-            "unit": "-"
-          },
-          {
-            "name": "Number of retractions buckle_2.gcode",
-            "value": 86,
-            "unit": "-"
-          },
-          {
-            "name": "Total travel length buckle_2.gcode",
-            "value": 46096.7146882565,
-            "unit": "mm"
-          },
-          {
-            "name": "Minimum Line Length buckle_2.gcode",
-            "value": 0.005385164807128551,
-            "unit": "mm"
-          },
-          {
-            "name": "Line Lengths 25 Percentile buckle_2.gcode",
-            "value": 0.6422227028064406,
-            "unit": "mm"
-          },
-          {
-            "name": "Minimum All Distances buckle_2.gcode",
-            "value": 0.0010000000000047748,
-            "unit": "mm"
-          },
-          {
-            "name": "All Distances 25 Percentile buckle_2.gcode",
-            "value": 0.14300000000000068,
-            "unit": "mm"
-          },
-          {
-            "name": "Extrusion-Axis buckle_2.gcode",
-            "value": 0.03498,
-            "unit": "mm"
-          },
-          {
-            "name": "Extrusion Lengths 25 Percentile buckle_2.gcode",
-            "value": 259.89389,
-            "unit": "mm"
-          },
-          {
-            "name": "Number Of Temperature Commands buckle_2.gcode",
-            "value": 99812,
-            "unit": "#"
-          },
-          {
-            "name": "Mean Temperature buckle_2.gcode",
-            "value": 210,
-            "unit": "Celcius"
-          },
-          {
-            "name": "Slicing time buckle_2.gcode",
-            "value": 1.765,
-            "unit": "s"
-          },
-          {
-            "name": "Print time buckle_1.gcode",
-            "value": 17613.232662117236,
-            "unit": "s"
-          },
-          {
-            "name": "Microsegment violations in wall-skin buckle_1.gcode",
-            "value": 611,
-            "unit": "-"
-          },
-          {
-            "name": "Microsegment violations in infill buckle_1.gcode",
-            "value": 0,
-            "unit": "-"
-          },
-          {
-            "name": "Number of retractions buckle_1.gcode",
-            "value": 18,
-            "unit": "-"
-          },
-          {
-            "name": "Total travel length buckle_1.gcode",
-            "value": 192802.70666568974,
-            "unit": "mm"
-          },
-          {
-            "name": "Minimum Line Length buckle_1.gcode",
-            "value": 0.012165525060596124,
-            "unit": "mm"
-          },
-          {
-            "name": "Line Lengths 25 Percentile buckle_1.gcode",
-            "value": 1.1200830326364204,
-            "unit": "mm"
-          },
-          {
-            "name": "Minimum All Distances buckle_1.gcode",
-            "value": 0.0009999999999763531,
-            "unit": "mm"
-          },
-          {
-            "name": "All Distances 25 Percentile buckle_1.gcode",
-            "value": 0.13782960494755836,
-            "unit": "mm"
-          },
-          {
-            "name": "Extrusion-Axis buckle_1.gcode",
-            "value": 0.01256,
-            "unit": "mm"
-          },
-          {
-            "name": "Extrusion Lengths 25 Percentile buckle_1.gcode",
-            "value": 389.664315,
-            "unit": "mm"
-          },
-          {
-            "name": "Number Of Temperature Commands buckle_1.gcode",
-            "value": 352898,
-            "unit": "#"
-          },
-          {
-            "name": "Mean Temperature buckle_1.gcode",
-            "value": 210,
-            "unit": "Celcius"
-          },
-          {
-            "name": "Slicing time buckle_1.gcode",
-            "value": 5.628,
-            "unit": "s"
-          },
-          {
-            "name": "Print time support_infill_fail_test.gcode",
-            "value": 3067.9663770964726,
-            "unit": "s"
-          },
-          {
-            "name": "Microsegment violations in wall-skin support_infill_fail_test.gcode",
-            "value": 0,
-            "unit": "-"
-          },
-          {
-            "name": "Microsegment violations in infill support_infill_fail_test.gcode",
-            "value": 0,
-            "unit": "-"
-          },
-          {
-            "name": "Number of retractions support_infill_fail_test.gcode",
-            "value": 2,
-            "unit": "-"
-          },
-          {
-            "name": "Total travel length support_infill_fail_test.gcode",
-            "value": 9658.768983643187,
-            "unit": "mm"
-          },
-          {
-            "name": "Minimum Line Length support_infill_fail_test.gcode",
-            "value": 0.09617692030834549,
-            "unit": "mm"
-          },
-          {
-            "name": "Line Lengths 25 Percentile support_infill_fail_test.gcode",
-            "value": 0.9693755722112977,
-            "unit": "mm"
-          },
-          {
-            "name": "Minimum All Distances support_infill_fail_test.gcode",
-            "value": 0.000999999999990564,
-            "unit": "mm"
-          },
-          {
-            "name": "All Distances 25 Percentile support_infill_fail_test.gcode",
-            "value": 0.03959797974645486,
-            "unit": "mm"
-          },
-          {
-            "name": "Extrusion-Axis support_infill_fail_test.gcode",
-            "value": 0.0382,
-            "unit": "mm"
-          },
-          {
-            "name": "Extrusion Lengths 25 Percentile support_infill_fail_test.gcode",
-            "value": 105.63838999999999,
-            "unit": "mm"
-          },
-          {
-            "name": "Number Of Temperature Commands support_infill_fail_test.gcode",
-            "value": 21861,
-            "unit": "#"
-          },
-          {
-            "name": "Mean Temperature support_infill_fail_test.gcode",
-            "value": 210,
-            "unit": "Celcius"
-          },
-          {
-            "name": "Slicing time support_infill_fail_test.gcode",
-            "value": 0.25,
-            "unit": "s"
-          },
-          {
-            "name": "Print time buckle_3.gcode",
-            "value": 5474.175970418332,
-            "unit": "s"
-          },
-          {
-            "name": "Microsegment violations in wall-skin buckle_3.gcode",
-            "value": 8,
-            "unit": "-"
-          },
-          {
-            "name": "Microsegment violations in infill buckle_3.gcode",
-            "value": 0,
-            "unit": "-"
-          },
-          {
-            "name": "Number of retractions buckle_3.gcode",
-            "value": 7,
-            "unit": "-"
-          },
-          {
-            "name": "Total travel length buckle_3.gcode",
-            "value": 48234.78538452056,
-            "unit": "mm"
-          },
-          {
-            "name": "Minimum Line Length buckle_3.gcode",
-            "value": 0.034058772731844565,
-            "unit": "mm"
-          },
-          {
-            "name": "Line Lengths 25 Percentile buckle_3.gcode",
-            "value": 0.7130000000000045,
-            "unit": "mm"
-          },
-          {
-            "name": "Minimum All Distances buckle_3.gcode",
-            "value": 0.0010000000000047748,
-            "unit": "mm"
-          },
-          {
-            "name": "All Distances 25 Percentile buckle_3.gcode",
-            "value": 0.04909175083453221,
-            "unit": "mm"
-          },
-          {
-            "name": "Extrusion-Axis buckle_3.gcode",
-            "value": 0.03821,
-            "unit": "mm"
-          },
-          {
-            "name": "Extrusion Lengths 25 Percentile buckle_3.gcode",
-            "value": 313.14699,
-            "unit": "mm"
-          },
-          {
-            "name": "Number Of Temperature Commands buckle_3.gcode",
-            "value": 35614,
-            "unit": "#"
-          },
-          {
-            "name": "Mean Temperature buckle_3.gcode",
-            "value": 210,
-            "unit": "Celcius"
-          },
-          {
-            "name": "Slicing time buckle_3.gcode",
-            "value": 0.44,
-            "unit": "s"
-          },
-          {
-            "name": "Print time buckle_7.gcode",
-            "value": 2846.620632988901,
-            "unit": "s"
-          },
-          {
-            "name": "Microsegment violations in wall-skin buckle_7.gcode",
-            "value": 2756,
-            "unit": "-"
-          },
-          {
-            "name": "Microsegment violations in infill buckle_7.gcode",
-            "value": 0,
-            "unit": "-"
-          },
-          {
-            "name": "Number of retractions buckle_7.gcode",
-            "value": 10,
-            "unit": "-"
-          },
-          {
-            "name": "Total travel length buckle_7.gcode",
-            "value": 27062.16880340458,
-            "unit": "mm"
-          },
-          {
-            "name": "Minimum Line Length buckle_7.gcode",
-            "value": 0.04599999999999227,
-            "unit": "mm"
-          },
-          {
-            "name": "Line Lengths 25 Percentile buckle_7.gcode",
-            "value": 0.6417515095424433,
-            "unit": "mm"
-          },
-          {
-            "name": "Minimum All Distances buckle_7.gcode",
-            "value": 0.008062257748312368,
-            "unit": "mm"
-          },
-          {
-            "name": "All Distances 25 Percentile buckle_7.gcode",
-            "value": 0.17700282483619906,
-            "unit": "mm"
-          },
-          {
-            "name": "Extrusion-Axis buckle_7.gcode",
-            "value": 0.02071,
-            "unit": "mm"
-          },
-          {
-            "name": "Extrusion Lengths 25 Percentile buckle_7.gcode",
-            "value": 353.16929500000003,
-            "unit": "mm"
-          },
-          {
-            "name": "Number Of Temperature Commands buckle_7.gcode",
-            "value": 66993,
-            "unit": "#"
-          },
-          {
-            "name": "Mean Temperature buckle_7.gcode",
-            "value": 210,
-            "unit": "Celcius"
-          },
-          {
-            "name": "Slicing time buckle_7.gcode",
-            "value": 1.138,
-            "unit": "s"
-          },
-          {
-            "name": "Print time cee.gcode",
-            "value": 1414.4040865788952,
-            "unit": "s"
-          },
-          {
-            "name": "Microsegment violations in wall-skin cee.gcode",
-            "value": 1,
-            "unit": "-"
-          },
-          {
-            "name": "Microsegment violations in infill cee.gcode",
-            "value": 0,
-            "unit": "-"
-          },
-          {
-            "name": "Number of retractions cee.gcode",
-            "value": 2,
-            "unit": "-"
-          },
-          {
-            "name": "Total travel length cee.gcode",
-            "value": 8924.581670298776,
-            "unit": "mm"
-          },
-          {
-            "name": "Minimum Line Length cee.gcode",
-            "value": 0.02561249694974272,
-            "unit": "mm"
-          },
-          {
-            "name": "Line Lengths 25 Percentile cee.gcode",
-            "value": 0.7886845747616067,
-            "unit": "mm"
-          },
-          {
-            "name": "Minimum All Distances cee.gcode",
-            "value": 0.0010000000000047748,
-            "unit": "mm"
-          },
-          {
-            "name": "All Distances 25 Percentile cee.gcode",
-            "value": 0.10000000000000009,
-            "unit": "mm"
-          },
-          {
-            "name": "Extrusion-Axis cee.gcode",
-            "value": 0.03822,
-            "unit": "mm"
-          },
-          {
-            "name": "Extrusion Lengths 25 Percentile cee.gcode",
-            "value": 81.7325775,
-            "unit": "mm"
-          },
-          {
-            "name": "Number Of Temperature Commands cee.gcode",
-            "value": 17793,
-            "unit": "#"
-          },
-          {
-            "name": "Mean Temperature cee.gcode",
-            "value": 210,
-            "unit": "Celcius"
-          },
-          {
-            "name": "Slicing time cee.gcode",
-            "value": 0.27,
-            "unit": "s"
-          }
-        ]
-      },
       {
         "commit": {
           "author": {
@@ -215091,6 +214231,866 @@ window.BENCHMARK_DATA = {
           {
             "name": "Slicing time support_infill_fail_test.gcode",
             "value": 0.255,
+            "unit": "s"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "Ultimaker",
+            "username": "Ultimaker"
+          },
+          "committer": {
+            "name": "Ultimaker",
+            "username": "Ultimaker"
+          },
+          "id": "cc2be5b41a9dd12f87b0339396d8a9b76e1d8702",
+          "message": "Fix implicit type conversions",
+          "timestamp": "2026-08-03T08:51:50Z",
+          "url": "https://github.com/Ultimaker/CuraEngine/pull/2354/commits/cc2be5b41a9dd12f87b0339396d8a9b76e1d8702"
+        },
+        "date": 1785766298533,
+        "tool": "customBiggerIsBetter",
+        "benches": [
+          {
+            "name": "Print time cee.gcode",
+            "value": 1417.7934115770445,
+            "unit": "s"
+          },
+          {
+            "name": "Microsegment violations in wall-skin cee.gcode",
+            "value": 0,
+            "unit": "-"
+          },
+          {
+            "name": "Microsegment violations in infill cee.gcode",
+            "value": 0,
+            "unit": "-"
+          },
+          {
+            "name": "Number of retractions cee.gcode",
+            "value": 4,
+            "unit": "-"
+          },
+          {
+            "name": "Total travel length cee.gcode",
+            "value": 9093.259006209973,
+            "unit": "mm"
+          },
+          {
+            "name": "Minimum Line Length cee.gcode",
+            "value": 0.02561249694974272,
+            "unit": "mm"
+          },
+          {
+            "name": "Line Lengths 25 Percentile cee.gcode",
+            "value": 0.7901957879876347,
+            "unit": "mm"
+          },
+          {
+            "name": "Minimum All Distances cee.gcode",
+            "value": 0.007999999999995566,
+            "unit": "mm"
+          },
+          {
+            "name": "All Distances 25 Percentile cee.gcode",
+            "value": 0.10699999999999932,
+            "unit": "mm"
+          },
+          {
+            "name": "Extrusion-Axis cee.gcode",
+            "value": 0.03271,
+            "unit": "mm"
+          },
+          {
+            "name": "Extrusion Lengths 25 Percentile cee.gcode",
+            "value": 82.0341725,
+            "unit": "mm"
+          },
+          {
+            "name": "Number Of Temperature Commands cee.gcode",
+            "value": 17515,
+            "unit": "#"
+          },
+          {
+            "name": "Mean Temperature cee.gcode",
+            "value": 210,
+            "unit": "Celcius"
+          },
+          {
+            "name": "Slicing time cee.gcode",
+            "value": 0.218,
+            "unit": "s"
+          },
+          {
+            "name": "Print time buckle_5.gcode",
+            "value": 7366.0584932542,
+            "unit": "s"
+          },
+          {
+            "name": "Microsegment violations in wall-skin buckle_5.gcode",
+            "value": 428,
+            "unit": "-"
+          },
+          {
+            "name": "Microsegment violations in infill buckle_5.gcode",
+            "value": 0,
+            "unit": "-"
+          },
+          {
+            "name": "Number of retractions buckle_5.gcode",
+            "value": 100,
+            "unit": "-"
+          },
+          {
+            "name": "Total travel length buckle_5.gcode",
+            "value": 72997.71110128869,
+            "unit": "mm"
+          },
+          {
+            "name": "Minimum Line Length buckle_5.gcode",
+            "value": 0.00583095189484146,
+            "unit": "mm"
+          },
+          {
+            "name": "Line Lengths 25 Percentile buckle_5.gcode",
+            "value": 0.8497487853212637,
+            "unit": "mm"
+          },
+          {
+            "name": "Minimum All Distances buckle_5.gcode",
+            "value": 0.0009999999999763531,
+            "unit": "mm"
+          },
+          {
+            "name": "All Distances 25 Percentile buckle_5.gcode",
+            "value": 0.14620875486783713,
+            "unit": "mm"
+          },
+          {
+            "name": "Extrusion-Axis buckle_5.gcode",
+            "value": 0.01296,
+            "unit": "mm"
+          },
+          {
+            "name": "Extrusion Lengths 25 Percentile buckle_5.gcode",
+            "value": 343.47826499999996,
+            "unit": "mm"
+          },
+          {
+            "name": "Number Of Temperature Commands buckle_5.gcode",
+            "value": 151592,
+            "unit": "#"
+          },
+          {
+            "name": "Mean Temperature buckle_5.gcode",
+            "value": 210,
+            "unit": "Celcius"
+          },
+          {
+            "name": "Slicing time buckle_5.gcode",
+            "value": 1.618,
+            "unit": "s"
+          },
+          {
+            "name": "Print time buckle_3.gcode",
+            "value": 5582.244856775555,
+            "unit": "s"
+          },
+          {
+            "name": "Microsegment violations in wall-skin buckle_3.gcode",
+            "value": 0,
+            "unit": "-"
+          },
+          {
+            "name": "Microsegment violations in infill buckle_3.gcode",
+            "value": 31,
+            "unit": "-"
+          },
+          {
+            "name": "Number of retractions buckle_3.gcode",
+            "value": 28,
+            "unit": "-"
+          },
+          {
+            "name": "Total travel length buckle_3.gcode",
+            "value": 47278.04406303781,
+            "unit": "mm"
+          },
+          {
+            "name": "Minimum Line Length buckle_3.gcode",
+            "value": 0.034058772731844565,
+            "unit": "mm"
+          },
+          {
+            "name": "Line Lengths 25 Percentile buckle_3.gcode",
+            "value": 0.689193106559813,
+            "unit": "mm"
+          },
+          {
+            "name": "Minimum All Distances buckle_3.gcode",
+            "value": 0.0009999999999763531,
+            "unit": "mm"
+          },
+          {
+            "name": "All Distances 25 Percentile buckle_3.gcode",
+            "value": 0.07900000000000773,
+            "unit": "mm"
+          },
+          {
+            "name": "Extrusion-Axis buckle_3.gcode",
+            "value": 0.03821,
+            "unit": "mm"
+          },
+          {
+            "name": "Extrusion Lengths 25 Percentile buckle_3.gcode",
+            "value": 314.7160925,
+            "unit": "mm"
+          },
+          {
+            "name": "Number Of Temperature Commands buckle_3.gcode",
+            "value": 38208,
+            "unit": "#"
+          },
+          {
+            "name": "Mean Temperature buckle_3.gcode",
+            "value": 210,
+            "unit": "Celcius"
+          },
+          {
+            "name": "Slicing time buckle_3.gcode",
+            "value": 0.242,
+            "unit": "s"
+          },
+          {
+            "name": "Print time buckle_4.gcode",
+            "value": 7661.020136307468,
+            "unit": "s"
+          },
+          {
+            "name": "Microsegment violations in wall-skin buckle_4.gcode",
+            "value": 729,
+            "unit": "-"
+          },
+          {
+            "name": "Microsegment violations in infill buckle_4.gcode",
+            "value": 6,
+            "unit": "-"
+          },
+          {
+            "name": "Number of retractions buckle_4.gcode",
+            "value": 44,
+            "unit": "-"
+          },
+          {
+            "name": "Total travel length buckle_4.gcode",
+            "value": 77752.61437508478,
+            "unit": "mm"
+          },
+          {
+            "name": "Minimum Line Length buckle_4.gcode",
+            "value": 0.005830951894834148,
+            "unit": "mm"
+          },
+          {
+            "name": "Line Lengths 25 Percentile buckle_4.gcode",
+            "value": 0.779411316315086,
+            "unit": "mm"
+          },
+          {
+            "name": "Minimum All Distances buckle_4.gcode",
+            "value": 0.0009999999999763531,
+            "unit": "mm"
+          },
+          {
+            "name": "All Distances 25 Percentile buckle_4.gcode",
+            "value": 0.14798986451782345,
+            "unit": "mm"
+          },
+          {
+            "name": "Extrusion-Axis buckle_4.gcode",
+            "value": 0.01935,
+            "unit": "mm"
+          },
+          {
+            "name": "Extrusion Lengths 25 Percentile buckle_4.gcode",
+            "value": 167.64639,
+            "unit": "mm"
+          },
+          {
+            "name": "Number Of Temperature Commands buckle_4.gcode",
+            "value": 163519,
+            "unit": "#"
+          },
+          {
+            "name": "Mean Temperature buckle_4.gcode",
+            "value": 210,
+            "unit": "Celcius"
+          },
+          {
+            "name": "Slicing time buckle_4.gcode",
+            "value": 1.724,
+            "unit": "s"
+          },
+          {
+            "name": "Print time new_spikes_and_holes_2022.gcode",
+            "value": 13242.260666442058,
+            "unit": "s"
+          },
+          {
+            "name": "Microsegment violations in wall-skin new_spikes_and_holes_2022.gcode",
+            "value": 175204,
+            "unit": "-"
+          },
+          {
+            "name": "Microsegment violations in infill new_spikes_and_holes_2022.gcode",
+            "value": 0,
+            "unit": "-"
+          },
+          {
+            "name": "Number of retractions new_spikes_and_holes_2022.gcode",
+            "value": 7287,
+            "unit": "-"
+          },
+          {
+            "name": "Total travel length new_spikes_and_holes_2022.gcode",
+            "value": 94885.05206478806,
+            "unit": "mm"
+          },
+          {
+            "name": "Minimum Line Length new_spikes_and_holes_2022.gcode",
+            "value": 0.006000000000000227,
+            "unit": "mm"
+          },
+          {
+            "name": "Line Lengths 25 Percentile new_spikes_and_holes_2022.gcode",
+            "value": 0.2840189254165387,
+            "unit": "mm"
+          },
+          {
+            "name": "Minimum All Distances new_spikes_and_holes_2022.gcode",
+            "value": 0.0009999999999763531,
+            "unit": "mm"
+          },
+          {
+            "name": "All Distances 25 Percentile new_spikes_and_holes_2022.gcode",
+            "value": 0.2847757849702578,
+            "unit": "mm"
+          },
+          {
+            "name": "Extrusion-Axis new_spikes_and_holes_2022.gcode",
+            "value": 0.00778,
+            "unit": "mm"
+          },
+          {
+            "name": "Extrusion Lengths 25 Percentile new_spikes_and_holes_2022.gcode",
+            "value": 850.6400775,
+            "unit": "mm"
+          },
+          {
+            "name": "Number Of Temperature Commands new_spikes_and_holes_2022.gcode",
+            "value": 433098,
+            "unit": "#"
+          },
+          {
+            "name": "Mean Temperature new_spikes_and_holes_2022.gcode",
+            "value": 210,
+            "unit": "Celcius"
+          },
+          {
+            "name": "Slicing time new_spikes_and_holes_2022.gcode",
+            "value": 8.614,
+            "unit": "s"
+          },
+          {
+            "name": "Print time buckle_1.gcode",
+            "value": 17721.257056384973,
+            "unit": "s"
+          },
+          {
+            "name": "Microsegment violations in wall-skin buckle_1.gcode",
+            "value": 875,
+            "unit": "-"
+          },
+          {
+            "name": "Microsegment violations in infill buckle_1.gcode",
+            "value": 1,
+            "unit": "-"
+          },
+          {
+            "name": "Number of retractions buckle_1.gcode",
+            "value": 47,
+            "unit": "-"
+          },
+          {
+            "name": "Total travel length buckle_1.gcode",
+            "value": 193006.81452732233,
+            "unit": "mm"
+          },
+          {
+            "name": "Minimum Line Length buckle_1.gcode",
+            "value": 0.006082762530299229,
+            "unit": "mm"
+          },
+          {
+            "name": "Line Lengths 25 Percentile buckle_1.gcode",
+            "value": 1.1191519110469375,
+            "unit": "mm"
+          },
+          {
+            "name": "Minimum All Distances buckle_1.gcode",
+            "value": 0.000999999999990564,
+            "unit": "mm"
+          },
+          {
+            "name": "All Distances 25 Percentile buckle_1.gcode",
+            "value": 0.14798986451780338,
+            "unit": "mm"
+          },
+          {
+            "name": "Extrusion-Axis buckle_1.gcode",
+            "value": 0.00482,
+            "unit": "mm"
+          },
+          {
+            "name": "Extrusion Lengths 25 Percentile buckle_1.gcode",
+            "value": 389.3337625,
+            "unit": "mm"
+          },
+          {
+            "name": "Number Of Temperature Commands buckle_1.gcode",
+            "value": 354762,
+            "unit": "#"
+          },
+          {
+            "name": "Mean Temperature buckle_1.gcode",
+            "value": 210,
+            "unit": "Celcius"
+          },
+          {
+            "name": "Slicing time buckle_1.gcode",
+            "value": 3.809,
+            "unit": "s"
+          },
+          {
+            "name": "Print time support_infill_fail_test.gcode",
+            "value": 3059.8819084381885,
+            "unit": "s"
+          },
+          {
+            "name": "Microsegment violations in wall-skin support_infill_fail_test.gcode",
+            "value": 0,
+            "unit": "-"
+          },
+          {
+            "name": "Microsegment violations in infill support_infill_fail_test.gcode",
+            "value": 0,
+            "unit": "-"
+          },
+          {
+            "name": "Number of retractions support_infill_fail_test.gcode",
+            "value": 4,
+            "unit": "-"
+          },
+          {
+            "name": "Total travel length support_infill_fail_test.gcode",
+            "value": 9619.70916234337,
+            "unit": "mm"
+          },
+          {
+            "name": "Minimum Line Length support_infill_fail_test.gcode",
+            "value": 0.09617692030834549,
+            "unit": "mm"
+          },
+          {
+            "name": "Line Lengths 25 Percentile support_infill_fail_test.gcode",
+            "value": 1.0284711955130323,
+            "unit": "mm"
+          },
+          {
+            "name": "Minimum All Distances support_infill_fail_test.gcode",
+            "value": 0.0031622776601655037,
+            "unit": "mm"
+          },
+          {
+            "name": "All Distances 25 Percentile support_infill_fail_test.gcode",
+            "value": 0.03959797974645486,
+            "unit": "mm"
+          },
+          {
+            "name": "Extrusion-Axis support_infill_fail_test.gcode",
+            "value": 0.03271,
+            "unit": "mm"
+          },
+          {
+            "name": "Extrusion Lengths 25 Percentile support_infill_fail_test.gcode",
+            "value": 105.29601,
+            "unit": "mm"
+          },
+          {
+            "name": "Number Of Temperature Commands support_infill_fail_test.gcode",
+            "value": 20944,
+            "unit": "#"
+          },
+          {
+            "name": "Mean Temperature support_infill_fail_test.gcode",
+            "value": 210,
+            "unit": "Celcius"
+          },
+          {
+            "name": "Slicing time support_infill_fail_test.gcode",
+            "value": 0.26,
+            "unit": "s"
+          },
+          {
+            "name": "Print time buckle_6.gcode",
+            "value": 21115.300845358503,
+            "unit": "s"
+          },
+          {
+            "name": "Microsegment violations in wall-skin buckle_6.gcode",
+            "value": 121,
+            "unit": "-"
+          },
+          {
+            "name": "Microsegment violations in infill buckle_6.gcode",
+            "value": 20,
+            "unit": "-"
+          },
+          {
+            "name": "Number of retractions buckle_6.gcode",
+            "value": 47,
+            "unit": "-"
+          },
+          {
+            "name": "Total travel length buckle_6.gcode",
+            "value": 180668.6813366717,
+            "unit": "mm"
+          },
+          {
+            "name": "Minimum Line Length buckle_6.gcode",
+            "value": 0.009433981132050434,
+            "unit": "mm"
+          },
+          {
+            "name": "Line Lengths 25 Percentile buckle_6.gcode",
+            "value": 1.1347105357755367,
+            "unit": "mm"
+          },
+          {
+            "name": "Minimum All Distances buckle_6.gcode",
+            "value": 0.0010000000000047748,
+            "unit": "mm"
+          },
+          {
+            "name": "All Distances 25 Percentile buckle_6.gcode",
+            "value": 0.14579780519609534,
+            "unit": "mm"
+          },
+          {
+            "name": "Extrusion-Axis buckle_6.gcode",
+            "value": 0.01743,
+            "unit": "mm"
+          },
+          {
+            "name": "Extrusion Lengths 25 Percentile buckle_6.gcode",
+            "value": 255.587805,
+            "unit": "mm"
+          },
+          {
+            "name": "Number Of Temperature Commands buckle_6.gcode",
+            "value": 408737,
+            "unit": "#"
+          },
+          {
+            "name": "Mean Temperature buckle_6.gcode",
+            "value": 210,
+            "unit": "Celcius"
+          },
+          {
+            "name": "Slicing time buckle_6.gcode",
+            "value": 4.104,
+            "unit": "s"
+          },
+          {
+            "name": "Print time buckle_2.gcode",
+            "value": 4542.040311282227,
+            "unit": "s"
+          },
+          {
+            "name": "Microsegment violations in wall-skin buckle_2.gcode",
+            "value": 2132,
+            "unit": "-"
+          },
+          {
+            "name": "Microsegment violations in infill buckle_2.gcode",
+            "value": 0,
+            "unit": "-"
+          },
+          {
+            "name": "Number of retractions buckle_2.gcode",
+            "value": 111,
+            "unit": "-"
+          },
+          {
+            "name": "Total travel length buckle_2.gcode",
+            "value": 46363.19590745486,
+            "unit": "mm"
+          },
+          {
+            "name": "Minimum Line Length buckle_2.gcode",
+            "value": 0.005385164807128551,
+            "unit": "mm"
+          },
+          {
+            "name": "Line Lengths 25 Percentile buckle_2.gcode",
+            "value": 0.6421247931663856,
+            "unit": "mm"
+          },
+          {
+            "name": "Minimum All Distances buckle_2.gcode",
+            "value": 0.0009999999999976694,
+            "unit": "mm"
+          },
+          {
+            "name": "All Distances 25 Percentile buckle_2.gcode",
+            "value": 0.1529999999999916,
+            "unit": "mm"
+          },
+          {
+            "name": "Extrusion-Axis buckle_2.gcode",
+            "value": 0.01576,
+            "unit": "mm"
+          },
+          {
+            "name": "Extrusion Lengths 25 Percentile buckle_2.gcode",
+            "value": 258.609155,
+            "unit": "mm"
+          },
+          {
+            "name": "Number Of Temperature Commands buckle_2.gcode",
+            "value": 100315,
+            "unit": "#"
+          },
+          {
+            "name": "Mean Temperature buckle_2.gcode",
+            "value": 210,
+            "unit": "Celcius"
+          },
+          {
+            "name": "Slicing time buckle_2.gcode",
+            "value": 1.18,
+            "unit": "s"
+          },
+          {
+            "name": "Print time buckle_7.gcode",
+            "value": 2862.1724934793015,
+            "unit": "s"
+          },
+          {
+            "name": "Microsegment violations in wall-skin buckle_7.gcode",
+            "value": 2746,
+            "unit": "-"
+          },
+          {
+            "name": "Microsegment violations in infill buckle_7.gcode",
+            "value": 25,
+            "unit": "-"
+          },
+          {
+            "name": "Number of retractions buckle_7.gcode",
+            "value": 23,
+            "unit": "-"
+          },
+          {
+            "name": "Total travel length buckle_7.gcode",
+            "value": 25808.579487652074,
+            "unit": "mm"
+          },
+          {
+            "name": "Minimum Line Length buckle_7.gcode",
+            "value": 0.04599999999999227,
+            "unit": "mm"
+          },
+          {
+            "name": "Line Lengths 25 Percentile buckle_7.gcode",
+            "value": 0.6406122071893475,
+            "unit": "mm"
+          },
+          {
+            "name": "Minimum All Distances buckle_7.gcode",
+            "value": 0.001000000000000112,
+            "unit": "mm"
+          },
+          {
+            "name": "All Distances 25 Percentile buckle_7.gcode",
+            "value": 0.18491078930122357,
+            "unit": "mm"
+          },
+          {
+            "name": "Extrusion-Axis buckle_7.gcode",
+            "value": 0.02071,
+            "unit": "mm"
+          },
+          {
+            "name": "Extrusion Lengths 25 Percentile buckle_7.gcode",
+            "value": 354.080595,
+            "unit": "mm"
+          },
+          {
+            "name": "Number Of Temperature Commands buckle_7.gcode",
+            "value": 67296,
+            "unit": "#"
+          },
+          {
+            "name": "Mean Temperature buckle_7.gcode",
+            "value": 210,
+            "unit": "Celcius"
+          },
+          {
+            "name": "Slicing time buckle_7.gcode",
+            "value": 0.857,
+            "unit": "s"
+          },
+          {
+            "name": "Print time squaring.gcode",
+            "value": 1241.1927803808442,
+            "unit": "s"
+          },
+          {
+            "name": "Microsegment violations in wall-skin squaring.gcode",
+            "value": 0,
+            "unit": "-"
+          },
+          {
+            "name": "Microsegment violations in infill squaring.gcode",
+            "value": 0,
+            "unit": "-"
+          },
+          {
+            "name": "Number of retractions squaring.gcode",
+            "value": 511,
+            "unit": "-"
+          },
+          {
+            "name": "Total travel length squaring.gcode",
+            "value": 9872.053746175103,
+            "unit": "mm"
+          },
+          {
+            "name": "Minimum Line Length squaring.gcode",
+            "value": 0.03689173349140395,
+            "unit": "mm"
+          },
+          {
+            "name": "Line Lengths 25 Percentile squaring.gcode",
+            "value": 0.6996240026980803,
+            "unit": "mm"
+          },
+          {
+            "name": "Minimum All Distances squaring.gcode",
+            "value": 0.000999999999990564,
+            "unit": "mm"
+          },
+          {
+            "name": "All Distances 25 Percentile squaring.gcode",
+            "value": 0.19961212388028754,
+            "unit": "mm"
+          },
+          {
+            "name": "Extrusion-Axis squaring.gcode",
+            "value": 0.03326,
+            "unit": "mm"
+          },
+          {
+            "name": "Extrusion Lengths 25 Percentile squaring.gcode",
+            "value": 51.2075025,
+            "unit": "mm"
+          },
+          {
+            "name": "Number Of Temperature Commands squaring.gcode",
+            "value": 16251,
+            "unit": "#"
+          },
+          {
+            "name": "Mean Temperature squaring.gcode",
+            "value": 61.5,
+            "unit": "Celcius"
+          },
+          {
+            "name": "Slicing time squaring.gcode",
+            "value": 0.255,
+            "unit": "s"
+          },
+          {
+            "name": "Print time conical.gcode",
+            "value": 202.33073242996812,
+            "unit": "s"
+          },
+          {
+            "name": "Microsegment violations in wall-skin conical.gcode",
+            "value": 0,
+            "unit": "-"
+          },
+          {
+            "name": "Microsegment violations in infill conical.gcode",
+            "value": 0,
+            "unit": "-"
+          },
+          {
+            "name": "Number of retractions conical.gcode",
+            "value": 3,
+            "unit": "-"
+          },
+          {
+            "name": "Total travel length conical.gcode",
+            "value": 839.133298889417,
+            "unit": "mm"
+          },
+          {
+            "name": "Minimum Line Length conical.gcode",
+            "value": 0.0586685605754904,
+            "unit": "mm"
+          },
+          {
+            "name": "Line Lengths 25 Percentile conical.gcode",
+            "value": 0.3053669923223449,
+            "unit": "mm"
+          },
+          {
+            "name": "Minimum All Distances conical.gcode",
+            "value": 0.03224903099318954,
+            "unit": "mm"
+          },
+          {
+            "name": "All Distances 25 Percentile conical.gcode",
+            "value": 0.12728314892396586,
+            "unit": "mm"
+          },
+          {
+            "name": "Extrusion-Axis conical.gcode",
+            "value": 0.04469,
+            "unit": "mm"
+          },
+          {
+            "name": "Extrusion Lengths 25 Percentile conical.gcode",
+            "value": 17.48712,
+            "unit": "mm"
+          },
+          {
+            "name": "Number Of Temperature Commands conical.gcode",
+            "value": 5517,
+            "unit": "#"
+          },
+          {
+            "name": "Mean Temperature conical.gcode",
+            "value": 0,
+            "unit": "Celcius"
+          },
+          {
+            "name": "Slicing time conical.gcode",
+            "value": 0.108,
             "unit": "s"
           }
         ]
