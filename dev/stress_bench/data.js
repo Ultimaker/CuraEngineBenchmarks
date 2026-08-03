@@ -1,40 +1,8 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1785765375935,
+  "lastUpdate": 1785769893294,
   "repoUrl": "https://github.com/Ultimaker/CuraEngine",
   "entries": {
     "Stress Benchmark": [
-      {
-        "commit": {
-          "author": {
-            "name": "Ultimaker",
-            "username": "Ultimaker"
-          },
-          "committer": {
-            "name": "Ultimaker",
-            "username": "Ultimaker"
-          },
-          "id": "97a3abfa215bca3380c209297a2d7b518663331b",
-          "message": "Write extruder-specific end G-code",
-          "timestamp": "2026-02-16T19:39:24Z",
-          "url": "https://github.com/Ultimaker/CuraEngine/pull/2289/commits/97a3abfa215bca3380c209297a2d7b518663331b"
-        },
-        "date": 1771488602497,
-        "tool": "customSmallerIsBetter",
-        "benches": [
-          {
-            "name": "Number of test cases",
-            "value": 61,
-            "unit": "-",
-            "extra": ""
-          },
-          {
-            "name": "General Stress Level",
-            "value": 0,
-            "unit": "%",
-            "extra": "Crashes in: "
-          }
-        ]
-      },
       {
         "commit": {
           "author": {
@@ -8023,6 +7991,38 @@ window.BENCHMARK_DATA = {
           "url": "https://github.com/Ultimaker/CuraEngine/pull/2354/commits/cc2be5b41a9dd12f87b0339396d8a9b76e1d8702"
         },
         "date": 1785765367815,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "Number of test cases",
+            "value": 61,
+            "unit": "-",
+            "extra": ""
+          },
+          {
+            "name": "General Stress Level",
+            "value": 0,
+            "unit": "%",
+            "extra": "Crashes in: "
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "Ultimaker",
+            "username": "Ultimaker"
+          },
+          "committer": {
+            "name": "Ultimaker",
+            "username": "Ultimaker"
+          },
+          "id": "391ccaf652ec9c151895ad458669af0f20e22eea",
+          "message": "Add missing `wall_x_inset` setting for stress test",
+          "timestamp": "2026-08-03T14:23:09Z",
+          "url": "https://github.com/Ultimaker/CuraEngine/pull/2356/commits/391ccaf652ec9c151895ad458669af0f20e22eea"
+        },
+        "date": 1785769884424,
         "tool": "customSmallerIsBetter",
         "benches": [
           {
