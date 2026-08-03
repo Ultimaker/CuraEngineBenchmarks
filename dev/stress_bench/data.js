@@ -1,40 +1,8 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1785496508641,
+  "lastUpdate": 1785746990902,
   "repoUrl": "https://github.com/Ultimaker/CuraEngine",
   "entries": {
     "Stress Benchmark": [
-      {
-        "commit": {
-          "author": {
-            "name": "Ultimaker",
-            "username": "Ultimaker"
-          },
-          "committer": {
-            "name": "Ultimaker",
-            "username": "Ultimaker"
-          },
-          "id": "5bbeb4060f1571e75f05896efa068fa5c39805de",
-          "message": "Write extruder-specific end G-code",
-          "timestamp": "2026-02-16T19:39:24Z",
-          "url": "https://github.com/Ultimaker/CuraEngine/pull/2289/commits/5bbeb4060f1571e75f05896efa068fa5c39805de"
-        },
-        "date": 1771428187254,
-        "tool": "customSmallerIsBetter",
-        "benches": [
-          {
-            "name": "Number of test cases",
-            "value": 61,
-            "unit": "-",
-            "extra": ""
-          },
-          {
-            "name": "General Stress Level",
-            "value": 0,
-            "unit": "%",
-            "extra": "Crashes in: "
-          }
-        ]
-      },
       {
         "commit": {
           "author": {
@@ -8023,6 +7991,38 @@ window.BENCHMARK_DATA = {
           "url": "https://github.com/Ultimaker/CuraEngine/pull/2353/commits/3f4c4210046f0d16d1eacdb4691da2927b66f9b3"
         },
         "date": 1785496500301,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "Number of test cases",
+            "value": 61,
+            "unit": "-",
+            "extra": ""
+          },
+          {
+            "name": "General Stress Level",
+            "value": 100,
+            "unit": "%",
+            "extra": "Crashes in: 045, 016, 056, 014, 019, 050, 034, 005, 020, 055, 009, 026, 007, 012, 062, 015, 003, 029, 037, 030, 033, 036, 049, 039, 035, 006, 065, 024, 002, 023, 028, 059, 048, 051, 021, 025, 060, 011, 001, 017, 041, 066, 052, 022, 038, 042, 004, 058, 043, 053, 010, 031, 046, 008, 047, 018, 040, 044, 027, 013, 032"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "Ultimaker",
+            "username": "Ultimaker"
+          },
+          "committer": {
+            "name": "Ultimaker",
+            "username": "Ultimaker"
+          },
+          "id": "d420aecc4cea202e6e578c9508dee084f409e0b8",
+          "message": "Introduce setting \"Inner Wall Inset\"",
+          "timestamp": "2026-08-02T09:33:32Z",
+          "url": "https://github.com/Ultimaker/CuraEngine/pull/2353/commits/d420aecc4cea202e6e578c9508dee084f409e0b8"
+        },
+        "date": 1785746964691,
         "tool": "customSmallerIsBetter",
         "benches": [
           {
