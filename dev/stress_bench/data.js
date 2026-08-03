@@ -1,40 +1,8 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1785753688909,
+  "lastUpdate": 1785756649460,
   "repoUrl": "https://github.com/Ultimaker/CuraEngine",
   "entries": {
     "Stress Benchmark": [
-      {
-        "commit": {
-          "author": {
-            "name": "Ultimaker",
-            "username": "Ultimaker"
-          },
-          "committer": {
-            "name": "Ultimaker",
-            "username": "Ultimaker"
-          },
-          "id": "18c2557fbbbe1d16f1f7f7ee40a547a03b0b346c",
-          "message": "Fix issue where small lines would be printed floating within the bridging area",
-          "timestamp": "2026-02-16T19:39:24Z",
-          "url": "https://github.com/Ultimaker/CuraEngine/pull/2291/commits/18c2557fbbbe1d16f1f7f7ee40a547a03b0b346c"
-        },
-        "date": 1771486933473,
-        "tool": "customSmallerIsBetter",
-        "benches": [
-          {
-            "name": "Number of test cases",
-            "value": 61,
-            "unit": "-",
-            "extra": ""
-          },
-          {
-            "name": "General Stress Level",
-            "value": 0,
-            "unit": "%",
-            "extra": "Crashes in: "
-          }
-        ]
-      },
       {
         "commit": {
           "author": {
@@ -8023,6 +7991,38 @@ window.BENCHMARK_DATA = {
           "url": "https://github.com/Ultimaker/CuraEngine/pull/2353/commits/e462396945575799d47b44b48655958b6494287f"
         },
         "date": 1785753680309,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "Number of test cases",
+            "value": 61,
+            "unit": "-",
+            "extra": ""
+          },
+          {
+            "name": "General Stress Level",
+            "value": 100,
+            "unit": "%",
+            "extra": "Crashes in: 045, 016, 056, 014, 019, 050, 034, 005, 020, 055, 009, 026, 007, 012, 062, 015, 003, 029, 037, 030, 033, 036, 049, 039, 035, 006, 065, 024, 002, 023, 028, 059, 048, 051, 021, 025, 060, 011, 001, 017, 041, 066, 052, 022, 038, 042, 004, 058, 043, 053, 010, 031, 046, 008, 047, 018, 040, 044, 027, 013, 032"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "Ultimaker",
+            "username": "Ultimaker"
+          },
+          "committer": {
+            "name": "Ultimaker",
+            "username": "Ultimaker"
+          },
+          "id": "d299e1ec308ae8c234f2470e015460e802b8788e",
+          "message": "Introduce setting \"Inner Wall Inset\"",
+          "timestamp": "2026-08-03T08:51:50Z",
+          "url": "https://github.com/Ultimaker/CuraEngine/pull/2353/commits/d299e1ec308ae8c234f2470e015460e802b8788e"
+        },
+        "date": 1785756641288,
         "tool": "customSmallerIsBetter",
         "benches": [
           {
