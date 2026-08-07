@@ -1,40 +1,8 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1785941652991,
+  "lastUpdate": 1786099839735,
   "repoUrl": "https://github.com/Ultimaker/CuraEngine",
   "entries": {
     "Stress Benchmark": [
-      {
-        "commit": {
-          "author": {
-            "name": "Ultimaker",
-            "username": "Ultimaker"
-          },
-          "committer": {
-            "name": "Ultimaker",
-            "username": "Ultimaker"
-          },
-          "id": "21e122e3d7cfc9aadd4625a20d20622f82e66c17",
-          "message": "CURA-12840 Set the Z after Z hop to avoide double trigger",
-          "timestamp": "2026-02-16T19:39:24Z",
-          "url": "https://github.com/Ultimaker/CuraEngine/pull/2290/commits/21e122e3d7cfc9aadd4625a20d20622f82e66c17"
-        },
-        "date": 1771494130911,
-        "tool": "customSmallerIsBetter",
-        "benches": [
-          {
-            "name": "Number of test cases",
-            "value": 61,
-            "unit": "-",
-            "extra": ""
-          },
-          {
-            "name": "General Stress Level",
-            "value": 0,
-            "unit": "%",
-            "extra": "Crashes in: "
-          }
-        ]
-      },
       {
         "commit": {
           "author": {
@@ -8023,6 +7991,38 @@ window.BENCHMARK_DATA = {
           "url": "https://github.com/Ultimaker/CuraEngine/pull/2357/commits/bb861bca1db215629e30b9b272c50f538fb7b2b9"
         },
         "date": 1785941645164,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "Number of test cases",
+            "value": 61,
+            "unit": "-",
+            "extra": ""
+          },
+          {
+            "name": "General Stress Level",
+            "value": 0,
+            "unit": "%",
+            "extra": "Crashes in: "
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "Ultimaker",
+            "username": "Ultimaker"
+          },
+          "committer": {
+            "name": "Ultimaker",
+            "username": "Ultimaker"
+          },
+          "id": "499ee8a6400b26806fef413082d5bcc875d31a42",
+          "message": "Fix paint-on feature for WASM environment",
+          "timestamp": "2026-08-03T15:17:50Z",
+          "url": "https://github.com/Ultimaker/CuraEngine/pull/2358/commits/499ee8a6400b26806fef413082d5bcc875d31a42"
+        },
+        "date": 1786099833043,
         "tool": "customSmallerIsBetter",
         "benches": [
           {
