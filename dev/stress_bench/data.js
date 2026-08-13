@@ -1,40 +1,8 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1786634198399,
+  "lastUpdate": 1786634776615,
   "repoUrl": "https://github.com/Ultimaker/CuraEngine",
   "entries": {
     "Stress Benchmark": [
-      {
-        "commit": {
-          "author": {
-            "name": "Ultimaker",
-            "username": "Ultimaker"
-          },
-          "committer": {
-            "name": "Ultimaker",
-            "username": "Ultimaker"
-          },
-          "id": "7d76f4b8c9ca306a50b0e1eb6a8bd3d89ce0c446",
-          "message": "CURA-13001 Limit walls bridging to anchored areas",
-          "timestamp": "2026-02-16T19:39:24Z",
-          "url": "https://github.com/Ultimaker/CuraEngine/pull/2296/commits/7d76f4b8c9ca306a50b0e1eb6a8bd3d89ce0c446"
-        },
-        "date": 1771938017119,
-        "tool": "customSmallerIsBetter",
-        "benches": [
-          {
-            "name": "Number of test cases",
-            "value": 61,
-            "unit": "-",
-            "extra": ""
-          },
-          {
-            "name": "General Stress Level",
-            "value": 0,
-            "unit": "%",
-            "extra": "Crashes in: "
-          }
-        ]
-      },
       {
         "commit": {
           "author": {
@@ -8023,6 +7991,38 @@ window.BENCHMARK_DATA = {
           "url": "https://github.com/Ultimaker/CuraEngine/pull/2363/commits/be68ac13d8c29b1ba19aecdce4bd8919c2a5f4cf"
         },
         "date": 1786634189129,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "Number of test cases",
+            "value": 61,
+            "unit": "-",
+            "extra": ""
+          },
+          {
+            "name": "General Stress Level",
+            "value": 0,
+            "unit": "%",
+            "extra": "Crashes in: "
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "Ultimaker",
+            "username": "Ultimaker"
+          },
+          "committer": {
+            "name": "Ultimaker",
+            "username": "Ultimaker"
+          },
+          "id": "bf1bb65157809599531aa5fda1f402d5b6ca0d0a",
+          "message": "[CURA-13251] variable wall thickness for tree support",
+          "timestamp": "2026-08-10T10:38:47Z",
+          "url": "https://github.com/Ultimaker/CuraEngine/pull/2347/commits/bf1bb65157809599531aa5fda1f402d5b6ca0d0a"
+        },
+        "date": 1786634768134,
         "tool": "customSmallerIsBetter",
         "benches": [
           {
