@@ -1,40 +1,8 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1786714573271,
+  "lastUpdate": 1786718155295,
   "repoUrl": "https://github.com/Ultimaker/CuraEngine",
   "entries": {
     "Stress Benchmark": [
-      {
-        "commit": {
-          "author": {
-            "name": "Ultimaker",
-            "username": "Ultimaker"
-          },
-          "committer": {
-            "name": "Ultimaker",
-            "username": "Ultimaker"
-          },
-          "id": "b6ac448a78e7b0075ffc485458686774ce3b2805",
-          "message": "CURA_13005",
-          "timestamp": "2026-02-16T19:39:24Z",
-          "url": "https://github.com/Ultimaker/CuraEngine/pull/2297/commits/b6ac448a78e7b0075ffc485458686774ce3b2805"
-        },
-        "date": 1771963908115,
-        "tool": "customSmallerIsBetter",
-        "benches": [
-          {
-            "name": "Number of test cases",
-            "value": 61,
-            "unit": "-",
-            "extra": ""
-          },
-          {
-            "name": "General Stress Level",
-            "value": 0,
-            "unit": "%",
-            "extra": "Crashes in: "
-          }
-        ]
-      },
       {
         "commit": {
           "author": {
@@ -8023,6 +7991,38 @@ window.BENCHMARK_DATA = {
           "url": "https://github.com/Ultimaker/CuraEngine/pull/2358/commits/b0681d6a454390245d6ced7d826554848e4658e7"
         },
         "date": 1786714565966,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "Number of test cases",
+            "value": 61,
+            "unit": "-",
+            "extra": ""
+          },
+          {
+            "name": "General Stress Level",
+            "value": 0,
+            "unit": "%",
+            "extra": "Crashes in: "
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "Ultimaker",
+            "username": "Ultimaker"
+          },
+          "committer": {
+            "name": "Ultimaker",
+            "username": "Ultimaker"
+          },
+          "id": "8f7b84bcef8fa068aba97b288774182cc2898806",
+          "message": "Fix issue with convex hull",
+          "timestamp": "2026-08-13T20:02:07Z",
+          "url": "https://github.com/Ultimaker/CuraEngine/pull/2151/commits/8f7b84bcef8fa068aba97b288774182cc2898806"
+        },
+        "date": 1786718145375,
         "tool": "customSmallerIsBetter",
         "benches": [
           {
