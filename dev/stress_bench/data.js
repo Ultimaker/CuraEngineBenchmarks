@@ -1,40 +1,8 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1786961114921,
+  "lastUpdate": 1786975565866,
   "repoUrl": "https://github.com/Ultimaker/CuraEngine",
   "entries": {
     "Stress Benchmark": [
-      {
-        "commit": {
-          "author": {
-            "name": "Ultimaker",
-            "username": "Ultimaker"
-          },
-          "committer": {
-            "name": "Ultimaker",
-            "username": "Ultimaker"
-          },
-          "id": "dbffea72887a866b20692bd554e09cade3327695",
-          "message": "CURA-12972 missing inward infill move",
-          "timestamp": "2026-02-16T19:39:24Z",
-          "url": "https://github.com/Ultimaker/CuraEngine/pull/2284/commits/dbffea72887a866b20692bd554e09cade3327695"
-        },
-        "date": 1772008106681,
-        "tool": "customSmallerIsBetter",
-        "benches": [
-          {
-            "name": "Number of test cases",
-            "value": 61,
-            "unit": "-",
-            "extra": ""
-          },
-          {
-            "name": "General Stress Level",
-            "value": 0,
-            "unit": "%",
-            "extra": "Crashes in: "
-          }
-        ]
-      },
       {
         "commit": {
           "author": {
@@ -8023,6 +7991,38 @@ window.BENCHMARK_DATA = {
           "url": "https://github.com/Ultimaker/CuraEngine/pull/2358/commits/dc9b8d228cb38c0375aa5c4a1b78062d068ea393"
         },
         "date": 1786961107399,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "Number of test cases",
+            "value": 61,
+            "unit": "-",
+            "extra": ""
+          },
+          {
+            "name": "General Stress Level",
+            "value": 0,
+            "unit": "%",
+            "extra": "Crashes in: "
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "Ultimaker",
+            "username": "Ultimaker"
+          },
+          "committer": {
+            "name": "Ultimaker",
+            "username": "Ultimaker"
+          },
+          "id": "29a74ba8cf60f4fb293fe7bc332ddf84728c79c2",
+          "message": "Display engine plugins in gcode",
+          "timestamp": "2026-08-17T08:07:15Z",
+          "url": "https://github.com/Ultimaker/CuraEngine/pull/2364/commits/29a74ba8cf60f4fb293fe7bc332ddf84728c79c2"
+        },
+        "date": 1786975554436,
         "tool": "customSmallerIsBetter",
         "benches": [
           {
