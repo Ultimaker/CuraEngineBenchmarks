@@ -1,40 +1,8 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1786718155295,
+  "lastUpdate": 1786956664024,
   "repoUrl": "https://github.com/Ultimaker/CuraEngine",
   "entries": {
     "Stress Benchmark": [
-      {
-        "commit": {
-          "author": {
-            "name": "Ultimaker",
-            "username": "Ultimaker"
-          },
-          "committer": {
-            "name": "Ultimaker",
-            "username": "Ultimaker"
-          },
-          "id": "df70be1ed0d2a6bcad368085a509908693160008",
-          "message": "CURA_13005",
-          "timestamp": "2026-02-16T19:39:24Z",
-          "url": "https://github.com/Ultimaker/CuraEngine/pull/2297/commits/df70be1ed0d2a6bcad368085a509908693160008"
-        },
-        "date": 1771965836023,
-        "tool": "customSmallerIsBetter",
-        "benches": [
-          {
-            "name": "Number of test cases",
-            "value": 61,
-            "unit": "-",
-            "extra": ""
-          },
-          {
-            "name": "General Stress Level",
-            "value": 0,
-            "unit": "%",
-            "extra": "Crashes in: "
-          }
-        ]
-      },
       {
         "commit": {
           "author": {
@@ -8023,6 +7991,38 @@ window.BENCHMARK_DATA = {
           "url": "https://github.com/Ultimaker/CuraEngine/pull/2151/commits/8f7b84bcef8fa068aba97b288774182cc2898806"
         },
         "date": 1786718145375,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "Number of test cases",
+            "value": 61,
+            "unit": "-",
+            "extra": ""
+          },
+          {
+            "name": "General Stress Level",
+            "value": 0,
+            "unit": "%",
+            "extra": "Crashes in: "
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "Ultimaker",
+            "username": "Ultimaker"
+          },
+          "committer": {
+            "name": "Ultimaker",
+            "username": "Ultimaker"
+          },
+          "id": "995ef5df4da465df9075d518d1ac365e0556223a",
+          "message": "Fix paint-on feature for WASM environment",
+          "timestamp": "2026-08-17T07:54:51Z",
+          "url": "https://github.com/Ultimaker/CuraEngine/pull/2358/commits/995ef5df4da465df9075d518d1ac365e0556223a"
+        },
+        "date": 1786956654901,
         "tool": "customSmallerIsBetter",
         "benches": [
           {
