@@ -1,40 +1,8 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1786975565866,
+  "lastUpdate": 1787035683705,
   "repoUrl": "https://github.com/Ultimaker/CuraEngine",
   "entries": {
     "Stress Benchmark": [
-      {
-        "commit": {
-          "author": {
-            "name": "Ultimaker",
-            "username": "Ultimaker"
-          },
-          "committer": {
-            "name": "Ultimaker",
-            "username": "Ultimaker"
-          },
-          "id": "d2b67aa1666b147d3b70bf46696a9675e9edd98d",
-          "message": "Cura 13007",
-          "timestamp": "2026-02-16T19:39:24Z",
-          "url": "https://github.com/Ultimaker/CuraEngine/pull/2298/commits/d2b67aa1666b147d3b70bf46696a9675e9edd98d"
-        },
-        "date": 1772096456625,
-        "tool": "customSmallerIsBetter",
-        "benches": [
-          {
-            "name": "Number of test cases",
-            "value": 61,
-            "unit": "-",
-            "extra": ""
-          },
-          {
-            "name": "General Stress Level",
-            "value": 0,
-            "unit": "%",
-            "extra": "Crashes in: "
-          }
-        ]
-      },
       {
         "commit": {
           "author": {
@@ -8023,6 +7991,38 @@ window.BENCHMARK_DATA = {
           "url": "https://github.com/Ultimaker/CuraEngine/pull/2364/commits/29a74ba8cf60f4fb293fe7bc332ddf84728c79c2"
         },
         "date": 1786975554436,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "Number of test cases",
+            "value": 61,
+            "unit": "-",
+            "extra": ""
+          },
+          {
+            "name": "General Stress Level",
+            "value": 0,
+            "unit": "%",
+            "extra": "Crashes in: "
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "Ultimaker",
+            "username": "Ultimaker"
+          },
+          "committer": {
+            "name": "Ultimaker",
+            "username": "Ultimaker"
+          },
+          "id": "e164f723855034d4638b08516bb0865ae8a5b969",
+          "message": "Display engine plugins in gcode",
+          "timestamp": "2026-08-18T02:02:39Z",
+          "url": "https://github.com/Ultimaker/CuraEngine/pull/2364/commits/e164f723855034d4638b08516bb0865ae8a5b969"
+        },
+        "date": 1787035676688,
         "tool": "customSmallerIsBetter",
         "benches": [
           {
