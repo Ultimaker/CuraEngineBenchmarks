@@ -1,40 +1,8 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1787045372857,
+  "lastUpdate": 1787046190296,
   "repoUrl": "https://github.com/Ultimaker/CuraEngine",
   "entries": {
     "Stress Benchmark": [
-      {
-        "commit": {
-          "author": {
-            "name": "Ultimaker",
-            "username": "Ultimaker"
-          },
-          "committer": {
-            "name": "Ultimaker",
-            "username": "Ultimaker"
-          },
-          "id": "138adbfb9cee1df9a97a438a157416755b9e900e",
-          "message": "CURA-13001 Limit walls bridging to anchored areas",
-          "timestamp": "2026-02-16T19:39:24Z",
-          "url": "https://github.com/Ultimaker/CuraEngine/pull/2296/commits/138adbfb9cee1df9a97a438a157416755b9e900e"
-        },
-        "date": 1772116095885,
-        "tool": "customSmallerIsBetter",
-        "benches": [
-          {
-            "name": "Number of test cases",
-            "value": 61,
-            "unit": "-",
-            "extra": ""
-          },
-          {
-            "name": "General Stress Level",
-            "value": 0,
-            "unit": "%",
-            "extra": "Crashes in: "
-          }
-        ]
-      },
       {
         "commit": {
           "author": {
@@ -8023,6 +7991,38 @@ window.BENCHMARK_DATA = {
           "url": "https://github.com/Ultimaker/CuraEngine/pull/2360/commits/9ec0839b6932a342f068bde168ae47d261f7fd7d"
         },
         "date": 1787045363348,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "Number of test cases",
+            "value": 61,
+            "unit": "-",
+            "extra": ""
+          },
+          {
+            "name": "General Stress Level",
+            "value": 0,
+            "unit": "%",
+            "extra": "Crashes in: "
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "Ultimaker",
+            "username": "Ultimaker"
+          },
+          "committer": {
+            "name": "Ultimaker",
+            "username": "Ultimaker"
+          },
+          "id": "fbf37fc21931626b206ebb95550af90ec7b375ec",
+          "message": "Fix issue with convex hull",
+          "timestamp": "2026-08-18T08:39:28Z",
+          "url": "https://github.com/Ultimaker/CuraEngine/pull/2151/commits/fbf37fc21931626b206ebb95550af90ec7b375ec"
+        },
+        "date": 1787046182045,
         "tool": "customSmallerIsBetter",
         "benches": [
           {
