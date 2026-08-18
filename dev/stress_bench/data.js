@@ -1,40 +1,8 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1787046190296,
+  "lastUpdate": 1787046942204,
   "repoUrl": "https://github.com/Ultimaker/CuraEngine",
   "entries": {
     "Stress Benchmark": [
-      {
-        "commit": {
-          "author": {
-            "name": "Ultimaker",
-            "username": "Ultimaker"
-          },
-          "committer": {
-            "name": "Ultimaker",
-            "username": "Ultimaker"
-          },
-          "id": "d39fd7dab20fb974fb7db5dacff032a8f240259d",
-          "message": "CURA-10381 Start or end infill close to seam",
-          "timestamp": "2026-02-16T19:39:24Z",
-          "url": "https://github.com/Ultimaker/CuraEngine/pull/2279/commits/d39fd7dab20fb974fb7db5dacff032a8f240259d"
-        },
-        "date": 1772196799403,
-        "tool": "customSmallerIsBetter",
-        "benches": [
-          {
-            "name": "Number of test cases",
-            "value": 61,
-            "unit": "-",
-            "extra": ""
-          },
-          {
-            "name": "General Stress Level",
-            "value": 0,
-            "unit": "%",
-            "extra": "Crashes in: "
-          }
-        ]
-      },
       {
         "commit": {
           "author": {
@@ -8023,6 +7991,38 @@ window.BENCHMARK_DATA = {
           "url": "https://github.com/Ultimaker/CuraEngine/pull/2151/commits/fbf37fc21931626b206ebb95550af90ec7b375ec"
         },
         "date": 1787046182045,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "Number of test cases",
+            "value": 61,
+            "unit": "-",
+            "extra": ""
+          },
+          {
+            "name": "General Stress Level",
+            "value": 0,
+            "unit": "%",
+            "extra": "Crashes in: "
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "Ultimaker",
+            "username": "Ultimaker"
+          },
+          "committer": {
+            "name": "Ultimaker",
+            "username": "Ultimaker"
+          },
+          "id": "9a6c743fe9182488cf505821471f66a756cfee12",
+          "message": "[CURA-13265] Fix infill (wall) overlap for infill-support.",
+          "timestamp": "2026-08-18T08:39:28Z",
+          "url": "https://github.com/Ultimaker/CuraEngine/pull/2362/commits/9a6c743fe9182488cf505821471f66a756cfee12"
+        },
+        "date": 1787046920925,
         "tool": "customSmallerIsBetter",
         "benches": [
           {
