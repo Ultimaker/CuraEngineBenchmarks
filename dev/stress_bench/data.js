@@ -1,40 +1,8 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1787035683705,
+  "lastUpdate": 1787044163682,
   "repoUrl": "https://github.com/Ultimaker/CuraEngine",
   "entries": {
     "Stress Benchmark": [
-      {
-        "commit": {
-          "author": {
-            "name": "Ultimaker",
-            "username": "Ultimaker"
-          },
-          "committer": {
-            "name": "Ultimaker",
-            "username": "Ultimaker"
-          },
-          "id": "ddf2febff3503f5fd2ae38bdabd5276407acf5aa",
-          "message": "CURA-13001 Limit walls bridging to anchored areas",
-          "timestamp": "2026-02-16T19:39:24Z",
-          "url": "https://github.com/Ultimaker/CuraEngine/pull/2296/commits/ddf2febff3503f5fd2ae38bdabd5276407acf5aa"
-        },
-        "date": 1772105362831,
-        "tool": "customSmallerIsBetter",
-        "benches": [
-          {
-            "name": "Number of test cases",
-            "value": 61,
-            "unit": "-",
-            "extra": ""
-          },
-          {
-            "name": "General Stress Level",
-            "value": 0,
-            "unit": "%",
-            "extra": "Crashes in: "
-          }
-        ]
-      },
       {
         "commit": {
           "author": {
@@ -8023,6 +7991,38 @@ window.BENCHMARK_DATA = {
           "url": "https://github.com/Ultimaker/CuraEngine/pull/2364/commits/e164f723855034d4638b08516bb0865ae8a5b969"
         },
         "date": 1787035676688,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "Number of test cases",
+            "value": 61,
+            "unit": "-",
+            "extra": ""
+          },
+          {
+            "name": "General Stress Level",
+            "value": 0,
+            "unit": "%",
+            "extra": "Crashes in: "
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "Ultimaker",
+            "username": "Ultimaker"
+          },
+          "committer": {
+            "name": "Ultimaker",
+            "username": "Ultimaker"
+          },
+          "id": "aa2e1912731dfdab9a70cc655e7cd93b111f946e",
+          "message": "[CURA-13266] Skin-support: No more infill-bridging over skin one layer lower.",
+          "timestamp": "2026-08-18T02:02:39Z",
+          "url": "https://github.com/Ultimaker/CuraEngine/pull/2363/commits/aa2e1912731dfdab9a70cc655e7cd93b111f946e"
+        },
+        "date": 1787044153036,
         "tool": "customSmallerIsBetter",
         "benches": [
           {
