@@ -1,40 +1,8 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1787046942204,
+  "lastUpdate": 1787064789933,
   "repoUrl": "https://github.com/Ultimaker/CuraEngine",
   "entries": {
     "Stress Benchmark": [
-      {
-        "commit": {
-          "author": {
-            "name": "Ultimaker",
-            "username": "Ultimaker"
-          },
-          "committer": {
-            "name": "Ultimaker",
-            "username": "Ultimaker"
-          },
-          "id": "cad5bd2bb348ea4078da99f4bff99036405f4976",
-          "message": "Fix issue where overhanging wall speeds was sporadically applied to support",
-          "timestamp": "2026-03-01T16:17:23Z",
-          "url": "https://github.com/Ultimaker/CuraEngine/pull/2299/commits/cad5bd2bb348ea4078da99f4bff99036405f4976"
-        },
-        "date": 1772398687538,
-        "tool": "customSmallerIsBetter",
-        "benches": [
-          {
-            "name": "Number of test cases",
-            "value": 61,
-            "unit": "-",
-            "extra": ""
-          },
-          {
-            "name": "General Stress Level",
-            "value": 0,
-            "unit": "%",
-            "extra": "Crashes in: "
-          }
-        ]
-      },
       {
         "commit": {
           "author": {
@@ -8023,6 +7991,38 @@ window.BENCHMARK_DATA = {
           "url": "https://github.com/Ultimaker/CuraEngine/pull/2362/commits/9a6c743fe9182488cf505821471f66a756cfee12"
         },
         "date": 1787046920925,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "Number of test cases",
+            "value": 61,
+            "unit": "-",
+            "extra": ""
+          },
+          {
+            "name": "General Stress Level",
+            "value": 0,
+            "unit": "%",
+            "extra": "Crashes in: "
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "Ultimaker",
+            "username": "Ultimaker"
+          },
+          "committer": {
+            "name": "Ultimaker",
+            "username": "Ultimaker"
+          },
+          "id": "90ec93a160dcb848af4332898aaea6d7a0ac1fb3",
+          "message": "Fix issue with convex hull",
+          "timestamp": "2026-08-18T11:54:00Z",
+          "url": "https://github.com/Ultimaker/CuraEngine/pull/2151/commits/90ec93a160dcb848af4332898aaea6d7a0ac1fb3"
+        },
+        "date": 1787064781452,
         "tool": "customSmallerIsBetter",
         "benches": [
           {
