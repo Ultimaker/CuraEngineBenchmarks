@@ -1,44 +1,8 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1787209660085,
+  "lastUpdate": 1787216530114,
   "repoUrl": "https://github.com/Ultimaker/CuraEngine",
   "entries": {
     "Stress Benchmark": [
-      {
-        "commit": {
-          "author": {
-            "email": "erwan.mathieu@ultimaker.com",
-            "name": "Erwan MATHIEU",
-            "username": "wawanbreton"
-          },
-          "committer": {
-            "email": "erwan.mathieu@ultimaker.com",
-            "name": "Erwan MATHIEU",
-            "username": "wawanbreton"
-          },
-          "distinct": true,
-          "id": "38595fafd6b9dd003b5638409c22a08232c6dde3",
-          "message": "Bump version to 5.13.0-alpha.0",
-          "timestamp": "2026-03-05T13:47:23+01:00",
-          "tree_id": "d3135c8f4c43e27fe16473abca6b46304732469f",
-          "url": "https://github.com/Ultimaker/CuraEngine/commit/38595fafd6b9dd003b5638409c22a08232c6dde3"
-        },
-        "date": 1772716492288,
-        "tool": "customSmallerIsBetter",
-        "benches": [
-          {
-            "name": "Number of test cases",
-            "value": 61,
-            "unit": "-",
-            "extra": ""
-          },
-          {
-            "name": "General Stress Level",
-            "value": 0,
-            "unit": "%",
-            "extra": "Crashes in: "
-          }
-        ]
-      },
       {
         "commit": {
           "author": {
@@ -8023,6 +7987,38 @@ window.BENCHMARK_DATA = {
           "url": "https://github.com/Ultimaker/CuraEngine/pull/2363/commits/cda787e1bfaa5c54d2da3dcd805e00ddf7590c89"
         },
         "date": 1787209650615,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "Number of test cases",
+            "value": 61,
+            "unit": "-",
+            "extra": ""
+          },
+          {
+            "name": "General Stress Level",
+            "value": 0,
+            "unit": "%",
+            "extra": "Crashes in: "
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "Ultimaker",
+            "username": "Ultimaker"
+          },
+          "committer": {
+            "name": "Ultimaker",
+            "username": "Ultimaker"
+          },
+          "id": "106f6145198edd192f51ef290d8a1fec36a9974c",
+          "message": "[CURA-13265] Fix infill (wall) overlap for infill-support.",
+          "timestamp": "2026-08-20T08:32:24Z",
+          "url": "https://github.com/Ultimaker/CuraEngine/pull/2362/commits/106f6145198edd192f51ef290d8a1fec36a9974c"
+        },
+        "date": 1787216523328,
         "tool": "customSmallerIsBetter",
         "benches": [
           {
