@@ -1,40 +1,8 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1787064789933,
+  "lastUpdate": 1787208383223,
   "repoUrl": "https://github.com/Ultimaker/CuraEngine",
   "entries": {
     "Stress Benchmark": [
-      {
-        "commit": {
-          "author": {
-            "name": "Ultimaker",
-            "username": "Ultimaker"
-          },
-          "committer": {
-            "name": "Ultimaker",
-            "username": "Ultimaker"
-          },
-          "id": "5257032b8d68285be88a44ebaeef4050a14d83d8",
-          "message": "[CURA-13017] Revert \"Fix non-retract-travels over (outer) walls.\"",
-          "timestamp": "2026-03-01T16:17:23Z",
-          "url": "https://github.com/Ultimaker/CuraEngine/pull/2300/commits/5257032b8d68285be88a44ebaeef4050a14d83d8"
-        },
-        "date": 1772614846660,
-        "tool": "customSmallerIsBetter",
-        "benches": [
-          {
-            "name": "Number of test cases",
-            "value": 61,
-            "unit": "-",
-            "extra": ""
-          },
-          {
-            "name": "General Stress Level",
-            "value": 0,
-            "unit": "%",
-            "extra": "Crashes in: "
-          }
-        ]
-      },
       {
         "commit": {
           "author": {
@@ -8023,6 +7991,38 @@ window.BENCHMARK_DATA = {
           "url": "https://github.com/Ultimaker/CuraEngine/pull/2151/commits/90ec93a160dcb848af4332898aaea6d7a0ac1fb3"
         },
         "date": 1787064781452,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "Number of test cases",
+            "value": 61,
+            "unit": "-",
+            "extra": ""
+          },
+          {
+            "name": "General Stress Level",
+            "value": 0,
+            "unit": "%",
+            "extra": "Crashes in: "
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "Ultimaker",
+            "username": "Ultimaker"
+          },
+          "committer": {
+            "name": "Ultimaker",
+            "username": "Ultimaker"
+          },
+          "id": "8712c039cb46cd0bd521f299a964b2e4aeef7f72",
+          "message": "CURA-13249 Merge header with first GCode part",
+          "timestamp": "2026-08-18T11:54:00Z",
+          "url": "https://github.com/Ultimaker/CuraEngine/pull/2350/commits/8712c039cb46cd0bd521f299a964b2e4aeef7f72"
+        },
+        "date": 1787208375509,
         "tool": "customSmallerIsBetter",
         "benches": [
           {
