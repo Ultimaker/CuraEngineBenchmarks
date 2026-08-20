@@ -1,40 +1,8 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1787208383223,
+  "lastUpdate": 1787209660085,
   "repoUrl": "https://github.com/Ultimaker/CuraEngine",
   "entries": {
     "Stress Benchmark": [
-      {
-        "commit": {
-          "author": {
-            "name": "Ultimaker",
-            "username": "Ultimaker"
-          },
-          "committer": {
-            "name": "Ultimaker",
-            "username": "Ultimaker"
-          },
-          "id": "cf3dc2344c9e72fc6083ee04cca4b25031327d9c",
-          "message": "CURA-10381 Start or end infill close to seam",
-          "timestamp": "2026-03-01T16:17:23Z",
-          "url": "https://github.com/Ultimaker/CuraEngine/pull/2279/commits/cf3dc2344c9e72fc6083ee04cca4b25031327d9c"
-        },
-        "date": 1772623826699,
-        "tool": "customSmallerIsBetter",
-        "benches": [
-          {
-            "name": "Number of test cases",
-            "value": 61,
-            "unit": "-",
-            "extra": ""
-          },
-          {
-            "name": "General Stress Level",
-            "value": 0,
-            "unit": "%",
-            "extra": "Crashes in: "
-          }
-        ]
-      },
       {
         "commit": {
           "author": {
@@ -8023,6 +7991,38 @@ window.BENCHMARK_DATA = {
           "url": "https://github.com/Ultimaker/CuraEngine/pull/2350/commits/8712c039cb46cd0bd521f299a964b2e4aeef7f72"
         },
         "date": 1787208375509,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "Number of test cases",
+            "value": 61,
+            "unit": "-",
+            "extra": ""
+          },
+          {
+            "name": "General Stress Level",
+            "value": 0,
+            "unit": "%",
+            "extra": "Crashes in: "
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "Ultimaker",
+            "username": "Ultimaker"
+          },
+          "committer": {
+            "name": "Ultimaker",
+            "username": "Ultimaker"
+          },
+          "id": "cda787e1bfaa5c54d2da3dcd805e00ddf7590c89",
+          "message": "[CURA-13266] Skin-support: No more infill-bridging over skin one layer lower.",
+          "timestamp": "2026-08-18T11:54:00Z",
+          "url": "https://github.com/Ultimaker/CuraEngine/pull/2363/commits/cda787e1bfaa5c54d2da3dcd805e00ddf7590c89"
+        },
+        "date": 1787209650615,
         "tool": "customSmallerIsBetter",
         "benches": [
           {
