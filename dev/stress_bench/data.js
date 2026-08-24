@@ -1,40 +1,8 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1787567669231,
+  "lastUpdate": 1787568063354,
   "repoUrl": "https://github.com/Ultimaker/CuraEngine",
   "entries": {
     "Stress Benchmark": [
-      {
-        "commit": {
-          "author": {
-            "name": "Ultimaker",
-            "username": "Ultimaker"
-          },
-          "committer": {
-            "name": "Ultimaker",
-            "username": "Ultimaker"
-          },
-          "id": "a519f367af34842b9f7cfa693c84c0b6ef317efd",
-          "message": "CURA_13005",
-          "timestamp": "2026-03-05T12:48:31Z",
-          "url": "https://github.com/Ultimaker/CuraEngine/pull/2297/commits/a519f367af34842b9f7cfa693c84c0b6ef317efd"
-        },
-        "date": 1772797884409,
-        "tool": "customSmallerIsBetter",
-        "benches": [
-          {
-            "name": "Number of test cases",
-            "value": 61,
-            "unit": "-",
-            "extra": ""
-          },
-          {
-            "name": "General Stress Level",
-            "value": 0,
-            "unit": "%",
-            "extra": "Crashes in: "
-          }
-        ]
-      },
       {
         "commit": {
           "author": {
@@ -8019,6 +7987,38 @@ window.BENCHMARK_DATA = {
           "url": "https://github.com/Ultimaker/CuraEngine/pull/2366/commits/c18931e532bd83fb2adb545fac2b4ab193f5bdf4"
         },
         "date": 1787567661052,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "Number of test cases",
+            "value": 61,
+            "unit": "-",
+            "extra": ""
+          },
+          {
+            "name": "General Stress Level",
+            "value": 0,
+            "unit": "%",
+            "extra": "Crashes in: "
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "Ultimaker",
+            "username": "Ultimaker"
+          },
+          "committer": {
+            "name": "Ultimaker",
+            "username": "Ultimaker"
+          },
+          "id": "d53552f7bef5e072990b103f8f584bf910877c55",
+          "message": "CURA-9839 add bridging and overhang line type color scheme",
+          "timestamp": "2026-08-24T08:47:49Z",
+          "url": "https://github.com/Ultimaker/CuraEngine/pull/2366/commits/d53552f7bef5e072990b103f8f584bf910877c55"
+        },
+        "date": 1787568054519,
         "tool": "customSmallerIsBetter",
         "benches": [
           {
