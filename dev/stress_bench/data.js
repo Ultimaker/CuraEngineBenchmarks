@@ -1,40 +1,8 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1787227406852,
+  "lastUpdate": 1787556851049,
   "repoUrl": "https://github.com/Ultimaker/CuraEngine",
   "entries": {
     "Stress Benchmark": [
-      {
-        "commit": {
-          "author": {
-            "name": "Ultimaker",
-            "username": "Ultimaker"
-          },
-          "committer": {
-            "name": "Ultimaker",
-            "username": "Ultimaker"
-          },
-          "id": "3e9dc3ec1ddb43fc4b7cada9d988cc413e27294d",
-          "message": "CURA-12996 Fix flooring areas being generated when disabled",
-          "timestamp": "2026-03-05T12:48:31Z",
-          "url": "https://github.com/Ultimaker/CuraEngine/pull/2302/commits/3e9dc3ec1ddb43fc4b7cada9d988cc413e27294d"
-        },
-        "date": 1772724229132,
-        "tool": "customSmallerIsBetter",
-        "benches": [
-          {
-            "name": "Number of test cases",
-            "value": 61,
-            "unit": "-",
-            "extra": ""
-          },
-          {
-            "name": "General Stress Level",
-            "value": 0,
-            "unit": "%",
-            "extra": "Crashes in: "
-          }
-        ]
-      },
       {
         "commit": {
           "author": {
@@ -8019,6 +7987,38 @@ window.BENCHMARK_DATA = {
           "url": "https://github.com/Ultimaker/CuraEngine/pull/2360/commits/eaa7fb531181bfd2c9b9fde6090cd9bcd2fd272f"
         },
         "date": 1787227397469,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "Number of test cases",
+            "value": 61,
+            "unit": "-",
+            "extra": ""
+          },
+          {
+            "name": "General Stress Level",
+            "value": 0,
+            "unit": "%",
+            "extra": "Crashes in: "
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "Ultimaker",
+            "username": "Ultimaker"
+          },
+          "committer": {
+            "name": "Ultimaker",
+            "username": "Ultimaker"
+          },
+          "id": "996da95834529a274432c65e61a4e829d6f9dabc",
+          "message": "Display engine plugins in gcode",
+          "timestamp": "2026-08-20T11:04:01Z",
+          "url": "https://github.com/Ultimaker/CuraEngine/pull/2364/commits/996da95834529a274432c65e61a4e829d6f9dabc"
+        },
+        "date": 1787556842519,
         "tool": "customSmallerIsBetter",
         "benches": [
           {
