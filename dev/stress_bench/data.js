@@ -1,40 +1,8 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1787752240752,
+  "lastUpdate": 1787752767152,
   "repoUrl": "https://github.com/Ultimaker/CuraEngine",
   "entries": {
     "Stress Benchmark": [
-      {
-        "commit": {
-          "author": {
-            "name": "Ultimaker",
-            "username": "Ultimaker"
-          },
-          "committer": {
-            "name": "Ultimaker",
-            "username": "Ultimaker"
-          },
-          "id": "1af9ab18ce04664345240cf69c27ac4131a17b5c",
-          "message": "CURA_13005",
-          "timestamp": "2026-03-07T13:13:44Z",
-          "url": "https://github.com/Ultimaker/CuraEngine/pull/2297/commits/1af9ab18ce04664345240cf69c27ac4131a17b5c"
-        },
-        "date": 1773071735360,
-        "tool": "customSmallerIsBetter",
-        "benches": [
-          {
-            "name": "Number of test cases",
-            "value": 61,
-            "unit": "-",
-            "extra": ""
-          },
-          {
-            "name": "General Stress Level",
-            "value": 0,
-            "unit": "%",
-            "extra": "Crashes in: "
-          }
-        ]
-      },
       {
         "commit": {
           "author": {
@@ -8019,6 +7987,38 @@ window.BENCHMARK_DATA = {
           "url": "https://github.com/Ultimaker/CuraEngine/pull/2367/commits/0374fcbf1be4ec3fe2c41fd7ce2cbd5ceeb70a40"
         },
         "date": 1787752223923,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "Number of test cases",
+            "value": 61,
+            "unit": "-",
+            "extra": ""
+          },
+          {
+            "name": "General Stress Level",
+            "value": 0,
+            "unit": "%",
+            "extra": "Crashes in: "
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "Ultimaker",
+            "username": "Ultimaker"
+          },
+          "committer": {
+            "name": "Ultimaker",
+            "username": "Ultimaker"
+          },
+          "id": "cc1d14279716a957da75373b71b81172968619f6",
+          "message": "CURA-13297 Fix wall thickness instead of walls count",
+          "timestamp": "2026-08-25T12:00:25Z",
+          "url": "https://github.com/Ultimaker/CuraEngine/pull/2367/commits/cc1d14279716a957da75373b71b81172968619f6"
+        },
+        "date": 1787752758210,
         "tool": "customSmallerIsBetter",
         "benches": [
           {
