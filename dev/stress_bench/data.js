@@ -1,40 +1,8 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1787752767152,
+  "lastUpdate": 1788167709402,
   "repoUrl": "https://github.com/Ultimaker/CuraEngine",
   "entries": {
     "Stress Benchmark": [
-      {
-        "commit": {
-          "author": {
-            "name": "Ultimaker",
-            "username": "Ultimaker"
-          },
-          "committer": {
-            "name": "Ultimaker",
-            "username": "Ultimaker"
-          },
-          "id": "e6b7a7dd24fff499aeaf6f9d3e85664a4635458d",
-          "message": "[NP-1297 ??] Some processes can't handle a lone G0/G1 command; robustify that.",
-          "timestamp": "2026-03-10T18:26:06Z",
-          "url": "https://github.com/Ultimaker/CuraEngine/pull/2304/commits/e6b7a7dd24fff499aeaf6f9d3e85664a4635458d"
-        },
-        "date": 1773235009542,
-        "tool": "customSmallerIsBetter",
-        "benches": [
-          {
-            "name": "Number of test cases",
-            "value": 61,
-            "unit": "-",
-            "extra": ""
-          },
-          {
-            "name": "General Stress Level",
-            "value": 0,
-            "unit": "%",
-            "extra": "Crashes in: "
-          }
-        ]
-      },
       {
         "commit": {
           "author": {
@@ -8019,6 +7987,38 @@ window.BENCHMARK_DATA = {
           "url": "https://github.com/Ultimaker/CuraEngine/pull/2367/commits/cc1d14279716a957da75373b71b81172968619f6"
         },
         "date": 1787752758210,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "Number of test cases",
+            "value": 61,
+            "unit": "-",
+            "extra": ""
+          },
+          {
+            "name": "General Stress Level",
+            "value": 0,
+            "unit": "%",
+            "extra": "Crashes in: "
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "Ultimaker",
+            "username": "Ultimaker"
+          },
+          "committer": {
+            "name": "Ultimaker",
+            "username": "Ultimaker"
+          },
+          "id": "f1b43ee70da607b0f68089aa9dd0d316fc78e023",
+          "message": "CURA-13249 Merge header with first GCode part",
+          "timestamp": "2026-08-25T12:00:25Z",
+          "url": "https://github.com/Ultimaker/CuraEngine/pull/2350/commits/f1b43ee70da607b0f68089aa9dd0d316fc78e023"
+        },
+        "date": 1788167701916,
         "tool": "customSmallerIsBetter",
         "benches": [
           {
