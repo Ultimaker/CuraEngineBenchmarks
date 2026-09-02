@@ -1,40 +1,8 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1788359587263,
+  "lastUpdate": 1788359735152,
   "repoUrl": "https://github.com/Ultimaker/CuraEngine",
   "entries": {
     "Stress Benchmark": [
-      {
-        "commit": {
-          "author": {
-            "name": "Ultimaker",
-            "username": "Ultimaker"
-          },
-          "committer": {
-            "name": "Ultimaker",
-            "username": "Ultimaker"
-          },
-          "id": "0d9a14f74c977de1b0862555aaa137ba1b2f07ea",
-          "message": "CURA-10381 Start or end infill close to seam",
-          "timestamp": "2026-03-16T09:16:47Z",
-          "url": "https://github.com/Ultimaker/CuraEngine/pull/2279/commits/0d9a14f74c977de1b0862555aaa137ba1b2f07ea"
-        },
-        "date": 1773674399732,
-        "tool": "customSmallerIsBetter",
-        "benches": [
-          {
-            "name": "Number of test cases",
-            "value": 61,
-            "unit": "-",
-            "extra": ""
-          },
-          {
-            "name": "General Stress Level",
-            "value": 0,
-            "unit": "%",
-            "extra": "Crashes in: "
-          }
-        ]
-      },
       {
         "commit": {
           "author": {
@@ -8019,6 +7987,38 @@ window.BENCHMARK_DATA = {
           "url": "https://github.com/Ultimaker/CuraEngine/pull/2368/commits/e1be8b0360e9ff07d9c1bbd45d4f2a09a23ca065"
         },
         "date": 1788359577248,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "Number of test cases",
+            "value": 61,
+            "unit": "-",
+            "extra": ""
+          },
+          {
+            "name": "General Stress Level",
+            "value": 0,
+            "unit": "%",
+            "extra": "Crashes in: "
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "Ultimaker",
+            "username": "Ultimaker"
+          },
+          "committer": {
+            "name": "Ultimaker",
+            "username": "Ultimaker"
+          },
+          "id": "2a6ec76038bcda80b618e8499063c115d57aabcf",
+          "message": "[CURA-13291] 'Sharpen' (wall) bridging conditions.",
+          "timestamp": "2026-09-01T04:51:28Z",
+          "url": "https://github.com/Ultimaker/CuraEngine/pull/2368/commits/2a6ec76038bcda80b618e8499063c115d57aabcf"
+        },
+        "date": 1788359725388,
         "tool": "customSmallerIsBetter",
         "benches": [
           {
