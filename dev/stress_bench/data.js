@@ -1,40 +1,8 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1788359735152,
+  "lastUpdate": 1788363787168,
   "repoUrl": "https://github.com/Ultimaker/CuraEngine",
   "entries": {
     "Stress Benchmark": [
-      {
-        "commit": {
-          "author": {
-            "name": "Ultimaker",
-            "username": "Ultimaker"
-          },
-          "committer": {
-            "name": "Ultimaker",
-            "username": "Ultimaker"
-          },
-          "id": "0788908060f393b789494ecaa6acb8b9c0f1b254",
-          "message": "CURA-12996 Fix flooring areas being generated when disabled",
-          "timestamp": "2026-03-16T09:16:47Z",
-          "url": "https://github.com/Ultimaker/CuraEngine/pull/2302/commits/0788908060f393b789494ecaa6acb8b9c0f1b254"
-        },
-        "date": 1773749256382,
-        "tool": "customSmallerIsBetter",
-        "benches": [
-          {
-            "name": "Number of test cases",
-            "value": 61,
-            "unit": "-",
-            "extra": ""
-          },
-          {
-            "name": "General Stress Level",
-            "value": 0,
-            "unit": "%",
-            "extra": "Crashes in: "
-          }
-        ]
-      },
       {
         "commit": {
           "author": {
@@ -8019,6 +7987,38 @@ window.BENCHMARK_DATA = {
           "url": "https://github.com/Ultimaker/CuraEngine/pull/2368/commits/2a6ec76038bcda80b618e8499063c115d57aabcf"
         },
         "date": 1788359725388,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "Number of test cases",
+            "value": 61,
+            "unit": "-",
+            "extra": ""
+          },
+          {
+            "name": "General Stress Level",
+            "value": 0,
+            "unit": "%",
+            "extra": "Crashes in: "
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "Ultimaker",
+            "username": "Ultimaker"
+          },
+          "committer": {
+            "name": "Ultimaker",
+            "username": "Ultimaker"
+          },
+          "id": "afd1ca46ac3ce916f8fcae7329e6176e981526f7",
+          "message": "CURA-9839 add bridging and overhang line type color scheme",
+          "timestamp": "2026-09-01T04:51:28Z",
+          "url": "https://github.com/Ultimaker/CuraEngine/pull/2366/commits/afd1ca46ac3ce916f8fcae7329e6176e981526f7"
+        },
+        "date": 1788363777562,
         "tool": "customSmallerIsBetter",
         "benches": [
           {
