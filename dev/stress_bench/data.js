@@ -1,40 +1,8 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1788167709402,
+  "lastUpdate": 1788335646560,
   "repoUrl": "https://github.com/Ultimaker/CuraEngine",
   "entries": {
     "Stress Benchmark": [
-      {
-        "commit": {
-          "author": {
-            "name": "Ultimaker",
-            "username": "Ultimaker"
-          },
-          "committer": {
-            "name": "Ultimaker",
-            "username": "Ultimaker"
-          },
-          "id": "3c150b0f68f96a89345f58dfd439f24b67b1d45e",
-          "message": "CURA-13029 add specific roofing temperature",
-          "timestamp": "2026-03-14T14:41:24Z",
-          "url": "https://github.com/Ultimaker/CuraEngine/pull/2305/commits/3c150b0f68f96a89345f58dfd439f24b67b1d45e"
-        },
-        "date": 1773648014979,
-        "tool": "customSmallerIsBetter",
-        "benches": [
-          {
-            "name": "Number of test cases",
-            "value": 61,
-            "unit": "-",
-            "extra": ""
-          },
-          {
-            "name": "General Stress Level",
-            "value": 0,
-            "unit": "%",
-            "extra": "Crashes in: "
-          }
-        ]
-      },
       {
         "commit": {
           "author": {
@@ -8019,6 +7987,38 @@ window.BENCHMARK_DATA = {
           "url": "https://github.com/Ultimaker/CuraEngine/pull/2350/commits/f1b43ee70da607b0f68089aa9dd0d316fc78e023"
         },
         "date": 1788167701916,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "Number of test cases",
+            "value": 61,
+            "unit": "-",
+            "extra": ""
+          },
+          {
+            "name": "General Stress Level",
+            "value": 0,
+            "unit": "%",
+            "extra": "Crashes in: "
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "Ultimaker",
+            "username": "Ultimaker"
+          },
+          "committer": {
+            "name": "Ultimaker",
+            "username": "Ultimaker"
+          },
+          "id": "4393d4787adf8af5fc1dc65516f1f7710bc4eed4",
+          "message": "[CURA-13291] 'Sharpen' (wall) bridging conditions.",
+          "timestamp": "2026-09-01T04:51:28Z",
+          "url": "https://github.com/Ultimaker/CuraEngine/pull/2368/commits/4393d4787adf8af5fc1dc65516f1f7710bc4eed4"
+        },
+        "date": 1788335637255,
         "tool": "customSmallerIsBetter",
         "benches": [
           {
