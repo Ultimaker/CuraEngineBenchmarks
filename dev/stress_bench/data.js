@@ -1,40 +1,8 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1788345638467,
+  "lastUpdate": 1788357064337,
   "repoUrl": "https://github.com/Ultimaker/CuraEngine",
   "entries": {
     "Stress Benchmark": [
-      {
-        "commit": {
-          "author": {
-            "name": "Ultimaker",
-            "username": "Ultimaker"
-          },
-          "committer": {
-            "name": "Ultimaker",
-            "username": "Ultimaker"
-          },
-          "id": "302cc9671c819b25530e0a6320c82bec865d846d",
-          "message": "[CURA-13030] Some processes can't handle a lone G0/G1 command; robustify that.",
-          "timestamp": "2026-03-16T09:16:47Z",
-          "url": "https://github.com/Ultimaker/CuraEngine/pull/2304/commits/302cc9671c819b25530e0a6320c82bec865d846d"
-        },
-        "date": 1773656624837,
-        "tool": "customSmallerIsBetter",
-        "benches": [
-          {
-            "name": "Number of test cases",
-            "value": 61,
-            "unit": "-",
-            "extra": ""
-          },
-          {
-            "name": "General Stress Level",
-            "value": 0,
-            "unit": "%",
-            "extra": "Crashes in: "
-          }
-        ]
-      },
       {
         "commit": {
           "author": {
@@ -8019,6 +7987,38 @@ window.BENCHMARK_DATA = {
           "url": "https://github.com/Ultimaker/CuraEngine/pull/2368/commits/5d3bf99fee8a7129673507b85bee3d31bd3fc8e4"
         },
         "date": 1788345629762,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "Number of test cases",
+            "value": 61,
+            "unit": "-",
+            "extra": ""
+          },
+          {
+            "name": "General Stress Level",
+            "value": 0,
+            "unit": "%",
+            "extra": "Crashes in: "
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "Ultimaker",
+            "username": "Ultimaker"
+          },
+          "committer": {
+            "name": "Ultimaker",
+            "username": "Ultimaker"
+          },
+          "id": "c88a4e886e9f964995852c376115b84d4c99f3fc",
+          "message": "[CURA-13291] 'Sharpen' (wall) bridging conditions.",
+          "timestamp": "2026-09-01T04:51:28Z",
+          "url": "https://github.com/Ultimaker/CuraEngine/pull/2368/commits/c88a4e886e9f964995852c376115b84d4c99f3fc"
+        },
+        "date": 1788357054525,
         "tool": "customSmallerIsBetter",
         "benches": [
           {
