@@ -1,40 +1,8 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1788363819373,
+  "lastUpdate": 1788448816110,
   "repoUrl": "https://github.com/Ultimaker/CuraEngine",
   "entries": {
     "Stress Benchmark": [
-      {
-        "commit": {
-          "author": {
-            "name": "Ultimaker",
-            "username": "Ultimaker"
-          },
-          "committer": {
-            "name": "Ultimaker",
-            "username": "Ultimaker"
-          },
-          "id": "dbe932f1eee1b5e6a6f4e4e0f5fc9004ef72788d",
-          "message": "Use initial inset direction for layer 0",
-          "timestamp": "2026-03-17T12:48:56Z",
-          "url": "https://github.com/Ultimaker/CuraEngine/pull/2295/commits/dbe932f1eee1b5e6a6f4e4e0f5fc9004ef72788d"
-        },
-        "date": 1773770252760,
-        "tool": "customSmallerIsBetter",
-        "benches": [
-          {
-            "name": "Number of test cases",
-            "value": 61,
-            "unit": "-",
-            "extra": ""
-          },
-          {
-            "name": "General Stress Level",
-            "value": 0,
-            "unit": "%",
-            "extra": "Crashes in: "
-          }
-        ]
-      },
       {
         "commit": {
           "author": {
@@ -8019,6 +7987,38 @@ window.BENCHMARK_DATA = {
           "url": "https://github.com/Ultimaker/CuraEngine/pull/2366/commits/16387565ec4e509f4132f858e3260225624ce7ee"
         },
         "date": 1788363811909,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "Number of test cases",
+            "value": 61,
+            "unit": "-",
+            "extra": ""
+          },
+          {
+            "name": "General Stress Level",
+            "value": 0,
+            "unit": "%",
+            "extra": "Crashes in: "
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "Ultimaker",
+            "username": "Ultimaker"
+          },
+          "committer": {
+            "name": "Ultimaker",
+            "username": "Ultimaker"
+          },
+          "id": "4ecf97efb3b4620e2a041f59da483e4f3b0e94ec",
+          "message": "[CURA-12917] Add a setting to continue bridging over support.",
+          "timestamp": "2026-09-03T12:30:41Z",
+          "url": "https://github.com/Ultimaker/CuraEngine/pull/2276/commits/4ecf97efb3b4620e2a041f59da483e4f3b0e94ec"
+        },
+        "date": 1788448807212,
         "tool": "customSmallerIsBetter",
         "benches": [
           {
