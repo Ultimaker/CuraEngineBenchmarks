@@ -581,6 +581,26 @@ window.BENCHMARK_DATA = {
             "value": 182079
           }
         ]
+      },
+      {
+        "timestamp": "2026-09-09 00:04:49.048075",
+        "benches": [
+          {
+            "name": "Slicing time",
+            "unit": "s",
+            "value": 10.299
+          },
+          {
+            "name": "Print time",
+            "unit": "s",
+            "value": 44605
+          },
+          {
+            "name": "Buffer overflows",
+            "unit": "#",
+            "value": 182079
+          }
+        ]
       }
     ]
   }
