@@ -1,40 +1,8 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1788521493700,
+  "lastUpdate": 1788858846754,
   "repoUrl": "https://github.com/Ultimaker/CuraEngine",
   "entries": {
     "Stress Benchmark": [
-      {
-        "commit": {
-          "author": {
-            "name": "Ultimaker",
-            "username": "Ultimaker"
-          },
-          "committer": {
-            "name": "Ultimaker",
-            "username": "Ultimaker"
-          },
-          "id": "1da3c6322338504eb3574e6293e59f3adbdddb25",
-          "message": "CURA-13025 Fix skin support with random infill start",
-          "timestamp": "2026-03-17T12:48:56Z",
-          "url": "https://github.com/Ultimaker/CuraEngine/pull/2307/commits/1da3c6322338504eb3574e6293e59f3adbdddb25"
-        },
-        "date": 1773825599946,
-        "tool": "customSmallerIsBetter",
-        "benches": [
-          {
-            "name": "Number of test cases",
-            "value": 61,
-            "unit": "-",
-            "extra": ""
-          },
-          {
-            "name": "General Stress Level",
-            "value": 0,
-            "unit": "%",
-            "extra": "Crashes in: "
-          }
-        ]
-      },
       {
         "commit": {
           "author": {
@@ -8019,6 +7987,38 @@ window.BENCHMARK_DATA = {
           "url": "https://github.com/Ultimaker/CuraEngine/pull/2276/commits/2b0fda5b5352e68241ceb0dd2ee5d36f10ecbf46"
         },
         "date": 1788521487383,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "Number of test cases",
+            "value": 61,
+            "unit": "-",
+            "extra": ""
+          },
+          {
+            "name": "General Stress Level",
+            "value": 0,
+            "unit": "%",
+            "extra": "Crashes in: "
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "Ultimaker",
+            "username": "Ultimaker"
+          },
+          "committer": {
+            "name": "Ultimaker",
+            "username": "Ultimaker"
+          },
+          "id": "5230d17ad341f4cf101a93b2736d3ed95552a5c7",
+          "message": "[CURA-13291] 'Sharpen' (wall) bridging conditions.",
+          "timestamp": "2026-09-05T16:07:59Z",
+          "url": "https://github.com/Ultimaker/CuraEngine/pull/2368/commits/5230d17ad341f4cf101a93b2736d3ed95552a5c7"
+        },
+        "date": 1788858839105,
         "tool": "customSmallerIsBetter",
         "benches": [
           {
