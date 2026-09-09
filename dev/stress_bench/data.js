@@ -1,40 +1,8 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1788970057993,
+  "lastUpdate": 1788973899102,
   "repoUrl": "https://github.com/Ultimaker/CuraEngine",
   "entries": {
     "Stress Benchmark": [
-      {
-        "commit": {
-          "author": {
-            "name": "Ultimaker",
-            "username": "Ultimaker"
-          },
-          "committer": {
-            "name": "Ultimaker",
-            "username": "Ultimaker"
-          },
-          "id": "2775dcce98fce12a32da51c868189f0adfca3068",
-          "message": "CURA-13039 lightning support",
-          "timestamp": "2026-03-18T09:15:54Z",
-          "url": "https://github.com/Ultimaker/CuraEngine/pull/2310/commits/2775dcce98fce12a32da51c868189f0adfca3068"
-        },
-        "date": 1773926766750,
-        "tool": "customSmallerIsBetter",
-        "benches": [
-          {
-            "name": "Number of test cases",
-            "value": 61,
-            "unit": "-",
-            "extra": ""
-          },
-          {
-            "name": "General Stress Level",
-            "value": 0,
-            "unit": "%",
-            "extra": "Crashes in: "
-          }
-        ]
-      },
       {
         "commit": {
           "author": {
@@ -8019,6 +7987,38 @@ window.BENCHMARK_DATA = {
           "url": "https://github.com/Ultimaker/CuraEngine/pull/2370/commits/cd6991c2f85b9cf4e6e0d0938d49e0bf2fb432ca"
         },
         "date": 1788970048511,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "Number of test cases",
+            "value": 61,
+            "unit": "-",
+            "extra": ""
+          },
+          {
+            "name": "General Stress Level",
+            "value": 0,
+            "unit": "%",
+            "extra": "Crashes in: "
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "Ultimaker",
+            "username": "Ultimaker"
+          },
+          "committer": {
+            "name": "Ultimaker",
+            "username": "Ultimaker"
+          },
+          "id": "eef829c90e8b3fc9223cb40b99d99a62d7c1ebc8",
+          "message": "Fix tree support crash generation",
+          "timestamp": "2026-09-09T11:16:18Z",
+          "url": "https://github.com/Ultimaker/CuraEngine/pull/2370/commits/eef829c90e8b3fc9223cb40b99d99a62d7c1ebc8"
+        },
+        "date": 1788973890246,
         "tool": "customSmallerIsBetter",
         "benches": [
           {
