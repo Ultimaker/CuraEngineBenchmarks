@@ -1,40 +1,8 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1788973899102,
+  "lastUpdate": 1789034957675,
   "repoUrl": "https://github.com/Ultimaker/CuraEngine",
   "entries": {
     "Stress Benchmark": [
-      {
-        "commit": {
-          "author": {
-            "name": "Ultimaker",
-            "username": "Ultimaker"
-          },
-          "committer": {
-            "name": "Ultimaker",
-            "username": "Ultimaker"
-          },
-          "id": "f00e65d98d3c5f12ba95ccfa2d4d9ff39a75f745",
-          "message": "Use speed_z_hop for z-hop travel moves",
-          "timestamp": "2026-03-18T09:15:54Z",
-          "url": "https://github.com/Ultimaker/CuraEngine/pull/2311/commits/f00e65d98d3c5f12ba95ccfa2d4d9ff39a75f745"
-        },
-        "date": 1773961413967,
-        "tool": "customSmallerIsBetter",
-        "benches": [
-          {
-            "name": "Number of test cases",
-            "value": 61,
-            "unit": "-",
-            "extra": ""
-          },
-          {
-            "name": "General Stress Level",
-            "value": 0,
-            "unit": "%",
-            "extra": "Crashes in: "
-          }
-        ]
-      },
       {
         "commit": {
           "author": {
@@ -8019,6 +7987,38 @@ window.BENCHMARK_DATA = {
           "url": "https://github.com/Ultimaker/CuraEngine/pull/2370/commits/eef829c90e8b3fc9223cb40b99d99a62d7c1ebc8"
         },
         "date": 1788973890246,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "Number of test cases",
+            "value": 61,
+            "unit": "-",
+            "extra": ""
+          },
+          {
+            "name": "General Stress Level",
+            "value": 0,
+            "unit": "%",
+            "extra": "Crashes in: "
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "Ultimaker",
+            "username": "Ultimaker"
+          },
+          "committer": {
+            "name": "Ultimaker",
+            "username": "Ultimaker"
+          },
+          "id": "f3b4c8e310688da370d5ef695f289fc86d453f14",
+          "message": "[CURA-13291] 'Sharpen' (wall) bridging conditions.",
+          "timestamp": "2026-09-09T11:16:18Z",
+          "url": "https://github.com/Ultimaker/CuraEngine/pull/2368/commits/f3b4c8e310688da370d5ef695f289fc86d453f14"
+        },
+        "date": 1789034948275,
         "tool": "customSmallerIsBetter",
         "benches": [
           {
