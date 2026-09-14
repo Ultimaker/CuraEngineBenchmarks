@@ -1,40 +1,8 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1789034957675,
+  "lastUpdate": 1789375598350,
   "repoUrl": "https://github.com/Ultimaker/CuraEngine",
   "entries": {
     "Stress Benchmark": [
-      {
-        "commit": {
-          "author": {
-            "name": "Ultimaker",
-            "username": "Ultimaker"
-          },
-          "committer": {
-            "name": "Ultimaker",
-            "username": "Ultimaker"
-          },
-          "id": "3e632b6c5bf2aa04343765dbcab880ee05113794",
-          "message": "CURA-13039 lightning support",
-          "timestamp": "2026-03-18T09:15:54Z",
-          "url": "https://github.com/Ultimaker/CuraEngine/pull/2310/commits/3e632b6c5bf2aa04343765dbcab880ee05113794"
-        },
-        "date": 1773998696230,
-        "tool": "customSmallerIsBetter",
-        "benches": [
-          {
-            "name": "Number of test cases",
-            "value": 61,
-            "unit": "-",
-            "extra": ""
-          },
-          {
-            "name": "General Stress Level",
-            "value": 0,
-            "unit": "%",
-            "extra": "Crashes in: "
-          }
-        ]
-      },
       {
         "commit": {
           "author": {
@@ -8019,6 +7987,38 @@ window.BENCHMARK_DATA = {
           "url": "https://github.com/Ultimaker/CuraEngine/pull/2368/commits/f3b4c8e310688da370d5ef695f289fc86d453f14"
         },
         "date": 1789034948275,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "Number of test cases",
+            "value": 61,
+            "unit": "-",
+            "extra": ""
+          },
+          {
+            "name": "General Stress Level",
+            "value": 0,
+            "unit": "%",
+            "extra": "Crashes in: "
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "Ultimaker",
+            "username": "Ultimaker"
+          },
+          "committer": {
+            "name": "Ultimaker",
+            "username": "Ultimaker"
+          },
+          "id": "68762c8ec1cdf8147c3f53c8a24d61b59eff37cf",
+          "message": "CURA-13328 Set wall computation proper arguments",
+          "timestamp": "2026-09-14T08:00:54Z",
+          "url": "https://github.com/Ultimaker/CuraEngine/pull/2374/commits/68762c8ec1cdf8147c3f53c8a24d61b59eff37cf"
+        },
+        "date": 1789375589052,
         "tool": "customSmallerIsBetter",
         "benches": [
           {
