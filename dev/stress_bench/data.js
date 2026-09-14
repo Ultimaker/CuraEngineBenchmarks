@@ -1,40 +1,8 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1789385719485,
+  "lastUpdate": 1789389645762,
   "repoUrl": "https://github.com/Ultimaker/CuraEngine",
   "entries": {
     "Stress Benchmark": [
-      {
-        "commit": {
-          "author": {
-            "name": "Ultimaker",
-            "username": "Ultimaker"
-          },
-          "committer": {
-            "name": "Ultimaker",
-            "username": "Ultimaker"
-          },
-          "id": "ea009269ee8fe1c513776d0f59dc3789efacf2d5",
-          "message": "CURA-10381 Start or end infill close to seam",
-          "timestamp": "2026-03-21T07:45:55Z",
-          "url": "https://github.com/Ultimaker/CuraEngine/pull/2279/commits/ea009269ee8fe1c513776d0f59dc3789efacf2d5"
-        },
-        "date": 1774272881577,
-        "tool": "customSmallerIsBetter",
-        "benches": [
-          {
-            "name": "Number of test cases",
-            "value": 61,
-            "unit": "-",
-            "extra": ""
-          },
-          {
-            "name": "General Stress Level",
-            "value": 0,
-            "unit": "%",
-            "extra": "Crashes in: "
-          }
-        ]
-      },
       {
         "commit": {
           "author": {
@@ -8019,6 +7987,38 @@ window.BENCHMARK_DATA = {
           "url": "https://github.com/Ultimaker/CuraEngine/pull/2276/commits/9f464cd0d96783e0c34bda71cc58fae17c6a79ca"
         },
         "date": 1789385709089,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "Number of test cases",
+            "value": 61,
+            "unit": "-",
+            "extra": ""
+          },
+          {
+            "name": "General Stress Level",
+            "value": 0,
+            "unit": "%",
+            "extra": "Crashes in: "
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "Ultimaker",
+            "username": "Ultimaker"
+          },
+          "committer": {
+            "name": "Ultimaker",
+            "username": "Ultimaker"
+          },
+          "id": "7e19c921fd82a83d1be5d07069e83e3dc0748a65",
+          "message": "CURA-13112 Apply bridging separately for flooring",
+          "timestamp": "2026-09-14T11:45:14Z",
+          "url": "https://github.com/Ultimaker/CuraEngine/pull/2375/commits/7e19c921fd82a83d1be5d07069e83e3dc0748a65"
+        },
+        "date": 1789389638188,
         "tool": "customSmallerIsBetter",
         "benches": [
           {
