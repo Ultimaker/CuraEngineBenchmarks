@@ -1,40 +1,8 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1789390174319,
+  "lastUpdate": 1789552693551,
   "repoUrl": "https://github.com/Ultimaker/CuraEngine",
   "entries": {
     "Stress Benchmark": [
-      {
-        "commit": {
-          "author": {
-            "name": "Ultimaker",
-            "username": "Ultimaker"
-          },
-          "committer": {
-            "name": "Ultimaker",
-            "username": "Ultimaker"
-          },
-          "id": "c873f306ffaa7f47d52ba6d41c470eb6f90bdb9b",
-          "message": "Replace sprintf with snprintf in string utils",
-          "timestamp": "2026-03-21T07:45:55Z",
-          "url": "https://github.com/Ultimaker/CuraEngine/pull/2312/commits/c873f306ffaa7f47d52ba6d41c470eb6f90bdb9b"
-        },
-        "date": 1774278539403,
-        "tool": "customSmallerIsBetter",
-        "benches": [
-          {
-            "name": "Number of test cases",
-            "value": 61,
-            "unit": "-",
-            "extra": ""
-          },
-          {
-            "name": "General Stress Level",
-            "value": 0,
-            "unit": "%",
-            "extra": "Crashes in: "
-          }
-        ]
-      },
       {
         "commit": {
           "author": {
@@ -8019,6 +7987,38 @@ window.BENCHMARK_DATA = {
           "url": "https://github.com/Ultimaker/CuraEngine/pull/2375/commits/742c451ca6b7fb932f7c7df2d4f23884dbf73892"
         },
         "date": 1789390164805,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "Number of test cases",
+            "value": 61,
+            "unit": "-",
+            "extra": ""
+          },
+          {
+            "name": "General Stress Level",
+            "value": 0,
+            "unit": "%",
+            "extra": "Crashes in: "
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "Ultimaker",
+            "username": "Ultimaker"
+          },
+          "committer": {
+            "name": "Ultimaker",
+            "username": "Ultimaker"
+          },
+          "id": "9bd4c02b9d032a05796f6d4af2c8c62e20f7315d",
+          "message": "[CURA-13334] Fix skin-bridge-line mis-alignment with bridge-walls.",
+          "timestamp": "2026-09-15T13:15:03Z",
+          "url": "https://github.com/Ultimaker/CuraEngine/pull/2377/commits/9bd4c02b9d032a05796f6d4af2c8c62e20f7315d"
+        },
+        "date": 1789552692373,
         "tool": "customSmallerIsBetter",
         "benches": [
           {
