@@ -1,40 +1,8 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1789552693551,
+  "lastUpdate": 1789558014692,
   "repoUrl": "https://github.com/Ultimaker/CuraEngine",
   "entries": {
     "Stress Benchmark": [
-      {
-        "commit": {
-          "author": {
-            "name": "Ultimaker",
-            "username": "Ultimaker"
-          },
-          "committer": {
-            "name": "Ultimaker",
-            "username": "Ultimaker"
-          },
-          "id": "447943767b8eba54d315a76ac11d15755f336569",
-          "message": "CURA-13039 lightning support",
-          "timestamp": "2026-03-24T01:39:13Z",
-          "url": "https://github.com/Ultimaker/CuraEngine/pull/2310/commits/447943767b8eba54d315a76ac11d15755f336569"
-        },
-        "date": 1774343499566,
-        "tool": "customSmallerIsBetter",
-        "benches": [
-          {
-            "name": "Number of test cases",
-            "value": 61,
-            "unit": "-",
-            "extra": ""
-          },
-          {
-            "name": "General Stress Level",
-            "value": 0,
-            "unit": "%",
-            "extra": "Crashes in: "
-          }
-        ]
-      },
       {
         "commit": {
           "author": {
@@ -8019,6 +7987,38 @@ window.BENCHMARK_DATA = {
           "url": "https://github.com/Ultimaker/CuraEngine/pull/2377/commits/9bd4c02b9d032a05796f6d4af2c8c62e20f7315d"
         },
         "date": 1789552692373,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "Number of test cases",
+            "value": 61,
+            "unit": "-",
+            "extra": ""
+          },
+          {
+            "name": "General Stress Level",
+            "value": 0,
+            "unit": "%",
+            "extra": "Crashes in: "
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "Ultimaker",
+            "username": "Ultimaker"
+          },
+          "committer": {
+            "name": "Ultimaker",
+            "username": "Ultimaker"
+          },
+          "id": "64ccbd3fff99ebeb86a7161c1f1321a50c922af0",
+          "message": "update the flag for processing skin part",
+          "timestamp": "2026-09-15T13:15:03Z",
+          "url": "https://github.com/Ultimaker/CuraEngine/pull/2378/commits/64ccbd3fff99ebeb86a7161c1f1321a50c922af0"
+        },
+        "date": 1789558013368,
         "tool": "customSmallerIsBetter",
         "benches": [
           {
