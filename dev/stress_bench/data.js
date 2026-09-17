@@ -1,40 +1,8 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1789572103437,
+  "lastUpdate": 1789631608112,
   "repoUrl": "https://github.com/Ultimaker/CuraEngine",
   "entries": {
     "Stress Benchmark": [
-      {
-        "commit": {
-          "author": {
-            "name": "Ultimaker",
-            "username": "Ultimaker"
-          },
-          "committer": {
-            "name": "Ultimaker",
-            "username": "Ultimaker"
-          },
-          "id": "7e6f3a5d4334a9f9c1c5b4dfbbfdeae1c0e2f818",
-          "message": "CURA-13029 add specific roofing temperature",
-          "timestamp": "2026-03-24T01:39:13Z",
-          "url": "https://github.com/Ultimaker/CuraEngine/pull/2305/commits/7e6f3a5d4334a9f9c1c5b4dfbbfdeae1c0e2f818"
-        },
-        "date": 1774361050382,
-        "tool": "customSmallerIsBetter",
-        "benches": [
-          {
-            "name": "Number of test cases",
-            "value": 61,
-            "unit": "-",
-            "extra": ""
-          },
-          {
-            "name": "General Stress Level",
-            "value": 0,
-            "unit": "%",
-            "extra": "Crashes in: "
-          }
-        ]
-      },
       {
         "commit": {
           "author": {
@@ -8019,6 +7987,38 @@ window.BENCHMARK_DATA = {
           "url": "https://github.com/Ultimaker/CuraEngine/pull/2377/commits/723c68e4e66a3c6e497aa846c69b87cbb673968f"
         },
         "date": 1789572102401,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "Number of test cases",
+            "value": 61,
+            "unit": "-",
+            "extra": ""
+          },
+          {
+            "name": "General Stress Level",
+            "value": 0,
+            "unit": "%",
+            "extra": "Crashes in: "
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "Ultimaker",
+            "username": "Ultimaker"
+          },
+          "committer": {
+            "name": "Ultimaker",
+            "username": "Ultimaker"
+          },
+          "id": "650d3f401345f09a64166c3f0a20e408ecec16af",
+          "message": "CURA-13303 Add specific combing ignore distance for skin support",
+          "timestamp": "2026-09-16T11:14:00Z",
+          "url": "https://github.com/Ultimaker/CuraEngine/pull/2376/commits/650d3f401345f09a64166c3f0a20e408ecec16af"
+        },
+        "date": 1789631607005,
         "tool": "customSmallerIsBetter",
         "benches": [
           {
