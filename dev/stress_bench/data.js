@@ -1,40 +1,8 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1790001892820,
+  "lastUpdate": 1790589604730,
   "repoUrl": "https://github.com/Ultimaker/CuraEngine",
   "entries": {
     "Stress Benchmark": [
-      {
-        "commit": {
-          "author": {
-            "name": "Ultimaker",
-            "username": "Ultimaker"
-          },
-          "committer": {
-            "name": "Ultimaker",
-            "username": "Ultimaker"
-          },
-          "id": "72c6d688f786849de803949bbd8a450481b47e7b",
-          "message": "CURA-13029 add specific roofing temperature",
-          "timestamp": "2026-03-26T04:37:03Z",
-          "url": "https://github.com/Ultimaker/CuraEngine/pull/2305/commits/72c6d688f786849de803949bbd8a450481b47e7b"
-        },
-        "date": 1774513008277,
-        "tool": "customSmallerIsBetter",
-        "benches": [
-          {
-            "name": "Number of test cases",
-            "value": 61,
-            "unit": "-",
-            "extra": ""
-          },
-          {
-            "name": "General Stress Level",
-            "value": 0,
-            "unit": "%",
-            "extra": "Crashes in: "
-          }
-        ]
-      },
       {
         "commit": {
           "author": {
@@ -8019,6 +7987,38 @@ window.BENCHMARK_DATA = {
           "url": "https://github.com/Ultimaker/CuraEngine/pull/2379/commits/40083cefd719cf00af5cb9b591be038edf0b1778"
         },
         "date": 1790001891805,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "Number of test cases",
+            "value": 61,
+            "unit": "-",
+            "extra": ""
+          },
+          {
+            "name": "General Stress Level",
+            "value": 0,
+            "unit": "%",
+            "extra": "Crashes in: "
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "Ultimaker",
+            "username": "Ultimaker"
+          },
+          "committer": {
+            "name": "Ultimaker",
+            "username": "Ultimaker"
+          },
+          "id": "ff3484acce1a203104a4906ba5bb038f5db79e96",
+          "message": "CURA-13353 wrong bridging lines direction",
+          "timestamp": "2026-09-22T07:38:09Z",
+          "url": "https://github.com/Ultimaker/CuraEngine/pull/2381/commits/ff3484acce1a203104a4906ba5bb038f5db79e96"
+        },
+        "date": 1790589603732,
         "tool": "customSmallerIsBetter",
         "benches": [
           {
