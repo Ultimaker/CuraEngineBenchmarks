@@ -1,40 +1,8 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1790682668854,
+  "lastUpdate": 1790693195472,
   "repoUrl": "https://github.com/Ultimaker/CuraEngine",
   "entries": {
     "Stress Benchmark": [
-      {
-        "commit": {
-          "author": {
-            "name": "Ultimaker",
-            "username": "Ultimaker"
-          },
-          "committer": {
-            "name": "Ultimaker",
-            "username": "Ultimaker"
-          },
-          "id": "978d94bc9dceffd369201b0244765a0f711ca8e6",
-          "message": "CURA-13064 Expand the Retract Before Outer Wall setting",
-          "timestamp": "2026-03-27T17:59:07Z",
-          "url": "https://github.com/Ultimaker/CuraEngine/pull/2314/commits/978d94bc9dceffd369201b0244765a0f711ca8e6"
-        },
-        "date": 1774860548991,
-        "tool": "customSmallerIsBetter",
-        "benches": [
-          {
-            "name": "Number of test cases",
-            "value": 61,
-            "unit": "-",
-            "extra": ""
-          },
-          {
-            "name": "General Stress Level",
-            "value": 0,
-            "unit": "%",
-            "extra": "Crashes in: "
-          }
-        ]
-      },
       {
         "commit": {
           "author": {
@@ -8019,6 +7987,38 @@ window.BENCHMARK_DATA = {
           "url": "https://github.com/Ultimaker/CuraEngine/pull/2381/commits/b2ff7bbfb64b499d09ac0f7cda3ddcef48f3705f"
         },
         "date": 1790682667899,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "Number of test cases",
+            "value": 61,
+            "unit": "-",
+            "extra": ""
+          },
+          {
+            "name": "General Stress Level",
+            "value": 0,
+            "unit": "%",
+            "extra": "Crashes in: "
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "Ultimaker",
+            "username": "Ultimaker"
+          },
+          "committer": {
+            "name": "Ultimaker",
+            "username": "Ultimaker"
+          },
+          "id": "4367c40f690805a2e9c50d2483ba5184da730b9b",
+          "message": "CURA-13352 fix rogue non bridging line",
+          "timestamp": "2026-09-22T07:38:09Z",
+          "url": "https://github.com/Ultimaker/CuraEngine/pull/2392/commits/4367c40f690805a2e9c50d2483ba5184da730b9b"
+        },
+        "date": 1790693194014,
         "tool": "customSmallerIsBetter",
         "benches": [
           {
