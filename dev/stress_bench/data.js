@@ -1,40 +1,8 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1790758975845,
+  "lastUpdate": 1790781904680,
   "repoUrl": "https://github.com/Ultimaker/CuraEngine",
   "entries": {
     "Stress Benchmark": [
-      {
-        "commit": {
-          "author": {
-            "name": "Ultimaker",
-            "username": "Ultimaker"
-          },
-          "committer": {
-            "name": "Ultimaker",
-            "username": "Ultimaker"
-          },
-          "id": "e9d9c7093f008ca50f2526ad756b68071771b202",
-          "message": "CURA-13065 Fix polygons-based infill not respecting end close to seam",
-          "timestamp": "2026-03-27T17:59:07Z",
-          "url": "https://github.com/Ultimaker/CuraEngine/pull/2315/commits/e9d9c7093f008ca50f2526ad756b68071771b202"
-        },
-        "date": 1774882531806,
-        "tool": "customSmallerIsBetter",
-        "benches": [
-          {
-            "name": "Number of test cases",
-            "value": 61,
-            "unit": "-",
-            "extra": ""
-          },
-          {
-            "name": "General Stress Level",
-            "value": 0,
-            "unit": "%",
-            "extra": "Crashes in: "
-          }
-        ]
-      },
       {
         "commit": {
           "author": {
@@ -8019,6 +7987,38 @@ window.BENCHMARK_DATA = {
           "url": "https://github.com/Ultimaker/CuraEngine/pull/2392/commits/9673e5640c8af6894ae2542c825738c8557604c1"
         },
         "date": 1790758974601,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "Number of test cases",
+            "value": 61,
+            "unit": "-",
+            "extra": ""
+          },
+          {
+            "name": "General Stress Level",
+            "value": 0,
+            "unit": "%",
+            "extra": "Crashes in: "
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "Ultimaker",
+            "username": "Ultimaker"
+          },
+          "committer": {
+            "name": "Ultimaker",
+            "username": "Ultimaker"
+          },
+          "id": "0269cf5b9de1626a190e4fb40f32702cf0e1b5ea",
+          "message": "[CURA-13218] Some early profiling results.",
+          "timestamp": "2026-09-30T09:08:39Z",
+          "url": "https://github.com/Ultimaker/CuraEngine/pull/2400/commits/0269cf5b9de1626a190e4fb40f32702cf0e1b5ea"
+        },
+        "date": 1790781903722,
         "tool": "customSmallerIsBetter",
         "benches": [
           {
