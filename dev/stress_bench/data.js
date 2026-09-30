@@ -1,40 +1,8 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1790694230876,
+  "lastUpdate": 1790758975845,
   "repoUrl": "https://github.com/Ultimaker/CuraEngine",
   "entries": {
     "Stress Benchmark": [
-      {
-        "commit": {
-          "author": {
-            "name": "Ultimaker",
-            "username": "Ultimaker"
-          },
-          "committer": {
-            "name": "Ultimaker",
-            "username": "Ultimaker"
-          },
-          "id": "f28c6c20af79d4257a8dd9c6fe1ef7f721da04d1",
-          "message": "CURA-13065 Fix polygons-based infill not respecting end close to seam",
-          "timestamp": "2026-03-27T17:59:07Z",
-          "url": "https://github.com/Ultimaker/CuraEngine/pull/2315/commits/f28c6c20af79d4257a8dd9c6fe1ef7f721da04d1"
-        },
-        "date": 1774882505715,
-        "tool": "customSmallerIsBetter",
-        "benches": [
-          {
-            "name": "Number of test cases",
-            "value": 61,
-            "unit": "-",
-            "extra": ""
-          },
-          {
-            "name": "General Stress Level",
-            "value": 0,
-            "unit": "%",
-            "extra": "Crashes in: "
-          }
-        ]
-      },
       {
         "commit": {
           "author": {
@@ -8019,6 +7987,38 @@ window.BENCHMARK_DATA = {
           "url": "https://github.com/Ultimaker/CuraEngine/pull/2392/commits/72bd1763c17f8317793d585b11512ed8bb5edd2b"
         },
         "date": 1790694229434,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "Number of test cases",
+            "value": 61,
+            "unit": "-",
+            "extra": ""
+          },
+          {
+            "name": "General Stress Level",
+            "value": 0,
+            "unit": "%",
+            "extra": "Crashes in: "
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "Ultimaker",
+            "username": "Ultimaker"
+          },
+          "committer": {
+            "name": "Ultimaker",
+            "username": "Ultimaker"
+          },
+          "id": "9673e5640c8af6894ae2542c825738c8557604c1",
+          "message": "CURA-13352 fix rogue non bridging line",
+          "timestamp": "2026-09-22T07:38:09Z",
+          "url": "https://github.com/Ultimaker/CuraEngine/pull/2392/commits/9673e5640c8af6894ae2542c825738c8557604c1"
+        },
+        "date": 1790758974601,
         "tool": "customSmallerIsBetter",
         "benches": [
           {
