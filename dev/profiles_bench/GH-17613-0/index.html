@@ -71,6 +71,19 @@
         word-break: break-word;
         text-align: center;
       }
+      .benchmark-description {
+        margin: -16px 0 8px;
+        color: #7a7a7a;
+        font-size: 1.25rem;
+        text-align: center;
+      }
+      .benchmark-thumbnail {
+        display: block;
+        margin: 0 auto;
+        max-width: 100%;
+        max-height: 240px;
+        object-fit: contain;
+      }
       .benchmark-graphs {
         display: flex;
         flex-direction: row;
@@ -106,6 +119,7 @@
         <a class="back" href="../">&larr; Back to all benchmarks</a>
       </div>
     </header>
+    <img id="thumbnail" class="benchmark-thumbnail" src="thumbnail.png" alt="Benchmark thumbnail" hidden onload="this.hidden = false;" onerror="this.remove();" />
     <main id="main"></main>
     <footer>
       <button id="dl-button">Download data as JSON</button>
@@ -268,7 +282,31 @@
           }
         }
 
+        function renderMetadata() {
+          fetch('metadata.json')
+            .then(r => {
+              if (!r.ok) { throw new Error('HTTP ' + r.status); }
+              return r.json();
+            })
+            .then(metadata => {
+              const printerName = metadata && metadata.printer_name;
+              if (typeof printerName !== 'string' || printerName.trim() === '') {
+                return;
+              }
+              for (const titleElem of document.querySelectorAll('.benchmark-title')) {
+                const descElem = document.createElement('p');
+                descElem.className = 'benchmark-description';
+                descElem.textContent = printerName;
+                titleElem.insertAdjacentElement('afterend', descElem);
+              }
+            })
+            .catch(() => {
+              // Metadata is optional, silently ignore missing or invalid files
+            });
+        }
+
         renderAllChars(init()); // Start
+        renderMetadata();
       })();
     </script>
   </body>
