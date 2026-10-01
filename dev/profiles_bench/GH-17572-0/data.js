@@ -1071,6 +1071,31 @@ window.BENCHMARK_DATA = {
             "value": 18
           }
         ]
+      },
+      {
+        "timestamp": "2026-10-01 12:43:11.645285",
+        "benches": [
+          {
+            "name": "Slicing time",
+            "unit": "s",
+            "value": 0.56
+          },
+          {
+            "name": "Maximum RAM usage",
+            "unit": "MB",
+            "value": 72.63
+          },
+          {
+            "name": "Print time",
+            "unit": "s",
+            "value": 1752
+          },
+          {
+            "name": "Buffer overflows",
+            "unit": "#",
+            "value": 17
+          }
+        ]
       }
     ]
   }
