@@ -1,40 +1,8 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1790781904680,
+  "lastUpdate": 1790954053560,
   "repoUrl": "https://github.com/Ultimaker/CuraEngine",
   "entries": {
     "Stress Benchmark": [
-      {
-        "commit": {
-          "author": {
-            "name": "Ultimaker",
-            "username": "Ultimaker"
-          },
-          "committer": {
-            "name": "Ultimaker",
-            "username": "Ultimaker"
-          },
-          "id": "df42b2e7b568588314829fc96da47cf8a5a7de6d",
-          "message": "CURA-12996 Fix flooring areas being generated when disabled",
-          "timestamp": "2026-03-27T17:59:07Z",
-          "url": "https://github.com/Ultimaker/CuraEngine/pull/2302/commits/df42b2e7b568588314829fc96da47cf8a5a7de6d"
-        },
-        "date": 1774949842960,
-        "tool": "customSmallerIsBetter",
-        "benches": [
-          {
-            "name": "Number of test cases",
-            "value": 61,
-            "unit": "-",
-            "extra": ""
-          },
-          {
-            "name": "General Stress Level",
-            "value": 0,
-            "unit": "%",
-            "extra": "Crashes in: "
-          }
-        ]
-      },
       {
         "commit": {
           "author": {
@@ -8019,6 +7987,38 @@ window.BENCHMARK_DATA = {
           "url": "https://github.com/Ultimaker/CuraEngine/pull/2400/commits/0269cf5b9de1626a190e4fb40f32702cf0e1b5ea"
         },
         "date": 1790781903722,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "Number of test cases",
+            "value": 61,
+            "unit": "-",
+            "extra": ""
+          },
+          {
+            "name": "General Stress Level",
+            "value": 0,
+            "unit": "%",
+            "extra": "Crashes in: "
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "Ultimaker",
+            "username": "Ultimaker"
+          },
+          "committer": {
+            "name": "Ultimaker",
+            "username": "Ultimaker"
+          },
+          "id": "b4e5c0c971e2a339756ad2bf54dde99dc5943b1b",
+          "message": "[CURA-13218] Some early profiling results.",
+          "timestamp": "2026-10-01T12:58:20Z",
+          "url": "https://github.com/Ultimaker/CuraEngine/pull/2400/commits/b4e5c0c971e2a339756ad2bf54dde99dc5943b1b"
+        },
+        "date": 1790954051943,
         "tool": "customSmallerIsBetter",
         "benches": [
           {
