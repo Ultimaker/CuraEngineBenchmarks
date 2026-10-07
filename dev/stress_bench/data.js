@@ -1,40 +1,8 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1790954053560,
+  "lastUpdate": 1791364794181,
   "repoUrl": "https://github.com/Ultimaker/CuraEngine",
   "entries": {
     "Stress Benchmark": [
-      {
-        "commit": {
-          "author": {
-            "name": "Ultimaker",
-            "username": "Ultimaker"
-          },
-          "committer": {
-            "name": "Ultimaker",
-            "username": "Ultimaker"
-          },
-          "id": "879b3f1956d37262fd66c30290fd867fc0f40214",
-          "message": "CURA-12997 Allow small infill gaps to grow over infill",
-          "timestamp": "2026-03-27T17:59:07Z",
-          "url": "https://github.com/Ultimaker/CuraEngine/pull/2303/commits/879b3f1956d37262fd66c30290fd867fc0f40214"
-        },
-        "date": 1774957945919,
-        "tool": "customSmallerIsBetter",
-        "benches": [
-          {
-            "name": "Number of test cases",
-            "value": 61,
-            "unit": "-",
-            "extra": ""
-          },
-          {
-            "name": "General Stress Level",
-            "value": 0,
-            "unit": "%",
-            "extra": "Crashes in: "
-          }
-        ]
-      },
       {
         "commit": {
           "author": {
@@ -8019,6 +7987,38 @@ window.BENCHMARK_DATA = {
           "url": "https://github.com/Ultimaker/CuraEngine/pull/2400/commits/b4e5c0c971e2a339756ad2bf54dde99dc5943b1b"
         },
         "date": 1790954051943,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "Number of test cases",
+            "value": 61,
+            "unit": "-",
+            "extra": ""
+          },
+          {
+            "name": "General Stress Level",
+            "value": 0,
+            "unit": "%",
+            "extra": "Crashes in: "
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "Ultimaker",
+            "username": "Ultimaker"
+          },
+          "committer": {
+            "name": "Ultimaker",
+            "username": "Ultimaker"
+          },
+          "id": "cf89670138eed6d2d75e496f64803eda89d703b2",
+          "message": "CURA-13352 fix rogue non bridging line",
+          "timestamp": "2026-10-04T09:45:34Z",
+          "url": "https://github.com/Ultimaker/CuraEngine/pull/2392/commits/cf89670138eed6d2d75e496f64803eda89d703b2"
+        },
+        "date": 1791364792371,
         "tool": "customSmallerIsBetter",
         "benches": [
           {
