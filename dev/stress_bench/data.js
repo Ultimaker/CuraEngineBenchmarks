@@ -1,40 +1,8 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1791364794181,
+  "lastUpdate": 1791364996123,
   "repoUrl": "https://github.com/Ultimaker/CuraEngine",
   "entries": {
     "Stress Benchmark": [
-      {
-        "commit": {
-          "author": {
-            "name": "Ultimaker",
-            "username": "Ultimaker"
-          },
-          "committer": {
-            "name": "Ultimaker",
-            "username": "Ultimaker"
-          },
-          "id": "ae215cc020968168caa33e1906551a2d2d26879a",
-          "message": "CURA-12996 Fix flooring areas being generated when disabled",
-          "timestamp": "2026-04-01T06:01:02Z",
-          "url": "https://github.com/Ultimaker/CuraEngine/pull/2302/commits/ae215cc020968168caa33e1906551a2d2d26879a"
-        },
-        "date": 1775030032203,
-        "tool": "customSmallerIsBetter",
-        "benches": [
-          {
-            "name": "Number of test cases",
-            "value": 61,
-            "unit": "-",
-            "extra": ""
-          },
-          {
-            "name": "General Stress Level",
-            "value": 0,
-            "unit": "%",
-            "extra": "Crashes in: "
-          }
-        ]
-      },
       {
         "commit": {
           "author": {
@@ -8019,6 +7987,38 @@ window.BENCHMARK_DATA = {
           "url": "https://github.com/Ultimaker/CuraEngine/pull/2392/commits/cf89670138eed6d2d75e496f64803eda89d703b2"
         },
         "date": 1791364792371,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "Number of test cases",
+            "value": 61,
+            "unit": "-",
+            "extra": ""
+          },
+          {
+            "name": "General Stress Level",
+            "value": 0,
+            "unit": "%",
+            "extra": "Crashes in: "
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "Ultimaker",
+            "username": "Ultimaker"
+          },
+          "committer": {
+            "name": "Ultimaker",
+            "username": "Ultimaker"
+          },
+          "id": "78711be0ef4ad989a6f1c0c44a2830ff28951bf3",
+          "message": "CURA-13352 fix rogue non bridging line",
+          "timestamp": "2026-10-04T09:45:34Z",
+          "url": "https://github.com/Ultimaker/CuraEngine/pull/2392/commits/78711be0ef4ad989a6f1c0c44a2830ff28951bf3"
+        },
+        "date": 1791364994866,
         "tool": "customSmallerIsBetter",
         "benches": [
           {
