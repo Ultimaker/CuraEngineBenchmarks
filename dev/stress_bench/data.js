@@ -1,40 +1,8 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1791376207132,
+  "lastUpdate": 1791377028093,
   "repoUrl": "https://github.com/Ultimaker/CuraEngine",
   "entries": {
     "Stress Benchmark": [
-      {
-        "commit": {
-          "author": {
-            "name": "Ultimaker",
-            "username": "Ultimaker"
-          },
-          "committer": {
-            "name": "Ultimaker",
-            "username": "Ultimaker"
-          },
-          "id": "21fbf73f1db5e305124baf151f86e5cffb06a1b0",
-          "message": "CURA-12992 Fix slicing crashes",
-          "timestamp": "2026-04-01T07:44:36Z",
-          "url": "https://github.com/Ultimaker/CuraEngine/pull/2301/commits/21fbf73f1db5e305124baf151f86e5cffb06a1b0"
-        },
-        "date": 1775032013185,
-        "tool": "customSmallerIsBetter",
-        "benches": [
-          {
-            "name": "Number of test cases",
-            "value": 61,
-            "unit": "-",
-            "extra": ""
-          },
-          {
-            "name": "General Stress Level",
-            "value": 0,
-            "unit": "%",
-            "extra": "Crashes in: "
-          }
-        ]
-      },
       {
         "commit": {
           "author": {
@@ -8019,6 +7987,38 @@ window.BENCHMARK_DATA = {
           "url": "https://github.com/Ultimaker/CuraEngine/pull/2400/commits/7f25a7abc5752e90e8ebb482083d2fbe6d6e3b2a"
         },
         "date": 1791376205719,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "Number of test cases",
+            "value": 61,
+            "unit": "-",
+            "extra": ""
+          },
+          {
+            "name": "General Stress Level",
+            "value": 0,
+            "unit": "%",
+            "extra": "Crashes in: "
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "Ultimaker",
+            "username": "Ultimaker"
+          },
+          "committer": {
+            "name": "Ultimaker",
+            "username": "Ultimaker"
+          },
+          "id": "e56ddaa94352d34a854d03db3cd48b3d91c62cd5",
+          "message": "CURA-13349 Fix support on vertical/top faces",
+          "timestamp": "2026-10-04T09:45:34Z",
+          "url": "https://github.com/Ultimaker/CuraEngine/pull/2390/commits/e56ddaa94352d34a854d03db3cd48b3d91c62cd5"
+        },
+        "date": 1791377026971,
         "tool": "customSmallerIsBetter",
         "benches": [
           {
