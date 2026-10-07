@@ -1,40 +1,8 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1791364996123,
+  "lastUpdate": 1791376207132,
   "repoUrl": "https://github.com/Ultimaker/CuraEngine",
   "entries": {
     "Stress Benchmark": [
-      {
-        "commit": {
-          "author": {
-            "name": "Ultimaker",
-            "username": "Ultimaker"
-          },
-          "committer": {
-            "name": "Ultimaker",
-            "username": "Ultimaker"
-          },
-          "id": "cf79291c3bff845a893cefdf369cc24e0036f197",
-          "message": "CURA-12992 Fix slicing crashes",
-          "timestamp": "2026-04-01T06:01:02Z",
-          "url": "https://github.com/Ultimaker/CuraEngine/pull/2301/commits/cf79291c3bff845a893cefdf369cc24e0036f197"
-        },
-        "date": 1775031788295,
-        "tool": "customSmallerIsBetter",
-        "benches": [
-          {
-            "name": "Number of test cases",
-            "value": 61,
-            "unit": "-",
-            "extra": ""
-          },
-          {
-            "name": "General Stress Level",
-            "value": 0,
-            "unit": "%",
-            "extra": "Crashes in: "
-          }
-        ]
-      },
       {
         "commit": {
           "author": {
@@ -8019,6 +7987,38 @@ window.BENCHMARK_DATA = {
           "url": "https://github.com/Ultimaker/CuraEngine/pull/2392/commits/78711be0ef4ad989a6f1c0c44a2830ff28951bf3"
         },
         "date": 1791364994866,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "Number of test cases",
+            "value": 61,
+            "unit": "-",
+            "extra": ""
+          },
+          {
+            "name": "General Stress Level",
+            "value": 0,
+            "unit": "%",
+            "extra": "Crashes in: "
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "Ultimaker",
+            "username": "Ultimaker"
+          },
+          "committer": {
+            "name": "Ultimaker",
+            "username": "Ultimaker"
+          },
+          "id": "7f25a7abc5752e90e8ebb482083d2fbe6d6e3b2a",
+          "message": "[CURA-13218] Some early profiling results.",
+          "timestamp": "2026-10-04T09:45:34Z",
+          "url": "https://github.com/Ultimaker/CuraEngine/pull/2400/commits/7f25a7abc5752e90e8ebb482083d2fbe6d6e3b2a"
+        },
+        "date": 1791376205719,
         "tool": "customSmallerIsBetter",
         "benches": [
           {
