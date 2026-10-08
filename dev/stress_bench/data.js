@@ -1,40 +1,8 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1791457296219,
+  "lastUpdate": 1791460973011,
   "repoUrl": "https://github.com/Ultimaker/CuraEngine",
   "entries": {
     "Stress Benchmark": [
-      {
-        "commit": {
-          "author": {
-            "name": "Ultimaker",
-            "username": "Ultimaker"
-          },
-          "committer": {
-            "name": "Ultimaker",
-            "username": "Ultimaker"
-          },
-          "id": "4eab7c2629d6e372db407442755e70d1984d1e5e",
-          "message": "[CURA-13024] Spike: merge thin parts of floor/roof/skin",
-          "timestamp": "2026-04-01T10:06:25Z",
-          "url": "https://github.com/Ultimaker/CuraEngine/pull/2316/commits/4eab7c2629d6e372db407442755e70d1984d1e5e"
-        },
-        "date": 1775052669575,
-        "tool": "customSmallerIsBetter",
-        "benches": [
-          {
-            "name": "Number of test cases",
-            "value": 61,
-            "unit": "-",
-            "extra": ""
-          },
-          {
-            "name": "General Stress Level",
-            "value": 0,
-            "unit": "%",
-            "extra": "Crashes in: "
-          }
-        ]
-      },
       {
         "commit": {
           "author": {
@@ -8019,6 +7987,38 @@ window.BENCHMARK_DATA = {
           "url": "https://github.com/Ultimaker/CuraEngine/pull/2401/commits/7d4cf0b167f47b761a142ee45d369c0beabc15a6"
         },
         "date": 1791457294213,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "Number of test cases",
+            "value": 61,
+            "unit": "-",
+            "extra": ""
+          },
+          {
+            "name": "General Stress Level",
+            "value": 0,
+            "unit": "%",
+            "extra": "Crashes in: "
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "Ultimaker",
+            "username": "Ultimaker"
+          },
+          "committer": {
+            "name": "Ultimaker",
+            "username": "Ultimaker"
+          },
+          "id": "f3ff6ab04426111763b534791e968e14c4457b67",
+          "message": "CURA-13349 Fix support on vertical/top faces",
+          "timestamp": "2026-10-08T09:45:02Z",
+          "url": "https://github.com/Ultimaker/CuraEngine/pull/2390/commits/f3ff6ab04426111763b534791e968e14c4457b67"
+        },
+        "date": 1791460971646,
         "tool": "customSmallerIsBetter",
         "benches": [
           {
