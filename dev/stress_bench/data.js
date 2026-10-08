@@ -1,40 +1,8 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1791377028093,
+  "lastUpdate": 1791456705578,
   "repoUrl": "https://github.com/Ultimaker/CuraEngine",
   "entries": {
     "Stress Benchmark": [
-      {
-        "commit": {
-          "author": {
-            "name": "Ultimaker",
-            "username": "Ultimaker"
-          },
-          "committer": {
-            "name": "Ultimaker",
-            "username": "Ultimaker"
-          },
-          "id": "0822fac4094afedfbf68efeda6ffe28016251107",
-          "message": "[CURA-13024] Spike: merge thin parts of floor/roof/skin",
-          "timestamp": "2026-04-01T07:44:36Z",
-          "url": "https://github.com/Ultimaker/CuraEngine/pull/2316/commits/0822fac4094afedfbf68efeda6ffe28016251107"
-        },
-        "date": 1775032887729,
-        "tool": "customSmallerIsBetter",
-        "benches": [
-          {
-            "name": "Number of test cases",
-            "value": 61,
-            "unit": "-",
-            "extra": ""
-          },
-          {
-            "name": "General Stress Level",
-            "value": 0,
-            "unit": "%",
-            "extra": "Crashes in: "
-          }
-        ]
-      },
       {
         "commit": {
           "author": {
@@ -8019,6 +7987,38 @@ window.BENCHMARK_DATA = {
           "url": "https://github.com/Ultimaker/CuraEngine/pull/2390/commits/e56ddaa94352d34a854d03db3cd48b3d91c62cd5"
         },
         "date": 1791377026971,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "Number of test cases",
+            "value": 61,
+            "unit": "-",
+            "extra": ""
+          },
+          {
+            "name": "General Stress Level",
+            "value": 0,
+            "unit": "%",
+            "extra": "Crashes in: "
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "Ultimaker",
+            "username": "Ultimaker"
+          },
+          "committer": {
+            "name": "Ultimaker",
+            "username": "Ultimaker"
+          },
+          "id": "7d4cf0b167f47b761a142ee45d369c0beabc15a6",
+          "message": "[CURA-13218] Some early profiling results.",
+          "timestamp": "2026-10-08T09:45:02Z",
+          "url": "https://github.com/Ultimaker/CuraEngine/pull/2400/commits/7d4cf0b167f47b761a142ee45d369c0beabc15a6"
+        },
+        "date": 1791456704079,
         "tool": "customSmallerIsBetter",
         "benches": [
           {
