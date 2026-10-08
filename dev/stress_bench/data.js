@@ -1,40 +1,8 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1791460973011,
+  "lastUpdate": 1791465513339,
   "repoUrl": "https://github.com/Ultimaker/CuraEngine",
   "entries": {
     "Stress Benchmark": [
-      {
-        "commit": {
-          "author": {
-            "name": "Ultimaker",
-            "username": "Ultimaker"
-          },
-          "committer": {
-            "name": "Ultimaker",
-            "username": "Ultimaker"
-          },
-          "id": "38ae2fc3cb79a1b596902a0e2d2414ec3aa48fdf",
-          "message": "CURA-12580 paint on support",
-          "timestamp": "2026-04-01T13:49:09Z",
-          "url": "https://github.com/Ultimaker/CuraEngine/pull/2317/commits/38ae2fc3cb79a1b596902a0e2d2414ec3aa48fdf"
-        },
-        "date": 1775120353577,
-        "tool": "customSmallerIsBetter",
-        "benches": [
-          {
-            "name": "Number of test cases",
-            "value": 61,
-            "unit": "-",
-            "extra": ""
-          },
-          {
-            "name": "General Stress Level",
-            "value": 0,
-            "unit": "%",
-            "extra": "Crashes in: "
-          }
-        ]
-      },
       {
         "commit": {
           "author": {
@@ -8019,6 +7987,38 @@ window.BENCHMARK_DATA = {
           "url": "https://github.com/Ultimaker/CuraEngine/pull/2390/commits/f3ff6ab04426111763b534791e968e14c4457b67"
         },
         "date": 1791460971646,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "Number of test cases",
+            "value": 61,
+            "unit": "-",
+            "extra": ""
+          },
+          {
+            "name": "General Stress Level",
+            "value": 0,
+            "unit": "%",
+            "extra": "Crashes in: "
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "Ultimaker",
+            "username": "Ultimaker"
+          },
+          "committer": {
+            "name": "Ultimaker",
+            "username": "Ultimaker"
+          },
+          "id": "c20cc0a10b47d1b3d7fb070d206de9f74cddf2d9",
+          "message": "CURA-13218 early profiling results",
+          "timestamp": "2026-10-08T09:45:02Z",
+          "url": "https://github.com/Ultimaker/CuraEngine/pull/2401/commits/c20cc0a10b47d1b3d7fb070d206de9f74cddf2d9"
+        },
+        "date": 1791465512011,
         "tool": "customSmallerIsBetter",
         "benches": [
           {
