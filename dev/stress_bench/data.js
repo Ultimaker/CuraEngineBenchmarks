@@ -1,40 +1,8 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1791465513339,
+  "lastUpdate": 1791469685495,
   "repoUrl": "https://github.com/Ultimaker/CuraEngine",
   "entries": {
     "Stress Benchmark": [
-      {
-        "commit": {
-          "author": {
-            "name": "Ultimaker",
-            "username": "Ultimaker"
-          },
-          "committer": {
-            "name": "Ultimaker",
-            "username": "Ultimaker"
-          },
-          "id": "297de4134e401414b172c0f07b6222a6f3f77085",
-          "message": "CURA-12580 paint on support",
-          "timestamp": "2026-04-01T13:49:09Z",
-          "url": "https://github.com/Ultimaker/CuraEngine/pull/2317/commits/297de4134e401414b172c0f07b6222a6f3f77085"
-        },
-        "date": 1775121202828,
-        "tool": "customSmallerIsBetter",
-        "benches": [
-          {
-            "name": "Number of test cases",
-            "value": 61,
-            "unit": "-",
-            "extra": ""
-          },
-          {
-            "name": "General Stress Level",
-            "value": 0,
-            "unit": "%",
-            "extra": "Crashes in: "
-          }
-        ]
-      },
       {
         "commit": {
           "author": {
@@ -8019,6 +7987,38 @@ window.BENCHMARK_DATA = {
           "url": "https://github.com/Ultimaker/CuraEngine/pull/2401/commits/c20cc0a10b47d1b3d7fb070d206de9f74cddf2d9"
         },
         "date": 1791465512011,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "Number of test cases",
+            "value": 61,
+            "unit": "-",
+            "extra": ""
+          },
+          {
+            "name": "General Stress Level",
+            "value": 0,
+            "unit": "%",
+            "extra": "Crashes in: "
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "Ultimaker",
+            "username": "Ultimaker"
+          },
+          "committer": {
+            "name": "Ultimaker",
+            "username": "Ultimaker"
+          },
+          "id": "57382c2c442af3246324ff5ca9d13d455b26ac29",
+          "message": "CURA-13352 fix rogue non bridging line",
+          "timestamp": "2026-10-08T09:45:02Z",
+          "url": "https://github.com/Ultimaker/CuraEngine/pull/2392/commits/57382c2c442af3246324ff5ca9d13d455b26ac29"
+        },
+        "date": 1791469683943,
         "tool": "customSmallerIsBetter",
         "benches": [
           {
