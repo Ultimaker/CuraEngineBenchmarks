@@ -1,40 +1,8 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1791471286996,
+  "lastUpdate": 1791554219697,
   "repoUrl": "https://github.com/Ultimaker/CuraEngine",
   "entries": {
     "Stress Benchmark": [
-      {
-        "commit": {
-          "author": {
-            "name": "Ultimaker",
-            "username": "Ultimaker"
-          },
-          "committer": {
-            "name": "Ultimaker",
-            "username": "Ultimaker"
-          },
-          "id": "3aafbc8237e3fffb2deeeed02b947c2ae7721d9b",
-          "message": "CURA-12580 paint on support",
-          "timestamp": "2026-04-01T13:49:09Z",
-          "url": "https://github.com/Ultimaker/CuraEngine/pull/2317/commits/3aafbc8237e3fffb2deeeed02b947c2ae7721d9b"
-        },
-        "date": 1775125436401,
-        "tool": "customSmallerIsBetter",
-        "benches": [
-          {
-            "name": "Number of test cases",
-            "value": 61,
-            "unit": "-",
-            "extra": ""
-          },
-          {
-            "name": "General Stress Level",
-            "value": 0,
-            "unit": "%",
-            "extra": "Crashes in: "
-          }
-        ]
-      },
       {
         "commit": {
           "author": {
@@ -8019,6 +7987,38 @@ window.BENCHMARK_DATA = {
           "url": "https://github.com/Ultimaker/CuraEngine/pull/2391/commits/efdee3b2b83c08f33a73f8faa637b1d17ef122b3"
         },
         "date": 1791471285389,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "Number of test cases",
+            "value": 61,
+            "unit": "-",
+            "extra": ""
+          },
+          {
+            "name": "General Stress Level",
+            "value": 0,
+            "unit": "%",
+            "extra": "Crashes in: "
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "Ultimaker",
+            "username": "Ultimaker"
+          },
+          "committer": {
+            "name": "Ultimaker",
+            "username": "Ultimaker"
+          },
+          "id": "4cad67ba3b05213b46a6cddd18a5ea44cb662644",
+          "message": "CURA-13359 Fix fractional tree support overlapping regular support",
+          "timestamp": "2026-10-09T07:21:47Z",
+          "url": "https://github.com/Ultimaker/CuraEngine/pull/2402/commits/4cad67ba3b05213b46a6cddd18a5ea44cb662644"
+        },
+        "date": 1791554218260,
         "tool": "customSmallerIsBetter",
         "benches": [
           {
