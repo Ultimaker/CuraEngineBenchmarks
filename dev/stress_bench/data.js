@@ -1,40 +1,8 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1791777521073,
-  "repoUrl": "https://github.com/Ultimaker/CuraEngine",
+  "lastUpdate": 1791799791728,
+  "repoUrl": "https://github.com/Ultimaker/CuraEngine_private",
   "entries": {
     "Stress Benchmark": [
-      {
-        "commit": {
-          "author": {
-            "name": "Ultimaker",
-            "username": "Ultimaker"
-          },
-          "committer": {
-            "name": "Ultimaker",
-            "username": "Ultimaker"
-          },
-          "id": "1be1aad640f5cbd60c171ad449da6f304a775583",
-          "message": "CURA-13072 Fix impossible ordering conditions",
-          "timestamp": "2026-04-03T14:33:19Z",
-          "url": "https://github.com/Ultimaker/CuraEngine/pull/2318/commits/1be1aad640f5cbd60c171ad449da6f304a775583"
-        },
-        "date": 1775230788601,
-        "tool": "customSmallerIsBetter",
-        "benches": [
-          {
-            "name": "Number of test cases",
-            "value": 61,
-            "unit": "-",
-            "extra": ""
-          },
-          {
-            "name": "General Stress Level",
-            "value": 0,
-            "unit": "%",
-            "extra": "Crashes in: "
-          }
-        ]
-      },
       {
         "commit": {
           "author": {
@@ -8019,6 +7987,38 @@ window.BENCHMARK_DATA = {
           "url": "https://github.com/Ultimaker/CuraEngine/pull/2406/commits/f523858d7adc91325d96ea9fdb05fe70d7396304"
         },
         "date": 1791777519822,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "Number of test cases",
+            "value": 61,
+            "unit": "-",
+            "extra": ""
+          },
+          {
+            "name": "General Stress Level",
+            "value": 0,
+            "unit": "%",
+            "extra": "Crashes in: "
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "Ultimaker",
+            "username": "Ultimaker"
+          },
+          "committer": {
+            "name": "Ultimaker",
+            "username": "Ultimaker"
+          },
+          "id": "6b7e1bb32719abebf553cfeff08229e92a11e728",
+          "message": "[EMB-476] Width profiles, G1 Q emitter and motion policies per feature (M12095/M12096)",
+          "timestamp": "2020-05-12T09:48:13Z",
+          "url": "https://github.com/Ultimaker/CuraEngine_private/pull/1/commits/6b7e1bb32719abebf553cfeff08229e92a11e728"
+        },
+        "date": 1791799789779,
         "tool": "customSmallerIsBetter",
         "benches": [
           {
