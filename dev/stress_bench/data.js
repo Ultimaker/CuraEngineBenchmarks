@@ -1,40 +1,8 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1791554373822,
+  "lastUpdate": 1791777428025,
   "repoUrl": "https://github.com/Ultimaker/CuraEngine",
   "entries": {
     "Stress Benchmark": [
-      {
-        "commit": {
-          "author": {
-            "name": "Ultimaker",
-            "username": "Ultimaker"
-          },
-          "committer": {
-            "name": "Ultimaker",
-            "username": "Ultimaker"
-          },
-          "id": "791929ec6d206410cf83b0cd2ffe867048274536",
-          "message": "CURA-12580 paint on support",
-          "timestamp": "2026-04-01T13:49:09Z",
-          "url": "https://github.com/Ultimaker/CuraEngine/pull/2317/commits/791929ec6d206410cf83b0cd2ffe867048274536"
-        },
-        "date": 1775127304717,
-        "tool": "customSmallerIsBetter",
-        "benches": [
-          {
-            "name": "Number of test cases",
-            "value": 61,
-            "unit": "-",
-            "extra": ""
-          },
-          {
-            "name": "General Stress Level",
-            "value": 0,
-            "unit": "%",
-            "extra": "Crashes in: "
-          }
-        ]
-      },
       {
         "commit": {
           "author": {
@@ -8019,6 +7987,38 @@ window.BENCHMARK_DATA = {
           "url": "https://github.com/Ultimaker/CuraEngine/pull/2402/commits/34cfbd11376b49082c7429d1f83f806eb16c37ef"
         },
         "date": 1791554372735,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "Number of test cases",
+            "value": 61,
+            "unit": "-",
+            "extra": ""
+          },
+          {
+            "name": "General Stress Level",
+            "value": 0,
+            "unit": "%",
+            "extra": "Crashes in: "
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "Ultimaker",
+            "username": "Ultimaker"
+          },
+          "committer": {
+            "name": "Ultimaker",
+            "username": "Ultimaker"
+          },
+          "id": "3907efba5be69da40a4d49a4f76959b327288d34",
+          "message": "[EMB-476] Width profiles, G1 Q emitter and motion policies per feature (M12095/M12096)",
+          "timestamp": "2026-10-09T07:21:47Z",
+          "url": "https://github.com/Ultimaker/CuraEngine/pull/2406/commits/3907efba5be69da40a4d49a4f76959b327288d34"
+        },
+        "date": 1791777426295,
         "tool": "customSmallerIsBetter",
         "benches": [
           {
