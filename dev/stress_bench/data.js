@@ -1,40 +1,8 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1791877230347,
+  "lastUpdate": 1791898601233,
   "repoUrl": "https://github.com/Ultimaker/CuraEngine",
   "entries": {
     "Stress Benchmark": [
-      {
-        "commit": {
-          "author": {
-            "name": "Ultimaker",
-            "username": "Ultimaker"
-          },
-          "committer": {
-            "name": "Ultimaker",
-            "username": "Ultimaker"
-          },
-          "id": "05b2c31f0d0a5062873df0ee6c53387734a4c6a3",
-          "message": "CURA-12957 infill can leave small dots lines",
-          "timestamp": "2026-04-03T19:24:52Z",
-          "url": "https://github.com/Ultimaker/CuraEngine/pull/2283/commits/05b2c31f0d0a5062873df0ee6c53387734a4c6a3"
-        },
-        "date": 1775643844426,
-        "tool": "customSmallerIsBetter",
-        "benches": [
-          {
-            "name": "Number of test cases",
-            "value": 61,
-            "unit": "-",
-            "extra": ""
-          },
-          {
-            "name": "General Stress Level",
-            "value": 0,
-            "unit": "%",
-            "extra": "Crashes in: "
-          }
-        ]
-      },
       {
         "commit": {
           "author": {
@@ -8019,6 +7987,38 @@ window.BENCHMARK_DATA = {
           "url": "https://github.com/Ultimaker/CuraEngine/pull/2401/commits/f2b9cbc1bcd65e6e7d8f4e606dd4124634b4e133"
         },
         "date": 1791877228646,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "Number of test cases",
+            "value": 61,
+            "unit": "-",
+            "extra": ""
+          },
+          {
+            "name": "General Stress Level",
+            "value": 0,
+            "unit": "%",
+            "extra": "Crashes in: "
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "Ultimaker",
+            "username": "Ultimaker"
+          },
+          "committer": {
+            "name": "Ultimaker",
+            "username": "Ultimaker"
+          },
+          "id": "7271dd05caaf2e859c847f0a04a1a3a5b7b17df8",
+          "message": "[CURA-13362] Don't apply 2 conversions from mm to micron.",
+          "timestamp": "2026-10-13T01:20:37Z",
+          "url": "https://github.com/Ultimaker/CuraEngine/pull/2408/commits/7271dd05caaf2e859c847f0a04a1a3a5b7b17df8"
+        },
+        "date": 1791898600108,
         "tool": "customSmallerIsBetter",
         "benches": [
           {
