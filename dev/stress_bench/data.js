@@ -1,40 +1,8 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1791799791728,
-  "repoUrl": "https://github.com/Ultimaker/CuraEngine_private",
+  "lastUpdate": 1791877230347,
+  "repoUrl": "https://github.com/Ultimaker/CuraEngine",
   "entries": {
     "Stress Benchmark": [
-      {
-        "commit": {
-          "author": {
-            "name": "Ultimaker",
-            "username": "Ultimaker"
-          },
-          "committer": {
-            "name": "Ultimaker",
-            "username": "Ultimaker"
-          },
-          "id": "a6981fae3a8efd12c7a09f189b4dcb34fcb7cb9a",
-          "message": "CURA-13072 Fix impossible ordering conditions",
-          "timestamp": "2026-04-03T19:24:52Z",
-          "url": "https://github.com/Ultimaker/CuraEngine/pull/2318/commits/a6981fae3a8efd12c7a09f189b4dcb34fcb7cb9a"
-        },
-        "date": 1775563060926,
-        "tool": "customSmallerIsBetter",
-        "benches": [
-          {
-            "name": "Number of test cases",
-            "value": 61,
-            "unit": "-",
-            "extra": ""
-          },
-          {
-            "name": "General Stress Level",
-            "value": 0,
-            "unit": "%",
-            "extra": "Crashes in: "
-          }
-        ]
-      },
       {
         "commit": {
           "author": {
@@ -8019,6 +7987,38 @@ window.BENCHMARK_DATA = {
           "url": "https://github.com/Ultimaker/CuraEngine_private/pull/1/commits/6b7e1bb32719abebf553cfeff08229e92a11e728"
         },
         "date": 1791799789779,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "Number of test cases",
+            "value": 61,
+            "unit": "-",
+            "extra": ""
+          },
+          {
+            "name": "General Stress Level",
+            "value": 0,
+            "unit": "%",
+            "extra": "Crashes in: "
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "Ultimaker",
+            "username": "Ultimaker"
+          },
+          "committer": {
+            "name": "Ultimaker",
+            "username": "Ultimaker"
+          },
+          "id": "f2b9cbc1bcd65e6e7d8f4e606dd4124634b4e133",
+          "message": "CURA-13218 early profiling results",
+          "timestamp": "2026-10-13T01:20:37Z",
+          "url": "https://github.com/Ultimaker/CuraEngine/pull/2401/commits/f2b9cbc1bcd65e6e7d8f4e606dd4124634b4e133"
+        },
+        "date": 1791877228646,
         "tool": "customSmallerIsBetter",
         "benches": [
           {
