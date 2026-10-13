@@ -1,40 +1,8 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1791898601233,
+  "lastUpdate": 1791905052488,
   "repoUrl": "https://github.com/Ultimaker/CuraEngine",
   "entries": {
     "Stress Benchmark": [
-      {
-        "commit": {
-          "author": {
-            "name": "Ultimaker",
-            "username": "Ultimaker"
-          },
-          "committer": {
-            "name": "Ultimaker",
-            "username": "Ultimaker"
-          },
-          "id": "11e638610925033d22662234e0e74f4fcc140120",
-          "message": "Cura 13080",
-          "timestamp": "2026-04-03T19:24:52Z",
-          "url": "https://github.com/Ultimaker/CuraEngine/pull/2319/commits/11e638610925033d22662234e0e74f4fcc140120"
-        },
-        "date": 1775658948974,
-        "tool": "customSmallerIsBetter",
-        "benches": [
-          {
-            "name": "Number of test cases",
-            "value": 61,
-            "unit": "-",
-            "extra": ""
-          },
-          {
-            "name": "General Stress Level",
-            "value": 0,
-            "unit": "%",
-            "extra": "Crashes in: "
-          }
-        ]
-      },
       {
         "commit": {
           "author": {
@@ -8019,6 +7987,38 @@ window.BENCHMARK_DATA = {
           "url": "https://github.com/Ultimaker/CuraEngine/pull/2408/commits/7271dd05caaf2e859c847f0a04a1a3a5b7b17df8"
         },
         "date": 1791898600108,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "Number of test cases",
+            "value": 61,
+            "unit": "-",
+            "extra": ""
+          },
+          {
+            "name": "General Stress Level",
+            "value": 0,
+            "unit": "%",
+            "extra": "Crashes in: "
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "Ultimaker",
+            "username": "Ultimaker"
+          },
+          "committer": {
+            "name": "Ultimaker",
+            "username": "Ultimaker"
+          },
+          "id": "dfe5d65a26bd9bb88d6663f76d4938f3cfad4582",
+          "message": "CURA-13361 Apply proper acceleration and jerk for the switch-model Z travel",
+          "timestamp": "2026-10-13T01:20:37Z",
+          "url": "https://github.com/Ultimaker/CuraEngine/pull/2409/commits/dfe5d65a26bd9bb88d6663f76d4938f3cfad4582"
+        },
+        "date": 1791905050871,
         "tool": "customSmallerIsBetter",
         "benches": [
           {
