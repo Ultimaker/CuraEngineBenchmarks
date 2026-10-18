@@ -1596,6 +1596,36 @@ window.BENCHMARK_DATA = {
             "value": 31.78
           }
         ]
+      },
+      {
+        "timestamp": "2026-10-18 23:27",
+        "benches": [
+          {
+            "name": "Slicing time",
+            "unit": "s",
+            "value": 11.38
+          },
+          {
+            "name": "Maximum RAM usage",
+            "unit": "MB",
+            "value": 472.2
+          },
+          {
+            "name": "Print time",
+            "unit": "s",
+            "value": 88343
+          },
+          {
+            "name": "Buffer overflows",
+            "unit": "#",
+            "value": 0
+          },
+          {
+            "name": "GCode file size",
+            "unit": "MB",
+            "value": 31.47
+          }
+        ]
       }
     ]
   }
