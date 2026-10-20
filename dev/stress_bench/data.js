@@ -1,44 +1,8 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1792492309371,
+  "lastUpdate": 1792496403773,
   "repoUrl": "https://github.com/Ultimaker/CuraEngine",
   "entries": {
     "Stress Benchmark": [
-      {
-        "commit": {
-          "author": {
-            "email": "alireza.doustdar@gmail.com",
-            "name": "HellAholic",
-            "username": "HellAholic"
-          },
-          "committer": {
-            "email": "noreply@github.com",
-            "name": "GitHub",
-            "username": "web-flow"
-          },
-          "distinct": true,
-          "id": "2783da419b41f2d32b1c18dc66514ad09d5c8347",
-          "message": "CURA-12957 infill can leave small dots lines (#2283)",
-          "timestamp": "2026-04-13T10:47:04+02:00",
-          "tree_id": "d0ceedb6817715d4e533042a85487d03b3648720",
-          "url": "https://github.com/Ultimaker/CuraEngine/commit/2783da419b41f2d32b1c18dc66514ad09d5c8347"
-        },
-        "date": 1776072626642,
-        "tool": "customSmallerIsBetter",
-        "benches": [
-          {
-            "name": "Number of test cases",
-            "value": 61,
-            "unit": "-",
-            "extra": ""
-          },
-          {
-            "name": "General Stress Level",
-            "value": 0,
-            "unit": "%",
-            "extra": "Crashes in: "
-          }
-        ]
-      },
       {
         "commit": {
           "author": {
@@ -8019,6 +7983,38 @@ window.BENCHMARK_DATA = {
           "url": "https://github.com/Ultimaker/CuraEngine/pull/2411/commits/9a7e28da4c42c10b3dfcbe8db2e39e0dcdbc2670"
         },
         "date": 1792492307249,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "Number of test cases",
+            "value": 61,
+            "unit": "-",
+            "extra": ""
+          },
+          {
+            "name": "General Stress Level",
+            "value": 0,
+            "unit": "%",
+            "extra": "Crashes in: "
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "Ultimaker",
+            "username": "Ultimaker"
+          },
+          "committer": {
+            "name": "Ultimaker",
+            "username": "Ultimaker"
+          },
+          "id": "5f06d8007475f5d4740324b86a171b73ae45733e",
+          "message": "CURA-13369 bridging angle offset",
+          "timestamp": "2026-10-15T06:57:37Z",
+          "url": "https://github.com/Ultimaker/CuraEngine/pull/2411/commits/5f06d8007475f5d4740324b86a171b73ae45733e"
+        },
+        "date": 1792496402499,
         "tool": "customSmallerIsBetter",
         "benches": [
           {
