@@ -1,44 +1,8 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1793042332560,
+  "lastUpdate": 1793046870003,
   "repoUrl": "https://github.com/Ultimaker/CuraEngine",
   "entries": {
     "Stress Benchmark": [
-      {
-        "commit": {
-          "author": {
-            "email": "erwan.mathieu@ultimaker.com",
-            "name": "Erwan MATHIEU",
-            "username": "wawanbreton"
-          },
-          "committer": {
-            "email": "erwan.mathieu@ultimaker.com",
-            "name": "Erwan MATHIEU",
-            "username": "wawanbreton"
-          },
-          "distinct": true,
-          "id": "62efbe08c267ce0375bfdd3587d6ec957d715528",
-          "message": "Merge remote-tracking branch 'origin/5.13'",
-          "timestamp": "2026-04-14T09:20:47+02:00",
-          "tree_id": "f95f4cd1b7b0bba6fcec4453b92ab1721b999aa6",
-          "url": "https://github.com/Ultimaker/CuraEngine/commit/62efbe08c267ce0375bfdd3587d6ec957d715528"
-        },
-        "date": 1776153686145,
-        "tool": "customSmallerIsBetter",
-        "benches": [
-          {
-            "name": "Number of test cases",
-            "value": 61,
-            "unit": "-",
-            "extra": ""
-          },
-          {
-            "name": "General Stress Level",
-            "value": 0,
-            "unit": "%",
-            "extra": "Crashes in: "
-          }
-        ]
-      },
       {
         "commit": {
           "author": {
@@ -8015,6 +7979,38 @@ window.BENCHMARK_DATA = {
           "url": "https://github.com/Ultimaker/CuraEngine/pull/2415/commits/eecdc4f75d01746c2e616be192abe5d191bd3dbb"
         },
         "date": 1793042330935,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "Number of test cases",
+            "value": 61,
+            "unit": "-",
+            "extra": ""
+          },
+          {
+            "name": "General Stress Level",
+            "value": 0,
+            "unit": "%",
+            "extra": "Crashes in: "
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "Ultimaker",
+            "username": "Ultimaker"
+          },
+          "committer": {
+            "name": "Ultimaker",
+            "username": "Ultimaker"
+          },
+          "id": "b6664971a9230525b8434aaf7a6543dfbb243dc2",
+          "message": "[NP-1365] Optimize mesh loading memory footprint and fix slicer pointer leaks",
+          "timestamp": "2026-10-25T00:07:41Z",
+          "url": "https://github.com/Ultimaker/CuraEngine/pull/2415/commits/b6664971a9230525b8434aaf7a6543dfbb243dc2"
+        },
+        "date": 1793046868370,
         "tool": "customSmallerIsBetter",
         "benches": [
           {
