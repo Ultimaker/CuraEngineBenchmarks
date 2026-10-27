@@ -1,40 +1,8 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1793061441182,
-  "repoUrl": "https://github.com/Ultimaker/CuraEngine",
+  "lastUpdate": 1793096818689,
+  "repoUrl": "https://github.com/Ultimaker/CuraEngine_private",
   "entries": {
     "Stress Benchmark": [
-      {
-        "commit": {
-          "author": {
-            "name": "Ultimaker",
-            "username": "Ultimaker"
-          },
-          "committer": {
-            "name": "Ultimaker",
-            "username": "Ultimaker"
-          },
-          "id": "2a9aa7607fc4bd91c524a042069d4e9820ed824c",
-          "message": "CURA-12580 paint on support",
-          "timestamp": "2026-04-15T02:30:22Z",
-          "url": "https://github.com/Ultimaker/CuraEngine/pull/2317/commits/2a9aa7607fc4bd91c524a042069d4e9820ed824c"
-        },
-        "date": 1776244014506,
-        "tool": "customSmallerIsBetter",
-        "benches": [
-          {
-            "name": "Number of test cases",
-            "value": 61,
-            "unit": "-",
-            "extra": ""
-          },
-          {
-            "name": "General Stress Level",
-            "value": 0,
-            "unit": "%",
-            "extra": "Crashes in: "
-          }
-        ]
-      },
       {
         "commit": {
           "author": {
@@ -8007,6 +7975,38 @@ window.BENCHMARK_DATA = {
           "url": "https://github.com/Ultimaker/CuraEngine/pull/2415/commits/70e47b059e655ec57bbb4f281a1207cd01f9798e"
         },
         "date": 1793061439902,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "Number of test cases",
+            "value": 61,
+            "unit": "-",
+            "extra": ""
+          },
+          {
+            "name": "General Stress Level",
+            "value": 0,
+            "unit": "%",
+            "extra": "Crashes in: "
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "Ultimaker",
+            "username": "Ultimaker"
+          },
+          "committer": {
+            "name": "Ultimaker",
+            "username": "Ultimaker"
+          },
+          "id": "2ed1649d2c25cd1d50aa3f5503b627fdb757bb6b",
+          "message": "feat(nonPlanar): add 3-axis non-planar top shell (walls + skin) slicing",
+          "timestamp": "2020-05-12T09:48:13Z",
+          "url": "https://github.com/Ultimaker/CuraEngine_private/pull/2/commits/2ed1649d2c25cd1d50aa3f5503b627fdb757bb6b"
+        },
+        "date": 1793096817000,
         "tool": "customSmallerIsBetter",
         "benches": [
           {
