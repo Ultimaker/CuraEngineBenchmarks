@@ -1,44 +1,8 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1793059139986,
+  "lastUpdate": 1793059837056,
   "repoUrl": "https://github.com/Ultimaker/CuraEngine",
   "entries": {
     "Stress Benchmark": [
-      {
-        "commit": {
-          "author": {
-            "email": "alireza.doustdar@gmail.com",
-            "name": "HellAholic",
-            "username": "HellAholic"
-          },
-          "committer": {
-            "email": "noreply@github.com",
-            "name": "GitHub",
-            "username": "web-flow"
-          },
-          "distinct": true,
-          "id": "cd70a6e5f5a32eb5cef5d09427e0210b1dd590f7",
-          "message": "CURA-12992 Fix slicing crashes (#2301)",
-          "timestamp": "2026-04-14T11:16:53+02:00",
-          "tree_id": "172535316e7940ae2a9d29179429a2ee960a4724",
-          "url": "https://github.com/Ultimaker/CuraEngine/commit/cd70a6e5f5a32eb5cef5d09427e0210b1dd590f7"
-        },
-        "date": 1776160688986,
-        "tool": "customSmallerIsBetter",
-        "benches": [
-          {
-            "name": "Number of test cases",
-            "value": 61,
-            "unit": "-",
-            "extra": ""
-          },
-          {
-            "name": "General Stress Level",
-            "value": 0,
-            "unit": "%",
-            "extra": "Crashes in: "
-          }
-        ]
-      },
       {
         "commit": {
           "author": {
@@ -8011,6 +7975,38 @@ window.BENCHMARK_DATA = {
           "url": "https://github.com/Ultimaker/CuraEngine/pull/2415/commits/385e56f5fd3fd6bd36430504d180587467a9f725"
         },
         "date": 1793059138352,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "Number of test cases",
+            "value": 61,
+            "unit": "-",
+            "extra": ""
+          },
+          {
+            "name": "General Stress Level",
+            "value": 0,
+            "unit": "%",
+            "extra": "Crashes in: "
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "Ultimaker",
+            "username": "Ultimaker"
+          },
+          "committer": {
+            "name": "Ultimaker",
+            "username": "Ultimaker"
+          },
+          "id": "c28566b2262ffa47ad95f3f4ec4ed3d2c0a81959",
+          "message": "[NP-1365] Optimize mesh loading memory footprint and fix slicer pointer leaks",
+          "timestamp": "2026-10-25T00:07:41Z",
+          "url": "https://github.com/Ultimaker/CuraEngine/pull/2415/commits/c28566b2262ffa47ad95f3f4ec4ed3d2c0a81959"
+        },
+        "date": 1793059835767,
         "tool": "customSmallerIsBetter",
         "benches": [
           {
