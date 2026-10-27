@@ -1,40 +1,8 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1793112799676,
+  "lastUpdate": 1793112824699,
   "repoUrl": "https://github.com/Ultimaker/CuraEngine",
   "entries": {
     "Stress Benchmark": [
-      {
-        "commit": {
-          "author": {
-            "name": "Ultimaker",
-            "username": "Ultimaker"
-          },
-          "committer": {
-            "name": "Ultimaker",
-            "username": "Ultimaker"
-          },
-          "id": "d21778b85388518349426f5fa57229bd57f450f8",
-          "message": "CURA-12636 Non tree support inside tree support",
-          "timestamp": "2026-04-15T02:30:22Z",
-          "url": "https://github.com/Ultimaker/CuraEngine/pull/2322/commits/d21778b85388518349426f5fa57229bd57f450f8"
-        },
-        "date": 1776328842977,
-        "tool": "customSmallerIsBetter",
-        "benches": [
-          {
-            "name": "Number of test cases",
-            "value": 61,
-            "unit": "-",
-            "extra": ""
-          },
-          {
-            "name": "General Stress Level",
-            "value": 0,
-            "unit": "%",
-            "extra": "Crashes in: "
-          }
-        ]
-      },
       {
         "commit": {
           "author": {
@@ -8007,6 +7975,38 @@ window.BENCHMARK_DATA = {
           "url": "https://github.com/Ultimaker/CuraEngine/pull/2411/commits/ade6a807d676391a00c6bdb622f0106ca9de17a1"
         },
         "date": 1793112797803,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "Number of test cases",
+            "value": 61,
+            "unit": "-",
+            "extra": ""
+          },
+          {
+            "name": "General Stress Level",
+            "value": 0,
+            "unit": "%",
+            "extra": "Crashes in: "
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "Ultimaker",
+            "username": "Ultimaker"
+          },
+          "committer": {
+            "name": "Ultimaker",
+            "username": "Ultimaker"
+          },
+          "id": "64bfac0b22038d2a9508d0d7bbc62f86bf681700",
+          "message": "CURA-13369 bridging angle offset",
+          "timestamp": "2026-10-27T10:48:56Z",
+          "url": "https://github.com/Ultimaker/CuraEngine/pull/2411/commits/64bfac0b22038d2a9508d0d7bbc62f86bf681700"
+        },
+        "date": 1793112822791,
         "tool": "customSmallerIsBetter",
         "benches": [
           {
