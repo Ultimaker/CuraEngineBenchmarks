@@ -1,40 +1,8 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1793112824699,
+  "lastUpdate": 1793192757178,
   "repoUrl": "https://github.com/Ultimaker/CuraEngine",
   "entries": {
     "Stress Benchmark": [
-      {
-        "commit": {
-          "author": {
-            "name": "Ultimaker",
-            "username": "Ultimaker"
-          },
-          "committer": {
-            "name": "Ultimaker",
-            "username": "Ultimaker"
-          },
-          "id": "e49466ba1124371b22fbf69b7fccba074dc1147e",
-          "message": "CURA-12996 Fix flooring areas being generated when disabled",
-          "timestamp": "2026-04-15T02:30:22Z",
-          "url": "https://github.com/Ultimaker/CuraEngine/pull/2302/commits/e49466ba1124371b22fbf69b7fccba074dc1147e"
-        },
-        "date": 1776329627651,
-        "tool": "customSmallerIsBetter",
-        "benches": [
-          {
-            "name": "Number of test cases",
-            "value": 61,
-            "unit": "-",
-            "extra": ""
-          },
-          {
-            "name": "General Stress Level",
-            "value": 0,
-            "unit": "%",
-            "extra": "Crashes in: "
-          }
-        ]
-      },
       {
         "commit": {
           "author": {
@@ -8007,6 +7975,38 @@ window.BENCHMARK_DATA = {
           "url": "https://github.com/Ultimaker/CuraEngine/pull/2411/commits/64bfac0b22038d2a9508d0d7bbc62f86bf681700"
         },
         "date": 1793112822791,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "Number of test cases",
+            "value": 61,
+            "unit": "-",
+            "extra": ""
+          },
+          {
+            "name": "General Stress Level",
+            "value": 0,
+            "unit": "%",
+            "extra": "Crashes in: "
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "Ultimaker",
+            "username": "Ultimaker"
+          },
+          "committer": {
+            "name": "Ultimaker",
+            "username": "Ultimaker"
+          },
+          "id": "271bfda94533aea2cc35244e5598abb827b0e6b6",
+          "message": "Remove old debug code.",
+          "timestamp": "2026-10-28T02:41:12Z",
+          "url": "https://github.com/Ultimaker/CuraEngine/pull/2416/commits/271bfda94533aea2cc35244e5598abb827b0e6b6"
+        },
+        "date": 1793192755639,
         "tool": "customSmallerIsBetter",
         "benches": [
           {
