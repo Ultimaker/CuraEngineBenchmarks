@@ -1,44 +1,8 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1793192757178,
+  "lastUpdate": 1793711935515,
   "repoUrl": "https://github.com/Ultimaker/CuraEngine",
   "entries": {
     "Stress Benchmark": [
-      {
-        "commit": {
-          "author": {
-            "email": "alireza.doustdar@gmail.com",
-            "name": "HellAholic",
-            "username": "HellAholic"
-          },
-          "committer": {
-            "email": "noreply@github.com",
-            "name": "GitHub",
-            "username": "web-flow"
-          },
-          "distinct": true,
-          "id": "212a4bea8d7a16af6b71486b738417f94320cd33",
-          "message": "CURA-12996 Fix flooring areas being generated when disabled (#2302)",
-          "timestamp": "2026-04-16T12:31:55+02:00",
-          "tree_id": "f010528be50d410c101e51f4e1cde1fcb383a942",
-          "url": "https://github.com/Ultimaker/CuraEngine/commit/212a4bea8d7a16af6b71486b738417f94320cd33"
-        },
-        "date": 1776338292721,
-        "tool": "customSmallerIsBetter",
-        "benches": [
-          {
-            "name": "Number of test cases",
-            "value": 61,
-            "unit": "-",
-            "extra": ""
-          },
-          {
-            "name": "General Stress Level",
-            "value": 0,
-            "unit": "%",
-            "extra": "Crashes in: "
-          }
-        ]
-      },
       {
         "commit": {
           "author": {
@@ -8007,6 +7971,38 @@ window.BENCHMARK_DATA = {
           "url": "https://github.com/Ultimaker/CuraEngine/pull/2416/commits/271bfda94533aea2cc35244e5598abb827b0e6b6"
         },
         "date": 1793192755639,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "Number of test cases",
+            "value": 61,
+            "unit": "-",
+            "extra": ""
+          },
+          {
+            "name": "General Stress Level",
+            "value": 0,
+            "unit": "%",
+            "extra": "Crashes in: "
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "Ultimaker",
+            "username": "Ultimaker"
+          },
+          "committer": {
+            "name": "Ultimaker",
+            "username": "Ultimaker"
+          },
+          "id": "4569ea0617dfba7b656c89997a0af05b5b039324",
+          "message": "[CURA-13221] Skippable mesh feature (1 extruder)",
+          "timestamp": "2026-11-02T08:19:43Z",
+          "url": "https://github.com/Ultimaker/CuraEngine/pull/2417/commits/4569ea0617dfba7b656c89997a0af05b5b039324"
+        },
+        "date": 1793711933835,
         "tool": "customSmallerIsBetter",
         "benches": [
           {
