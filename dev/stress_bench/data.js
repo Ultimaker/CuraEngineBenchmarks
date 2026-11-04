@@ -1,40 +1,8 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1793803634662,
+  "lastUpdate": 1793808099911,
   "repoUrl": "https://github.com/Ultimaker/CuraEngine",
   "entries": {
     "Stress Benchmark": [
-      {
-        "commit": {
-          "author": {
-            "name": "Ultimaker",
-            "username": "Ultimaker"
-          },
-          "committer": {
-            "name": "Ultimaker",
-            "username": "Ultimaker"
-          },
-          "id": "3b6dad27e2243c7940b451bdbeda08c7f20fa2f6",
-          "message": "fix: Temperature preheat command fires at correct time within long co…",
-          "timestamp": "2026-04-18T00:41:45Z",
-          "url": "https://github.com/Ultimaker/CuraEngine/pull/2328/commits/3b6dad27e2243c7940b451bdbeda08c7f20fa2f6"
-        },
-        "date": 1776550795663,
-        "tool": "customSmallerIsBetter",
-        "benches": [
-          {
-            "name": "Number of test cases",
-            "value": 61,
-            "unit": "-",
-            "extra": ""
-          },
-          {
-            "name": "General Stress Level",
-            "value": 0,
-            "unit": "%",
-            "extra": "Crashes in: "
-          }
-        ]
-      },
       {
         "commit": {
           "author": {
@@ -7995,6 +7963,38 @@ window.BENCHMARK_DATA = {
           "url": "https://github.com/Ultimaker/CuraEngine/pull/2417/commits/2ab575c7ecc04332f04a3b770ada2169d95f6a38"
         },
         "date": 1793803632823,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "Number of test cases",
+            "value": 61,
+            "unit": "-",
+            "extra": ""
+          },
+          {
+            "name": "General Stress Level",
+            "value": 0,
+            "unit": "%",
+            "extra": "Crashes in: "
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "Ultimaker",
+            "username": "Ultimaker"
+          },
+          "committer": {
+            "name": "Ultimaker",
+            "username": "Ultimaker"
+          },
+          "id": "e5cdab26f50aed287680250bba491cbd9a2941c8",
+          "message": "[CURA-13221] Skippable mesh feature (1 extruder)",
+          "timestamp": "2026-11-02T08:19:43Z",
+          "url": "https://github.com/Ultimaker/CuraEngine/pull/2417/commits/e5cdab26f50aed287680250bba491cbd9a2941c8"
+        },
+        "date": 1793808097158,
         "tool": "customSmallerIsBetter",
         "benches": [
           {
