@@ -1,40 +1,8 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1793802904306,
+  "lastUpdate": 1793803634662,
   "repoUrl": "https://github.com/Ultimaker/CuraEngine",
   "entries": {
     "Stress Benchmark": [
-      {
-        "commit": {
-          "author": {
-            "name": "Ultimaker",
-            "username": "Ultimaker"
-          },
-          "committer": {
-            "name": "Ultimaker",
-            "username": "Ultimaker"
-          },
-          "id": "e4130606fe1a39aee6da6278ce0d04340dc4b789",
-          "message": "CURA_13005",
-          "timestamp": "2026-04-16T14:10:32Z",
-          "url": "https://github.com/Ultimaker/CuraEngine/pull/2297/commits/e4130606fe1a39aee6da6278ce0d04340dc4b789"
-        },
-        "date": 1776414693537,
-        "tool": "customSmallerIsBetter",
-        "benches": [
-          {
-            "name": "Number of test cases",
-            "value": 61,
-            "unit": "-",
-            "extra": ""
-          },
-          {
-            "name": "General Stress Level",
-            "value": 0,
-            "unit": "%",
-            "extra": "Crashes in: "
-          }
-        ]
-      },
       {
         "commit": {
           "author": {
@@ -7995,6 +7963,38 @@ window.BENCHMARK_DATA = {
           "url": "https://github.com/Ultimaker/CuraEngine/pull/2417/commits/614f09165636f6ff2d30d3b5d59d94bdf5b1cd39"
         },
         "date": 1793802902223,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "Number of test cases",
+            "value": 61,
+            "unit": "-",
+            "extra": ""
+          },
+          {
+            "name": "General Stress Level",
+            "value": 0,
+            "unit": "%",
+            "extra": "Crashes in: "
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "Ultimaker",
+            "username": "Ultimaker"
+          },
+          "committer": {
+            "name": "Ultimaker",
+            "username": "Ultimaker"
+          },
+          "id": "2ab575c7ecc04332f04a3b770ada2169d95f6a38",
+          "message": "[CURA-13221] Skippable mesh feature (1 extruder)",
+          "timestamp": "2026-11-02T08:19:43Z",
+          "url": "https://github.com/Ultimaker/CuraEngine/pull/2417/commits/2ab575c7ecc04332f04a3b770ada2169d95f6a38"
+        },
+        "date": 1793803632823,
         "tool": "customSmallerIsBetter",
         "benches": [
           {
