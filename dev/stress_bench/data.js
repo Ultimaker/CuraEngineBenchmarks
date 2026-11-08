@@ -1,40 +1,8 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1793808099911,
+  "lastUpdate": 1794156709643,
   "repoUrl": "https://github.com/Ultimaker/CuraEngine",
   "entries": {
     "Stress Benchmark": [
-      {
-        "commit": {
-          "author": {
-            "name": "Ultimaker",
-            "username": "Ultimaker"
-          },
-          "committer": {
-            "name": "Ultimaker",
-            "username": "Ultimaker"
-          },
-          "id": "0b37c1e5cf5e4c067e304bdd282228dbfd3b506c",
-          "message": "fix: Temperature preheat command fires at correct time within long co…",
-          "timestamp": "2026-04-18T00:41:45Z",
-          "url": "https://github.com/Ultimaker/CuraEngine/pull/2328/commits/0b37c1e5cf5e4c067e304bdd282228dbfd3b506c"
-        },
-        "date": 1776553323033,
-        "tool": "customSmallerIsBetter",
-        "benches": [
-          {
-            "name": "Number of test cases",
-            "value": 61,
-            "unit": "-",
-            "extra": ""
-          },
-          {
-            "name": "General Stress Level",
-            "value": 0,
-            "unit": "%",
-            "extra": "Crashes in: "
-          }
-        ]
-      },
       {
         "commit": {
           "author": {
@@ -7995,6 +7963,38 @@ window.BENCHMARK_DATA = {
           "url": "https://github.com/Ultimaker/CuraEngine/pull/2417/commits/e5cdab26f50aed287680250bba491cbd9a2941c8"
         },
         "date": 1793808097158,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "Number of test cases",
+            "value": 61,
+            "unit": "-",
+            "extra": ""
+          },
+          {
+            "name": "General Stress Level",
+            "value": 0,
+            "unit": "%",
+            "extra": "Crashes in: "
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "Ultimaker",
+            "username": "Ultimaker"
+          },
+          "committer": {
+            "name": "Ultimaker",
+            "username": "Ultimaker"
+          },
+          "id": "92f115bc9eb8c752fbce6a00cb302f03c87f4a15",
+          "message": "Clamp cool_min_speed to path speed in minimum layer time and small feature scaling",
+          "timestamp": "2026-11-06T12:49:55Z",
+          "url": "https://github.com/Ultimaker/CuraEngine/pull/2419/commits/92f115bc9eb8c752fbce6a00cb302f03c87f4a15"
+        },
+        "date": 1794156707840,
         "tool": "customSmallerIsBetter",
         "benches": [
           {
