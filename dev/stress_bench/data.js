@@ -1,44 +1,8 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1794302499239,
+  "lastUpdate": 1794308155770,
   "repoUrl": "https://github.com/Ultimaker/CuraEngine",
   "entries": {
     "Stress Benchmark": [
-      {
-        "commit": {
-          "author": {
-            "email": "alireza.doustdar@gmail.com",
-            "name": "HellAholic",
-            "username": "HellAholic"
-          },
-          "committer": {
-            "email": "alireza.doustdar@gmail.com",
-            "name": "HellAholic",
-            "username": "HellAholic"
-          },
-          "distinct": true,
-          "id": "ab43569dfa12a2c4dc2e2f0432351526b0453608",
-          "message": "Merge remote-tracking branch 'origin/5.13'",
-          "timestamp": "2026-04-24T14:57:23+02:00",
-          "tree_id": "7c00c541d26830fcb2ad042e44741bdbf75f26d2",
-          "url": "https://github.com/Ultimaker/CuraEngine/commit/ab43569dfa12a2c4dc2e2f0432351526b0453608"
-        },
-        "date": 1777038121534,
-        "tool": "customSmallerIsBetter",
-        "benches": [
-          {
-            "name": "Number of test cases",
-            "value": 61,
-            "unit": "-",
-            "extra": ""
-          },
-          {
-            "name": "General Stress Level",
-            "value": 0,
-            "unit": "%",
-            "extra": "Crashes in: "
-          }
-        ]
-      },
       {
         "commit": {
           "author": {
@@ -7991,6 +7955,38 @@ window.BENCHMARK_DATA = {
           "url": "https://github.com/Ultimaker/CuraEngine/pull/2418/commits/b618de352161c2740b7f395f2b55e20eb6092f24"
         },
         "date": 1794302497794,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "Number of test cases",
+            "value": 61,
+            "unit": "-",
+            "extra": ""
+          },
+          {
+            "name": "General Stress Level",
+            "value": 0,
+            "unit": "%",
+            "extra": "Crashes in: "
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "Ultimaker",
+            "username": "Ultimaker"
+          },
+          "committer": {
+            "name": "Ultimaker",
+            "username": "Ultimaker"
+          },
+          "id": "bf346c26ea56c89a76aa3d2c9fd160d1992c12b7",
+          "message": "CURA-13217 improve engine communication",
+          "timestamp": "2026-11-06T12:49:55Z",
+          "url": "https://github.com/Ultimaker/CuraEngine/pull/2418/commits/bf346c26ea56c89a76aa3d2c9fd160d1992c12b7"
+        },
+        "date": 1794308154042,
         "tool": "customSmallerIsBetter",
         "benches": [
           {
