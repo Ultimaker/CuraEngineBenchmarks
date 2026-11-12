@@ -1,40 +1,8 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1794471209138,
+  "lastUpdate": 1794477670620,
   "repoUrl": "https://github.com/Ultimaker/CuraEngine",
   "entries": {
     "Stress Benchmark": [
-      {
-        "commit": {
-          "author": {
-            "name": "Ultimaker",
-            "username": "Ultimaker"
-          },
-          "committer": {
-            "name": "Ultimaker",
-            "username": "Ultimaker"
-          },
-          "id": "bc55f7ec4d739f7a4f3584e95b36dbfb6afe0f4a",
-          "message": "CURA-13049 process the end variable replacement in the engine",
-          "timestamp": "2026-04-28T08:38:17Z",
-          "url": "https://github.com/Ultimaker/CuraEngine/pull/2313/commits/bc55f7ec4d739f7a4f3584e95b36dbfb6afe0f4a"
-        },
-        "date": 1777389657727,
-        "tool": "customSmallerIsBetter",
-        "benches": [
-          {
-            "name": "Number of test cases",
-            "value": 61,
-            "unit": "-",
-            "extra": ""
-          },
-          {
-            "name": "General Stress Level",
-            "value": 0,
-            "unit": "%",
-            "extra": "Crashes in: "
-          }
-        ]
-      },
       {
         "commit": {
           "author": {
@@ -7987,6 +7955,38 @@ window.BENCHMARK_DATA = {
           "url": "https://github.com/Ultimaker/CuraEngine/pull/2413/commits/212bd0e7335aaa72f9778e3881a46d0ce4587ce8"
         },
         "date": 1794471207090,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "Number of test cases",
+            "value": 61,
+            "unit": "-",
+            "extra": ""
+          },
+          {
+            "name": "General Stress Level",
+            "value": 0,
+            "unit": "%",
+            "extra": "Crashes in: "
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "Ultimaker",
+            "username": "Ultimaker"
+          },
+          "committer": {
+            "name": "Ultimaker",
+            "username": "Ultimaker"
+          },
+          "id": "212bd0e7335aaa72f9778e3881a46d0ce4587ce8",
+          "message": "Cura 13402 refactor structure and class files",
+          "timestamp": "2026-11-12T00:32:08Z",
+          "url": "https://github.com/Ultimaker/CuraEngine/pull/2422/commits/212bd0e7335aaa72f9778e3881a46d0ce4587ce8"
+        },
+        "date": 1794477669023,
         "tool": "customSmallerIsBetter",
         "benches": [
           {
