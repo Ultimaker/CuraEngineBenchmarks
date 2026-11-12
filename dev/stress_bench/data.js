@@ -1,40 +1,8 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1794308155770,
+  "lastUpdate": 1794471209138,
   "repoUrl": "https://github.com/Ultimaker/CuraEngine",
   "entries": {
     "Stress Benchmark": [
-      {
-        "commit": {
-          "author": {
-            "name": "Ultimaker",
-            "username": "Ultimaker"
-          },
-          "committer": {
-            "name": "Ultimaker",
-            "username": "Ultimaker"
-          },
-          "id": "337babe28f72745426c1a488744383b35eeab81c",
-          "message": "CURA-13049 process the end variable replacement in the engine",
-          "timestamp": "2026-04-28T08:38:17Z",
-          "url": "https://github.com/Ultimaker/CuraEngine/pull/2313/commits/337babe28f72745426c1a488744383b35eeab81c"
-        },
-        "date": 1777389490798,
-        "tool": "customSmallerIsBetter",
-        "benches": [
-          {
-            "name": "Number of test cases",
-            "value": 61,
-            "unit": "-",
-            "extra": ""
-          },
-          {
-            "name": "General Stress Level",
-            "value": 0,
-            "unit": "%",
-            "extra": "Crashes in: "
-          }
-        ]
-      },
       {
         "commit": {
           "author": {
@@ -7987,6 +7955,38 @@ window.BENCHMARK_DATA = {
           "url": "https://github.com/Ultimaker/CuraEngine/pull/2418/commits/bf346c26ea56c89a76aa3d2c9fd160d1992c12b7"
         },
         "date": 1794308154042,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "Number of test cases",
+            "value": 61,
+            "unit": "-",
+            "extra": ""
+          },
+          {
+            "name": "General Stress Level",
+            "value": 0,
+            "unit": "%",
+            "extra": "Crashes in: "
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "Ultimaker",
+            "username": "Ultimaker"
+          },
+          "committer": {
+            "name": "Ultimaker",
+            "username": "Ultimaker"
+          },
+          "id": "212bd0e7335aaa72f9778e3881a46d0ce4587ce8",
+          "message": "CURA-13402 Separate C++ types into dedicated, consistently named files",
+          "timestamp": "2026-11-10T10:23:19Z",
+          "url": "https://github.com/Ultimaker/CuraEngine/pull/2413/commits/212bd0e7335aaa72f9778e3881a46d0ce4587ce8"
+        },
+        "date": 1794471207090,
         "tool": "customSmallerIsBetter",
         "benches": [
           {
