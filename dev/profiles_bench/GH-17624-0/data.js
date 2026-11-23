@@ -3,26 +3,6 @@ window.BENCHMARK_DATA = {
   "entries": {
     "Analysis of GH-17624-0": [
       {
-        "timestamp": "2026-07-17 14:18:30.672805",
-        "benches": [
-          {
-            "name": "Slicing time",
-            "unit": "s",
-            "value": 19.649
-          },
-          {
-            "name": "Print time",
-            "unit": "s",
-            "value": 47604
-          },
-          {
-            "name": "Buffer overflows",
-            "unit": "#",
-            "value": 1148
-          }
-        ]
-      },
-      {
         "timestamp": "2026-08-10 16:07:13.393810",
         "benches": [
           {
@@ -2539,6 +2519,36 @@ window.BENCHMARK_DATA = {
             "name": "Maximum RAM usage",
             "unit": "MB",
             "value": 398.67
+          },
+          {
+            "name": "Print time",
+            "unit": "s",
+            "value": 47544
+          },
+          {
+            "name": "Buffer overflows",
+            "unit": "#",
+            "value": 0
+          },
+          {
+            "name": "GCode file size",
+            "unit": "MB",
+            "value": 40.99
+          }
+        ]
+      },
+      {
+        "timestamp": "2026-11-23 08:37",
+        "benches": [
+          {
+            "name": "Slicing time",
+            "unit": "s",
+            "value": 24.28
+          },
+          {
+            "name": "Maximum RAM usage",
+            "unit": "MB",
+            "value": 394.38
           },
           {
             "name": "Print time",

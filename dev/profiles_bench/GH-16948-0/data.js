@@ -3,26 +3,6 @@ window.BENCHMARK_DATA = {
   "entries": {
     "Analysis of GH-16948-0": [
       {
-        "timestamp": "2026-07-17 13:50:14.117406",
-        "benches": [
-          {
-            "name": "Slicing time",
-            "unit": "s",
-            "value": 1.666
-          },
-          {
-            "name": "Print time",
-            "unit": "s",
-            "value": 6054
-          },
-          {
-            "name": "Buffer overflows",
-            "unit": "#",
-            "value": 2486
-          }
-        ]
-      },
-      {
         "timestamp": "2026-08-10 15:41:14.293186",
         "benches": [
           {
@@ -2539,6 +2519,36 @@ window.BENCHMARK_DATA = {
             "name": "Maximum RAM usage",
             "unit": "MB",
             "value": 105.1
+          },
+          {
+            "name": "Print time",
+            "unit": "s",
+            "value": 5613
+          },
+          {
+            "name": "Buffer overflows",
+            "unit": "#",
+            "value": 0
+          },
+          {
+            "name": "GCode file size",
+            "unit": "MB",
+            "value": 6.73
+          }
+        ]
+      },
+      {
+        "timestamp": "2026-11-23 08:08",
+        "benches": [
+          {
+            "name": "Slicing time",
+            "unit": "s",
+            "value": 2.06
+          },
+          {
+            "name": "Maximum RAM usage",
+            "unit": "MB",
+            "value": 104.81
           },
           {
             "name": "Print time",

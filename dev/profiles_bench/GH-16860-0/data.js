@@ -3,26 +3,6 @@ window.BENCHMARK_DATA = {
   "entries": {
     "Analysis of GH-16860-0": [
       {
-        "timestamp": "2026-07-17 13:48:36.000030",
-        "benches": [
-          {
-            "name": "Slicing time",
-            "unit": "s",
-            "value": 12.077
-          },
-          {
-            "name": "Print time",
-            "unit": "s",
-            "value": 51707
-          },
-          {
-            "name": "Buffer overflows",
-            "unit": "#",
-            "value": 10
-          }
-        ]
-      },
-      {
         "timestamp": "2026-08-10 15:39:38.814861",
         "benches": [
           {
@@ -2539,6 +2519,36 @@ window.BENCHMARK_DATA = {
             "name": "Maximum RAM usage",
             "unit": "MB",
             "value": 338.75
+          },
+          {
+            "name": "Print time",
+            "unit": "s",
+            "value": 51601
+          },
+          {
+            "name": "Buffer overflows",
+            "unit": "#",
+            "value": 0
+          },
+          {
+            "name": "GCode file size",
+            "unit": "MB",
+            "value": 24.15
+          }
+        ]
+      },
+      {
+        "timestamp": "2026-11-23 08:07",
+        "benches": [
+          {
+            "name": "Slicing time",
+            "unit": "s",
+            "value": 14.3
+          },
+          {
+            "name": "Maximum RAM usage",
+            "unit": "MB",
+            "value": 332.31
           },
           {
             "name": "Print time",

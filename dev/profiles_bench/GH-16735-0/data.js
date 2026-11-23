@@ -3,26 +3,6 @@ window.BENCHMARK_DATA = {
   "entries": {
     "Analysis of GH-16735-0": [
       {
-        "timestamp": "2026-07-17 13:47:07.513188",
-        "benches": [
-          {
-            "name": "Slicing time",
-            "unit": "s",
-            "value": 3.5
-          },
-          {
-            "name": "Print time",
-            "unit": "s",
-            "value": 6620
-          },
-          {
-            "name": "Buffer overflows",
-            "unit": "#",
-            "value": 71686
-          }
-        ]
-      },
-      {
         "timestamp": "2026-08-10 15:38:11.592566",
         "benches": [
           {
@@ -2554,6 +2534,36 @@ window.BENCHMARK_DATA = {
             "name": "GCode file size",
             "unit": "MB",
             "value": 7.72
+          }
+        ]
+      },
+      {
+        "timestamp": "2026-11-23 08:05",
+        "benches": [
+          {
+            "name": "Slicing time",
+            "unit": "s",
+            "value": 2.38
+          },
+          {
+            "name": "Maximum RAM usage",
+            "unit": "MB",
+            "value": 147.88
+          },
+          {
+            "name": "Print time",
+            "unit": "s",
+            "value": 6463
+          },
+          {
+            "name": "Buffer overflows",
+            "unit": "#",
+            "value": 605
+          },
+          {
+            "name": "GCode file size",
+            "unit": "MB",
+            "value": 7.7
           }
         ]
       }

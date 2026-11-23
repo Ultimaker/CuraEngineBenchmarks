@@ -3,26 +3,6 @@ window.BENCHMARK_DATA = {
   "entries": {
     "Analysis of GH-17699-0": [
       {
-        "timestamp": "2026-07-17 14:22:23.279229",
-        "benches": [
-          {
-            "name": "Slicing time",
-            "unit": "s",
-            "value": 1.365
-          },
-          {
-            "name": "Print time",
-            "unit": "s",
-            "value": 74933
-          },
-          {
-            "name": "Buffer overflows",
-            "unit": "#",
-            "value": 0
-          }
-        ]
-      },
-      {
         "timestamp": "2026-08-10 16:10:50.051351",
         "benches": [
           {
@@ -2539,6 +2519,36 @@ window.BENCHMARK_DATA = {
             "name": "Maximum RAM usage",
             "unit": "MB",
             "value": 115.75
+          },
+          {
+            "name": "Print time",
+            "unit": "s",
+            "value": 72126
+          },
+          {
+            "name": "Buffer overflows",
+            "unit": "#",
+            "value": 0
+          },
+          {
+            "name": "GCode file size",
+            "unit": "MB",
+            "value": 11.75
+          }
+        ]
+      },
+      {
+        "timestamp": "2026-11-23 08:41",
+        "benches": [
+          {
+            "name": "Slicing time",
+            "unit": "s",
+            "value": 1.54
+          },
+          {
+            "name": "Maximum RAM usage",
+            "unit": "MB",
+            "value": 117.94
           },
           {
             "name": "Print time",

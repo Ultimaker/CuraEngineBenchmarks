@@ -3,26 +3,6 @@ window.BENCHMARK_DATA = {
   "entries": {
     "Analysis of GH-17660-0": [
       {
-        "timestamp": "2026-07-17 14:19:53.622227",
-        "benches": [
-          {
-            "name": "Slicing time",
-            "unit": "s",
-            "value": 24.23
-          },
-          {
-            "name": "Print time",
-            "unit": "s",
-            "value": 116831
-          },
-          {
-            "name": "Buffer overflows",
-            "unit": "#",
-            "value": 8168
-          }
-        ]
-      },
-      {
         "timestamp": "2026-08-10 16:08:31.426218",
         "benches": [
           {
@@ -2554,6 +2534,36 @@ window.BENCHMARK_DATA = {
             "name": "GCode file size",
             "unit": "MB",
             "value": 45.57
+          }
+        ]
+      },
+      {
+        "timestamp": "2026-11-23 08:39",
+        "benches": [
+          {
+            "name": "Slicing time",
+            "unit": "s",
+            "value": 20.88
+          },
+          {
+            "name": "Maximum RAM usage",
+            "unit": "MB",
+            "value": 675.71
+          },
+          {
+            "name": "Print time",
+            "unit": "s",
+            "value": 115009
+          },
+          {
+            "name": "Buffer overflows",
+            "unit": "#",
+            "value": 0
+          },
+          {
+            "name": "GCode file size",
+            "unit": "MB",
+            "value": 45.54
           }
         ]
       }
