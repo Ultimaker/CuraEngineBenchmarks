@@ -1,40 +1,8 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1795515985837,
+  "lastUpdate": 1795522321101,
   "repoUrl": "https://github.com/Ultimaker/CuraEngine-unimotion",
   "entries": {
     "Stress Benchmark": [
-      {
-        "commit": {
-          "author": {
-            "name": "Ultimaker",
-            "username": "Ultimaker"
-          },
-          "committer": {
-            "name": "Ultimaker",
-            "username": "Ultimaker"
-          },
-          "id": "ebc678176f95a9be9b0a8741bb80f6d8b3e9bb97",
-          "message": "Disable tbbproxy (not available on ARM64 platforms)",
-          "timestamp": "2026-05-06T08:00:49Z",
-          "url": "https://github.com/Ultimaker/CuraEngine/pull/2264/commits/ebc678176f95a9be9b0a8741bb80f6d8b3e9bb97"
-        },
-        "date": 1778167742134,
-        "tool": "customSmallerIsBetter",
-        "benches": [
-          {
-            "name": "Number of test cases",
-            "value": 61,
-            "unit": "-",
-            "extra": ""
-          },
-          {
-            "name": "General Stress Level",
-            "value": 0,
-            "unit": "%",
-            "extra": "Crashes in: "
-          }
-        ]
-      },
       {
         "commit": {
           "author": {
@@ -7987,6 +7955,38 @@ window.BENCHMARK_DATA = {
           "url": "https://github.com/Ultimaker/CuraEngine-unimotion/pull/1/commits/c6a67bea87483d072ff549dd0f6ac00d8300713a"
         },
         "date": 1795515984152,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "Number of test cases",
+            "value": 61,
+            "unit": "-",
+            "extra": ""
+          },
+          {
+            "name": "General Stress Level",
+            "value": 0,
+            "unit": "%",
+            "extra": "Crashes in: "
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "Ultimaker",
+            "username": "Ultimaker"
+          },
+          "committer": {
+            "name": "Ultimaker",
+            "username": "Ultimaker"
+          },
+          "id": "99db68fbd532e79847750153c499e06e27de1b45",
+          "message": "CURA-13401: Unimotion slicing engine, CAD/STEP spline fitting, and private Conan packaging",
+          "timestamp": "2026-11-08T22:37:09Z",
+          "url": "https://github.com/Ultimaker/CuraEngine-unimotion/pull/1/commits/99db68fbd532e79847750153c499e06e27de1b45"
+        },
+        "date": 1795522319145,
         "tool": "customSmallerIsBetter",
         "benches": [
           {
