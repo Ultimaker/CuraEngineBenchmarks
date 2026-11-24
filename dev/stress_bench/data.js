@@ -1,40 +1,8 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1795536811021,
+  "lastUpdate": 1795550491408,
   "repoUrl": "https://github.com/Ultimaker/CuraEngine-unimotion",
   "entries": {
     "Stress Benchmark": [
-      {
-        "commit": {
-          "author": {
-            "name": "Ultimaker",
-            "username": "Ultimaker"
-          },
-          "committer": {
-            "name": "Ultimaker",
-            "username": "Ultimaker"
-          },
-          "id": "990d11038170142638fb41190f292bc19f3399b9",
-          "message": "[CURA-13024] Spike: merge thin parts of floor/roof/skin",
-          "timestamp": "2026-05-12T10:20:02Z",
-          "url": "https://github.com/Ultimaker/CuraEngine/pull/2316/commits/990d11038170142638fb41190f292bc19f3399b9"
-        },
-        "date": 1778586324281,
-        "tool": "customSmallerIsBetter",
-        "benches": [
-          {
-            "name": "Number of test cases",
-            "value": 61,
-            "unit": "-",
-            "extra": ""
-          },
-          {
-            "name": "General Stress Level",
-            "value": 0,
-            "unit": "%",
-            "extra": "Crashes in: "
-          }
-        ]
-      },
       {
         "commit": {
           "author": {
@@ -7987,6 +7955,38 @@ window.BENCHMARK_DATA = {
           "url": "https://github.com/Ultimaker/CuraEngine-unimotion/pull/1/commits/02a99d1e0c13b9f243fa5206b42ac773df50e4a8"
         },
         "date": 1795536809311,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "Number of test cases",
+            "value": 61,
+            "unit": "-",
+            "extra": ""
+          },
+          {
+            "name": "General Stress Level",
+            "value": 0,
+            "unit": "%",
+            "extra": "Crashes in: "
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "Ultimaker",
+            "username": "Ultimaker"
+          },
+          "committer": {
+            "name": "Ultimaker",
+            "username": "Ultimaker"
+          },
+          "id": "9f92cfbfccab08b62f7ca72299699a5ae6c0a538",
+          "message": "CURA-13401: Unimotion slicing engine, CAD/STEP spline fitting, and private Conan packaging",
+          "timestamp": "2026-11-08T22:37:09Z",
+          "url": "https://github.com/Ultimaker/CuraEngine-unimotion/pull/1/commits/9f92cfbfccab08b62f7ca72299699a5ae6c0a538"
+        },
+        "date": 1795550489743,
         "tool": "customSmallerIsBetter",
         "benches": [
           {
