@@ -3,26 +3,6 @@ window.BENCHMARK_DATA = {
   "entries": {
     "Analysis of UMMXL_arrow": [
       {
-        "timestamp": "2026-08-10 16:42:17.755957",
-        "benches": [
-          {
-            "name": "Slicing time",
-            "unit": "s",
-            "value": 0.067
-          },
-          {
-            "name": "Print time",
-            "unit": "s",
-            "value": 5228
-          },
-          {
-            "name": "Buffer overflows",
-            "unit": "#",
-            "value": 4
-          }
-        ]
-      },
-      {
         "timestamp": "2026-08-12 09:55:41.112499",
         "benches": [
           {
@@ -2549,6 +2529,36 @@ window.BENCHMARK_DATA = {
             "name": "Maximum RAM usage",
             "unit": "MB",
             "value": 24.98
+          },
+          {
+            "name": "Print time",
+            "unit": "s",
+            "value": 5140
+          },
+          {
+            "name": "Buffer overflows",
+            "unit": "#",
+            "value": 0
+          },
+          {
+            "name": "GCode file size",
+            "unit": "MB",
+            "value": 0.74
+          }
+        ]
+      },
+      {
+        "timestamp": "2026-11-24 00:34",
+        "benches": [
+          {
+            "name": "Slicing time",
+            "unit": "s",
+            "value": 0.08
+          },
+          {
+            "name": "Maximum RAM usage",
+            "unit": "MB",
+            "value": 25.1
           },
           {
             "name": "Print time",

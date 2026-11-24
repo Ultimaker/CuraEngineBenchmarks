@@ -3,26 +3,6 @@ window.BENCHMARK_DATA = {
   "entries": {
     "Analysis of GH-17815-0": [
       {
-        "timestamp": "2026-08-10 16:18:08.628777",
-        "benches": [
-          {
-            "name": "Slicing time",
-            "unit": "s",
-            "value": 0.683
-          },
-          {
-            "name": "Print time",
-            "unit": "s",
-            "value": 23342
-          },
-          {
-            "name": "Buffer overflows",
-            "unit": "#",
-            "value": 152
-          }
-        ]
-      },
-      {
         "timestamp": "2026-08-12 09:31:16.331125",
         "benches": [
           {
@@ -2564,6 +2544,36 @@ window.BENCHMARK_DATA = {
             "name": "GCode file size",
             "unit": "MB",
             "value": 4.43
+          }
+        ]
+      },
+      {
+        "timestamp": "2026-11-23 23:54",
+        "benches": [
+          {
+            "name": "Slicing time",
+            "unit": "s",
+            "value": 0.86
+          },
+          {
+            "name": "Maximum RAM usage",
+            "unit": "MB",
+            "value": 85.77
+          },
+          {
+            "name": "Print time",
+            "unit": "s",
+            "value": 23206
+          },
+          {
+            "name": "Buffer overflows",
+            "unit": "#",
+            "value": 0
+          },
+          {
+            "name": "GCode file size",
+            "unit": "MB",
+            "value": 4.41
           }
         ]
       }

@@ -3,26 +3,6 @@ window.BENCHMARK_DATA = {
   "entries": {
     "Analysis of GH-17409-0": [
       {
-        "timestamp": "2026-08-10 15:57:08.084984",
-        "benches": [
-          {
-            "name": "Slicing time",
-            "unit": "s",
-            "value": 7.538
-          },
-          {
-            "name": "Print time",
-            "unit": "s",
-            "value": 30378
-          },
-          {
-            "name": "Buffer overflows",
-            "unit": "#",
-            "value": 1139
-          }
-        ]
-      },
-      {
         "timestamp": "2026-08-12 09:10:02.349972",
         "benches": [
           {
@@ -2564,6 +2544,36 @@ window.BENCHMARK_DATA = {
             "name": "GCode file size",
             "unit": "MB",
             "value": 16.31
+          }
+        ]
+      },
+      {
+        "timestamp": "2026-11-23 23:32",
+        "benches": [
+          {
+            "name": "Slicing time",
+            "unit": "s",
+            "value": 7.72
+          },
+          {
+            "name": "Maximum RAM usage",
+            "unit": "MB",
+            "value": 386.61
+          },
+          {
+            "name": "Print time",
+            "unit": "s",
+            "value": 29237
+          },
+          {
+            "name": "Buffer overflows",
+            "unit": "#",
+            "value": 0
+          },
+          {
+            "name": "GCode file size",
+            "unit": "MB",
+            "value": 16.37
           }
         ]
       }

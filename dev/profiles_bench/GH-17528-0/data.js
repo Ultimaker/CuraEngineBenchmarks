@@ -3,26 +3,6 @@ window.BENCHMARK_DATA = {
   "entries": {
     "Analysis of GH-17528-0": [
       {
-        "timestamp": "2026-08-10 16:03:13.795966",
-        "benches": [
-          {
-            "name": "Slicing time",
-            "unit": "s",
-            "value": 3.996
-          },
-          {
-            "name": "Print time",
-            "unit": "s",
-            "value": 7654
-          },
-          {
-            "name": "Buffer overflows",
-            "unit": "#",
-            "value": 38613
-          }
-        ]
-      },
-      {
         "timestamp": "2026-08-12 09:16:12.863332",
         "benches": [
           {
@@ -2549,6 +2529,36 @@ window.BENCHMARK_DATA = {
             "name": "Maximum RAM usage",
             "unit": "MB",
             "value": 164.22
+          },
+          {
+            "name": "Print time",
+            "unit": "s",
+            "value": 7465
+          },
+          {
+            "name": "Buffer overflows",
+            "unit": "#",
+            "value": 0
+          },
+          {
+            "name": "GCode file size",
+            "unit": "MB",
+            "value": 5.16
+          }
+        ]
+      },
+      {
+        "timestamp": "2026-11-23 23:38",
+        "benches": [
+          {
+            "name": "Slicing time",
+            "unit": "s",
+            "value": 4.38
+          },
+          {
+            "name": "Maximum RAM usage",
+            "unit": "MB",
+            "value": 171.73
           },
           {
             "name": "Print time",

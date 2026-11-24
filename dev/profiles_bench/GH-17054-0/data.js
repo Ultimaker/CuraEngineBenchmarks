@@ -3,26 +3,6 @@ window.BENCHMARK_DATA = {
   "entries": {
     "Analysis of GH-17054-0": [
       {
-        "timestamp": "2026-08-10 15:44:46.727993",
-        "benches": [
-          {
-            "name": "Slicing time",
-            "unit": "s",
-            "value": 1.193
-          },
-          {
-            "name": "Print time",
-            "unit": "s",
-            "value": 7420
-          },
-          {
-            "name": "Buffer overflows",
-            "unit": "#",
-            "value": 2173
-          }
-        ]
-      },
-      {
         "timestamp": "2026-08-12 08:57:35.465995",
         "benches": [
           {
@@ -2549,6 +2529,36 @@ window.BENCHMARK_DATA = {
             "name": "Maximum RAM usage",
             "unit": "MB",
             "value": 92.9
+          },
+          {
+            "name": "Print time",
+            "unit": "s",
+            "value": 6649
+          },
+          {
+            "name": "Buffer overflows",
+            "unit": "#",
+            "value": 0
+          },
+          {
+            "name": "GCode file size",
+            "unit": "MB",
+            "value": 2.49
+          }
+        ]
+      },
+      {
+        "timestamp": "2026-11-23 23:19",
+        "benches": [
+          {
+            "name": "Slicing time",
+            "unit": "s",
+            "value": 1.34
+          },
+          {
+            "name": "Maximum RAM usage",
+            "unit": "MB",
+            "value": 90.87
           },
           {
             "name": "Print time",
