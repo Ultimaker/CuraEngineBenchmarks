@@ -1,40 +1,8 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1795550491408,
-  "repoUrl": "https://github.com/Ultimaker/CuraEngine-unimotion",
+  "lastUpdate": 1795607452837,
+  "repoUrl": "https://github.com/Ultimaker/CuraEngine",
   "entries": {
     "Stress Benchmark": [
-      {
-        "commit": {
-          "author": {
-            "name": "Ultimaker",
-            "username": "Ultimaker"
-          },
-          "committer": {
-            "name": "Ultimaker",
-            "username": "Ultimaker"
-          },
-          "id": "8d9431294e8ef96de68ff82b7f4fb913fba84bd3",
-          "message": "[CURA-13024] Merge surface (floor, roof) to skin when relevant settings are equal.",
-          "timestamp": "2026-05-12T10:20:02Z",
-          "url": "https://github.com/Ultimaker/CuraEngine/pull/2332/commits/8d9431294e8ef96de68ff82b7f4fb913fba84bd3"
-        },
-        "date": 1778595917072,
-        "tool": "customSmallerIsBetter",
-        "benches": [
-          {
-            "name": "Number of test cases",
-            "value": 61,
-            "unit": "-",
-            "extra": ""
-          },
-          {
-            "name": "General Stress Level",
-            "value": 0,
-            "unit": "%",
-            "extra": "Crashes in: "
-          }
-        ]
-      },
       {
         "commit": {
           "author": {
@@ -7987,6 +7955,38 @@ window.BENCHMARK_DATA = {
           "url": "https://github.com/Ultimaker/CuraEngine-unimotion/pull/1/commits/9f92cfbfccab08b62f7ca72299699a5ae6c0a538"
         },
         "date": 1795550489743,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "Number of test cases",
+            "value": 61,
+            "unit": "-",
+            "extra": ""
+          },
+          {
+            "name": "General Stress Level",
+            "value": 0,
+            "unit": "%",
+            "extra": "Crashes in: "
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "Ultimaker",
+            "username": "Ultimaker"
+          },
+          "committer": {
+            "name": "Ultimaker",
+            "username": "Ultimaker"
+          },
+          "id": "f15cd3f886aefc62bba1989053ef8da565acf06f",
+          "message": "CURA-13217 improve engine communication",
+          "timestamp": "2026-11-24T22:23:08Z",
+          "url": "https://github.com/Ultimaker/CuraEngine/pull/2418/commits/f15cd3f886aefc62bba1989053ef8da565acf06f"
+        },
+        "date": 1795607451167,
         "tool": "customSmallerIsBetter",
         "benches": [
           {
