@@ -3,26 +3,6 @@ window.BENCHMARK_DATA = {
   "entries": {
     "Analysis of GH-17340-0": [
       {
-        "timestamp": "2026-08-12 09:08:38.340772",
-        "benches": [
-          {
-            "name": "Slicing time",
-            "unit": "s",
-            "value": 0.517
-          },
-          {
-            "name": "Print time",
-            "unit": "s",
-            "value": 5880
-          },
-          {
-            "name": "Buffer overflows",
-            "unit": "#",
-            "value": 490
-          }
-        ]
-      },
-      {
         "timestamp": "2026-08-12 12:02:09.326136",
         "benches": [
           {
@@ -2564,6 +2544,36 @@ window.BENCHMARK_DATA = {
             "name": "Print time",
             "unit": "s",
             "value": 4753
+          },
+          {
+            "name": "Buffer overflows",
+            "unit": "#",
+            "value": 0
+          },
+          {
+            "name": "GCode file size",
+            "unit": "MB",
+            "value": 1.17
+          }
+        ]
+      },
+      {
+        "timestamp": "2026-11-26 14:33",
+        "benches": [
+          {
+            "name": "Slicing time",
+            "unit": "s",
+            "value": 0.44
+          },
+          {
+            "name": "Maximum RAM usage",
+            "unit": "MB",
+            "value": 54.56
+          },
+          {
+            "name": "Print time",
+            "unit": "s",
+            "value": 4757
           },
           {
             "name": "Buffer overflows",

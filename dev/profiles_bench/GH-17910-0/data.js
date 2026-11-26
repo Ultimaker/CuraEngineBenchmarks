@@ -3,26 +3,6 @@ window.BENCHMARK_DATA = {
   "entries": {
     "Analysis of GH-17910-0": [
       {
-        "timestamp": "2026-08-12 09:36:26.025092",
-        "benches": [
-          {
-            "name": "Slicing time",
-            "unit": "s",
-            "value": 0.129
-          },
-          {
-            "name": "Print time",
-            "unit": "s",
-            "value": 1172
-          },
-          {
-            "name": "Buffer overflows",
-            "unit": "#",
-            "value": 215
-          }
-        ]
-      },
-      {
         "timestamp": "2026-08-12 12:30:00.085131",
         "benches": [
           {
@@ -2559,6 +2539,36 @@ window.BENCHMARK_DATA = {
             "name": "Maximum RAM usage",
             "unit": "MB",
             "value": 25.54
+          },
+          {
+            "name": "Print time",
+            "unit": "s",
+            "value": 831
+          },
+          {
+            "name": "Buffer overflows",
+            "unit": "#",
+            "value": 0
+          },
+          {
+            "name": "GCode file size",
+            "unit": "MB",
+            "value": 0.44
+          }
+        ]
+      },
+      {
+        "timestamp": "2026-11-26 15:04",
+        "benches": [
+          {
+            "name": "Slicing time",
+            "unit": "s",
+            "value": 0.17
+          },
+          {
+            "name": "Maximum RAM usage",
+            "unit": "MB",
+            "value": 25.46
           },
           {
             "name": "Print time",
