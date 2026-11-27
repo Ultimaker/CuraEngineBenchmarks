@@ -3,26 +3,6 @@ window.BENCHMARK_DATA = {
   "entries": {
     "Analysis of GH-19780-0": [
       {
-        "timestamp": "2026-08-12 12:38:32.081190",
-        "benches": [
-          {
-            "name": "Slicing time",
-            "unit": "s",
-            "value": 0.869
-          },
-          {
-            "name": "Print time",
-            "unit": "s",
-            "value": 22421
-          },
-          {
-            "name": "Buffer overflows",
-            "unit": "#",
-            "value": 0
-          }
-        ]
-      },
-      {
         "timestamp": "2026-08-13 15:13:27.389388",
         "benches": [
           {
@@ -2584,6 +2564,36 @@ window.BENCHMARK_DATA = {
             "name": "GCode file size",
             "unit": "MB",
             "value": 4.56
+          }
+        ]
+      },
+      {
+        "timestamp": "2026-11-27 00:14",
+        "benches": [
+          {
+            "name": "Slicing time",
+            "unit": "s",
+            "value": 1.22
+          },
+          {
+            "name": "Maximum RAM usage",
+            "unit": "MB",
+            "value": 104.52
+          },
+          {
+            "name": "Print time",
+            "unit": "s",
+            "value": 21134
+          },
+          {
+            "name": "Buffer overflows",
+            "unit": "#",
+            "value": 0
+          },
+          {
+            "name": "GCode file size",
+            "unit": "MB",
+            "value": 4.55
           }
         ]
       }

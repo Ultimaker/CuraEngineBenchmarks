@@ -3,26 +3,6 @@ window.BENCHMARK_DATA = {
   "entries": {
     "Analysis of GH-17228-0": [
       {
-        "timestamp": "2026-08-12 11:57:12.769167",
-        "benches": [
-          {
-            "name": "Slicing time",
-            "unit": "s",
-            "value": 7.797
-          },
-          {
-            "name": "Print time",
-            "unit": "s",
-            "value": 57591
-          },
-          {
-            "name": "Buffer overflows",
-            "unit": "#",
-            "value": 64
-          }
-        ]
-      },
-      {
         "timestamp": "2026-08-13 14:32:07.302280",
         "benches": [
           {
@@ -2569,6 +2549,36 @@ window.BENCHMARK_DATA = {
             "name": "Maximum RAM usage",
             "unit": "MB",
             "value": 375.45
+          },
+          {
+            "name": "Print time",
+            "unit": "s",
+            "value": 57549
+          },
+          {
+            "name": "Buffer overflows",
+            "unit": "#",
+            "value": 0
+          },
+          {
+            "name": "GCode file size",
+            "unit": "MB",
+            "value": 36.34
+          }
+        ]
+      },
+      {
+        "timestamp": "2026-11-26 23:28",
+        "benches": [
+          {
+            "name": "Slicing time",
+            "unit": "s",
+            "value": 9.29
+          },
+          {
+            "name": "Maximum RAM usage",
+            "unit": "MB",
+            "value": 377.02
           },
           {
             "name": "Print time",

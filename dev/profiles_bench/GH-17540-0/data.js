@@ -3,26 +3,6 @@ window.BENCHMARK_DATA = {
   "entries": {
     "Analysis of GH-17540-0": [
       {
-        "timestamp": "2026-08-12 12:09:54.632075",
-        "benches": [
-          {
-            "name": "Slicing time",
-            "unit": "s",
-            "value": 0.441
-          },
-          {
-            "name": "Print time",
-            "unit": "s",
-            "value": 18205
-          },
-          {
-            "name": "Buffer overflows",
-            "unit": "#",
-            "value": 725
-          }
-        ]
-      },
-      {
         "timestamp": "2026-08-13 14:44:50.328195",
         "benches": [
           {
@@ -2569,6 +2549,36 @@ window.BENCHMARK_DATA = {
             "name": "Maximum RAM usage",
             "unit": "MB",
             "value": 101.44
+          },
+          {
+            "name": "Print time",
+            "unit": "s",
+            "value": 16518
+          },
+          {
+            "name": "Buffer overflows",
+            "unit": "#",
+            "value": 0
+          },
+          {
+            "name": "GCode file size",
+            "unit": "MB",
+            "value": 2.52
+          }
+        ]
+      },
+      {
+        "timestamp": "2026-11-26 23:41",
+        "benches": [
+          {
+            "name": "Slicing time",
+            "unit": "s",
+            "value": 0.54
+          },
+          {
+            "name": "Maximum RAM usage",
+            "unit": "MB",
+            "value": 102.63
           },
           {
             "name": "Print time",

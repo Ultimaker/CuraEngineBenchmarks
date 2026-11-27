@@ -3,26 +3,6 @@ window.BENCHMARK_DATA = {
   "entries": {
     "Analysis of UMS5_painted_cube": [
       {
-        "timestamp": "2026-08-12 12:52:59.560007",
-        "benches": [
-          {
-            "name": "Slicing time",
-            "unit": "s",
-            "value": 0.384
-          },
-          {
-            "name": "Print time",
-            "unit": "s",
-            "value": 3473
-          },
-          {
-            "name": "Buffer overflows",
-            "unit": "#",
-            "value": 3525
-          }
-        ]
-      },
-      {
         "timestamp": "2026-08-13 15:28:01.697970",
         "benches": [
           {
@@ -2584,6 +2564,36 @@ window.BENCHMARK_DATA = {
             "name": "GCode file size",
             "unit": "MB",
             "value": 1.66
+          }
+        ]
+      },
+      {
+        "timestamp": "2026-11-27 01:27",
+        "benches": [
+          {
+            "name": "Slicing time",
+            "unit": "s",
+            "value": 0.54
+          },
+          {
+            "name": "Maximum RAM usage",
+            "unit": "MB",
+            "value": 90.0
+          },
+          {
+            "name": "Print time",
+            "unit": "s",
+            "value": 3444
+          },
+          {
+            "name": "Buffer overflows",
+            "unit": "#",
+            "value": 0
+          },
+          {
+            "name": "GCode file size",
+            "unit": "MB",
+            "value": 1.65
           }
         ]
       }

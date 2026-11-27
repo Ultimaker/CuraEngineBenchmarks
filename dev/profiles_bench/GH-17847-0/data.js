@@ -3,26 +3,6 @@ window.BENCHMARK_DATA = {
   "entries": {
     "Analysis of GH-17847-0": [
       {
-        "timestamp": "2026-08-12 12:26:22.498897",
-        "benches": [
-          {
-            "name": "Slicing time",
-            "unit": "s",
-            "value": 1.046
-          },
-          {
-            "name": "Print time",
-            "unit": "s",
-            "value": 39757
-          },
-          {
-            "name": "Buffer overflows",
-            "unit": "#",
-            "value": 213
-          }
-        ]
-      },
-      {
         "timestamp": "2026-08-13 15:01:20.134583",
         "benches": [
           {
@@ -2574,6 +2554,36 @@ window.BENCHMARK_DATA = {
             "name": "Print time",
             "unit": "s",
             "value": 38467
+          },
+          {
+            "name": "Buffer overflows",
+            "unit": "#",
+            "value": 0
+          },
+          {
+            "name": "GCode file size",
+            "unit": "MB",
+            "value": 15.85
+          }
+        ]
+      },
+      {
+        "timestamp": "2026-11-27 00:00",
+        "benches": [
+          {
+            "name": "Slicing time",
+            "unit": "s",
+            "value": 1.09
+          },
+          {
+            "name": "Maximum RAM usage",
+            "unit": "MB",
+            "value": 205.11
+          },
+          {
+            "name": "Print time",
+            "unit": "s",
+            "value": 38459
           },
           {
             "name": "Buffer overflows",

@@ -3,26 +3,6 @@ window.BENCHMARK_DATA = {
   "entries": {
     "Analysis of UMF4_m7-steering-wheel-stl": [
       {
-        "timestamp": "2026-08-12 12:49:12.919626",
-        "benches": [
-          {
-            "name": "Slicing time",
-            "unit": "s",
-            "value": 323.701
-          },
-          {
-            "name": "Print time",
-            "unit": "s",
-            "value": 69856
-          },
-          {
-            "name": "Buffer overflows",
-            "unit": "#",
-            "value": 580995
-          }
-        ]
-      },
-      {
         "timestamp": "2026-08-13 15:24:14.004833",
         "benches": [
           {
@@ -2584,6 +2564,36 @@ window.BENCHMARK_DATA = {
             "name": "GCode file size",
             "unit": "MB",
             "value": 61.35
+          }
+        ]
+      },
+      {
+        "timestamp": "2026-11-27 00:39",
+        "benches": [
+          {
+            "name": "Slicing time",
+            "unit": "s",
+            "value": 347.38
+          },
+          {
+            "name": "Maximum RAM usage",
+            "unit": "MB",
+            "value": 1093.43
+          },
+          {
+            "name": "Print time",
+            "unit": "s",
+            "value": 68290
+          },
+          {
+            "name": "Buffer overflows",
+            "unit": "#",
+            "value": 8026
+          },
+          {
+            "name": "GCode file size",
+            "unit": "MB",
+            "value": 61.33
           }
         ]
       }

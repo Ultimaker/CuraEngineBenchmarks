@@ -3,26 +3,6 @@ window.BENCHMARK_DATA = {
   "entries": {
     "Analysis of GH-17028-0": [
       {
-        "timestamp": "2026-08-12 11:50:35.188254",
-        "benches": [
-          {
-            "name": "Slicing time",
-            "unit": "s",
-            "value": 55.368
-          },
-          {
-            "name": "Print time",
-            "unit": "s",
-            "value": 329510
-          },
-          {
-            "name": "Buffer overflows",
-            "unit": "#",
-            "value": 100646
-          }
-        ]
-      },
-      {
         "timestamp": "2026-08-13 14:25:27.059831",
         "benches": [
           {
@@ -2584,6 +2564,36 @@ window.BENCHMARK_DATA = {
             "name": "GCode file size",
             "unit": "MB",
             "value": 143.93
+          }
+        ]
+      },
+      {
+        "timestamp": "2026-11-26 23:20",
+        "benches": [
+          {
+            "name": "Slicing time",
+            "unit": "s",
+            "value": 104.33
+          },
+          {
+            "name": "Maximum RAM usage",
+            "unit": "MB",
+            "value": 1646.55
+          },
+          {
+            "name": "Print time",
+            "unit": "s",
+            "value": 296396
+          },
+          {
+            "name": "Buffer overflows",
+            "unit": "#",
+            "value": 0
+          },
+          {
+            "name": "GCode file size",
+            "unit": "MB",
+            "value": 143.87
           }
         ]
       }

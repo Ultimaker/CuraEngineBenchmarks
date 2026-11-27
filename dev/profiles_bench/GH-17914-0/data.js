@@ -3,26 +3,6 @@ window.BENCHMARK_DATA = {
   "entries": {
     "Analysis of GH-17914-0": [
       {
-        "timestamp": "2026-08-12 12:30:18.744698",
-        "benches": [
-          {
-            "name": "Slicing time",
-            "unit": "s",
-            "value": 2.604
-          },
-          {
-            "name": "Print time",
-            "unit": "s",
-            "value": 21386
-          },
-          {
-            "name": "Buffer overflows",
-            "unit": "#",
-            "value": 288
-          }
-        ]
-      },
-      {
         "timestamp": "2026-08-13 15:05:16.188890",
         "benches": [
           {
@@ -2574,6 +2554,36 @@ window.BENCHMARK_DATA = {
             "name": "Print time",
             "unit": "s",
             "value": 20557
+          },
+          {
+            "name": "Buffer overflows",
+            "unit": "#",
+            "value": 0
+          },
+          {
+            "name": "GCode file size",
+            "unit": "MB",
+            "value": 9.09
+          }
+        ]
+      },
+      {
+        "timestamp": "2026-11-27 00:04",
+        "benches": [
+          {
+            "name": "Slicing time",
+            "unit": "s",
+            "value": 3.29
+          },
+          {
+            "name": "Maximum RAM usage",
+            "unit": "MB",
+            "value": 177.06
+          },
+          {
+            "name": "Print time",
+            "unit": "s",
+            "value": 20541
           },
           {
             "name": "Buffer overflows",

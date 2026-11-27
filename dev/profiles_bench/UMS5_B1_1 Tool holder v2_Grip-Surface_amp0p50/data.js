@@ -3,26 +3,6 @@ window.BENCHMARK_DATA = {
   "entries": {
     "Analysis of UMS5_B1_1 Tool holder v2_Grip-Surface_amp0p50": [
       {
-        "timestamp": "2026-08-14 00:28:43.968302",
-        "benches": [
-          {
-            "name": "Slicing time",
-            "unit": "s",
-            "value": 215.898
-          },
-          {
-            "name": "Print time",
-            "unit": "s",
-            "value": 23296
-          },
-          {
-            "name": "Buffer overflows",
-            "unit": "#",
-            "value": 287937
-          }
-        ]
-      },
-      {
         "timestamp": "2026-08-15 00:17:59.203318",
         "benches": [
           {
@@ -2594,6 +2574,36 @@ window.BENCHMARK_DATA = {
             "name": "Print time",
             "unit": "s",
             "value": 22407
+          },
+          {
+            "name": "Buffer overflows",
+            "unit": "#",
+            "value": 0
+          },
+          {
+            "name": "GCode file size",
+            "unit": "MB",
+            "value": 17.21
+          }
+        ]
+      },
+      {
+        "timestamp": "2026-11-27 01:27",
+        "benches": [
+          {
+            "name": "Slicing time",
+            "unit": "s",
+            "value": 262.56
+          },
+          {
+            "name": "Maximum RAM usage",
+            "unit": "MB",
+            "value": 402.22
+          },
+          {
+            "name": "Print time",
+            "unit": "s",
+            "value": 22411
           },
           {
             "name": "Buffer overflows",
